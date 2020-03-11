@@ -1,41 +1,84 @@
-# 开往-Travellings
+# 开往-友链接力
 
-> 你在等一列火车，火车会带你去很远的地方，你知道你要去的地方，但不能确定火车将带你去向何方……
+> 一群狼走得远……
 
 想法来自 https://github.com/XXIIVV/webring
 
 ## 使用说明
 
-“开往”取自“开放的网络”。将开往的徽标插入您的网站，让我们一起分享流量。
+“开往”取自“开放的网络”。将开往的徽标插入您的网站，表示您支持开放的网络。
 
-每当有用户访问网站时，点击徽标后会随机跳转到另一个加入开往的网站。加入开发的网站越多，分享的流量也就越多。
+每当有用户访问加入开往的网站时，点击徽标后会**随机跳转**到另一个加入开往的网站。加入开往的网站越多，友链接力的规模越大，分享的流量也越多。
+
+“ 网站E → 开往 → 网站X → 开往 → 网站A → 开往 → 网站M → 开往 → 网站P → 开往 → 网站L → 开往 → 网站E … ”
 
 1. 您的网站应满足：
-- 为开放的网络做出贡献（如分享您的知识经验等）；
+- 愿为开放的网络做出贡献（如分享知识经验设计等）；
 - 没有违法以及影响体验的内容（如侵入式广告等）；
-- 正常更新维护中（无法访问会被移除资格）。
-2. 将徽标插入您网页可直接看到的位置（让流量传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
+- 正常更新维护中（国内无法正常访问会被移除）；
+- 强制启用 https 。
+
+2. 将徽标插入您网页**明显的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
 ![example](https://volfclub.github.io/travellings/assets/logo.gif)
 
 ### 参考代码
 
 ```
-<a href="https://volfclub.github.io/travellings" target="blank"><img src="https://volfclub.github.io/travellings/assets/logo.gif" width="120"></a>
+<a href="https://volfclub.github.io/travellings" target="blank" title="开往-友链接力"><img src="https://volfclub.github.io/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 
 ```
 
 ### 镜像加速
 
 ```
-<a href="https://travellings.netlify.com" target="blank"><img src="https://travellings.netlify.com/assets/logo.gif" width="120"></a>
+<a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+```
+
+```
+<a href="https://travellings.netlify.com" target="blank" title="开往-友链接力"><img src="https://travellings.netlify.com/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 
 ```
 
-## 收录网站
+---
 
-| 编号 | 名称 | 网址 |
-| --- | --- | --- |
-| 0 | 开往 | https://github.com/volfclub/travelling |
-| 1 | 狼牌工作网址导航 | https://www.volf.club |
-| 2 | 音速装机 | https://sonic.volf.club |
+## 网站收录
+
+| 编号 | 徽标 | 名称 | 网址 |
+| --- | --- | --- | --- |
+| 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
+| 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
+| 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
+| 3 | 顶栏 | 原谅糖 | https://blog.luhe.xyz |
+
+---
+
+## Q&A
+
+### 开往能增加我网站的流量吗？
+
+当然。不恰当的估算下：假设当前有 2 个网站加入了开往，每个网站有 10 人使用开往，那么每个网站似乎就增加了 `10*2*1/2=10` 的流量；如果有10个网站加入开往是不是还是平均下来增加 10 人的流量呢？显然不是，因为：
+- 访客可通过开往多次友链接力；
+- 有开往的网站多了，单站击量也会提高；
+
+这样我们再算算，10个网站加入了开往，接力次数提升到3，每个网站有 15 人使用开往，那每个网站就增加了 `15*10*3/10=45` 的流量。
+这也是为什么建议将开往的徽标放在您网站明显位置（推荐顶栏，侧栏）的原因，以便让友链一直接力下去，获得更多的流量。
+
+### 开往是否安全会不会侵犯隐私？
+
+安全，不侵犯隐私。全部 https 抗劫持；开源无统计代码，不侵犯隐私；两个镜像自动部署，无人工干预。加入开往的网站全部经过人工筛选，确保流量从源头就是干净优质的。
+
+### 开往给站长和访客带来了什么？
+
+网络曾经从封闭走向开放，如今又走向了封闭。在此环境下，独立网站（类似“独立游戏”）的流量或多或少的受到影响。开往尝试让传统友链“活跃”，让网站相互接力，让流量相互流动，让网络开放起来。
+
+- 站长：表示您支持网络的开放，并可获得更多的流量。
+- 访客：发现更多优质的网站，一场说做就走的网上旅行。
+
+### 我想修改徽标配合我的网站？
+
+`assets` 文件夹中有矢量文件，可修改徽标图片自己托管。
+
+### 举报问题网站或退出开往？
+
+提个 issues 吧。
