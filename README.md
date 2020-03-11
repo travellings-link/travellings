@@ -20,7 +20,7 @@
 
 2. 将徽标插入您网页**明显的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
-![example](https://volfclub.github.io/travellings/assets/logo.gif)
+![example](https://travellings.now.sh/assets/logo.gif)
 
 ### 参考代码
 
