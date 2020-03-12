@@ -64,6 +64,8 @@
 | 9 | 顶栏 | Seija | https://seija.me |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
 | 11 | 顶栏 | JQM's Site | https://jinqimu.xyz |
+| 12 | 中心 | CrownDaisy | https://crowndaisy.com |
+| 13 | 底栏* | 殆己 | https://heycmm.cn |
 
 ---
 
