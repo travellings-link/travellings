@@ -59,10 +59,11 @@
 | 4 | 底栏* | Barkure | https://guguga.cn |
 | 5 | 底部* | Emoticon | https://mQAQm.com |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
-| 7 | 收起侧栏* | INSPI和他的 | https://www.inspire2030.cn |
+| 7 | 左右侧栏 | INSPI和他的 | https://www.inspire2030.cn |
 | 8 | 底栏* | Ryan Wang's Blog | https://ryanc.cc |
 | 9 | 顶栏 | Seija | https://seija.me |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
+| 11 | 顶栏 | JQM's Site | https://jinqimu.xyz |
 
 ---
 
