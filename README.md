@@ -25,6 +25,11 @@
 - 一般放在打开网页直接看到的地方就行；
 ![example1](https://travellings.now.sh/assets/example1.png)
 - 对于博客等不方便插入徽标的网页，建议在顶部导航插入`Travelling`或`开往`的外链，在网页底部插入徽标；
+![example1](https://travellings.now.sh/example2.png)
+
+- 一般放在打开网页直接看到的地方就行；
+![example1](https://travellings.now.sh/assets/example1.png)
+- 对于博客等不方便插入徽标的网页，建议在顶部导航插入`Travelling`或`开往`的外链，在网页底部插入徽标；
 ![example2](https://travellings.now.sh/assets/example2.png)
 
 ### 参考代码
