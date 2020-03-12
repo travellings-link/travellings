@@ -22,17 +22,22 @@
 
 ![example](https://travellings.now.sh/assets/logo.gif)
 
+- 一般放在打开网页直接看到的地方就行；
+![example1](https://travellings.now.sh/assets/example1.png)
+- 对于博客等不方便插入徽标的网页，建议在顶部导航插入`Travelling`或`开往`的外链，在网页底部插入徽标；
+![example2](https://travellings.now.sh/assets/example2.png)
+
 ### 参考代码
 
 ```
-<a href="https://volfclub.github.io/travellings" target="blank" title="开往-友链接力"><img src="https://volfclub.github.io/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
-
-```
-
-### 镜像加速
-
-```
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+
+```
+
+### 海外镜像
+
+```
+<a href="https://volfclub.github.io/travellings" target="blank" title="开往-友链接力"><img src="https://volfclub.github.io/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 ```
 
 ```
