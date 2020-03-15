@@ -24,9 +24,12 @@ function travelling(fromUrl){
     do{
       var ints=parseInt(Math.random()*(url.length));
     }while(url[ints]==fromUrl);
+
     window.location=url[ints];
    }
+  
    function get_fromUrl(){
-    var fromUrl=document.referrer;   
-    return fromUrl;
- }  //获取来源地址
+    var aUrl=document.referrer;   
+    return aUrl;
+}  //获取来源地址
+   
