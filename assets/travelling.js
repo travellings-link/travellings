@@ -1,4 +1,5 @@
 function travelling(fromUrl){
+
     var url=new Array();
 
     url[0]="https://github.com/volfclub/travelling";
@@ -21,6 +22,7 @@ function travelling(fromUrl){
       //修正概率
     url[16]="https://github.com/volfclub/travelling";
     
+  
     do{
       var ints=parseInt(Math.random()*(url.length));
     }while(url[ints]==fromUrl);
@@ -32,4 +34,3 @@ function travelling(fromUrl){
     var aUrl=document.referrer;   
     return aUrl;
 }  //获取来源地址
-   
