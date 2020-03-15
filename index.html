@@ -101,14 +101,21 @@
                 <td valign="middle" align="center">
                     <script type="text/javascript">
                         setTimeout("delay.style.visibility='visible'", 300);
-                    </script> <a href="https://github.com/volfclub/travelling" class="blink" target="blank" id="delay" style="visibility:hidden" title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next world…</a> 
+                    </script> <a href="https://github.com/volfclub/travelling" class="blink" target="blank" id="delay" 
+                                                        style="visibility:hidden" title="点击加入“开往”，分享网站流量 :-)"
+                                                        >欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next world…</a> 
                 </td>
             </tr>
         </tbody>
     </table>
  
  <script language="javascript">
-    function travel(){
+    function get_fromUrl(){
+        var fromUrl=document.referrer;   
+        return fromUrl;
+     }  //获取来源地址
+     
+    function travel(fromUrl){
       var url=new Array();
 
       url[0]="https://github.com/volfclub/travelling";
@@ -131,11 +138,15 @@
         //修正概率
       url[16]="https://github.com/volfclub/travelling";
       
-      
-      var ints=parseInt(Math.random()*(url.length));
+      do{
+        var ints=parseInt(Math.random()*(url.length));
+      }while(url[ints]==fromUrl);
+
       window.location=url[ints];
      }
-     window.setTimeout("window.location.href='javascript:travel()'",1000);
+     
+     var fromUrl = get_fromUrl();
+     window.setTimeout("window.location.href='javascript:travel(fromUrl)'",1000);
   </script>
 
 </body>
