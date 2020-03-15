@@ -36,6 +36,20 @@
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 ```
 
+### 无缝接力 β
+
+可用 jsdelivr 加速，中间无开往跳转页。
+
+```
+<head>
+<script src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/travelling.min.js"></script>
+</head>
+<body>
+<a href="javascript:travelling()" title="开往-友链接力"><img src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+</body>
+
+```
+
 ### 海外镜像
 
 ```
