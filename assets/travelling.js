@@ -17,9 +17,11 @@ function travelling(){
     url[13]="https://heycmm.cn";
     url[14]="https://wp.remudaisuki.top";
     url[15]="https://jinjis.cn";
+    url[16]="https://blog.tigerxly.com";
+
 
       //修正概率
-    url[16]="https://github.com/volfclub/travelling";
+    url[17]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));

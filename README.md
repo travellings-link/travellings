@@ -47,7 +47,6 @@
 <body>
 <a href="javascript:travelling()" title="开往-友链接力"><img src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 </body>
-
 ```
 
 ### 海外镜像
@@ -73,7 +72,7 @@
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
 | 3 | 顶栏 | 原谅糖 | https://blog.luhe.xyz |
 | 4 | 底栏* | Barkure | https://guguga.cn |
-| 5 | 底部* | Emoticon | https://mQAQm.com |
+| 5 | 侧栏 | Emoticon | https://mQAQm.com |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 左右侧栏 | INSPI和他的 | https://www.inspire2030.cn |
 | 8 | 底栏* | Ryan Wang's Blog | https://ryanc.cc |
@@ -84,6 +83,7 @@
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
 | 14 | 顶栏 | Yuki Yuki | https://wp.remudaisuki.top |
 | 15 | 顶栏 | Legroft | https://jinjis.cn |
+| 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
 
 ---
 
