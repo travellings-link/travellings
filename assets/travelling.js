@@ -18,10 +18,13 @@ function travelling(){
     url[14]="https://wp.remudaisuki.top";
     url[15]="https://jinjis.cn";
     url[16]="https://blog.tigerxly.com";
+    url[17]="https://diego.plus";
+    url[18]="https://sublimerui.top";
+    url[19]="https://cwxyr.me";
 
 
       //修正概率
-    url[17]="https://github.com/volfclub/travelling";
+    url[20]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
