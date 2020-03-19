@@ -21,10 +21,12 @@ function travelling(){
     url[17]="https://diego.plus";
     url[18]="https://sublimerui.top";
     url[19]="https://cwxyr.me";
-
+    url[20]="https://mmyyll.ml";
+    url[21]="https://blog.imoasis.cn";
+    url[22]="https://449293786.site";
 
       //修正概率
-    url[20]="https://github.com/volfclub/travelling";
+    url[23]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
