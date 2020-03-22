@@ -27,9 +27,10 @@ function travelling(){
     url[23]="https://www.naraku.cn";
     url[24]="https://www.xiyo8.cn";
     url[25]="https://www.wangkai88.com";
+    url[26]="https://blog.zeruns.tech";
 
       //修正概率
-    url[26]="https://github.com/volfclub/travelling";
+    url[27]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
