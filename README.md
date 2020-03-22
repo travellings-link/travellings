@@ -30,7 +30,11 @@
 
 ![example2](https://travellings.now.sh/assets/example2.png)
 
+<<<<<<< HEAD
 ![example3](https://travellings.now.sh/assets/example3.jpg)
+=======
+![example3](https://travellings.now.sh/assets/example3.png)
+>>>>>>> master
 
 ### 参考代码
 
