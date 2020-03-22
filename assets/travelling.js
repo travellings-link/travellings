@@ -24,9 +24,12 @@ function travelling(){
     url[20]="https://mmyyll.ml";
     url[21]="https://blog.imoasis.cn";
     url[22]="https://449293786.site";
+    url[23]="https://www.naraku.cn";
+    url[24]="https://www.xiyo8.cn";
+    url[25]="https://www.wangkai88.com";
 
       //修正概率
-    url[23]="https://github.com/volfclub/travelling";
+    url[26]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
