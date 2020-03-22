@@ -18,7 +18,7 @@
 - 正常更新维护中（国内无法正常访问会被移除）；
 - 强制启用 https 。
 
-2. 将徽标插入您网页**明显的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
+2. 将徽标插入您网页**明显直观的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
 ![example](https://travellings.now.sh/assets/logo.gif)
 
@@ -26,9 +26,11 @@
 
 ![example1](https://travellings.now.sh/assets/example1.png)
 
-- 对于博客等不方便插入徽标的网页，建议在顶部导航插入`Travelling`或`开往`的外链，在网页底部插入徽标；
+- 对于博客等不方便插入徽标的网页，建议在**顶部**或**侧栏**导航插入`Travelling`或`开往`的外链，在网页底部插入徽标；
 
 ![example2](https://travellings.now.sh/assets/example2.png)
+
+![example3](https://travellings.now.sh/assets/example3.png)
 
 ### 参考代码
 
