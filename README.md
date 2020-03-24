@@ -38,6 +38,27 @@
 <a href="https://travellings.now.sh/" target="blank" title="开往-友链接力"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 ```
 
+<details><summary>对于不支持在顶栏添加自定义外链的Typecho主题可以通过自定义页面模板添加</summary>
+1)在主题目录下新建 page_travellings.php<br>
+2）代码：
+<pre>
+/**
+ * Travellings
+ *
+ * @package custom
+ */
+
+
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+
+header("Location: https://travellings.now.sh");
+exit;
+</pre>
+
+3）新建一个空白页面，选择模板为Travellings，保存后即可。
+</details>
+
+
 ### 无缝接力 β
 
 可用 jsdelivr 加速，中间无开往跳转页。
