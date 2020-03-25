@@ -36,9 +36,10 @@ function travelling(){
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
     url[34]="https://zigao.tk";
+    url[35]="https://eas1.cn";
 
       //修正概率
-    url[35]="https://github.com/volfclub/travelling";
+    url[36]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
