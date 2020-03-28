@@ -110,6 +110,9 @@
 | 37 | 底部 | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | 顶部 | Eltrac's Track | https://guhub.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
+| 40 | 侧栏 | Smilear's Blog | https://smilear.cn |
+| 41 | 顶栏 | krau'blog | https://krau.top |
+| 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
 
 > 🚨 下次维护日期暂定 20.04.26 ，会移除下线的网站。
 

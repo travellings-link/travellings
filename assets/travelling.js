@@ -41,9 +41,13 @@ function travelling(){
     url[37]="https://nasity.cn";
     url[38]="https://guhub.cn";
     url[39]="https://yuaneuro.cn";
+    url[40]="https://smilear.cn";
+    url[41]="https://krau.top";
+    url[42]="https://wfblog.net";
+
 
       //修正概率
-    url[40]="https://github.com/volfclub/travelling";
+    url[43]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
