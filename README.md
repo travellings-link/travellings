@@ -113,6 +113,10 @@
 | 40 | 侧栏 | Smilear's Blog | https://smilear.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
 | 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
+| 43 | 侧栏 | Nymane's Blog | https://www.nymane.xyz |
+| 44 | 顶栏 | 风吟 | https://blog.yilon.top |
+| 45 | 顶栏 | ajian | https://blog.ajian.online |
+| 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 
 > 🚨 下次维护日期暂定 20.04.26 ，会移除下线的网站。
 

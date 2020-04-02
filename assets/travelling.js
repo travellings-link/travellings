@@ -44,10 +44,14 @@ function travelling(){
     url[40]="https://smilear.cn";
     url[41]="https://krau.top";
     url[42]="https://wfblog.net";
+    url[43]="https://www.nymane.xyz";
+    url[44]="https://blog.yilon.top";
+    url[45]="https://blog.ajian.online";
+    url[46]="https://www.freejishu.com";
 
 
       //修正概率
-    url[43]="https://github.com/volfclub/travelling";
+    url[47]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
