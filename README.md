@@ -117,6 +117,8 @@
 | 44 | 顶栏 | 风吟 | https://blog.yilon.top |
 | 45 | 顶栏 | ajian | https://blog.ajian.online |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
+| 47 | 侧栏* | 小太の游乐园 | https://713.moe |
+| 48 | 顶栏 | Zhou‘s Blog | https://zhoublog.tk |
 
 > 🚨 下次维护日期暂定 20.04.26 ，会移除下线的网站。
 

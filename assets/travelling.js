@@ -48,10 +48,13 @@ function travelling(){
     url[44]="https://blog.yilon.top";
     url[45]="https://blog.ajian.online";
     url[46]="https://www.freejishu.com";
+    url[47]="https://713.moe";
+    url[48]="https://zhoublog.tk";
+
 
 
       //修正概率
-    url[47]="https://github.com/volfclub/travelling";
+    url[49]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
