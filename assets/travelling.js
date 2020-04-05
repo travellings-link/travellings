@@ -50,11 +50,15 @@ function travelling(){
     url[46]="https://www.freejishu.com";
     url[47]="https://713.moe";
     url[48]="https://zhoublog.tk";
+    url[49]="https://dpii.club";
+    url[50]="https://core.moe";
+    url[51]="https://www.solarme.vip";
+    url[52]="https://spblog.tk";
 
 
 
       //修正概率
-    url[49]="https://github.com/volfclub/travelling";
+    url[53 ]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));

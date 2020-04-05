@@ -119,6 +119,11 @@
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://713.moe |
 | 48 | 顶栏 | Zhou‘s Blog | https://zhoublog.tk |
+| 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
+| 50 | 顶栏 | CORE | https://core.moe |
+| 51 | 侧栏 | solar'blog | https://www.solarme.vip |
+| 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
+
 
 > 🚨 下次维护日期暂定 20.04.26 ，会移除下线的网站。
 
