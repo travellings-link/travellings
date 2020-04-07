@@ -54,11 +54,14 @@ function travelling(){
     url[50]="https://core.moe";
     url[51]="https://www.solarme.vip";
     url[52]="https://spblog.tk";
+    url[53]="https://www.lin03.cn";
+    url[54]="https://sqdxwz.top";
+    url[55]="https://rua.ink";
 
 
 
       //修正概率
-    url[53 ]="https://github.com/volfclub/travelling";
+    url[56]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));

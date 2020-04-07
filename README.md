@@ -19,7 +19,7 @@
 - 网站已有内容（建议已更新半年以上）；
 - 强制启用 https 。
 
-2. 将徽标插入您网页**明显直观的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
+2. 将徽标插入打开您网页后**能直接看到的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
 ![example](https://travellings.now.sh/assets/logo.gif)
 
@@ -123,6 +123,9 @@
 | 50 | 顶栏 | CORE | https://core.moe |
 | 51 | 侧栏 | solar'blog | https://www.solarme.vip |
 | 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
+| 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
+| 54 | 顶栏 | 王荣胜 | https://sqdxwz.top |
+| 55 | 侧栏 | 自说自话 | https://rua.ink |
 
 
 > 🚨 下次维护日期暂定 20.04.26 ，会移除下线的网站。
