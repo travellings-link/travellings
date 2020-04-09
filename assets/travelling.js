@@ -57,11 +57,13 @@ function travelling(){
     url[53]="https://www.lin03.cn";
     url[54]="https://sqdxwz.top";
     url[55]="https://rua.ink";
+    url[56]="https://blog.tigerroot.cn";
+    url[57]="http://liqilinhub.cloud";
 
 
 
       //修正概率
-    url[56]="https://github.com/volfclub/travelling";
+    url[58]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
