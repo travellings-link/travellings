@@ -49,7 +49,7 @@ function travelling(){
     url[45]="https://blog.ajian.online";
     url[46]="https://www.freejishu.com";
     url[47]="https://713.moe";
-    url[48]="https://zhoublog.tk";
+    url[48]="https://zhoublog.xyz";
     url[49]="https://dpii.club";
     url[50]="https://core.moe";
     url[51]="https://www.solarme.vip";
