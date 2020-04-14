@@ -4,7 +4,7 @@ function travelling(){
     url[0]="https://github.com/volfclub/travelling";
     url[1]="https://www.volf.club";
     url[2]="https://sonic.volf.club";
-    url[3]="https://blog.luhe.xyz";
+    url[3]="https://yltang.cn";
     url[4]="https://guguga.cn";
     url[5]="https://mQAQm.com";
     url[6]="https://www.yamdr.cn";
@@ -59,11 +59,13 @@ function travelling(){
     url[55]="https://rua.ink";
     url[56]="https://blog.tigerroot.cn";
     url[57]="http://liqilinhub.cloud";
-
-
+    url[58]="https://moefishtang.xyz";
+    url[59]="https://www.pluvet.com";
+    url[60]="https://6773.ink";
+    url[61]="https://www.6zgm.com";
 
       //修正概率
-    url[58]="https://github.com/volfclub/travelling";
+    url[62]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
