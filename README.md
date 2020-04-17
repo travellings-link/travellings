@@ -19,6 +19,8 @@
 - 网站已有内容（建议已更新半年以上）；
 - 强制启用 https 。
 
+> 💡 若用 Cloud flare 作为你网站的 CDN，可能导致国内访问很慢。
+
 2. 将徽标插入打开您网页后**能直接看到的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
 ![example](https://travellings.now.sh/assets/logo.gif)
@@ -132,6 +134,11 @@
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
 | 60 | 侧栏 | Ma's Blog | https://6773.ink |
 | 61 | 侧栏 | 艺术长廊 | https://www.6zgm.com |
+| 62 | 顶栏 | 遇见孤独 | https://blog.aenjoy.cn |
+| 63 | 顶栏 | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
+| 64 | 顶栏 | Ojhdt's Blog | https://blog.ojhdt.com |
+| 65 | 顶栏 | 萌豚 Moechu | https://moechu.cn |
+| 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
 
 
 

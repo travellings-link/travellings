@@ -63,9 +63,15 @@ function travelling(){
     url[59]="https://www.pluvet.com";
     url[60]="https://6773.ink";
     url[61]="https://www.6zgm.com";
+    url[62]="https://blog.aenjoy.cn";
+    url[63]="https://blog.lifeisgg.online";
+    url[64]="https://blog.ojhdt.com";
+    url[65]="https://moechu.cn";
+    url[66]="https://www.zqcnc.cn";
+
 
       //修正概率
-    url[62]="https://github.com/volfclub/travelling";
+    url[67]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
