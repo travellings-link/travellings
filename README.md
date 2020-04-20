@@ -132,13 +132,21 @@
 | 57 | 顶栏 | 蝶恋花 | http://liqilinhub.cloud |
 | 58 | 侧栏 | 摸鱼堂 | https://moefishtang.xyz |
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
-| 60 | 侧栏 | Ma's Blog | https://6773.ink |
+| 60 | 顶栏 | Ma's Blog | https://6773.ink |
 | 61 | 侧栏 | 艺术长廊 | https://www.6zgm.com |
 | 62 | 顶栏 | 遇见孤独 | https://blog.aenjoy.cn |
 | 63 | 顶栏 | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
 | 64 | 顶栏 | Ojhdt's Blog | https://blog.ojhdt.com |
 | 65 | 顶栏 | 萌豚 Moechu | https://moechu.cn |
 | 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
+| 67 | 中心 | 刀客 | https://blog.mboker.cn |
+| 68 | 侧栏 | 静静的小窝 | https://wznmickey.com |
+| 69 | 顶栏 | xiadengmaのblog | https://blog.xiadengma.top |
+| 70 | 顶栏 | 及时行乐 | https://www.jsxlo.com |
+| 71 | 顶栏 | iSwl's Blog | https://blog.iswl.vip |
+| 72 | 顶栏 | 魏·美文网 | https://xiaowei.china97.cn |
+| 73 | 侧栏 | Leo’s Blog | https://www.isolitude.cn |
+| 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
 
 
 

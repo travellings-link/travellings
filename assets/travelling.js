@@ -68,10 +68,18 @@ function travelling(){
     url[64]="https://blog.ojhdt.com";
     url[65]="https://moechu.cn";
     url[66]="https://www.zqcnc.cn";
+    url[67]="https://blog.mboker.cn";
+    url[68]="https://wznmickey.com";
+    url[69]="https://blog.xiadengma.top";
+    url[70]="https://www.jsxlo.com";
+    url[71]="https://blog.iswl.vip";
+    url[72]="https://xiaowei.china97.cn";
+    url[73]="https://www.isolitude.cn";
+    url[74]="https://gupan.site";
 
 
       //修正概率
-    url[67]="https://github.com/volfclub/travelling";
+    url[75]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
