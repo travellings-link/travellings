@@ -89,7 +89,7 @@
 | 14 | 顶栏 | Yuki Yuki | https://wp.remudaisuki.top |
 | 15 | 顶栏 | Legroft | https://jinjis.cn |
 | 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
-| 17 | 侧栏 | DIego's Blog | https://diego.plus |
+| 17 | 侧栏 | DIego's Blog | http://blog.diego.plus:5800 |
 | 18 | 顶栏 | 果子小酱 | https://sublimerui.top |
 | 19 | 顶栏 | Sakura | https://cwxyr.me |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
@@ -147,6 +147,10 @@
 | 72 | 顶栏 | 魏·美文网 | https://xiaowei.china97.cn |
 | 73 | 侧栏 | Leo’s Blog | https://www.isolitude.cn |
 | 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
+| 75 | 侧栏 | 爆胎的博客 | https://www.itggg.cn |
+| 76 | 中心 | 花开陌上 | https://moshanghua.net |
+| 77 | 顶栏 | 炎忍的博客 | https://blog.endureblaze.cn |
+| 78 | 顶栏 | 青行三の个人博客 | https://blog.jiehua1995.xyz |
 
 
 
