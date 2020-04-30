@@ -70,7 +70,7 @@
 
 当打开网页无法直接看到徽标或外链时，有 * 标记。
 
-| 编号 | 徽标 | 名称 | 网址 |
+| 编号 | 徽标/状态 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
@@ -106,13 +106,13 @@
 | 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
-| 34 | 侧栏 | Zi_Gao的小站 | https://zigao.tk |
+| ~~34~~ | Error | Zi_Gao的小站 | https://zigao.tk |
 | 35 | 侧栏 | 风也温柔 | https://eas1.cn |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 37 | 底部 | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | 顶部 | Eltrac's Track | https://guhub.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
-| 40 | 侧栏 | Smilear's Blog | https://smilear.cn |
+| 40 | Error | Smilear's Blog | https://smilear.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
 | 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
 | 43 | 侧栏 | Nymane's Blog | https://www.nymane.xyz |
@@ -130,9 +130,9 @@
 | 55 | 侧栏 | 自说自话 | https://rua.ink |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 57 | 顶栏 | 蝶恋花 | http://liqilinhub.cloud |
-| 58 | 侧栏 | 摸鱼堂 | https://moefishtang.xyz |
+| ~~58~~ | 403 | 摸鱼堂 | https://moefishtang.xyz |
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
-| 60 | 顶栏 | Ma's Blog | https://6773.ink |
+| ~~60~~ | Error | Ma's Blog | https://6773.ink |
 | 61 | 侧栏 | 艺术长廊 | https://www.6zgm.com |
 | 62 | 顶栏 | 遇见孤独 | https://blog.aenjoy.cn |
 | 63 | 顶栏 | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |

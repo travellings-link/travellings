@@ -35,13 +35,13 @@ function travelling(){
     url[31]="https://icheung.net";
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
-    url[34]="https://zigao.tk";
+    url[34]="https://travellings.now.sh/assets/rip.html";
     url[35]="https://eas1.cn";
     url[36]="https://www.yunyoujun.cn";
     url[37]="https://nasity.cn";
     url[38]="https://guhub.cn";
     url[39]="https://yuaneuro.cn";
-    url[40]="https://smilear.cn";
+    url[40]="https://travellings.now.sh/assets/rip.html";
     url[41]="https://krau.top";
     url[42]="https://wfblog.net";
     url[43]="https://www.nymane.xyz";
@@ -59,9 +59,9 @@ function travelling(){
     url[55]="https://rua.ink";
     url[56]="https://blog.tigerroot.cn";
     url[57]="http://liqilinhub.cloud";
-    url[58]="https://moefishtang.xyz";
+    url[58]="https://travellings.now.sh/assets/rip.html";
     url[59]="https://www.pluvet.com";
-    url[60]="https://6773.ink";
+    url[60]="https://travellings.now.sh/assets/rip.html";
     url[61]="https://www.6zgm.com";
     url[62]="https://blog.aenjoy.cn";
     url[63]="https://blog.lifeisgg.online";
