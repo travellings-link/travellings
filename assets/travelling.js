@@ -59,7 +59,7 @@ function travelling(){
     url[55]="https://rua.ink";
     url[56]="https://blog.tigerroot.cn";
     url[57]="http://liqilinhub.cloud";
-    url[58]="https://travellings.now.sh/assets/rip.html";
+    url[58]="https://moefishtang.xyz";
     url[59]="https://www.pluvet.com";
     url[60]="https://travellings.now.sh/assets/rip.html";
     url[61]="https://www.6zgm.com";
@@ -80,11 +80,18 @@ function travelling(){
     url[76]="https://moshanghua.net";
     url[77]="https://blog.endureblaze.cn";
     url[78]="https://blog.jiehua1995.xyz";
-
+    url[79]="https://you.ci";
+    url[80]="https://www.deepwave.top";
+    url[81]="https://skywt.cn";
+    url[82]="https://lipk.org";
+    url[83]="https://www.zkl2333.com";
+    url[84]="https://www.whoit.top";
+    url[85]="https://takuron.top";
+    url[86]="https://dlizi.com:555";
 
 
       //修正概率
-    url[79]="https://github.com/volfclub/travelling";
+    url[87]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
