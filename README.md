@@ -19,7 +19,7 @@
 - 网站已有内容（建议已更新半年以上）；
 - 强制启用 https 。
 
-> 💡 若用 Cloud flare 作为你网站的 CDN，可能导致国内访问很慢。
+> 🚑 由于家人健康问题，此项目一两个月内可能无法即时维护，还望谅解。
 
 2. 将徽标插入打开您网页后**能直接看到的地方**（让友链传递下去），提出 issues 申请收录。这一般在 3 个工作日内完成审核。
 
@@ -122,7 +122,7 @@
 | 47 | 侧栏* | 小太の游乐园 | https://713.moe |
 | 48 | 顶栏 | Zhou‘s Blog | https://zhoublog.xyz |
 | 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
-| 50 | 顶栏 | CORE | https://core.moe |
+| 50 | 侧栏* | CORE | https://core.moe |
 | 51 | 侧栏 | solar'blog | https://www.solarme.vip |
 | 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
@@ -159,6 +159,20 @@
 | 84 | 侧栏 | 皮毛技术君 | https://www.whoit.top |
 | 85 | 顶栏 | Passer | https://takuron.top |
 | 86 | 顶栏 | 沐森西の博客 | https://dlizi.com:555 |
+| 87 | 侧栏 | 山葵酱 | https://www.wasabi.fun |
+| 88 | 顶栏 | Ying | https://yingserver.cn |
+| 89 | 侧栏 | 风之暇想 | https://www.fzxx.xyz |
+| 90 | 顶栏 | 今今今生 | https://noheart.cn |
+| 91 | 侧栏* | ADD-SP‘s Blog | https://www.addesp.com |
+| 92 | 侧栏 | 游轶的小站 | https://blog.devyi.com |
+| 93 | 顶栏 | MHuiG's Blog | https://blog.mhuig.top |
+| 94 | 顶栏 | Royce 的小窝 | https://royce2003.top |
+| 95 | 顶栏 | LiuYun | https://blog.6yfz.cn |
+| 96 | 顶栏 | Geek Era | https://www.geekera.cn |
+| 97 | 顶栏 | 魏・美文网 | https://xiaowei.china97.cn |
+| 98 | 顶栏 | Oo笑容太甜oO | https://kissbaofish.cn |
+| 99 | 顶栏 | F君的博客 | https://blog.fkun.tech |
+| 100 | 顶栏 |The Palace | https://seiryu.cn |
 
 
 

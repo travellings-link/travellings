@@ -88,10 +88,24 @@ function travelling(){
     url[84]="https://www.whoit.top";
     url[85]="https://takuron.top";
     url[86]="https://dlizi.com:555";
+    url[87]="https://www.wasabi.fun";
+    url[88]="https://yingserver.cn";
+    url[89]="https://www.fzxx.xyz";
+    url[90]="https://noheart.cn";
+    url[91]="https://www.addesp.com";
+    url[92]="https://blog.devyi.com";
+    url[93]="https://blog.mhuig.top";
+    url[94]="https://royce2003.top";
+    url[95]="https://blog.6yfz.cn";
+    url[96]="https://www.geekera.cn";
+    url[97]="https://xiaowei.china97.cn";
+    url[98]="https://kissbaofish.cn";
+    url[99]="https://blog.fkun.tech";
+    url[100]="https://seiryu.cn";
 
 
       //修正概率
-    url[87]="https://github.com/volfclub/travelling";
+    url[101]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
