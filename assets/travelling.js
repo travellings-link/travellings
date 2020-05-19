@@ -105,18 +105,11 @@ function travelling(){
     url[101]="https://blog.chrxw.com";
     url[102]="https://www.luxinzhangyun.top";
     url[103]="https://www.tabirstrees.top";
-<<<<<<< HEAD
     url[104]="https://www.googlessr.top";
 
 
       //修正概率
     url[105]="https://github.com/volfclub/travelling";
-=======
-
-
-      //修正概率
-    url[104]="https://github.com/volfclub/travelling";
->>>>>>> master
     
     
     var ints=parseInt(Math.random()*(url.length));
