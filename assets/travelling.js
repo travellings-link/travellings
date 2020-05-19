@@ -58,7 +58,7 @@ function travelling(){
     url[54]="https://sqdxwz.top";
     url[55]="https://rua.ink";
     url[56]="https://blog.tigerroot.cn";
-    url[57]="http://liqilinhub.cloud";
+    url[57]="https://kylin.dev";
     url[58]="https://moefishtang.xyz";
     url[59]="https://www.pluvet.com";
     url[60]="https://travellings.now.sh/assets/rip.html";
@@ -102,10 +102,14 @@ function travelling(){
     url[98]="https://kissbaofish.cn";
     url[99]="https://blog.fkun.tech";
     url[100]="https://seiryu.cn";
+    url[101]="https://blog.chrxw.com";
+    url[102]="https://www.luxinzhangyun.top";
+    url[103]="https://www.tabirstrees.top";
+    url[104]="https://www.googlessr.top";
 
 
       //修正概率
-    url[101]="https://github.com/volfclub/travelling";
+    url[105]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
