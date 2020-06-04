@@ -106,10 +106,14 @@ function travelling(){
     url[102]="https://www.luxinzhangyun.top";
     url[103]="https://www.tabirstrees.top";
     url[104]="https://www.googlessr.top";
+    url[105]="https://myheod.cn";
+    url[106]="https://www.ishells.cn";
+    url[107]="https://www.wztlink1013.com";
+
 
 
       //修正概率
-    url[105]="https://github.com/volfclub/travelling";
+    url[108]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
