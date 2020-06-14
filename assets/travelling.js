@@ -110,10 +110,12 @@ function travelling(){
     url[106]="https://www.ishells.cn";
     url[107]="https://www.wztlink1013.com";
 
+    if (document.referrer) {
+      var origin = new URL(document.referrer).origin;
+      url.splice(url.indexOf(origin), 1);
+    }
 
 
-      //修正概率
-    url[108]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
