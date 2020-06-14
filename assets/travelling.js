@@ -118,6 +118,6 @@ function travelling(){
 
     
     
-    var ints=parseInt(Math.random()*(url.length));
+    var ints=Math.floor(Math.random() * url.length);
     window.location=url[ints];
    }
