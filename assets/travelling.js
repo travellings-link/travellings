@@ -35,7 +35,7 @@ function travelling(){
     url[31]="https://icheung.net";
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
-    url[34]="https://travellings.now.sh/assets/rip.html";
+    url[34]="https://blog.zigao.info";
     url[35]="https://eas1.cn";
     url[36]="https://www.yunyoujun.cn";
     url[37]="https://nasity.cn";
@@ -73,7 +73,7 @@ function travelling(){
     url[69]="https://blog.xiadengma.top";
     url[70]="https://www.jsxlo.com";
     url[71]="https://blog.iswl.vip";
-    url[72]="https://xiaowei.china97.cn";
+    url[72]="https://paperbox.xyz";
     url[73]="https://www.isolitude.cn";
     url[74]="https://gupan.site";
     url[75]="https://www.itggg.cn";
@@ -87,7 +87,7 @@ function travelling(){
     url[83]="https://www.zkl2333.com";
     url[84]="https://www.whoit.top";
     url[85]="https://takuron.top";
-    url[86]="https://dlizi.com:555";
+    url[86]="https://dlizi.com";
     url[87]="https://www.wasabi.fun";
     url[88]="https://yingserver.cn";
     url[89]="https://www.fzxx.xyz";
@@ -110,7 +110,7 @@ function travelling(){
     url[106]="https://www.ishells.cn";
     url[107]="https://www.wztlink1013.com";
     url[108]="https://zkpeace.com";
-    url[109]="https://userunknownx.github.io";
+    url[109]="https://userunknown.gq";
     url[110]="http://ilovey.live";
     url[111]="https://code016.com";
     url[112]="https://jimmyqin.cn";
