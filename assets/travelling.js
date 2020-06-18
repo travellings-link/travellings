@@ -113,12 +113,27 @@ function travelling(){
     url[109]="https://userunknownx.github.io";
     url[110]="http://ilovey.live";
     url[111]="https://code016.com";
+    url[112]="https://jimmyqin.cn";
+    url[113]="https://wangpl.top";
+    url[114]="https://www.yansanlu.com";
+    url[115]="https://www.fddmao.com";
+    url[116]="https://www.y2jq.com";
+    url[117]="https://www.chirmyram.top";
+    url[118]="https://jiuxuxinchen.xyz";
+    url[119]="https://blog.lu-sky.com";
+    url[120]="https://mzrme.com";
+    url[121]="https://www.tanknee.cn";
+    url[122]="https://fx7.top";
+    url[123]="https://blog.butanediol.me";
+    url[124]="https://liuyifei.club";
+    url[125]="https://www.ddg.ink";
+    url[126]="https://blog.zggsong.cn";
 
 
 
 
       //修正概率
-    url[112]="https://github.com/volfclub/travelling";
+    url[127]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
