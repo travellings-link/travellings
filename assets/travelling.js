@@ -128,12 +128,16 @@ function travelling(){
     url[124]="https://liuyifei.club";
     url[125]="https://www.ddg.ink";
     url[126]="https://blog.zggsong.cn";
+    url[127]="https://bestzuo.cn";
+    url[128]="https://handsonic.top";
+    url[129]="https://www.oxoch.com";
+    url[130]="https://sorryfu.top";
 
 
 
 
       //修正概率
-    url[127]="https://github.com/volfclub/travelling";
+    url[131]="https://github.com/volfclub/travelling";
     
     
     var ints=parseInt(Math.random()*(url.length));
