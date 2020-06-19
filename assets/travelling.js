@@ -35,7 +35,7 @@ function travelling(){
     url[31]="https://icheung.net";
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
-    url[34]="https://travellings.now.sh/assets/rip.html";
+    url[34]="https://blog.zigao.info";
     url[35]="https://eas1.cn";
     url[36]="https://www.yunyoujun.cn";
     url[37]="https://nasity.cn";
@@ -73,7 +73,7 @@ function travelling(){
     url[69]="https://blog.xiadengma.top";
     url[70]="https://www.jsxlo.com";
     url[71]="https://blog.iswl.vip";
-    url[72]="https://xiaowei.china97.cn";
+    url[72]="https://paperbox.xyz";
     url[73]="https://www.isolitude.cn";
     url[74]="https://gupan.site";
     url[75]="https://www.itggg.cn";
@@ -87,7 +87,7 @@ function travelling(){
     url[83]="https://www.zkl2333.com";
     url[84]="https://www.whoit.top";
     url[85]="https://takuron.top";
-    url[86]="https://dlizi.com:555";
+    url[86]="https://dlizi.com";
     url[87]="https://www.wasabi.fun";
     url[88]="https://yingserver.cn";
     url[89]="https://www.fzxx.xyz";
@@ -110,17 +110,34 @@ function travelling(){
     url[106]="https://www.ishells.cn";
     url[107]="https://www.wztlink1013.com";
     url[108]="https://zkpeace.com";
-    url[109]="https://userunknownx.github.io";
+    url[109]="https://userunknown.gq";
     url[110]="http://ilovey.live";
     url[111]="https://code016.com";
+    url[112]="https://jimmyqin.cn";
+    url[113]="https://wangpl.top";
+    url[114]="https://www.yansanlu.com";
+    url[115]="https://www.fddmao.com";
+    url[116]="https://www.y2jq.com";
+    url[117]="https://www.chirmyram.top";
+    url[118]="https://jiuxuxinchen.xyz";
+    url[119]="https://blog.lu-sky.com";
+    url[120]="https://mzrme.com";
+    url[121]="https://www.tanknee.cn";
+    url[122]="https://fx7.top";
+    url[123]="https://blog.butanediol.me";
+    url[124]="https://liuyifei.club";
+    url[125]="https://www.ddg.ink";
+    url[126]="https://blog.zggsong.cn";
+    url[127]="https://bestzuo.cn";
+    url[128]="https://handsonic.top";
+    url[129]="https://www.oxoch.com";
+    url[130]="https://sorryfu.top";
 
 
     if (document.referrer) {
       var origin = new URL(document.referrer).origin;
       url.splice(url.indexOf(origin), 1);
     }
-
-
     
     
     var ints=Math.floor(Math.random() * url.length);
