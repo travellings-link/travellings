@@ -134,12 +134,12 @@ function travelling(){
     url[130]="https://sorryfu.top";
 
 
-
-
-      //修正概率
-    url[131]="https://github.com/volfclub/travelling";
+    if (document.referrer) {
+      var origin = new URL(document.referrer).origin;
+      url.splice(url.indexOf(origin), 1);
+    }
     
     
-    var ints=parseInt(Math.random()*(url.length));
+    var ints=Math.floor(Math.random() * url.length);
     window.location=url[ints];
    }
