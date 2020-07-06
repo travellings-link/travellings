@@ -15,14 +15,14 @@ function travelling(){
     url[11]="https://jinqimu.xyz";
     url[12]="https://crowndaisy.com";
     url[13]="https://heycmm.cn";
-    url[14]="https://wp.remudaisuki.top";
+    url[14]="https://travellings.now.sh/assets/rip.html";
     url[15]="https://jinjis.cn";
     url[16]="https://blog.tigerxly.com";
     url[17]="http://blog.diego.plus:5800 ";
     url[18]="https://sublimerui.top";
     url[19]="https://cwxyr.me";
     url[20]="https://mmyyll.ml";
-    url[21]="https://blog.imoasis.cn";
+    url[21]="https://travellings.now.sh/assets/rip.html";
     url[22]="https://449293786.site";
     url[23]="https://www.naraku.cn";
     url[24]="https://www.xiyo8.cn";
@@ -35,8 +35,8 @@ function travelling(){
     url[31]="https://icheung.net";
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
-    url[34]="https://blog.zigao.info";
-    url[35]="https://eas1.cn";
+    url[34]="https://travellings.now.sh/assets/rip.html";
+    url[35]="https://blog.kaygb.com";
     url[36]="https://www.yunyoujun.cn";
     url[37]="https://nasity.cn";
     url[38]="https://guhub.cn";
@@ -130,7 +130,7 @@ function travelling(){
     url[126]="https://blog.zggsong.cn";
     url[127]="https://bestzuo.cn";
     url[128]="https://handsonic.top";
-    url[129]="https://www.oxoch.com";
+    url[129]="https://travellings.now.sh/assets/rip.html";
     url[130]="https://sorryfu.top";
     url[131]="https://taog.top";
     url[132]="https://innei.ren";

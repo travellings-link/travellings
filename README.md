@@ -86,14 +86,14 @@
 | 11 | 顶栏 | JQM's Site | https://jinqimu.xyz |
 | 12 | 中心 | CrownDaisy | https://crowndaisy.com |
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
-| 14 | 顶栏 | Yuki Yuki | https://wp.remudaisuki.top |
+| ~~14~~ | Error | Yuki Yuki | https://wp.remudaisuki.top |
 | 15 | 顶栏 | Legroft | https://jinjis.cn |
 | 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
 | 17 | 侧栏 | DIego's Blog | http://blog.diego.plus:5800 |
 | 18 | 顶栏 | 果子小酱 | https://sublimerui.top |
 | 19 | 顶栏 | Sakura | https://cwxyr.me |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
-| 21 | 顶栏 | Oasis's Blog | https://blog.imoasis.cn |
+| ~~21~~ | Error | Oasis's Blog | https://blog.imoasis.cn |
 | 22 | 顶栏 | Mr.Sen | https://449293786.site |
 | 23 | 侧栏 | 风渐远 | https://www.naraku.cn |
 | 24 | 顶部 | XiYo吧 | https://www.xiyo8.cn |
@@ -106,13 +106,13 @@
 | 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
-| 34 | Error | Zi_Gao的小站 | https://blog.zigao.info |
-| 35 | 侧栏 | 风也温柔 | https://eas1.cn |
+| ~~34~~ | Closed | Zi_Gao的小站 | https://blog.zigao.info |
+| 35 | 侧栏 | 风也温柔 | https://blog.kaygb.com |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 37 | 底部 | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | 顶部 | Eltrac's Track | https://guhub.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
-| 40 | Error | Smilear's Blog | https://smilear.cn |
+| ~~40~~ | Quit | Smilear's Blog | https://smilear.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
 | 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
 | 43 | 侧栏 | Nymane's Blog | https://www.nymane.xyz |
@@ -127,7 +127,7 @@
 | 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
 | 54 | 顶栏 | 王荣胜 | https://sqdxwz.top |
-| ~~55~~ | 侧栏 | 自说自话 | https://rua.ink |
+| ~~55~~ | Error | 自说自话 | https://rua.ink |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 57 | 顶栏 | 蝶恋花 | https://kylin.dev |
 | 58 | 侧栏 | 摸鱼堂 | https://moefishtang.xyz |
@@ -201,7 +201,7 @@
 | 126 | 侧栏 | SWJ | https://blog.zggsong.cn |
 | 127 | 顶栏 | Sanarous's Blog | https://bestzuo.cn |
 | 128 | 顶栏 | HandSonic‘s Blog | https://handsonic.top |
-| 129 | 顶栏 | 雾漫江南 | https://www.oxoch.com |
+| ~~129~~ | Error | 雾漫江南 | https://www.oxoch.com |
 | 130 | 顶栏 | Sorryfu | https://sorryfu.top |
 | 131 | 侧栏 | TAOG's Blog | https://taog.top |
 | 132 | 顶栏 | 静かな森 | https://innei.ren |
