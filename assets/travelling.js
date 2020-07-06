@@ -132,6 +132,21 @@ function travelling(){
     url[128]="https://handsonic.top";
     url[129]="https://www.oxoch.com";
     url[130]="https://sorryfu.top";
+    url[131]="https://taog.top";
+    url[132]="https://innei.ren";
+    url[133]="https://dusays.com";
+    url[134]="https://www.wangyusong.cn";
+    url[135]="https://blog.zcmimi.top";
+    url[136]="https://blog.tengfei.website";
+    url[137]="https://www.zk1220.com";
+    url[138]="https://jishujun.com";
+    url[139]="https://colsrch.top";
+    url[140]="https://azusemisa.top";
+    url[141]="https://uts.ski";
+    url[142]="https://www.yilantingfeng.site";
+    url[143]="https://hasaik.com";
+    url[144]="https://shoka.lostyu.me";
+    url[145]="https://rain.moimo.me";
 
 
     if (document.referrer) {
