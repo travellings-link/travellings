@@ -150,11 +150,13 @@ function travelling(){
 
 
     if (document.referrer) {
-      var origin = new URL(document.referrer).origin;
-      url.splice(url.indexOf(origin), 1);
+        var origin = new URL(document.referrer).origin;
+        if (url.includes(origin) {
+            url.splice(url.indexOf(origin), 1);
+        }
     }
     
     
     var ints=Math.floor(Math.random() * url.length);
     window.location=url[ints];
-   }
+}
