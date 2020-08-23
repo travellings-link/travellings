@@ -147,6 +147,28 @@ function travelling(){
     url[143]="https://hasaik.com";
     url[144]="https://shoka.lostyu.me";
     url[145]="https://rain.moimo.me";
+    url[146]="https://zhw150.top";
+    url[147]="https://jsong.cn";
+    url[148]="https://www.kiritoghy.cn";
+    url[149]="https://www.cnblogs.com/borber";
+    url[150]="https://neroasmar.top";
+    url[151]="https://loafing.cn";
+    url[152]="https://www.iibaofu.cn";
+    url[153]="https://loafing.cn";
+    url[154]="https://blog.coor.top";
+    url[155]="https://xd.sh.cn";
+    url[156]="https://realmicah.xyz";
+    url[157]="https://zzr3.xyz";
+    url[158]="https://www.coolku.cc";
+    url[159]="https://www.summerpond.cn";
+    url[160]="https://blog.fivezha.cn";
+    url[161]="https://flexiston.com";
+    url[162]="https://wnag.com.cn";
+    url[163]="https://www.acg19.top";
+    url[164]="https://www.paddylin.top";
+    url[165]="https://kurumit3.top";
+    url[166]="https://blog.limecho.net";
+    url[167]="https://blog.pppane.com";
 
 
     if (document.referrer) {
