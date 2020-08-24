@@ -201,7 +201,7 @@
 | 126 | 侧栏 | SWJ | https://blog.zggsong.cn |
 | 127 | 顶栏 | Sanarous's Blog | https://bestzuo.cn |
 | 128 | 顶栏 | HandSonic‘s Blog | https://handsonic.top |
-| 129 | 顶部 | 雾漫江南 | https://www.oxoch.com |
+| 129 | 顶部 | 雾漫江南 | https://oxoch.com |
 | 130 | 顶栏 | Sorryfu | https://sorryfu.top |
 | 131 | 侧栏 | TAOG's Blog | https://taog.top |
 | 132 | 顶栏 | 静かな森 | https://innei.ren |

@@ -130,7 +130,7 @@ function travelling(){
     url[126]="https://blog.zggsong.cn";
     url[127]="https://bestzuo.cn";
     url[128]="https://handsonic.top";
-    url[129]="https://travellings.now.sh/assets/rip.html";
+    url[129]="https://oxoch.com";
     url[130]="https://sorryfu.top";
     url[131]="https://taog.top";
     url[132]="https://innei.ren";
