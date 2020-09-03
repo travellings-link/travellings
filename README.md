@@ -235,7 +235,7 @@
 | 158 | 顶部 | COOL | https://www.coolku.cc |
 | 159 | 侧栏 | 夏日鱼塘 | https://www.summerpond.cn |
 | 160 | 侧栏 | 异国迷宫的十字路口 | https://blog.fivezha.cn |
-| 161 | 顶栏 | Flexiston's Blog | https://flexiston.com |
+| 161 | 顶栏 | Flexiston's Blog | https://blog.flesx.cn |
 | 162 | 顶栏 | 可定博客 | https://wnag.com.cn |
 | 163 | 中心 | 新漫猫 | https://www.acg19.top |
 | 164 | 顶栏 | Paddylin的博客 | https://www.paddylin.top |
