@@ -162,7 +162,7 @@ function travelling(){
     url[158]="https://www.coolku.cc";
     url[159]="https://www.summerpond.cn";
     url[160]="https://blog.fivezha.cn";
-    url[161]="https://flexiston.com";
+    url[161]="https://blog.flesx.cn";
     url[162]="https://wnag.com.cn";
     url[163]="https://www.acg19.top";
     url[164]="https://www.paddylin.top";
