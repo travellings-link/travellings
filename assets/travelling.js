@@ -169,6 +169,7 @@ function travelling(){
     url[165]="https://kurumit3.top";
     url[166]="https://blog.limecho.net";
     url[167]="https://blog.pppane.com";
+    url[168]="https://yzzhuye.top";
 
 
     if (document.referrer) {
