@@ -131,7 +131,7 @@ function travelling(){
     url[127]="https://bestzuo.cn";
     url[128]="https://handsonic.top";
     url[129]="https://oxoch.com";
-    url[130]="https://sorryfu.top";
+    url[130]="https://fushaolei.github.io";
     url[131]="https://taog.top";
     url[132]="https://innei.ren";
     url[133]="https://dusays.com";
@@ -169,6 +169,46 @@ function travelling(){
     url[165]="https://kurumit3.top";
     url[166]="https://blog.limecho.net";
     url[167]="https://blog.pppane.com";
+    url[168]="https://voidge.cf";
+    url[169]="https://www.1-365.cn";
+    url[170]="https://xianyum.cn";
+    url[171]="https://ccccc.cyou";
+    url[172]="https://www.funix.cn";
+    url[173]="https://www.codinglink.tech";
+    url[174]="https://www.bluesdawn.top";
+    url[175]="https://www.bluesdawn.top";
+    url[176]="https://blog.cyfan.top";
+    url[177]="https://www.pootey.com";
+    url[178]="https://blog.luzy.top";
+    url[179]="https://senorui.top";
+    url[180]="https://www.szfc13.cn";
+    url[181]="https://blog.lihaojin.cn";
+    url[182]="https://www.saroin.com";
+    url[183]="https://zhenwu99.gitee.io";
+    url[184]="https://zoyua.cn";
+    url[185]="https://www.webpages.show";
+    url[186]="https://johnsonlee.site";
+    url[187]="https://www.leejean.top";
+    url[188]="https://blog.tedgao.com";
+    url[189]="https://www.extingstudio.com";
+    url[190]="https://www.yunshu.site";
+    url[191]="https://www.boolo.top";
+    url[192]="https://xiaokang.me";
+    url[193]="https://megatontech.github.io";
+    url[194]="https://heshun.run";
+    url[195]="https://huiris.com";
+    url[196]="https://ivampiresp.com";
+    url[197]="https://ishya.top";
+    url[198]="https://blog.mbrjun.cn";
+    url[199]="https://blog.huixcwg.net";
+    url[200]="https://www.youdef.com";
+    url[201]="https://www.heson10.com";
+    url[202]="https://yunfanch.com";
+    url[203]="https://wmzwsa.xyz";
+    url[204]="https://www.feidaoboke.com";
+    url[205]="https://vpsur.com";
+    url[206]="https://www.yexsi.com";
+    url[207]="https://jianchengwang.info";
 
 
     if (document.referrer) {
