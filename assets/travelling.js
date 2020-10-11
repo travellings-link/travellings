@@ -140,7 +140,7 @@ function travelling(){
     url[136]="https://blog.tengfei.website";
     url[137]="https://www.zk1220.com";
     url[138]="https://jishujun.com";
-    url[139]="https://colsrch.top";
+    url[139]="https://colsrch.cn";
     url[140]="https://azusemisa.top";
     url[141]="https://uts.ski";
     url[142]="https://www.yilantingfeng.site";
