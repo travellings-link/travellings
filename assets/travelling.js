@@ -209,6 +209,7 @@ function travelling(){
     url[205]="https://vpsur.com";
     url[206]="https://www.yexsi.com";
     url[207]="https://jianchengwang.info";
+    url[207]="https://imszz.com";
 
 
     if (document.referrer) {
