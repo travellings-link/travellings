@@ -14,77 +14,246 @@
             color: #515C6B;
         }
         .blink {
-            animation: blink 1s linear infinite;
-            -webkit-animation: blink 1s linear infinite;
-            -moz-animation: blink 1s linear infinite;
-            -ms-animation: blink 1s linear infinite;
-            -o-animation: blink 1s linear infinite;
+            animation: blink 3s linear infinite;
+            -webkit-animation: blink 3s linear infinite;
+            -moz-animation: blink 3s linear infinite;
+            -ms-animation: blink 3s linear infinite;
+            -o-animation: blink 3s linear infinite;
         }
         @keyframes blink {
             0% {
-                opacity: 0.2;
+                opacity: 0;
+                transform: scale(1);
             }
-            10% {
-                opacity: 0.2;
+            20% {
+                opacity: 0;
+                transform: scale(1);
             }
             40% {
-                opacity: 0.6;
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
             }
             100% {
-                opacity: 1;
+                opacity: 0.2;
+                transform: scale(1.2);
             }
         }
         @-webkit-keyframes blink {
             0% {
-                opacity: 0.2;
+                opacity: 0;
+                transform: scale(1);
             }
-            10% {
-                opacity: 0.2;
+            20% {
+                opacity: 0;
+                transform: scale(1);
             }
             40% {
-                opacity: 0.6;
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
             }
             100% {
-                opacity: 1;
+                opacity: 0.2;
+                transform: scale(1.2);
             }
         }
         @-moz-keyframes blink {
             0% {
-                opacity: 0.2;
+                opacity: 0;
+                transform: scale(1);
             }
-            10% {
-                opacity: 0.2;
+            20% {
+                opacity: 0;
+                transform: scale(1);
             }
             40% {
-                opacity: 0.6;
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
             }
             100% {
-                opacity: 1;
+                opacity: 0.2;
+                transform: scale(1.2);
             }
         }
         @-ms-keyframes blink {
             0% {
-                opacity: 0.2;
+                opacity: 0;
+                transform: scale(1);
             }
-            10% {
-                opacity: 0.2;
+            20% {
+                opacity: 0;
+                transform: scale(1);
             }
             40% {
-                opacity: 0.6;
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+        @-o-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+            20% {
+                opacity: 0;
+                transform: scale(1);
+            }
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        .botCenter{
+            width:100%; height:35px; line-height:35px;  position:fixed; bottom:2px; left:0px; font-size:12px; text-align:center;
+            animation: botCenter 3s linear;
+            -webkit-animation: botCenter 3s linear;
+            -moz-animation: botCenter 3s linear;
+            -ms-animation: botCenter 3s linear;
+            -o-animation: botCenter 3s linear;
+            }
+            @keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 0.3;
+            }
+            80% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
             }
             100% {
                 opacity: 1;
             }
         }
-        @-o-keyframes blink {
+        @-webkit-keyframes botCenter {
             0% {
-                opacity: 0.2;
+                opacity: 0;
             }
-            10% {
-                opacity: 0.2;
+            20% {
+                opacity: 0;
             }
             40% {
-                opacity: 0.6;
+                opacity: 0.3;
+            }
+            80% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-moz-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 0.3;
+            }
+            80% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-ms-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 0.3;
+            }
+            80% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @-o-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 0;
+            }
+            40% {
+                opacity: 0.3;
+            }
+            80% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
             }
             100% {
                 opacity: 1;
@@ -99,18 +268,22 @@
     <table width="100%" height="100%" cellpadding="0" cellspacing="0">
         <tbody>
             <tr>
-                <td valign="middle" align="center">
-                    <script type="text/javascript">
-                        setTimeout("delay.style.visibility='visible'", 300);
-                    </script> <a href="https://github.com/volfclub/travelling" class="blink" target="blank" id="delay" style="visibility:hidden" title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next world…</a> 
+                <td valign="middle" align="center" class="blink">
+                    <a href="https://github.com/volfclub/travelling" target="blank" title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next world…</a>
                 </td>
             </tr>
         </tbody>
     </table>
+
+    <div class="botCenter">
+        <a href="https://github.com/volfclub/travellings" target="_blank">🐺 Github</a>&nbsp;|&nbsp;
+        <a href="https://github.com/volfclub/travellings#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95" target="_blank">🧭 Index</a>&nbsp;|&nbsp;
+        <a href="https://travellings-status.now.sh/" target="_blank">🚀 Status-beta</a>
+    </div>
  
- <script language="javascript">
-     window.setTimeout("window.location.href='javascript:travelling()'",2000);
-  </script>
+    <script language="javascript">
+        window.setTimeout("window.location.href='javascript:travelling()'",3000);
+    </script>
 
 </body>
 </html>
