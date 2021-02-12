@@ -119,7 +119,7 @@
 | 44 | 顶栏 | 风吟 | https://blog.yilon.top |
 | ~~45~~ | Error | ajian | https://blog.ajian.online |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
-| 47 | 侧栏* | 小太の游乐园 | https://713.moe |
+| 47 | 侧栏* | 小太の游乐园 | https://blog.713.moe |
 | 48 | 顶栏 | Zhou‘s Blog | https://zhoublog.xyz |
 | 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
 | 50 | 侧栏* | CORE | https://core.moe |
@@ -200,7 +200,7 @@
 | 121 | 中心 | 归舟棹远 | https://www.tanknee.cn |
 | 122 | 顶栏 | 人家故里 | https://fx7.top |
 | 123 | 顶栏 | 丁丁の店 | https://blog.butanediol.me |
-| 124 | 顶栏 | 饿龙不是龙哩 | https://liuyifei.club |
+| 124 | 顶栏 | 饿龙不是龙哩 | https://loafing.cn |
 | 125 | 侧栏 | 低调阁 | https://www.ddg.ink |
 | 126 | 侧栏 | SWJ | https://blog.zggsong.cn |
 | 127 | 顶栏 | Sanarous's Blog | https://bestzuo.cn |
@@ -278,13 +278,13 @@
 | 197 | 中心 | UTOPIA | https://ishya.top |
 | 198 | 侧栏 | MBR的博客 | https://blog.mbrjun.cn |
 | ~~199~~ | Error | 小陈网管的小窝 | https://blog.huixcwg.net |
-| 200 | 顶栏 | 阿成儿Online | https://www.youdef.com |
+| 200 | 顶栏 | 阿成儿Online | https://youdef.com |
 | 201 | 顶栏 | 黑石博客 | https://www.heson10.com |
 | 202 | 中心 | 云帆沧海 | https://yunfanch.com |
 | 203 | 顶部 | wmz's blog | https://wmzwsa.xyz |
 | 204 | 侧栏 | 飞刀博客 | https://www.feidaoboke.com |
 | 205 | 顶栏 | 优速VPSUR测评 | https://vpsur.com |
-| 206 | 侧栏 | 野肆的生活分享 | https://www.yexsi.com |
+| 206 | 侧栏 | 野肆的生活分享 | https://yexsi.com |
 | ~~207~~ | Error | 猫九大大のBlog | https://jianchengwang.info |
 
 
