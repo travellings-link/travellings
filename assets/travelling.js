@@ -59,7 +59,7 @@ function travelling(){
     url[55]="https://travellings.now.sh/assets/rip.html";
     url[56]="https://blog.tigerroot.cn";
     url[57]="https://kylin.dev";
-    url[58]="https://moefishtang.xyz";
+    url[58]="https://travellings.now.sh/assets/rip.html";
     url[59]="https://www.pluvet.com";
     url[60]="https://travellings.now.sh/assets/rip.html";
     url[61]="https://www.6zgm.com";
@@ -78,7 +78,7 @@ function travelling(){
     url[74]="https://gupan.site";
     url[75]="https://www.itggg.cn";
     url[76]="https://moshanghua.net";
-    url[77]="https://blog.endureblaze.cn";
+    url[77]="https://blog.imyan.ren";
     url[78]="https://blog.jiehua1995.xyz";
     url[79]="https://you.ci";
     url[80]="https://travellings.now.sh/assets/rip.html";
@@ -106,7 +106,7 @@ function travelling(){
     url[102]="https://travellings.now.sh/assets/rip.html";
     url[103]="https://www.tabirstrees.top";
     url[104]="https://www.googlessr.top";
-    url[105]="https://travellings.now.sh/assets/rip.html";
+    url[105]="https://jsun969.cn";
     url[106]="https://www.ishells.cn";
     url[107]="https://www.wztlink1013.com";
     url[108]="https://zkpeace.com";
@@ -132,7 +132,7 @@ function travelling(){
     url[128]="https://handsonic.top";
     url[129]="https://oxoch.com";
     url[130]="https://fushaolei.github.io";
-    url[131]="https://travellings.now.sh/assets/rip.html";
+    url[131]="https://iktao.cn";
     url[132]="https://innei.ren";
     url[133]="https://dusays.com";
     url[134]="https://www.wangyusong.cn";
@@ -176,7 +176,7 @@ function travelling(){
     url[172]="https://www.funix.cn";
     url[173]="https://www.codinglink.tech";
     url[174]="https://www.bluesdawn.top";
-    url[175]="https://www.bluesdawn.top";
+    url[175]="https://www.libertystore.one";
     url[176]="https://blog.cyfan.top";
     url[177]="https://travellings.now.sh/assets/rip.html";
     url[178]="https://blog.luzy.top";

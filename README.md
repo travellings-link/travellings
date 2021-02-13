@@ -79,7 +79,7 @@
 | 4 | 底栏* | Barkure | https://guguga.cn |
 | ~~5~~ | Error | Emoticon | https://mQAQm.com |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
-| 7 | 侧栏* | INSPI和他的 | https://www.kanofans.com |
+| 7 | 侧栏* | Arect和他的 | https://www.kanofans.com |
 | 8 | 底栏* | Ryan Wang's Blog | https://ryanc.cc |
 | 9 | 顶栏 | Seija | https://seija.me |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
@@ -130,7 +130,7 @@
 | ~~55~~ | Quit | 自说自话 | https://rua.ink |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 57 | 顶栏 | 蝶恋花 | https://kylin.dev |
-| 58 | 侧栏 | 摸鱼堂 | blog.moefishtang.xyz |
+| ~~58~~ | Error | 摸鱼堂 | blog.moefishtang.xyz |
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
 | ~~60~~ | Error | Ma's Blog | https://6773.ink |
 | 61 | 侧栏 | 艺术长廊 | https://www.6zgm.com |
@@ -149,7 +149,7 @@
 | 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
 | 75 | 侧栏 | 爆胎的博客 | https://www.itggg.cn |
 | 76 | 中心 | 花开陌上 | https://moshanghua.net |
-| 77 | 顶栏 | 炎忍的博客 | https://blog.endureblaze.cn |
+| 77 | 顶栏 | 炎忍的博客 | https://blog.imyan.ren |
 | 78 | 顶栏 | 青行三の个人博客 | https://blog.jiehua1995.xyz |
 | 79 | 顶栏 | 有次博客 | https://you.ci |
 | ~~80~~ | Error | 德令哈 | https://www.deepwave.top |
@@ -181,7 +181,7 @@
 | ~~102~~ | Error | 土豆和豌豆 | https://www.luxinzhangyun.top |
 | 103 | 顶栏 | tabris的遥远星系 | https://www.tabirstrees.top |
 | 104 | 侧栏 | 728004090博客 | https://www.googlessr.top |
-| ~~105~~ | Error | 螓首蛾眉 | https://myheod.cn |
+| 105 | 侧栏* | 螓首蛾眉 | https://jsun969.cn |
 | 106 | 顶栏 | 服务猿's 学习笔记 | https://www.ishells.cn |
 | 107 | 顶栏 | 尼采般地抒情 | https://www.wztlink1013.com |
 | 108 | 顶栏 | Zkpeace | https://zkpeace.com |
@@ -207,7 +207,7 @@
 | 128 | 顶栏 | HandSonic‘s Blog | https://handsonic.top |
 | 129 | 顶部 | 雾漫江南 | https://oxoch.com |
 | 130 | 顶栏 | Sorryfu | https://fushaolei.github.io |
-| ~~131~~ | Quit | TAOG's Blog | https://taog.top |
+| 131 | 侧栏 | TAOG's Blog | https://iktao.cn |
 | 132 | 顶栏 | 静かな森 | https://innei.ren |
 | 133 | 中心 | 杜老师说 | https://dusays.com |
 | 134 | 顶部 | 独人欣赏 | https://www.wangyusong.cn |
@@ -253,7 +253,7 @@
 | 172 | 顶栏 | Funix’s blog | https://www.funix.cn |
 | 173 | 顶栏 | 林克的编程小记 | https://www.codinglink.tech |
 | 174 | 顶栏 | BD的小窝 | https://www.bluesdawn.top |
-| 175 | 顶栏 | LBTSTO自由商店 | https://www.bluesdawn.top |
+| 175 | 顶栏 | LBTSTO自由商店 | https://www.libertystore.one |
 | 176 | 顶栏 | ChenYFanの博客 | https://blog.cyfan.top |
 | ~~177~~ | Error | Pootey's Blog | https://www.pootey.com |
 | 178 | 顶栏 | 江风引雨の小站 | https://blog.luzy.top |
