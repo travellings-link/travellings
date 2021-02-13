@@ -209,6 +209,26 @@ function travelling(){
     url[205]="https://vpsur.com";
     url[206]="https://yexsi.com";
     url[207]="hhttps://travellings.now.sh/assets/rip.html";
+    url[208]="https://vmert.com";
+    url[209]="https://openwit.net";
+    url[210]="https://fiammanda.github.io";
+    url[211]="https://www.xiangshu233.cn";
+    url[212]="https://7bxing.com";
+    url[213]="https://www.overme.cn";
+    url[214]="https://vinking.top";
+    url[215]="https://www.mmcee.cn";
+    url[216]="https://www.wenbin.org.cn";
+    url[217]="https://fang.blog.miri.site";
+    url[218]="https://hiwannz.com";
+    url[219]="https://www.zlinblog.cn";
+    url[220]="https://rhythmlian.cn";
+    url[221]="https://alpaca.plus";
+    url[222]="https://yingwiki.top";
+    url[223]="https://qikaile.tk";
+    url[224]="https://funs.life";
+    url[225]="https://www.tdrme.cn";
+    url[226]="https://hongcyu.cn";
+    url[227]="https://neo00.top";
 
 
     if (document.referrer) {
