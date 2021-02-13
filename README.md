@@ -70,14 +70,13 @@
 
 当打开网页无法直接看到徽标或外链时，有 * 标记。
 
-| 编号 | 徽标/状态 | 名称 | 网址 |
+| 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
 | 3 | 顶栏 | 原谅糖 | https://yltang.cn |
 | 4 | 底栏* | Barkure | https://guguga.cn |
-| ~~5~~ | Error | Emoticon | https://mQAQm.com |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 侧栏* | Arect和他的 | https://www.kanofans.com |
 | 8 | 底栏* | Ryan Wang's Blog | https://ryanc.cc |
@@ -86,14 +85,12 @@
 | 11 | 顶栏 | JQM's Site | https://jinqimu.xyz |
 | 12 | 中心 | CrownDaisy | https://crowndaisy.com |
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
-| ~~14~~ | Error | Yuki Yuki | https://wp.remudaisuki.top |
 | 15 | 顶栏 | Legroft | https://jinjis.cn |
 | 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
 | 17 | 侧栏 | DIego's Blog | http://blog.diego.plus:5800 |
 | 18 | 顶栏 | 果子小酱 | https://sublimerui.top |
 | 19 | 顶栏 | Sakura | https://cwxyr.me |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
-| ~~21~~ | Error | Oasis's Blog | https://blog.imoasis.cn |
 | 22 | 顶栏 | 五叶魔法书 | https://grimoire.cn |
 | 23 | 侧栏 | 风渐远 | https://www.naraku.cn |
 | 24 | 顶部 | XiYo吧 | https://www.xiyo8.cn |
@@ -103,21 +100,15 @@
 | 28 | 侧栏 | lxxs的小屋 | https://lxxs.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
 | 30 | 侧栏 | 星云C馆 | https://www.m78.co |
-| ~~31~~ | Error | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
-| ~~34~~ | Quit | Zi_Gao的小站 | https://blog.zigao.info |
 | 35 | 侧栏 | 风也温柔 | https://blog.kaygb.com |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 37 | 底部 | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | 顶部 | Eltrac's Track | https://blog.guhub.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
-| ~~40~~ | Quit | Smilear's Blog | https://smilear.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
-| ~~42~~ | Error | Weifeng's Blog | https://wfblog.net |
-| ~~43~~ | Error | Nymane's Blog | https://www.nymane.xyz |
 | 44 | 顶栏 | 风吟 | https://blog.yilon.top |
-| ~~45~~ | Error | ajian | https://blog.ajian.online |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://blog.713.moe |
 | 48 | 顶栏 | Zhou‘s Blog | https://zhoublog.xyz |
@@ -126,25 +117,17 @@
 | 51 | 侧栏 | solar'blog | https://www.solarme.vip |
 | 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
-| ~~54~~ | Error | 王荣胜 | https://sqdxwz.top |
-| ~~55~~ | Quit | 自说自话 | https://rua.ink |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 57 | 顶栏 | 蝶恋花 | https://kylin.dev |
-| ~~58~~ | Error | 摸鱼堂 | blog.moefishtang.xyz |
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
-| ~~60~~ | Error | Ma's Blog | https://6773.ink |
 | 61 | 侧栏 | 艺术长廊 | https://www.6zgm.com |
-| ~~62~~ | Error | 遇见孤独 | https://blog.aenjoy.cn |
-| ~~63~~ | Error | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
 | 64 | 顶栏 | Ojhdt's Blog | https://blog.ojhdt.com |
 | 65 | 顶栏 | 萌豚 Moechu | https://moechu.cn |
 | 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
 | 67 | 中心 | 刀客 | https://blog.mboker.cn |
 | 68 | 侧栏 | 静静的小窝 | https://wznmickey.com |
-| ~~69~~ | Error | xiadengmaのblog | https://blog.xiadengma.top |
 | 70 | 顶栏 | 及时行乐 | https://www.jsxlo.com |
 | 71 | 顶栏 | iSwl's Blog | https://blog.iswl.vip |
-| ~~72~~ | Error | 魏巍 | https://paperbox.xyz |
 | 73 | 侧栏 | Leo’s Blog | https://www.isolitude.cn |
 | 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
 | 75 | 侧栏 | 爆胎的博客 | https://www.itggg.cn |
@@ -152,7 +135,6 @@
 | 77 | 顶栏 | 炎忍的博客 | https://blog.imyan.ren |
 | 78 | 顶栏 | 青行三の个人博客 | https://blog.jiehua1995.xyz |
 | 79 | 顶栏 | 有次博客 | https://you.ci |
-| ~~80~~ | Error | 德令哈 | https://www.deepwave.top |
 | 81 | 顶栏 | SkyWT | https://skywt.cn |
 | 82 | 底部 | 执手对影成双 | https://www.lipk.org |
 | 83 | 顶部 | MySpace | https://www.zkl2333.com |
@@ -169,33 +151,28 @@
 | 94 | 顶栏 | JalenChuh | https://blog.jalenchuh.cn |
 | 95 | 顶栏 | LiuYun | https://blog.6yfz.cn |
 | 96 | 顶栏 | Geek Era | https://www.geekera.cn |
-| ~~97~~ | Error | 魏・美文网 | https://xiaowei.china97.cn |
 | 98 | 顶栏 | Oo笑容太甜oO | https://kissbaofish.cn |
 | 99 | 顶栏 | F君的博客 | https://blog.fkun.tech |
 
 
-| 编号 | 徽标/状态 | 名称 | 网址 |
+| 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 100 | 顶栏 | The Palace | https://seiryu.cn |
 | 101 | 底栏 | Chr_小屋 | https://blog.chrxw.com |
-| ~~102~~ | Error | 土豆和豌豆 | https://www.luxinzhangyun.top |
 | 103 | 顶栏 | tabris的遥远星系 | https://www.tabirstrees.top |
 | 104 | 侧栏 | 728004090博客 | https://www.googlessr.top |
 | 105 | 侧栏* | 螓首蛾眉 | https://jsun969.cn |
 | 106 | 顶栏 | 服务猿's 学习笔记 | https://www.ishells.cn |
 | 107 | 顶栏 | 尼采般地抒情 | https://www.wztlink1013.com |
 | 108 | 顶栏 | Zkpeace | https://zkpeace.com |
-| ~~109~~ | Error | UserUnknownX的小站 | https://userunknown.gq |
 | 110 | 顶栏 | 低调小熊猫 | http://ilovey.live |
 | 111 | 侧栏* | Guang's blog | https://code016.com |
 | 112 | 顶栏 | 挨拍的儿 | https://jimmyqin.cn |
 | 113 | 顶栏 | 莫逡巡的博客 | https://wangpl.top |
 | 114 | 侧栏 | 三路清风 | https://www.yansanlu.com |
 | 115 | 侧栏 | 房东的猫 | https://www.fddmao.com |
-| ~~116~~ | Error | Guyi’s Blog | https://www.y2jq.com |
 | 117 | 顶栏 | 七米蓝 | https://www.chirmyram.top |
 | 118 | 顶栏 | 旧叙新陈'Blog | https://jiuxuxinchen.xyz |
-| ~~119~~ | Error | 九汐 | https://blog.lu-sky.com |
 | 120 | 顶栏 | MZRME‘S | https://mzrme.com |
 | 121 | 中心 | 归舟棹远 | https://www.tanknee.cn |
 | 122 | 顶栏 | 人家故里 | https://fx7.top |
@@ -214,28 +191,23 @@
 | 135 | 顶部 | zcmimi's blog | https://blog.zcmimi.top |
 | 136 | 侧栏 | TF的博客 | https://blog.tengfei.website |
 | 137 | 侧栏 | 简兮小站 | https://www.zk1220.com |
-| ~~138~~ | Error | 满月技术君 | https://jishujun.com |
 | 139 | 侧栏 | Colsrch'Blog | https://colsrch.cn |
 | 140 | 中心 | AzuSemisa's Blog | https://azusemisa.top |
-| ~~141~~ | Error | UTS | https://uts.ski |
 | 142 | 顶栏 | 倚栏听风 | https://www.yilantingfeng.site |
 | 143 | 侧栏 | Xu's Blog | https://hasaik.com |
 | 144 | 侧栏 | 優萌初華 | https://shoka.lostyu.me |
 | 145 | 顶栏 | MES | https://rain.moimo.me |
 | 146 | 顶栏 | ZigZagK的博客 | https://zigzagk.top |
 | 145 | 侧栏 | SkYe's Blog | https://www.mrskye.cn |
-| ~~146~~ | Error | 开心果个人博客 | https://zhw150.top |
 | 147 | 侧栏 | JsOnGmAX-博客 | https://jsong.cn |
 | 148 | 顶栏 | Kiritoghy's Blog | https://www.kiritoghy.cn |
 | 149 | 顶栏 | BORBER | https://www.cnblogs.com/borber |
 | 150 | 顶栏 | NEROASMAR.TOP | https://neroasmar.top |
 | 151 | 顶栏 | 若非 | https://loafing.cn |
-| ~~152~~ | Error | Jim's Blog | https://www.iibaofu.cn |
 | 153 | 顶栏 | 若非 | https://loafing.cn |
 | 154 | 侧栏 | 弥枳 | https://blog.coor.top |
 | 155 | 顶栏 | 不淡定的实验室 | https://xd.sh.cn |
 | 156 | 侧栏 | Micah | https://realmicah.xyz |
-| ~~157~~ | Error | 提莫酱的博客 | https://zzr3.xyz |
 | 158 | 顶部 | COOL | https://www.coolku.cc |
 | 159 | 侧栏 | 夏日鱼塘 | https://www.summerpond.cn |
 | 160 | 侧栏 | 异国迷宫的十字路口 | https://blog.fivezha.cn |
@@ -255,7 +227,6 @@
 | 174 | 顶栏 | BD的小窝 | https://www.bluesdawn.top |
 | 175 | 顶栏 | LBTSTO自由商店 | https://www.libertystore.one |
 | 176 | 顶栏 | ChenYFanの博客 | https://blog.cyfan.top |
-| ~~177~~ | Error | Pootey's Blog | https://www.pootey.com |
 | 178 | 顶栏 | 江风引雨の小站 | https://blog.luzy.top |
 | 179 | 中心 | Senorui's BLog | https://senorui.top |
 | 180 | 顶栏 | 神州部落格 | https://www.szfc13.cn |
@@ -277,18 +248,15 @@
 | 196 | 顶栏 | iVampireSP的物语 | https://ivampiresp.com |
 | 197 | 中心 | UTOPIA | https://ishya.top |
 | 198 | 侧栏 | MBR的博客 | https://blog.mbrjun.cn |
-| ~~199~~ | Error | 小陈网管的小窝 | https://blog.huixcwg.net |
 
-| 编号 | 徽标/状态 | 名称 | 网址 |
+| 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 200 | 顶栏 | 阿成儿Online | https://youdef.com |
 | 201 | 顶栏 | 黑石博客 | https://www.heson10.com |
 | 202 | 中心 | 云帆沧海 | https://yunfanch.com |
 | 203 | 顶部 | wmz's blog | https://wmzwsa.xyz |
 | 204 | 侧栏 | 飞刀博客 | https://www.feidaoboke.com |
-| ~~205~~ | Error | 优速VPSUR测评 | https://vpsur.com |
 | 206 | 侧栏 | 野肆的生活分享 | https://yexsi.com |
-| ~~207~~ | Error | 猫九大大のBlog | https://jianchengwang.info |
 | 208 | 顶栏 | Juch 的导航 | https://vmert.com |
 | 209 | 顶栏 | Openwit启智 | https://openwit.net |
 | 210 | 中心 | The F Word | https://fiammanda.github.io |
@@ -310,9 +278,51 @@
 | 226 | 顶栏 | hongCYu's Blog | https://hongcyu.cn |
 | 227 | 顶栏 | nEo | https://neo00.top |
 
+---
 
+## 下线列表
 
+如误处理或已修复问题，请提个 issue 吧，我们会尽快处理。常见的原因如下：
+- **LOST**：网页国内打不开或网址解析失败；
+- **SSL**：SLL 证书配置错误，或未启用 https；
+- **ERROR**：网页显示服务器或 CDN 报错信息；
+- **BROKEN**：网页存在明显异常如 CSS 丢失等错误；
+- **QUIT**：网页看不到“开往”了，或已申请退出；
 
+| 序号 | 原因 | 名称 | 网址 |
+| --- | --- | --- | --- |
+| ~~5~~ | 待补充 | Emoticon | https://mQAQm.com |
+| ~~14~~ | 待补充 | Yuki Yuki | https://wp.remudaisuki.top |
+| ~~21~~ | 待补充 | Oasis's Blog | https://blog.imoasis.cn |
+| ~~31~~ | 待补充 | Cheung | https://icheung.net |
+| ~~34~~ | Quit | Zi_Gao的小站 | https://blog.zigao.info |
+| ~~40~~ | Quit | Smilear's Blog | https://smilear.cn |
+| ~~42~~ | 待补充 | Weifeng's Blog | https://wfblog.net |
+| ~~43~~ | 待补充 | Nymane's Blog | https://www.nymane.xyz |
+| ~~45~~ | 待补充 | ajian | https://blog.ajian.online |
+| ~~54~~ | 待补充 | 王荣胜 | https://sqdxwz.top |
+| ~~55~~ | Quit | 自说自话 | https://rua.ink |
+| ~~58~~ | 待补充 | 摸鱼堂 | https://blog.moefishtang.xyz |
+| ~~60~~ | 待补充 | Ma's Blog | https://6773.ink |
+| ~~62~~ | 待补充 | 遇见孤独 | https://blog.aenjoy.cn |
+| ~~63~~ | 待补充 | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
+| ~~69~~ | 待补充 | xiadengmaのblog | https://blog.xiadengma.top |
+| ~~72~~ | 待补充 | 魏巍 | https://paperbox.xyz |
+| ~~80~~ | 待补充 | 德令哈 | https://www.deepwave.top |
+| ~~97~~ | 待补充 | 魏・美文网 | https://xiaowei.china97.cn |
+| ~~102~~ | 待补充 | 土豆和豌豆 | https://www.luxinzhangyun.top |
+| ~~109~~ | 待补充 | UserUnknownX的小站 | https://userunknown.gq |
+| ~~116~~ | 待补充 | Guyi’s Blog | https://www.y2jq.com |
+| ~~119~~ | 待补充 | 九汐 | https://blog.lu-sky.com |
+| ~~138~~ | 待补充 | 满月技术君 | https://jishujun.com |
+| ~~141~~ | 待补充 | UTS | https://uts.ski |
+| ~~146~~ | 待补充 | 开心果个人博客 | https://zhw150.top |
+| ~~152~~ | 待补充 | Jim's Blog | https://www.iibaofu.cn |
+| ~~157~~ | 待补充 | 提莫酱的博客 | https://zzr3.xyz |
+| ~~177~~ | 待补充 | Pootey's Blog | https://www.pootey.com |
+| ~~199~~ | 待补充 | 小陈网管的小窝 | https://blog.huixcwg.net |
+| ~~205~~ | 待补充 | 优速VPSUR测评 | https://vpsur.com |
+| ~~207~~ | 待补充 | 猫九大大のBlog | https://jianchengwang.info |
 
 ---
 
