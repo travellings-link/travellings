@@ -29,7 +29,7 @@ function travelling(){
     url[25]="https://www.wangkai88.com";
     url[26]="https://blog.zeruns.tech";
     url[27]="https://guqing.xyz";
-    url[28]="https://lxxs.xyz";
+    url[28]="https://travellings.now.sh/assets/rip.html";
     url[29]="https://feiliwuyan.com";
     url[30]="https://www.m78.co";
     url[31]="https://travellings.now.sh/assets/rip.html";
@@ -256,7 +256,6 @@ function travelling(){
     url[252]="https://666wxy666.github.io";
     url[253]="https://err0r.top";
     url[254]="https://www.ysazw.cn";
-
 
 
     if (document.referrer) {

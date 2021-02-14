@@ -97,7 +97,6 @@
 | 25 | 侧栏 | 锴 | https://www.wangkai88.com |
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
 | 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
-| 28 | 侧栏 | lxxs的小屋 | https://lxxs.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
 | 30 | 侧栏 | 星云C馆 | https://www.m78.co |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
@@ -326,6 +325,7 @@
 | ~~5~~ | 待补充 | Emoticon | https://mQAQm.com |
 | ~~14~~ | 待补充 | Yuki Yuki | https://wp.remudaisuki.top |
 | ~~21~~ | 待补充 | Oasis's Blog | https://blog.imoasis.cn |
+| ~~28~~ | QUIT | lxxs的小屋 | https://lxxs.xyz |
 | ~~31~~ | 待补充 | Cheung | https://icheung.net |
 | ~~34~~ | Quit | Zi_Gao的小站 | https://blog.zigao.info |
 | ~~40~~ | Quit | Smilear's Blog | https://smilear.cn |
