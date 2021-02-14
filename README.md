@@ -19,11 +19,11 @@
 - 网站已有内容（建议已更新半年以上）；
 - 强制启用 https 。
 
-> 🚑 由于家人健康问题，此项目一两个月内可能无法即时维护，还望谅解。
-
 2. 将徽标插入打开您网页后**能直接看到的地方**（让友链传递下去），提出 issues 申请收录。这一般在 7 个工作日内完成审核。
 
 ![example](https://travellings.now.sh/assets/logo.gif)
+
+> ✨ 新 logo 灵感：代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。
 
 - 一般放在打开网页直接看到的地方就行；
 
@@ -277,6 +277,33 @@
 | 225 | 中心 | 听得入迷空间 | https://www.tdrme.cn |
 | 226 | 顶栏 | hongCYu's Blog | https://hongcyu.cn |
 | 227 | 顶栏 | nEo | https://neo00.top |
+| 228 | 顶栏 | Ty Blog | https://tyblog.com.cn |
+| 229 | 顶栏 | TomyJan的博客 | https://blog.tomys.top |
+| 230 | 顶栏 | 一点快乐 | https://www.yidiankuaile.com |
+| 231 | 侧栏 | 白日梦研究所 | https://blog.angustar.com |
+| 232 | 侧栏 | 十二博客 | https://blog.shiertx.com |
+| 233 | 侧栏 | MoYi's Blog | https://blog.moyi.ml |
+| 234 | 顶栏 | Troy & Chloe | https://www.yotroy.cool |
+| 235 | 侧栏 | luosw 的小窝 | https://luosw.fun |
+| 236 | 顶栏 | 林中小屋 | https://imszz.com |
+| 237 | 顶栏 | Sianx's Blog | https://blog.sianx.com |
+| 238 | 顶栏 | Ender's Blog | https://ender.fun |
+| 239 | 顶栏 | 拾忆小站 | https://www.syzhan.cn |
+| 240 | 顶栏 | 嚣张的灯塔 | https://www.liuzhimin.vip |
+| 241 | 顶栏 | W4J1e's blog | https://www.hin.cool |
+| 242 | 侧栏 | 轻风记 | https://www.3328bk.cn |
+| 243 | 中心 | Ganto的个人主页 | https://www.ganto.cn |
+| 244 | 顶栏 | Weidows の Nest | https://weidows.github.io |
+| 245 | 顶栏 | Magma Ink | https://magma.ink |
+| 246 | 顶栏 | 幼稚园园长 |https://yzyyz.top |
+| 247 | 中心 | 飞云师兄的主页 | www.idasx.com |
+| 248 | 侧栏 | Xecades's Blog | https://blog.xecades.xyz |
+| 249 | 顶栏 | Amos‘blog | https://blog.amoswu.cn |
+| 250 | 侧栏 | Mr_God's Note | https://www.mrgod.cn |
+| 251 | 顶栏 | 月光中的污点 | https://www.extlight.com |
+| 252 | 顶栏 | Sekiro's Blog | https://666wxy666.github.io |
+| 253 | 侧栏 | Err0r | https://err0r.top |
+
 
 ---
 

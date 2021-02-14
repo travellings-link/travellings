@@ -229,6 +229,32 @@ function travelling(){
     url[225]="https://www.tdrme.cn";
     url[226]="https://hongcyu.cn";
     url[227]="https://neo00.top";
+    url[228]="https://tyblog.com.cn";
+    url[229]="https://blog.tomys.top";
+    url[230]="https://www.yidiankuaile.com";
+    url[231]="https://blog.angustar.com";
+    url[232]="https://blog.shiertx.com";
+    url[233]="https://blog.moyi.ml";
+    url[234]="https://www.yotroy.cool";
+    url[235]="https://luosw.fun";
+    url[236]="https://imszz.com";
+    url[237]="https://blog.sianx.com";
+    url[238]="https://ender.fun";
+    url[239]="https://www.syzhan.cn";
+    url[240]="https://www.liuzhimin.vip";
+    url[241]="https://www.hin.cool";
+    url[242]="https://www.3328bk.cn";
+    url[243]="https://www.ganto.cn";
+    url[244]="https://weidows.github.io";
+    url[245]="https://magma.ink";
+    url[246]="https://yzyyz.top";
+    url[247]="www.idasx.com";
+    url[248]="https://blog.xecades.xyz";
+    url[249]="https://blog.amoswu.cn";
+    url[250]="https://www.mrgod.cn";
+    url[251]="https://www.extlight.com";
+    url[252]="https://666wxy666.github.io";
+    url[253]="https://err0r.top";
 
 
     if (document.referrer) {
