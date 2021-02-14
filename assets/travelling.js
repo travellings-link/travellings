@@ -256,6 +256,7 @@ function travelling(){
     url[252]="https://666wxy666.github.io";
     url[253]="https://err0r.top";
     url[254]="https://www.ysazw.cn";
+    url[255]="https://www.roaing.com";
 
 
     if (document.referrer) {
