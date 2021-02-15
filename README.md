@@ -4,6 +4,8 @@
 
 想法来自 https://github.com/XXIIVV/webring
 
+> 🔔 **请留意**： 如您在用 Font Awesome ，推荐将开往更换为 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；如需 Emoji，推荐 `🚇`。logo  徽标素材已更新，如您自行托管了徽标，可在 assets 文件夹里找到新的版本。
+
 ## 使用说明
 
 “开往”取自“开放的网络”。将开往放入您的网页，表示您乐于分享并支持开放的网络。
@@ -30,7 +32,7 @@
 
 - **最佳实践**：将 `开往` 的外链（`https://travellings.now.sh`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
-  - 如需 Font Awesome ，推荐 `fa-subway` （其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
+  - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
 - **额外可选**：将开往的徽标放到您的底部或其他位置，表示对开往的支持：
   - 动图 GIF：`https://travellings.now.sh/assets/logo.gif`
@@ -70,7 +72,9 @@
 
 ### ~~无缝接力 β~~
 
-~~可用 jsdelivr 加速，中间无开往跳转页。~~ 不推荐，可能更新不及时
+~~可用 jsdelivr 加速，中间无开往跳转页。~~ 
+
+> 🚨 不再推荐，可能更新不及时。
 
 ```
 <head>
@@ -334,6 +338,9 @@
 | 256 | 顶栏 | 萌！萝莉 | https://loliloli.moe |
 | 257 | 顶栏 | 秉性之松 | https://blog.iucky.cn |
 | 258 | 底部 | 7WATE`S Blog | https://blog.7wate.com |
+| 259 | 顶栏 | 吴李曾 | https://www.wulinzeng.vip |
+| 260 | 顶部 | 斯莫笔记 | https://notes.zhangxiaocai.cn |
+| 261 | 侧栏 | 且听书吟 | https://yufan.me |
 
 
 ---
@@ -389,14 +396,13 @@ A：**任何网页都可以**。
 
 博客，主页，工具，导航等都可以，只要是乐于分享的网页就可以加入开往。
 
-### Q：😻 怎样支持开往：
+### Q：怎样支持开往？
 
-A：有两种方案可选。
+A：😻 有两种方案可选。
 
 - 参考使用说明中的 [额外可选](https://github.com/volfclub/travellings#2-%E5%B0%86%E5%BC%80%E5%BE%80%E6%94%BE%E5%88%B0%E6%82%A8%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%90%8E%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%8F%8B%E9%93%BE%E6%8E%A5%E5%8A%9B%E4%B8%8B%E5%8E%BB)，在你的网页上放置开往的徽标，帮助宣传让更多的人加入开往。
 
 - [打赏作者](https://afdian.net/@volfclub)，一些零钱总能激励作者更新维护项目的积极性。
-
 
 ### Q：开往能增加我网页的流量吗？
 

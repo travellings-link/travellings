@@ -260,6 +260,9 @@ function travelling(){
     url[256]="https://loliloli.moe";
     url[257]="https://blog.iucky.cn";
     url[258]="https://blog.7wate.com";
+    url[259]="https://www.wulinzeng.vip";
+    url[260]="https://notes.zhangxiaocai.cn";
+    url[261]="https://yufan.me";
 
 
     if (document.referrer) {
