@@ -32,7 +32,7 @@ function travelling(){
     url[28]="https://travellings.now.sh/assets/rip.html";
     url[29]="https://feiliwuyan.com";
     url[30]="https://www.m78.co";
-    url[31]="https://travellings.now.sh/assets/rip.html";
+    url[31]="https://icheung.net";
     url[32]="https://www.sitstars.com";
     url[33]="https://ionssource.cn";
     url[34]="https://travellings.now.sh/assets/rip.html";
@@ -43,7 +43,7 @@ function travelling(){
     url[39]="https://yuaneuro.cn";
     url[40]="https://travellings.now.sh/assets/rip.html";
     url[41]="https://krau.top";
-    url[42]="https://travellings.now.sh/assets/rip.html";
+    url[42]="https://wfblog.net";
     url[43]="https://travellings.now.sh/assets/rip.html";
     url[44]="https://blog.yilon.top";
     url[45]="https://travellings.now.sh/assets/rip.html";

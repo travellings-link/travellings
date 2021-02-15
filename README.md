@@ -126,6 +126,7 @@
 | 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
 | 30 | 侧栏 | 星云C馆 | https://www.m78.co |
+| 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
 | 35 | 侧栏 | 风也温柔 | https://blog.kaygb.com |
@@ -134,6 +135,7 @@
 | 38 | 顶部 | Eltrac's Track | https://blog.guhub.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
+| 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
 | 44 | 顶栏 | 风吟 | https://blog.yilon.top |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://blog.713.moe |
@@ -356,35 +358,33 @@
 
 | 序号 | 原因 | 名称 | 网址 |
 | --- | --- | --- | --- |
-| ~~5~~ | 待补充 | Emoticon | https://mQAQm.com |
-| ~~14~~ | 待补充 | Yuki Yuki | https://wp.remudaisuki.top |
-| ~~21~~ | 待补充 | Oasis's Blog | https://blog.imoasis.cn |
+| ~~5~~ | LOST | Emoticon | https://mQAQm.com |
+| ~~14~~ | LOST | Yuki Yuki | https://wp.remudaisuki.top |
+| ~~21~~ | LOST | Oasis's Blog | https://blog.imoasis.cn |
 | ~~28~~ | QUIT | lxxs的小屋 | https://lxxs.xyz |
-| ~~31~~ | 待补充 | Cheung | https://icheung.net |
-| ~~34~~ | Quit | Zi_Gao的小站 | https://blog.zigao.info |
-| ~~40~~ | Quit | Smilear's Blog | https://smilear.cn |
-| ~~42~~ | 待补充 | Weifeng's Blog | https://wfblog.net |
-| ~~43~~ | 待补充 | Nymane's Blog | https://www.nymane.xyz |
-| ~~45~~ | 待补充 | ajian | https://blog.ajian.online |
-| ~~54~~ | 待补充 | 王荣胜 | https://sqdxwz.top |
-| ~~55~~ | Quit | 自说自话 | https://rua.ink |
-| ~~58~~ | 待补充 | 摸鱼堂 | https://blog.moefishtang.xyz |
-| ~~60~~ | 待补充 | Ma's Blog | https://6773.ink |
-| ~~62~~ | 待补充 | 遇见孤独 | https://blog.aenjoy.cn |
-| ~~63~~ | 待补充 | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
-| ~~69~~ | 待补充 | xiadengmaのblog | https://blog.xiadengma.top |
-| ~~72~~ | 待补充 | 魏巍 | https://paperbox.xyz |
-| ~~80~~ | 待补充 | 德令哈 | https://www.deepwave.top |
-| ~~102~~ | 待补充 | 土豆和豌豆 | https://www.luxinzhangyun.top |
-| ~~116~~ | 待补充 | Guyi’s Blog | https://www.y2jq.com |
-| ~~119~~ | 待补充 | 九汐 | https://blog.lu-sky.com |
-| ~~138~~ | 待补充 | 满月技术君 | https://jishujun.com |
-| ~~141~~ | 待补充 | UTS | https://uts.ski |
-| ~~146~~ | 待补充 | 开心果个人博客 | https://zhw150.top |
-| ~~152~~ | 待补充 | Jim's Blog | https://www.iibaofu.cn |
-| ~~177~~ | 待补充 | Pootey's Blog | https://www.pootey.com |
-| ~~205~~ | 待补充 | 优速VPSUR测评 | https://vpsur.com |
-| ~~207~~ | 待补充 | 猫九大大のBlog | https://jianchengwang.info |
+| ~~34~~ | LOST | Zi_Gao的小站 | https://blog.zigao.info |
+| ~~40~~ | QUIT | Smilear's Blog | https://smilear.cn |
+| ~~43~~ | QUIT | Nymane's Blog | https://www.nymane.xyz |
+| ~~45~~ | LOST | ajian | https://blog.ajian.online |
+| ~~54~~ | LOST | 王荣胜 | https://sqdxwz.top |
+| ~~55~~ | QUIT | 自说自话 | https://rua.ink |
+| ~~58~~ | LOST | 摸鱼堂 | https://blog.moefishtang.xyz |
+| ~~60~~ | LOST | Ma's Blog | https://6773.ink |
+| ~~62~~ | LOST | 遇见孤独 | https://blog.aenjoy.cn |
+| ~~63~~ | SSL | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
+| ~~69~~ | LOST | xiadengmaのblog | https://blog.xiadengma.top |
+| ~~72~~ | SSL | 魏巍 | https://paperbox.xyz |
+| ~~80~~ | ERROR | 德令哈 | https://www.deepwave.top |
+| ~~102~~ | LOST | 土豆和豌豆 | https://www.luxinzhangyun.top |
+| ~~116~~ | LOST | Guyi’s Blog | https://www.y2jq.com |
+| ~~119~~ | SSL | 九汐 | https://blog.lu-sky.com |
+| ~~138~~ | LOST | 满月技术君 | https://jishujun.com |
+| ~~141~~ | SSL | UTS | https://uts.ski |
+| ~~146~~ | LOST | 开心果个人博客 | https://zhw150.top |
+| ~~152~~ | LOST | Jim's Blog | https://www.iibaofu.cn |
+| ~~177~~ | LOST | Pootey's Blog | https://www.pootey.com |
+| ~~205~~ | LOST | 优速VPSUR测评 | https://vpsur.com |
+| ~~207~~ | ERROR | 猫九大大のBlog | https://jianchengwang.info |
 
 ---
 
