@@ -257,6 +257,9 @@ function travelling(){
     url[253]="https://err0r.top";
     url[254]="https://www.ysazw.cn";
     url[255]="https://www.roaing.com";
+    url[256]="https://loliloli.moe";
+    url[257]="https://blog.iucky.cn";
+    url[258]="https://blog.7wate.com";
 
 
     if (document.referrer) {
