@@ -263,6 +263,15 @@ function travelling(){
     url[259]="https://www.wulinzeng.vip";
     url[260]="https://notes.zhangxiaocai.cn";
     url[261]="https://yufan.me";
+    url[262]="https://www.tonylsl.top";
+    url[263]="https://sciadv.mcseekeri.top";
+    url[264]="https://misakaloli.com";
+    url[265]="https://blog.stevelbr.top";
+    url[266]="https://www.fwder.cn";
+    url[267]="https://blog.toutop.cn";
+    url[268]="https://ghostsf.com";
+    url[269]="https://www.xiaobai666.top";
+    url[270]="https://www.moleft.cn";
 
 
     if (document.referrer) {
