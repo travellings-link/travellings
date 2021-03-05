@@ -14,19 +14,22 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="assets/travelling.js"></script>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>开往-友链接力</title>
     <link rel="shortcut icon" href="assets/favicon.png">
+    <script src="assets/travelling.js"></script>
 
     <style type="text/css">
         a {
             text-decoration: none
         }
+
         a {
             color: #515C6B;
         }
+
         .blink {
             animation: blink 3s linear infinite;
             -webkit-animation: blink 3s linear infinite;
@@ -34,241 +37,308 @@
             -ms-animation: blink 3s linear infinite;
             -o-animation: blink 3s linear infinite;
         }
+
         @keyframes blink {
             0% {
                 opacity: 0;
                 transform: scale(1);
             }
+
             20% {
                 opacity: 0;
                 transform: scale(1);
             }
+
             40% {
                 opacity: 0.3;
                 transform: scale(1);
             }
+
             80% {
                 opacity: 1;
                 transform: scale(0.98);
             }
+
             90% {
                 opacity: 1;
                 transform: scale(0.98);
             }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-moz-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-ms-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-        @-o-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
+
             100% {
                 opacity: 0.2;
                 transform: scale(1.2);
             }
         }
 
-        .botCenter{
-            width:100%; height:35px; line-height:35px;  position:fixed; bottom:2px; left:0px; font-size:12px; text-align:center;
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            20% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            20% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-ms-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            20% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-o-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            20% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            90% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        .botCenter {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            position: fixed;
+            bottom: 2px;
+            left: 0px;
+            font-size: 12px;
+            text-align: center;
             animation: botCenter 3s linear;
             -webkit-animation: botCenter 3s linear;
             -moz-animation: botCenter 3s linear;
             -ms-animation: botCenter 3s linear;
             -o-animation: botCenter 3s linear;
-            }
-            @keyframes botCenter {
+        }
+
+        @keyframes botCenter {
             0% {
                 opacity: 0;
             }
+
             20% {
                 opacity: 0;
             }
+
             40% {
                 opacity: 0.3;
             }
+
             80% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 opacity: 1;
             }
         }
+
         @-webkit-keyframes botCenter {
             0% {
                 opacity: 0;
             }
+
             20% {
                 opacity: 0;
             }
+
             40% {
                 opacity: 0.3;
             }
+
             80% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 opacity: 1;
             }
         }
+
         @-moz-keyframes botCenter {
             0% {
                 opacity: 0;
             }
+
             20% {
                 opacity: 0;
             }
+
             40% {
                 opacity: 0.3;
             }
+
             80% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 opacity: 1;
             }
         }
+
         @-ms-keyframes botCenter {
             0% {
                 opacity: 0;
             }
+
             20% {
                 opacity: 0;
             }
+
             40% {
                 opacity: 0.3;
             }
+
             80% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 opacity: 1;
             }
         }
+
         @-o-keyframes botCenter {
             0% {
                 opacity: 0;
             }
+
             20% {
                 opacity: 0;
             }
+
             40% {
                 opacity: 0.3;
             }
+
             80% {
                 opacity: 1;
             }
+
             90% {
                 opacity: 1;
             }
+
             100% {
                 opacity: 1;
             }
@@ -283,7 +353,9 @@
         <tbody>
             <tr>
                 <td valign="middle" align="center" class="blink">
-                    <a href="https://github.com/volfclub/travelling" target="blank" title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next world…</a>
+                    <a href="https://github.com/volfclub/travelling" target="blank"
+                        title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next
+                        world…</a>
                 </td>
             </tr>
         </tbody>
@@ -291,13 +363,14 @@
 
     <div class="botCenter">
         <a href="https://github.com/volfclub/travellings" target="_blank">🐺 Github</a>&nbsp;|&nbsp;
-        <a href="https://github.com/volfclub/travellings#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95" target="_blank">🧭 Index</a>&nbsp;|&nbsp;
-        <a href="https://travellings-status.now.sh/" target="_blank">🚇 Status-beta</a>
+        <a href="https://github.com/volfclub/travellings#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95" target="_blank">🚇
+            Index</a>
     </div>
- 
+
     <script language="javascript">
-        window.setTimeout("window.location.href='javascript:travelling()'",3000);
+        window.setTimeout("window.location.href='javascript:travelling()'", 3000);
     </script>
 
 </body>
+
 </html>
