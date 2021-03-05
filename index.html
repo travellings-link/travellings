@@ -11,6 +11,7 @@
 	
 -->
 
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -23,14 +24,19 @@
 
     <style type="text/css">
         a {
-            text-decoration: none
-        }
-
-        a {
             color: #515C6B;
+            text-decoration: none;
         }
 
         .blink {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: center;
             animation: blink 3s linear infinite;
             -webkit-animation: blink 3s linear infinite;
             -moz-animation: blink 3s linear infinite;
@@ -199,12 +205,11 @@
         }
 
         .botCenter {
+            position: fixed;
             width: 100%;
             height: 35px;
-            line-height: 35px;
-            position: fixed;
             bottom: 2px;
-            left: 0px;
+            line-height: 35px;
             font-size: 12px;
             text-align: center;
             animation: botCenter 3s linear;
@@ -349,17 +354,13 @@
 
 <body>
 
-    <table width="100%" height="100%" cellpadding="0" cellspacing="0">
-        <tbody>
-            <tr>
-                <td valign="middle" align="center" class="blink">
-                    <a href="https://github.com/volfclub/travelling" target="blank"
-                        title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next
-                        world…</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+    <div class="blink">
+        <a href="https://github.com/volfclub/travelling" target="blank"
+            title="点击加入“开往”，分享网站流量 :-)">欢迎，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome, travelling to the next
+            world…</a>
+    </div>
+
 
     <div class="botCenter">
         <a href="https://github.com/volfclub/travellings" target="_blank">🐺 Github</a>&nbsp;|&nbsp;
