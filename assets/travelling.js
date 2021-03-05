@@ -276,7 +276,9 @@ function travelling(){
 
     if (document.referrer) {
       var origin = new URL(document.referrer).origin;
-      url.splice(url.indexOf(origin), 1);
+      if (url.includes(origin)) {
+          url.splice(url.indexOf(origin), 1);
+      }
     }
     
     
