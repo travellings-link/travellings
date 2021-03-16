@@ -89,6 +89,8 @@
 
 - `https://volfclub.github.io/travellings`
 
+- BETA `https://travellings.pages.dev`
+
 - `https://travellings.netlify.com`
 
 ---
