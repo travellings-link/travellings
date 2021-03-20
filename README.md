@@ -39,6 +39,8 @@
   - 深色 PNG：`https://travellings.now.sh/assets/b.png`
   - 浅色 PNG：`https://travellings.now.sh/assets/w.png`
   - 方形 PNG：`https://travellings.now.sh/assets/travelling.png`
+  - 方深 PNG：`https://travellings.now.sh/assets/travelling-dark.png`
+  - 方浅 PNG：`https://travellings.now.sh/assets/travelling-light.png`
   - 矢量 SVG：`https://travellings.now.sh/assets/logo.svg`
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
