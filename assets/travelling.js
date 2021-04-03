@@ -272,7 +272,39 @@ function travelling() {
   url[268] = "https://ghostsf.com";
   url[269] = "https://www.xiaobai666.top";
   url[270] = "https://www.moleft.cn";
-  url[271] = "https://github.com/volfclub/travelling";
+  url[271] = "https://crash-logs.cn";
+  url[272] = "https://blog.moeworld.tech";
+  url[273] = "https://blog.lzlz.site";
+  url[274] = "https://sakurai.in";
+  url[275] = "https://beelake.github.io";
+  url[276] = "https://blog.lenrome.cn";
+  url[277] = "https://caviar-x.top";
+  url[278] = "https://irr.ink";
+  url[279] = "https://blog.ljcbaby.top";
+  url[280] = "https://www.flagg.cn";
+  url[281] = "https://www.aigeek.top";
+  url[282] = "https://foolishfox.cn";
+  url[283] = "https://jin-yuhan.github.io";
+  url[284] = "https://goopher.tk";
+  url[285] = "https://www.chriskim.cn";
+  url[286] = "https://www.shuiao.top";
+  url[287] = "https://exploro.one";
+  url[288] = "https://syjun.vip";
+  url[289] = "https://blog.nocsi.xyz";
+  url[290] = "https://blog.bugcola.com/note";
+  url[291] = "https://www.debuginn.cn";
+  url[292] = "https://linzeyin.github.io";
+  url[293] = "https://blog.jerryiweb.com";
+  url[294] = "https://www.niuwx.cn";
+  url[295] = "https://www.bangkaixin.com";
+  url[296] = "https://hacbox.me";
+  url[297] = "https://www.limina.top";
+  url[298] = "https://lxh2006.tk";
+  url[299] = "https://blog.southfox.tk";
+  url[300] = "https://zebwq.top";
+  url[301] = "https://imcys.com";
+  url[302] = "https://xiwangly.top";
+  url[303] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
