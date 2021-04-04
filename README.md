@@ -147,7 +147,7 @@
 | 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
 | 50 | 侧栏* | CORE | https://core.moe |
 | 51 | 侧栏 | solar'blog | https://www.solarme.vip |
-| 52 | 侧栏 | SpinTouch's Something | https://spblog.tk |
+| 52 | 侧栏 | SpinTouch's Something | https://spinblog.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 57 | 顶栏 | 蝶恋花 | https://kylin.dev |
