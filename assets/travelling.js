@@ -53,7 +53,7 @@ function travelling() {
   url[49] = "https://dpii.club";
   url[50] = "https://core.moe";
   url[51] = "https://www.solarme.vip";
-  url[52] = "https://spblog.tk";
+  url[52] = "https://spinblog.tk";
   url[53] = "https://www.lin03.cn";
   url[54] = "https://travellings.now.sh/assets/rip.html";
   url[55] = "https://travellings.now.sh/assets/rip.html";
@@ -89,7 +89,7 @@ function travelling() {
   url[85] = "https://takuron.top";
   url[86] = "https://dlizi.com";
   url[87] = "https://www.wasabi.fun";
-  url[88] = "https://yingserver.cn";
+  url[88] = "https://blog.luvying.com";
   url[89] = "https://www.fzxx.xyz";
   url[90] = "https://noheart.cn";
   url[91] = "https://www.addesp.com";
@@ -148,7 +148,7 @@ function travelling() {
   url[144] = "https://shoka.lostyu.me";
   url[145] = "https://rain.moimo.me";
   url[146] = "https://travellings.now.sh/assets/rip.html";
-  url[147] = "https://jsong.cn";
+  url[147] = "https://jsongx.com";
   url[148] = "https://www.kiritoghy.cn";
   url[149] = "https://www.cnblogs.com/borber";
   url[150] = "https://neroasmar.top";
