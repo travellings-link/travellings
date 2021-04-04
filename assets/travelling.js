@@ -304,7 +304,9 @@ function travelling() {
   url[300] = "https://zebwq.top";
   url[301] = "https://imcys.com";
   url[302] = "https://xiwangly.top";
-  url[303] = "https://github.com/volfclub/travelling";
+  url[303] = "https://blog.itsse.cn";
+  url[304] = "https://www.gatesx.cn";
+  url[305] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {

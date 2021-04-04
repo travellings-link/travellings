@@ -388,6 +388,8 @@
 | 300 | 顶栏 | Hello! I’m 中二病晚期 | https://zebwq.top |
 | 301 | 侧栏* | 萌新杰少の秘密基地 | https://imcys.com |
 | 302 | 顶栏 | 希望的博客 | https://xiwangly.top |
+| 303 | 中心 | WishMeLz | https://blog.itsse.cn |
+| 304 | 侧栏 | GATESX博客 | https://www.gatesx.cn |
 
 
 ---
