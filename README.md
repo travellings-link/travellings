@@ -45,7 +45,7 @@
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
 ```
-<a href="https://travellings.now.sh/" target="_blank" title="开往-友链接力">
+<a href="https://travellings.now.sh/" target="_blank" rel="noopener" title="开往-友链接力">
     <img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
 ```
