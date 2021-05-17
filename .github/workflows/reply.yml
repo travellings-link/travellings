@@ -8,14 +8,14 @@ jobs:
   reply-helper:
     runs-on: ubuntu-latest
     steps:
-      - name: help wanted
-        if: github.event.label.name == 'help wanted'
+      - name: out vercel
+        if: github.event.label.name == 'out vercel'
         uses: actions-cool/issues-helper@v2.0.0
         with:
           actions: 'create-comment'
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Hello @${{ github.event.issue.user.login }}. We totally like your proposal/feedback, welcome PR。
-
-            你好 @${{ github.event.issue.user.login }}，我们完全同意你的提议/反馈，欢迎PR。
+            💥 抱歉 @${{ github.event.issue.user.login }}，由于不可抗力（https://www.vercel-status.com/incidents/r758bhbklgfd）导致 Travelling 在国内访问变得“艰难”，我们不得不放弃 Vercel 。
+            请尽快将您网站 Travelling 指向的域名，从【travellings.now.sh】修改为【xxxxx】，后续也会重定向于此，谢谢。
+            如需任何帮助，请回复本 issue，而非此条回复（本回复来自 bot）。
