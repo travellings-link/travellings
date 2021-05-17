@@ -16,6 +16,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            💥 抱歉 @${{ github.event.issue.user.login }}，由于不可抗力（https://www.vercel-status.com/incidents/r758bhbklgfd）导致 Travelling 在国内访问变得“艰难”，我们不得不放弃 Vercel 。
+            💥 抱歉 @${{ github.event.issue.user.login }}，由于不可抗力（ https://www.vercel-status.com/incidents/r758bhbklgfd ）导致 Travelling 在国内访问变得“艰难”，我们不得不放弃 Vercel 。
             请尽快将您网站 Travelling 指向的域名，从【travellings.now.sh】修改为【xxxxx】，后续也会重定向于此，谢谢。
-            如需任何帮助，请回复本 issue，而非此条回复（本回复来自 bot）。
+            
+            如需任何帮助，请回复此 issue，而非本条回复（本条回复来自 bot）。
