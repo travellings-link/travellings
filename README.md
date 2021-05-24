@@ -45,6 +45,7 @@
   - 方浅 PNG：`https://travellings.link/assets/travelling-light.png`
   - 矢量 SVG：`https://travellings.link/assets/logo.svg`
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
+  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://travellings.link/assets/` 替换为 `https://cdn.jsdelivr.net/gh/volfclub/travellings@12.0/assets/` 。
 
 ```
 <a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
@@ -475,7 +476,7 @@ A：安全，不侵犯隐私。
 
 全部 https 抗劫持；开源**无统计代码***，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
 
-> 2021年5月25日更新：事实上，由于 Travelling 现在使用 Cloudflare Page 托管加速，我们可在**无统计代码**的情况下（不会使用 Cookies 或数字指纹等其他跟踪技术，有别于某些广告驱动的公司），**大致上的**了解 Travelling 的使用情况（如 Traveling 页面的访问量） —— Cloudflare 向您承诺**隐私第一**（Privacy First） —— [“Our analytics are non-invasive and respect the privacy of your visitors.”](https://www.cloudflare.com/zh-cn/web-analytics/)
+> 2021年5月25日更新：事实上，由于 Travelling 现在使用 Cloudflare Page 托管加速，我们在**无统计代码**的情况下（不会使用 Cookies 或 数字指纹 等其他跟踪技术，有别于某些广告驱动的公司及其服务），可**大致模糊的**了解 Travelling 的使用情况（如 Travelling 页面的访问量） —— Cloudflare 向您承诺**隐私第一**（Privacy First） —— [“Our analytics are non-invasive and respect the privacy of your visitors.”](https://www.cloudflare.com/zh-cn/web-analytics/)
 
 ### Q：开往给站长和访客带来了什么？
 
