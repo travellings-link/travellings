@@ -4,7 +4,9 @@
 
 想法来自 https://github.com/XXIIVV/webring
 
-> 🔔 **请留意**： 如您在用 Font Awesome ，推荐将开往更换为 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；如需 Emoji，推荐 `🚇`。logo  徽标素材已更新，如您自行托管了徽标，可在 assets 文件夹里找到新的版本。
+> 💥 **重要**： 由于不可抗的原因，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+
+> 🔔 **留意**： 如您在用 Font Awesome ，推荐将开往更换为 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；如需 Emoji，推荐 `🚇`。logo  徽标素材已更新，如您自行托管了徽标，可在 assets 文件夹里找到新的版本。
 
 ## 使用说明
 
@@ -14,7 +16,7 @@
 
 “ 网页E → 开往 → 网页X → 开往 → 网页A → 开往 → 网页M → 开往 → 网页P → 开往 → 网页L → 开往 → 网页E … ”
 
-![example](https://travellings.now.sh/assets/logo.gif)
+![example](https://travellings.link/assets/logo.gif)
 
 > ✨ 新 logo 灵感：代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。
 
@@ -30,23 +32,23 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-- **最佳实践**：将 `开往` 的外链（`https://travellings.now.sh`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
+- **最佳实践**：将 `开往` 的外链（`https://travellings.link`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
   - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
 - **额外可选**：将开往的徽标放到您的底部或其他位置，表示对开往的支持：
-  - 动图 GIF：`https://travellings.now.sh/assets/logo.gif`
-  - 深色 PNG：`https://travellings.now.sh/assets/b.png`
-  - 浅色 PNG：`https://travellings.now.sh/assets/w.png`
-  - 方形 PNG：`https://travellings.now.sh/assets/travelling.png`
-  - 方深 PNG：`https://travellings.now.sh/assets/travelling-dark.png`
-  - 方浅 PNG：`https://travellings.now.sh/assets/travelling-light.png`
-  - 矢量 SVG：`https://travellings.now.sh/assets/logo.svg`
+  - 动图 GIF：`https://travellings.link/assets/logo.gif`
+  - 深色 PNG：`https://travellings.link/assets/b.png`
+  - 浅色 PNG：`https://travellings.link/assets/w.png`
+  - 方形 PNG：`https://travellings.link/assets/travelling.png`
+  - 方深 PNG：`https://travellings.link/assets/travelling-dark.png`
+  - 方浅 PNG：`https://travellings.link/assets/travelling-light.png`
+  - 矢量 SVG：`https://travellings.link/assets/logo.svg`
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
 ```
-<a href="https://travellings.now.sh/" target="_blank" rel="noopener" title="开往-友链接力">
-    <img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120">
+<a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
+    <img src="https://travellings.link/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
 ```
 
@@ -56,11 +58,11 @@
 
 - 顶部放置开往外链（必要），侧栏放置开往徽标（可选）；
 
-![example1](https://travellings.now.sh/assets/example1.png)
+![example1](https://travellings.link/assets/example1.png)
 
 - 侧栏放置开往外链（必要），底部放置开往的徽标（可选）；
 
-![example2](https://travellings.now.sh/assets/example2.png)
+![example2](https://travellings.link/assets/example2.png)
 
 ### 3. 提个 issue，等待审核通过（每月维护一次左右）。
 
@@ -91,9 +93,11 @@
 
 - `https://volfclub.github.io/travellings`
 
-- BETA `https://travellings.pages.dev`
+- `https://travellings.pages.dev`
 
 - `https://travellings.netlify.com`
+
+- [不推荐](https://www.vercel-status.com/incidents/r758bhbklgfd) `https://travellings.vercel.app`
 
 ---
 
@@ -469,7 +473,9 @@ A：**理论上会**。
 
 A：安全，不侵犯隐私。
 
-全部 https 抗劫持；开源无统计代码，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
+全部 https 抗劫持；开源**无统计代码***，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
+
+> 2021年5月25日更新：事实上，由于 Travelling 现在使用 Cloudflare Page 托管加速，我们可在**无统计代码**的情况下（不会使用 Cookies 或数字指纹等其他跟踪技术，有别于某些广告驱动的公司），**大致上的**了解 Travelling 的使用情况（如 Traveling 页面的访问量） —— Cloudflare 向您承诺**隐私第一**（Privacy First） —— [“Our analytics are non-invasive and respect the privacy of your visitors.”](https://www.cloudflare.com/zh-cn/web-analytics/)
 
 ### Q：开往给站长和访客带来了什么？
 
