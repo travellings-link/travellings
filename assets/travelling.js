@@ -306,7 +306,13 @@ function travelling() {
   url[302] = "https://xiwangly.top";
   url[303] = "https://blog.itsse.cn";
   url[304] = "https://www.gatesx.cn";
-  url[305] = "https://github.com/volfclub/travelling";
+  url[305] = "https://www.hzq.life";
+  url[306] = "https://cayzlh.com";
+  url[307] = "https://blog.garryde.com";
+  url[308] = "https://blog.thiefship.com";
+  url[309] = "https://eritque-arcus.tech";
+
+  url[310] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
