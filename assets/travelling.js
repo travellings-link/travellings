@@ -234,7 +234,7 @@ function travelling() {
   url[230] = "https://www.yidiankuaile.com";
   url[231] = "https://blog.angustar.com";
   url[232] = "https://blog.shiertx.com";
-  url[233] = "https://blog.moyi.ml";
+  url[233] = "https://blog.nekomoyi.com";
   url[234] = "https://www.yotroy.cool";
   url[235] = "https://luosw.fun";
   url[236] = "https://imszz.com";
@@ -286,11 +286,11 @@ function travelling() {
   url[282] = "https://foolishfox.cn";
   url[283] = "https://jin-yuhan.github.io";
   url[284] = "https://goopher.tk";
-  url[285] = "https://www.chriskim.cn";
+  url[285] = "https://www.zouht.com";
   url[286] = "https://www.shuiao.top";
   url[287] = "https://exploro.one";
   url[288] = "https://syjun.vip";
-  url[289] = "https://blog.nocsi.xyz";
+  url[289] = "https://www.rsnocsi.cn";
   url[290] = "https://blog.bugcola.com/note";
   url[291] = "https://www.debuginn.cn";
   url[292] = "https://linzeyin.github.io";
@@ -311,8 +311,27 @@ function travelling() {
   url[307] = "https://blog.garryde.com";
   url[308] = "https://blog.thiefship.com";
   url[309] = "https://eritque-arcus.tech";
+  url[310] = "https://www.kirito41dd.cn";
+  url[311] = "https://blog.imzy.ink";
+  url[312] = "https://www.jianziruw.com";
+  url[313] = "https://www.moeor.com";
+  url[314] = "https://sangxuesheng.com";
+  url[315] = "https://www.nfxwblog.com";
+  url[316] = "https://muspace.top";
+  url[317] = "https://wangdabao.js.cool";
+  url[318] = "https://xeblog.cn";
+  url[319] = "https://blog.error.work";
+  url[320] = "https://uyoahz.cn";
+  url[321] = "https://iamazing.cn";
+  url[322] = "https://zisu.dev";
+  url[323] = "https://blog.revincx.icu";
+  url[324] = "https://blog.badapple.pro";
+  url[325] = "https://www.xuanzhi33.cn";
+  url[326] = "https://xzy.one";
+  url[327] = "https://www.ariels.xyz";
 
-  url[310] = "https://github.com/volfclub/travelling";
+
+  url[328] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
