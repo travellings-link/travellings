@@ -154,7 +154,7 @@ function travelling() {
   url[150] = "https://neroasmar.top";
   url[151] = "https://loafing.cn";
   url[152] = "https://travellings.now.sh/assets/rip.html";
-  url[153] = "https://loafing.cn";
+  url[153] = "https://travellings.now.sh/assets/rip.html";
   url[154] = "https://blog.coor.top";
   url[155] = "https://xd.sh.cn";
   url[156] = "https://realmicah.xyz";
@@ -329,9 +329,23 @@ function travelling() {
   url[325] = "https://www.xuanzhi33.cn";
   url[326] = "https://xzy.one";
   url[327] = "https://www.ariels.xyz";
+  url[328] = "https://www.amazingk.cn";
+  url[329] = "https://asuko.icu";
+  url[330] = "https://www.godapex.com";
+  url[331] = "https://blog.gztime.cc";
+  url[332] = "https://tir.cool";
+  url[333] = "https://sakurasep.club";
+  url[334] = "https://ihkk.net";
+  url[335] = "https://www.zhw150.top";
+  url[336] = "https://bbing.com.cn";
+  url[337] = "https://lewky.cn";
+  url[338] = "https://cusalt.com";
+  url[339] = "https://www.wenchong.space";
+  url[340] = "https://www.cxl2020mc.top";
+  url[341] = "https://www.kawashiros.club";
 
 
-  url[328] = "https://github.com/volfclub/travelling";
+  url[342] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
