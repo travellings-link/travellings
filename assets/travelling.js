@@ -343,9 +343,38 @@ function travelling() {
   url[339] = "https://www.wenchong.space";
   url[340] = "https://www.cxl2020mc.top";
   url[341] = "https://www.kawashiros.club";
+  url[342]="https://blog.laugh12321.cn";
+  url[343]="https://xiaolii.com";
+  url[344]="https://www.996workers.icu";
+  url[345]="https://blog.moyok.xyz";
+  url[346]="https://www.hicool.icu";
+  url[347]="https://blog.adworld.top";
+  url[348]="https://blog.libw.cc";
+  url[349]="https://blog.icecliffs.cn";
+  url[350]="https://here.sy";
+  url[351]="https://shuxhan.com";
+  url[352]="https://jokerdig.com";
+  url[353]="https://www.morcat.cn";
+  url[354]="https://ldo.one";
+  url[355]="https://katcloud.cn";
+  url[356]="https://wangquanguo.life";
+  url[357]="https://blog.lovem.fun";
+  url[358]="https://imxxz.cn";
+  url[359]="https://blog.y7n05h.xyz";
+  url[360]="https://www.chenmx.net";
+  url[361]="https://www.rz.sb";
+  url[362]="https://chuxjian.asia";
+  url[363]="https://www.cbxg.icu";
+  url[364]="https://wiki.eryajf.net";
+  url[365]="https://back2me.cn";
+  url[366]="https://totoro.site";
+  url[367]="https://blog.thun888.xyz";
+  url[368]="https://blog.skihome.xyz";
+  url[369]="https://cairbin.top";
+  url[370]="https://blog.lxscloud.top";
 
 
-  url[342] = "https://github.com/volfclub/travelling";
+  url[371] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {

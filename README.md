@@ -434,6 +434,35 @@
 | 339 | 顶栏 | 雨中的博客 | https://www.wenchong.space |
 | 340 | 顶栏 | 陈鑫磊的博客 | https://www.cxl2020mc.top |
 | 341 | 顶栏 | 冻符「Minus-K」 | https://www.kawashiros.club |
+| 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
+| 343 | 中心 | 小理的小窝 | https://xiaolii.com |
+| 344 | 顶栏 | 996 worker's ICU | https://www.996workers.icu |
+| 345 | 顶栏 | Moyok的小屋 | https://blog.moyok.xyz |
+| 346 | 顶栏 | Hicool嗨酷 | https://www.hicool.icu |
+| 347 | 侧栏 | 云梦 ╮不浅の部落阁 | https://blog.adworld.top |
+| 348 | 顶栏 | 李本伟的博客 | https://blog.libw.cc |
+| 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.cn |
+| 350 | 顶栏 | 人人都是艺术家 | https://here.sy |
+| 351 | 顶栏 | 求索日记 | https://shuxhan.com |
+| 352 | 顶栏 | Hey,Joker | https://jokerdig.com |
+| 353 | 顶栏 | Morcat Blog | https://www.morcat.cn |
+| 354 | 中心 | ldo's blog | https://ldo.one |
+| 355 | 顶栏 | KatCloud | https://katcloud.cn |
+| 356 | 顶栏 | 温华的博客 | https://wangquanguo.life |
+| 357 | 顶栏 | 进击的学霸的博客 | https://blog.lovem.fun | 
+| 358 | 顶栏 | 森木志 | https://imxxz.cn |
+| 359 | 顶栏 | Y7n05h 技术分享 | https://blog.y7n05h.xyz |
+| 360 | 顶栏 | 晓果冻 | https://www.chenmx.net | 
+| 361 | 顶栏 | 若志随笔 | https://www.rz.sb |
+| 362 | 顶栏 | 初 x 见 | https://chuxjian.asia |
+| 363 | 顶栏 | 城北徐公 | https://www.cbxg.icu |
+| 364 | 顶栏 | 二丫讲梵 | https://wiki.eryajf.net |
+| 365 | 顶栏 | liuliのsite | https://back2me.cn |
+| 366 | 侧栏 | totoro & home | https://totoro.site |
+| 367 | 侧栏 | Thun888 | https://blog.thun888.xyz |
+| 368 | 侧栏 | Sakitami的集装箱 | https://blog.skihome.xyz |
+| 369 | 顶栏 | CairBin's Blog | https://cairbin.top |
+| 370 | 顶栏 | Savant's Blog |  https://blog.lxscloud.top | 
 
 
 
@@ -445,7 +474,7 @@
 
 如误处理或已修复问题，请提个 issue 吧，我们会尽快处理。常见的原因如下：
 - **LOST**：网页国内打不开或网址解析失败；
-- **SSL**：SLL 证书配置错误，或未启用 https；
+- **SSL**：SSL 证书配置错误，或未启用 https；
 - **ERROR**：网页显示服务器或 CDN 报错信息；
 - **BROKEN**：网页存在明显异常如 CSS 丢失等错误；
 - **QUIT**：网页看不到“开往”了，或已申请退出；
