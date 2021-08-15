@@ -6,9 +6,12 @@
 
 > 💥 **重要**： 由于不可抗的原因，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
 
+> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网站 —— 均已处理。
+
 > 🔔 **留意**： 如您在用 Font Awesome ，推荐将开往更换为 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；如需 Emoji，推荐 `🚇`。logo  徽标素材已更新，如您自行托管了徽标，可在 assets 文件夹里找到新的版本。
 
-> ☕ **感谢**：特别感谢 @LEORChn @caibingcheng @ljcbaby ，反馈了一些存在问题的网站 —— 均已处理。
+> 🔔 **留意**： 选购域名时，您应注意它的**续费价格**。某些域名第一年可能只要2美刀，第二年续费就会暴涨到10美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 https://github.com/volfclub/travellings/issues/566，不妨一开始就做好准备。
+
 
 ## 使用说明
 
