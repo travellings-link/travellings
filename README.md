@@ -4,7 +4,7 @@
 
 想法来自 https://github.com/XXIIVV/webring
 
-> 💥 **重要**： 由于不可抗的原因，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网站 —— 均已得到处理。
 
@@ -39,7 +39,7 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-> 💥 **重要**： 由于不可抗的原因，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
 - **最佳实践**：将 `开往` 的外链（`https://travellings.link`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
