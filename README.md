@@ -5,6 +5,7 @@
 
 ### 更新说明：
 - 新增 30+ 网页，维护 40+ 网页；
+- 新增技巧提示“后退网页可再次开往”；
 - 试运行[状态页](https://volfclub.github.io/travellings-upptime/)，自动寻找可能失效的网页；
 - 旧域名 `now.sh` 将看到更新提醒，并重定向到新域名；
 - 微调开往页面样式与文案（Welcome → Welcome back）；
