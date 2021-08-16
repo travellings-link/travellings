@@ -1,17 +1,21 @@
-# 开往-友链接力 1.3
+# 开往-友链接力 v1.3-琥珀
 
 > 一群狼走得远……
 
+
+### 更新说明：
+- 新增 30+ 网页，维护 40+ 网页；
+- 试运行[状态页](https://volfclub.github.io/travellings-upptime/)，自动寻找可能失效的网页；
+- 旧域名 `now.sh` 将看到更新提醒，并重定向到新域名；
+- 微调开往页面样式与文案（Welcome → Welcome back）；
+
+---
+
 想法来自 https://github.com/XXIIVV/webring
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
 
-> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网站 —— 均已得到处理。
-
-> 🔔 **留意**： 如您在用 Font Awesome ，推荐将开往更换为 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；如需 Emoji，推荐 `🚇`。logo  徽标素材已更新，如您自行托管了徽标，可在 assets 文件夹里找到新的版本。
-
-> 🔔 **留意**： 选购域名时，您应注意它的**续费价格**。某些域名第一年可能只要2美刀，第二年续费就会暴涨到10美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/volfclub/travellings/issues/566) ，不妨一开始就做好准备。 
-
+> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。 
 
 ## 使用说明
 
@@ -39,7 +43,7 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网站 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
 - **最佳实践**：将 `开往` 的外链（`https://travellings.link`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
@@ -452,7 +456,7 @@
 
 ---
 
-## 下线列表 🔥
+## 下线列表 ♻️
 
 如误处理或已修复问题，请提个 issue 吧，我们会尽快处理。常见的原因如下：
 - **LOST**：网页国内打不开或网址解析失败；
@@ -583,7 +587,7 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 您也可在域名到期前尽早的设置重定向，开往也会在维护中注意到并更正网址。
 
-> 💡 购买域名时不要只注意是否便宜，还要注意**续费**的价格。
+> 💡 选购域名时，您应注意它的**续费价格**。某些域名第一年可能只要2美刀，第二年续费就会暴涨到10美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/volfclub/travellings/issues/566) ，不妨一开始就做好准备。
 
 ### Q：举报问题网页或退出开往？
 
