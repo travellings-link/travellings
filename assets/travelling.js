@@ -377,9 +377,18 @@ function travelling() {
   url[372]="https://lemonx.cn";
   url[373]="https://cry33.com";
   url[374]="https://rssblog.cn";
+  url[375]="https://bamboomc.cn";
+  url[376]="https://blog.mcxiaolan.top";
+  url[377]="https://www.utopiaxc.cn";
+  url[378]="https://blog.owwee.top";
+  url[379]="https://www.linlinzzo.top";
+  url[380]="https://chenhe.me";
+  url[381]="https://oiermikec.fun";
+  url[382]="https://moe.tips";
+  url[383]="https://www.chenxublog.com";
+  url[384]="https://jkkoi.top";
 
-
-  url[375] = "https://github.com/volfclub/travelling";
+  url[385] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
