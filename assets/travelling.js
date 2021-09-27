@@ -387,8 +387,9 @@ function travelling() {
   url[382]="https://moe.tips";
   url[383]="https://www.chenxublog.com";
   url[384]="https://jkkoi.top";
+  url[385]="https://inote.xyz";
 
-  url[385] = "https://github.com/volfclub/travelling";
+  url[386] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
