@@ -387,8 +387,32 @@ function travelling() {
   url[382]="https://moe.tips";
   url[383]="https://www.chenxublog.com";
   url[384]="https://jkkoi.top";
+  url[385]="https://www.sanshuifeibing.com";
+  url[386]="https://longtao.fun";
+  url[387]="https://blog.guangsudalao.top";
+  url[388]="https://yleave.top";
+  url[389]="https://www.nongyanxia.cn";
+  url[390]="https://blog.czqu.ren";
+  url[391]="https://blog.lemonct.xyz";
+  url[392]="https://moe233.net";
+  url[393]="https://www.throwx.cn";
+  url[394]="https://scottyeung.top";
+  url[395]="https://kk.hackerjk.top";
+  url[396]="https://www.mishi23.com";
+  url[397]="https://nai.si";
+  url[398]="https://www.ohyee.cc";
+  url[399]="https://szx.life";
+  url[400]="https://lifeni.life";
+  url[401]="https://pzwd.net";
+  url[402]="https://bntx.ml";
+  url[403]="https://blog.iqia.top";
+  url[404]=rip_url;
+  url[405]="https://wr0926.ml";
+  url[406]="https://blog.gd1214b.icu";
+  url[407]="https://chukogals.top";
+  url[408]="https://www.thyuu.com";
 
-  url[385] = "https://github.com/volfclub/travelling";
+  url[409] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
