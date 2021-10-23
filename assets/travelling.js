@@ -411,8 +411,15 @@ function travelling() {
   url[406]="https://blog.gd1214b.icu";
   url[407]="https://chukogals.top";
   url[408]="https://www.thyuu.com";
+  url[409]="https://baipin.pw";
+  url[410]="https://cat.dorcandy.cn";
+  url[411]="https://blog.luyaoguagua.top";
+  url[412]="https://blog.pai233.top";
+  url[413]="https://xding.top";
+  url[414]="https://iooo.top";
+  url[415]="https://www.manshaoco.com";
 
-  url[409] = "https://github.com/volfclub/travelling";
+  url[416] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {

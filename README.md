@@ -86,7 +86,7 @@
 💡 常见的可能导致审核失败的原因：
 
 - ⛔ 只在网页底部放置开往，或把开往放到了默认收起的的菜单中 —— ✅ 推荐放在顶栏侧栏等打开网页就能看到的地方，便于访客看到并点击；
-- ⛔ 网页没有启用 https —— ✅ 开启强制 https（有很多免费的途径，如面板一键开启，静态网页可试试 Vercel 托管等）；
+- ⛔ 网页没有启用 https —— ✅ 开启强制 https（有很多免费的途径，如面板一键开启等）；
 - ⛔ 网页上的内容过少，如博文只有几篇 —— ✅ 内容更新充盈后再来申请试试。
 
 ---
@@ -484,8 +484,13 @@
 | 406 | 侧栏 | gd1214b's blog | https://blog.gd1214b.icu |
 | 407 | 侧栏 | 中古美少女计划 | https://chukogals.top |
 | 408 | 顶栏 | 风记星辰 | https://www.thyuu.com |
-
-
+| 409 | 顶栏 | 百品工作室 | https://baipin.pw |
+| 410 | 顶栏 | 火喵博客 | https://cat.dorcandy.cn |
+| 411 | 顶栏 | 陆尧顶瓜瓜 | https://blog.luyaoguagua.top |
+| 412 | 侧栏 | pai233の小窝 | https://blog.pai233.top |
+| 413 | 顶栏 | 小丁的博客 | https://xding.top |
+| 414 | 侧栏 | 哎哟 iooo | https://iooo.top |
+| 415 | 顶栏 | 喃小柯站 | https://www.manshaoco.com |
 
 
 ---
