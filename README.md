@@ -1,4 +1,4 @@
-# 开往-友链接力 v1.3-琥珀
+# 开往-友链接力 v1.4-Brave cat
 
 > 一群狼走得远……
 
@@ -6,19 +6,16 @@
 
 
 ### 更新说明：
-- 新增 30+ 网页，维护 40+ 网页；
-- 新增技巧提示“后退网页可再次开往”；
-- 试运行[状态页](https://volfclub.github.io/travellings-upptime/)，自动寻找可能失效的网页；
-- 旧域名 `now.sh` 将看到更新提醒，并重定向到新域名；
-- 微调开往页面样式与文案（Welcome → Welcome back）；
-
+- 新增 30+ 网页，维护 30+ 网页；
+- 调整了“申请收录”的 issues 模板；
+- 新增了相似项目推荐；
 ---
 
 想法来自 https://github.com/XXIIVV/webring
 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
 
-> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，[YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [ScarletDor](https://github.com/ScarletDor) [Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
+> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，[@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
 ## 使用说明
 
@@ -630,7 +627,7 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 您也可在域名到期前尽早的设置重定向，开往也会在维护中注意到并更正网址。
 
-> 💡 选购域名时，您应注意它的**续费价格**。某些域名第一年可能只要2美刀，第二年续费就会暴涨到10美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/volfclub/travellings/issues/566) ，不妨一开始就做好准备。
+> 💡 选购域名时，您应注意它的**续费价格**。某些域名，如 `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, sapce, fun` ，第二年续费就会暴涨到15美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/volfclub/travellings/issues/566) ，不妨一开始就做好准备。
 
 ### Q：举报问题网页或退出开往？
 
