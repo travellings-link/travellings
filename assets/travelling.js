@@ -418,8 +418,9 @@ function travelling() {
   url[413]="https://xding.top";
   url[414]="https://iooo.top";
   url[415]="https://www.manshaoco.com";
+  url[416]="https://www.elliot98.top";
 
-  url[416] = "https://github.com/volfclub/travelling";
+  url[417] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
