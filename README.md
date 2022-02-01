@@ -402,7 +402,7 @@
 | 346 | 顶栏 | Hicool嗨酷 | https://www.hicool.icu |
 | 347 | 侧栏 | 云梦 ╮不浅の部落阁 | https://blog.adworld.top |
 | 348 | 顶栏 | 李本伟的博客 | https://blog.libw.cc |
-| 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.cn |
+| 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.me/ |
 | 350 | 顶栏 | 人人都是艺术家 | https://here.sy |
 | 351 | 顶栏 | 求索日记 | https://shuxhan.com |
 | 352 | 顶栏 | Hey,Joker | https://jokerdig.com |
