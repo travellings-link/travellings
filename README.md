@@ -393,7 +393,7 @@
 | 334 | 顶栏 | HKK's Diary | https://ihkk.net |
 | 336 | 顶栏 | BBing's Blog | https://bbing.com.cn |
 | 337 | 顶栏 | 雨临Lewis的博客 | https://lewky.cn |
-| 339 | 顶栏 | 雨中的博客 | https://www.wenchong.space |
+| 339 | 顶栏 | 雨中的博客 | https://blog.coolchong.cn |
 | 340 | 顶栏 | 陈鑫磊的博客 | https://www.cxl2020mc.top |
 | 341 | 顶栏 | 冻符「Minus-K」 | https://www.kawashiros.club |
 | 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
@@ -445,7 +445,7 @@
 | 389 | 顶栏 | 浓烟下与荒野 | https://www.nongyanxia.cn |
 | 390 | 顶栏 | 陈子琦的博客 | https://blog.czqu.ren |
 | 391 | 顶栏 | 柠檬‘s Blog | https://blog.lemonct.xyz |
-| 392 | 顶栏 | 冰橘の小窝 | https://moe233.net |
+| 392 | 顶栏 | 冰橘の小窝 | https://blog.moe233.net/ |
 | 393 | 顶栏 | Throwable | https://www.throwx.cn |
 | 394 | 顶栏 | YeungYeah 的乱写地 | https://scottyeung.top |
 | 395 | 侧栏 | 小角落 | https://kk.hackerjk.top |
