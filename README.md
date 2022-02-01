@@ -398,7 +398,7 @@
 | 341 | 顶栏 | 冻符「Minus-K」 | https://www.kawashiros.club |
 | 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
 | 344 | 顶栏 | 996 worker's ICU | https://www.996workers.icu |
-| 345 | 顶栏 | Moyok的小屋 | https://blog.moyok.xyz |
+| 345 | 顶栏 | Moyok的小屋 | https://blog.integer.top |
 | 346 | 顶栏 | Hicool嗨酷 | https://www.hicool.icu |
 | 347 | 侧栏 | 云梦 ╮不浅の部落阁 | https://blog.adworld.top |
 | 348 | 顶栏 | 李本伟的博客 | https://blog.libw.cc |
