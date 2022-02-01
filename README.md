@@ -429,7 +429,7 @@
 | 373 | 侧栏 | 逍遥隐士 | https://cry33.com |
 | 374 | 顶栏 | RSSBlog | https://rssblog.cn |
 | 375 | 顶栏 | 竹MC的博客 | https://bamboomc.cn |
-| 376 | 顶栏 | 小岚的小窝 | https://blog.589000.xyz |
+| 376 | 顶栏 | LTY's Blog | https://blog.ltya.top/ |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
 | 379 | 底栏* | 林林杂语 | https://blog.linlinzzo.top |
