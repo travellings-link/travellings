@@ -124,7 +124,7 @@
 | 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
-| 3 | 顶栏 | 原谅糖 | https://yltang.cn |
+| 3 | 底栏* | 原谅糖 | https://yltang.cn |
 | 4 | 底栏* | Barkure | https://guguga.cn |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 侧栏* | Arect和他的 | https://www.kanofans.com |
@@ -132,9 +132,8 @@
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
 | 11 | 顶栏 | JQM's Site | https://jinqimu.github.io |
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
-| 15 | 顶栏 | Legroft | https://jinjis.cn |
-| 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
-| 17 | 侧栏 | DIego's Blog | http://blog.diego.plus:5800 |
+| 15 | 侧栏 | Legroft | https://jinjis.cn |
+| 16 | 顶栏 | FANTASY | https://blog.tigerxly.com |
 | 18 | 中心 | 煎饼果子 | https://owobest.com |
 | 19 | 顶栏 | Sakura | https://blog.moej.cn |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
@@ -149,7 +148,6 @@
 | 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
-| 35 | 侧栏 | 风也温柔 | https://blog.kaygb.com |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
@@ -434,7 +432,7 @@
 | 376 | 顶栏 | 小岚的小窝 | https://blog.589000.xyz |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
-| 379 | 顶栏 | 林林杂语 | https://www.linlinzzo.top |
+| 379 | 底栏* | 林林杂语 | https://blog.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
 | 382 | 顶栏 | 萌贴士 | https://moe.tips |
@@ -499,6 +497,7 @@
 | 21 | QUIT | Oasis's Blog | https://blog.imoasis.cn |
 | 28 | QUIT | lxxs的小屋 | https://lxxs.xyz |
 | 34 | LOST | Zi_Gao的小站 | https://blog.zigao.info |
+| 35 | LOST | 风也温柔 | https://blog.kaygb.com/ |
 | 37 | LOST | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | QUIT | Eltrac's Track | https://blog.guhub.cn |
 | 40 | QUIT | Smilear's Blog | https://smilear.cn |
