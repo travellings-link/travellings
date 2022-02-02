@@ -432,7 +432,7 @@
 | 376 | 顶栏 | LTY's Blog | https://blog.ltya.top/ |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
-| 379 | 底栏* | 林林杂语 | https://blog.linlinzzo.top |
+| 379 | 侧栏 | 林林杂语 | https://blog.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
 | 382 | 顶栏 | 萌贴士 | https://moe.tips |
