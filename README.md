@@ -144,7 +144,7 @@
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
 | 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
-| 30 | 侧栏 | 星云C馆 | https://www.m78.co |
+| 30 | 侧栏 | 星云馆 | https://www.m78.co |
 | 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
@@ -291,7 +291,7 @@
 | 229 | 顶栏 | TomyJan的博客 | https://blog.tomys.top |
 | 230 | 顶栏 | 一点快乐 | https://www.yidiankuaile.com |
 | 231 | 侧栏 | 白日梦研究所 | https://blog.angustar.com |
-| 232 | 侧栏 | 十二博客 | https://blog.shiertx.com |
+| 232 | 侧栏 | LCZBlog | https://licaoz.com|
 | 233 | 侧栏 | MoYi's Blog | https://blog.nekomoyi.com |
 | 234 | 顶栏 | Troy & Chloe | https://www.yotroy.cool |
 | 236 | 顶栏 | 林中小屋 | https://imszz.com |
@@ -440,7 +440,7 @@
 | 384 | 顶栏 | Jkkoi 的魔法地带 | https://jkkoi.top |
 | 385 | 侧栏 | 三水非冰 | https://www.sanshuifeibing.com |
 | 386 | 侧栏 | LongTao | https://longtao.fun |
-| 387 | 顶栏 | 光速大佬的窝 | https://blog.guangsudalao.top |
+| 387 | 顶栏 | Guangsudalao's blog | https://blog.dlya.top/ |
 | 388 | 顶栏 | Yle | https://yleave.top |
 | 389 | 顶栏 | 浓烟下与荒野 | https://www.nongyanxia.cn |
 | 390 | 顶栏 | 陈子琦的博客 | https://blog.czqu.ren |
