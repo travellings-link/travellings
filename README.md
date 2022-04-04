@@ -13,9 +13,12 @@
 
 想法来自 https://github.com/XXIIVV/webring
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。[点此赞助](http://afdian.net/@volfclub)，为新域名续费（请选 Travellings Sponsors）。
-
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，[@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
+
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+
+
+> ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助](http://afdian.net/@volfclub)，为域名续费（请选 Travellings Sponsors）。
 
 ## 使用说明
 
@@ -70,7 +73,7 @@
 
 【💡 举个例子】
 
-- 顶部放置开往外链（必要），侧栏放置开往徽标（可选）；
+- 顶栏放置开往外链（必要），侧栏放置开往徽标（可选）；
 
 ![example1](https://travellings.link/assets/example1.png)
 
@@ -139,7 +142,7 @@
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
 | 22 | 顶栏 | 五叶魔法书 | https://grimoire.cn |
 | 23 | 侧栏 | 风渐远 | https://www.naraku.cn |
-| 24 | 顶部 | XiYo吧 | https://www.xiyo8.cn |
+| 24 | 顶栏 | XiYo吧 | https://www.xiyo8.cn |
 | 25 | 侧栏 | 锴 | https://www.wangkai88.com |
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
 | 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
@@ -152,7 +155,7 @@
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
 | 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
-| 45 | 顶部 | ajian | https://blog.yegetables.cn |
+| 45 | 顶栏 | ajian | https://blog.yegetables.cn |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://baka.fun |
 | 48 | 顶栏 | Zhou‘s Blog | https://idream.ink |
@@ -173,7 +176,7 @@
 | 77 | 顶栏 | 炎忍的博客 | https://blog.imyan.ren |
 | 78 | 顶栏 | 青行三の个人博客 | https://blog.jiehua1995.xyz |
 | 82 | 底部 | 执手对影成双 | https://www.lipk.org |
-| 83 | 顶部 | MySpace | https://www.zkl2333.com |
+| 83 | 顶栏 | MySpace | https://www.zkl2333.com |
 | 84 | 侧栏 | 皮毛技术君 | https://www.whoit.top |
 | 85 | 顶栏 | Passer | https://takuron.top |
 | 87 | 侧栏 | 山葵酱 | https://www.wasabi.fun |
@@ -213,8 +216,8 @@
 | 131 | 侧栏 | TAOG's Blog | https://iktao.cn |
 | 132 | 顶栏 | 静かな森 | https://innei.ren |
 | 133 | 中心 | 杜老师说 | https://dusays.com |
-| 134 | 顶部 | 独人欣赏 | https://www.wangyusong.cn |
-| 135 | 顶部 | zcmimi's blog | https://blog.zcmimi.top |
+| 134 | 顶栏 | 独人欣赏 | https://www.wangyusong.cn |
+| 135 | 顶栏 | zcmimi's blog | https://blog.zcmimi.top |
 | 136 | 侧栏 | TF的博客 | https://blog.tengfei.website |
 | 137 | 侧栏 | 简兮小站 | https://www.zk1220.com |
 | 139 | 侧栏 | Colsrch'Blog | https://colsrch.cn |
@@ -231,7 +234,7 @@
 | 155 | 顶栏 | 不淡定的实验室 | https://xd.sh.cn |
 | 156 | 侧栏 | Micah | https://realmicah.xyz |
 | 157 | 顶栏 | 提莫酱的博客 | https://www.timochan.cn |
-| 158 | 顶部 | COOL | https://www.coolku.cc |
+| 158 | 顶栏 | COOL | https://www.coolku.cc |
 | 159 | 侧栏 | 夏日鱼塘 | https://www.summerpond.cn |
 | 160 | 侧栏 | 异国迷宫的十字路口 | https://blog.fivezha.cn |
 | 162 | 顶栏 | 可定博客 | https://wnag.com.cn |
@@ -316,7 +319,7 @@
 | 256 | 顶栏 | 萌！萝莉 | https://loliloli.moe |
 | 258 | 底部 | 7WATE`S Blog | https://blog.7wate.com |
 | 259 | 顶栏 | 吴李曾 | https://www.wulinzeng.vip |
-| 260 | 顶部 | 斯莫笔记 | https://notes.zhangxiaocai.cn |
+| 260 | 顶栏 | 斯莫笔记 | https://notes.zhangxiaocai.cn |
 | 262 | 顶栏 | Tony's blog | https://www.tonylsl.top |
 | 263 | 顶栏 | 科学ADV整合站 | https://sciadv.mcseekeri.top |
 | 264 | 顶栏 | 御坂の地下室 | https://misakamoe.com |
@@ -382,7 +385,7 @@
 | 323 | 顶栏 | Revincx的小破站 | https://blog.revincx.icu |
 | 324 | 顶栏 | 东方幻梦 | https://blog.badapple.pro |
 | 325 | 中心 | xuanzhi33的小站 | https://www.xuanzhi33.cn |
-| 326 | 顶部 | Xzy® Homepage | https://xzy.one |
+| 326 | 顶栏 | Xzy® Homepage | https://xzy.one |
 | 327 | 侧栏 | 星路博客 | https://www.ariels.xyz |
 | 328 | 顶栏 | K'Blog | https://www.amazingk.cn |
 | 329 | 侧栏 | 阿苏可の小博客 | https://asuko.icu |
@@ -482,6 +485,17 @@
 | 423 | 顶栏 | ZingLix 博客 | https://zinglix.xyz |
 | 424 | 侧栏 | Skykguj 的博客 | https://blog.sky390.cn |
 | 425 | 侧栏* | 深水小站 | https://zhoubin.me |
+| 426 | 顶栏 | 飞跃高山与大洋的鱼  | https://docs.shanyuhai.top |
+| 427 | 顶栏 | ypingcn's blog | https://blog.ypingcn.com |
+| 428 | 顶栏 | JWBLOG | https://jwblog.xyz |
+| 429 | 顶栏 | 洛竹的博客 | https://youngjuning.js.org |
+| 430 | 顶栏 | ZkeqのCoding日志 | https://icodeq.com |
+| 431 | 顶栏 | Java 基础知识库 | https://javadocs.zkeq.xyz |
+| 432 | 顶栏 | 无心博客 | https://www.57blog.cn |
+| 433 | 顶栏 | 雷雷屋头 | https://ll.sc.cn |
+| 434 | 侧栏 | 寒星皓月 | https://www.wanghanyue.com |
+| 435 | 顶栏 | 喵二の小博客 | https://www.miaoer.xyz |
+| 436 | 顶栏 | 了尘兰若的小坑 | https://www.liaochenlanruo.fun |
 
 
 ---

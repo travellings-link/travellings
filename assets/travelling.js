@@ -428,8 +428,19 @@ function travelling() {
   url[423] = "https://zinglix.xyz";
   url[424] = "https://blog.sky390.cn";
   url[425] = "https://zhoubin.me";
+  url[426] = "https://docs.shanyuhai.top";
+  url[427] = "https://blog.ypingcn.com";
+  url[428] = "https://jwblog.xyz";
+  url[429] = "https://youngjuning.js.org";
+  url[430] = "https://icodeq.com";
+  url[431] = "https://javadocs.zkeq.xyz";
+  url[432] = "https://www.57blog.cn";
+  url[433] = "https://ll.sc.cn";
+  url[434] = "https://www.wanghanyue.com";
+  url[435] = "https://www.miaoer.xyz";
+  url[436] = "https://www.liaochenlanruo.fun";
 
-  url[426] = "https://github.com/volfclub/travelling";
+  url[437] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
