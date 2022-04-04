@@ -420,8 +420,16 @@ function travelling() {
   url[415] = "https://www.manshaoco.com";
   url[416] = "https://www.elliot98.top";
   url[417] = "https://aloner.ink";
+  url[418] = "https://blog.lfhsheng.top";
+  url[419] = "https://love2wind.cn";
+  url[420] = "https://imba97.cn";
+  url[421] = "https://fairysen.com";
+  url[422] = "https://www.frytea.com";
+  url[423] = "https://zinglix.xyz";
+  url[424] = "https://blog.sky390.cn";
+  url[425] = "https://zhoubin.me";
 
-  url[418] = "https://github.com/volfclub/travelling";
+  url[426] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
