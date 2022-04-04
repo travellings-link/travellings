@@ -124,7 +124,7 @@
 | 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
-| 3 | 顶栏 | 原谅糖 | https://yltang.cn |
+| 3 | 底栏* | 原谅糖 | https://yltang.cn |
 | 4 | 底栏* | Barkure | https://guguga.cn |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 侧栏* | Arect和他的 | https://www.kanofans.com |
@@ -132,9 +132,8 @@
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
 | 11 | 顶栏 | JQM's Site | https://jinqimu.github.io |
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
-| 15 | 顶栏 | Legroft | https://jinjis.cn |
-| 16 | 侧栏 | FANTASY | https://blog.tigerxly.com |
-| 17 | 侧栏 | DIego's Blog | http://blog.diego.plus:5800 |
+| 15 | 侧栏 | Legroft | https://jinjis.cn |
+| 16 | 顶栏 | FANTASY | https://blog.tigerxly.com |
 | 18 | 中心 | 煎饼果子 | https://owobest.com |
 | 19 | 顶栏 | Sakura | https://blog.moej.cn |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
@@ -145,11 +144,10 @@
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
 | 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
-| 30 | 侧栏 | 星云C馆 | https://www.m78.co |
+| 30 | 侧栏 | 星云馆 | https://www.m78.co |
 | 31 | 顶栏 | Cheung | https://icheung.net |
 | 32 | 侧栏 | 雁陎的自耕地 | https://www.sitstars.com |
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
-| 35 | 侧栏 | 风也温柔 | https://blog.kaygb.com |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 39 | 侧栏 | yuaneuro的博客 | https://yuaneuro.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
@@ -293,7 +291,7 @@
 | 229 | 顶栏 | TomyJan的博客 | https://blog.tomys.top |
 | 230 | 顶栏 | 一点快乐 | https://www.yidiankuaile.com |
 | 231 | 侧栏 | 白日梦研究所 | https://blog.angustar.com |
-| 232 | 侧栏 | 十二博客 | https://blog.shiertx.com |
+| 232 | 侧栏 | LCZBlog | https://licaoz.com|
 | 233 | 侧栏 | MoYi's Blog | https://blog.nekomoyi.com |
 | 234 | 顶栏 | Troy & Chloe | https://www.yotroy.cool |
 | 236 | 顶栏 | 林中小屋 | https://imszz.com |
@@ -395,16 +393,16 @@
 | 334 | 顶栏 | HKK's Diary | https://ihkk.net |
 | 336 | 顶栏 | BBing's Blog | https://bbing.com.cn |
 | 337 | 顶栏 | 雨临Lewis的博客 | https://lewky.cn |
-| 339 | 顶栏 | 雨中的博客 | https://www.wenchong.space |
+| 339 | 顶栏 | 雨中的博客 | https://blog.coolchong.cn |
 | 340 | 顶栏 | 陈鑫磊的博客 | https://www.cxl2020mc.top |
 | 341 | 顶栏 | 冻符「Minus-K」 | https://www.kawashiros.club |
 | 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
 | 344 | 顶栏 | 996 worker's ICU | https://www.996workers.icu |
-| 345 | 顶栏 | Moyok的小屋 | https://blog.moyok.xyz |
+| 345 | 顶栏 | Moyok的小屋 | https://blog.integer.top |
 | 346 | 顶栏 | Hicool嗨酷 | https://www.hicool.icu |
 | 347 | 侧栏 | 云梦 ╮不浅の部落阁 | https://blog.adworld.top |
 | 348 | 顶栏 | 李本伟的博客 | https://blog.libw.cc |
-| 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.cn |
+| 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.me/ |
 | 350 | 顶栏 | 人人都是艺术家 | https://here.sy |
 | 351 | 顶栏 | 求索日记 | https://shuxhan.com |
 | 352 | 顶栏 | Hey,Joker | https://jokerdig.com |
@@ -431,10 +429,10 @@
 | 373 | 侧栏 | 逍遥隐士 | https://cry33.com |
 | 374 | 顶栏 | RSSBlog | https://rssblog.cn |
 | 375 | 顶栏 | 竹MC的博客 | https://bamboomc.cn |
-| 376 | 顶栏 | 小岚的小窝 | https://blog.589000.xyz |
+| 376 | 顶栏 | LTY's Blog | https://blog.ltya.top/ |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
-| 379 | 顶栏 | 林林杂语 | https://www.linlinzzo.top |
+| 379 | 侧栏 | 林林杂语 | https://blog.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
 | 382 | 顶栏 | 萌贴士 | https://moe.tips |
@@ -442,12 +440,12 @@
 | 384 | 顶栏 | Jkkoi 的魔法地带 | https://jkkoi.top |
 | 385 | 侧栏 | 三水非冰 | https://www.sanshuifeibing.com |
 | 386 | 侧栏 | LongTao | https://longtao.fun |
-| 387 | 顶栏 | 光速大佬的窝 | https://blog.guangsudalao.top |
+| 387 | 顶栏 | Guangsudalao's blog | https://blog.dlya.top/ |
 | 388 | 顶栏 | Yle | https://yleave.top |
 | 389 | 顶栏 | 浓烟下与荒野 | https://www.nongyanxia.cn |
 | 390 | 顶栏 | 陈子琦的博客 | https://blog.czqu.ren |
 | 391 | 顶栏 | 柠檬‘s Blog | https://blog.lemonct.xyz |
-| 392 | 顶栏 | 冰橘の小窝 | https://moe233.net |
+| 392 | 顶栏 | 冰橘の小窝 | https://blog.moe233.net/ |
 | 393 | 顶栏 | Throwable | https://www.throwx.cn |
 | 394 | 顶栏 | YeungYeah 的乱写地 | https://scottyeung.top |
 | 395 | 侧栏 | 小角落 | https://kk.hackerjk.top |
@@ -499,6 +497,7 @@
 | 21 | QUIT | Oasis's Blog | https://blog.imoasis.cn |
 | 28 | QUIT | lxxs的小屋 | https://lxxs.xyz |
 | 34 | LOST | Zi_Gao的小站 | https://blog.zigao.info |
+| 35 | LOST | 风也温柔 | https://blog.kaygb.com/ |
 | 37 | LOST | Mr.Chrosing`s Home | https://nasity.cn |
 | 38 | QUIT | Eltrac's Track | https://blog.guhub.cn |
 | 40 | QUIT | Smilear's Blog | https://smilear.cn |
