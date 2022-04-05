@@ -450,8 +450,26 @@ function travelling() {
   url[445] = "https://qystudio.ltd";
   url[446] = "https://blog.xieqingxin.com";
   url[447] = "https://ikii.net";
+  url[448] = "https://www.imcao.cn";
+  url[449] = "https://zhuye.sangxuesheng.com";
+  url[450] = "https://www.shutiaoya.com";
+  url[451] = "https://zsd.name";
+  url[452] = "https://liu527.gitee.io";
+  url[453] = "https://blog.wmza.cn";
+  url[454] = "https://blog.diz7.com";
+  url[455] = "https://kouki.ltd";
+  url[456] = "https://rosmontis.com";
+  url[457] = "https://dorakika.cn";
+  url[458] = "https://blog.holic-x.com/wv-blog";
+  url[459] = "https://www.dabigu.xyz";
+  url[460] = "https://hugo.bnblogs.cc";
+  url[461] = "https://www.hovthen.com";
+  url[462] = "https://www.wanglingyue.com";
+  url[463] = "https://www.oplog.cn/";
+  url[464] = "https://thymrios.com";
+  url[465] = "https://ba2in9a.top";
 
-  url[448] = "https://github.com/volfclub/travelling";
+  url[466] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
