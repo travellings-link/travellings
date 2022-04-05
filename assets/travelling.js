@@ -54,7 +54,7 @@ function travelling() {
   url[49] = "https://dpii.club";
   url[50] = rip_url;
   url[51] = rip_url;
-  url[52] = rip_url;
+  url[52] = "https://spinaround.tk";
   url[53] = "https://www.lin03.cn";
   url[54] = rip_url;
   url[55] = rip_url;
@@ -361,7 +361,7 @@ function travelling() {
   url[356] = "https://wangquanguo.life";
   url[357] = "https://blog.lovem.fun";
   url[358] = "https://imxxz.cn";
-  url[359] = "https://blog.y7n05h.xyz";
+  url[359] = "https://blog.y7n05h.dev";
   url[360] = "https://www.chenmx.net";
   url[361] = "https://www.rz.sb";
   url[362] = "https://chuxjian.asia";
@@ -381,7 +381,7 @@ function travelling() {
   url[376] = "https://blog.ltya.top";
   url[377] = "https://www.utopiaxc.cn";
   url[378] = "https://blog.owwee.top";
-  url[379] = "https://blog.linlinzzo.top";
+  url[379] = "https://www.linlinzzo.top";
   url[380] = "https://chenhe.me";
   url[381] = "https://oiermikec.fun";
   url[382] = "https://moe.tips";
@@ -439,8 +439,19 @@ function travelling() {
   url[434] = "https://www.wanghanyue.com";
   url[435] = "https://www.miaoer.xyz";
   url[436] = "https://www.liaochenlanruo.fun";
+  url[437] = "https://blog.lking.icu";
+  url[438] = "https://masle.top";
+  url[439] = "https://www.sccens.net";
+  url[440] = "https://张晶晶.我爱你";
+  url[441] = "https://blog.dylanwu.space";
+  url[442] = "https://sakurasep.site";
+  url[443] = "https://nickx.cn";
+  url[444] = "https://www.lanta.cyou";
+  url[445] = "https://qystudio.ltd";
+  url[446] = "https://blog.xieqingxin.com";
+  url[447] = "https://ikii.net";
 
-  url[437] = "https://github.com/volfclub/travelling";
+  url[448] = "https://github.com/volfclub/travelling";
 
 
   if (document.referrer) {
