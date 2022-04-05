@@ -160,6 +160,7 @@
 | 47 | 侧栏* | 小太の游乐园 | https://baka.fun |
 | 48 | 顶栏 | Zhou‘s Blog | https://idream.ink |
 | 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
+| 52 | 顶栏 | SpinTouch's Something | https://spinaround.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
 | 56 | 侧栏 | TigerRoot | https://blog.tigerroot.cn |
 | 59 | 顶栏 | Pluveto | https://www.pluvet.com |
@@ -199,6 +200,7 @@
 | 105 | 侧栏* | 螓首蛾眉 | https://jsun969.cn |
 | 106 | 顶栏 | 服务猿's 学习笔记 | https://www.ishells.cn |
 | 108 | 顶栏 | Zkpeace | https://zkpeace.com |
+| 110 | 顶栏 | 低调小熊猫 | http://ilovey.live |
 | 111 | 侧栏* | Guang's blog | https://code016.com |
 | 112 | 顶栏 | 挨拍的儿 | https://jimmyqin.cn |
 | 116 |  中心 | Guyi’s Blog | https://www.y2jq.com |
@@ -415,7 +417,7 @@
 | 356 | 顶栏 | 温华的博客 | https://wangquanguo.life |
 | 357 | 顶栏 | 进击的学霸的博客 | https://blog.lovem.fun | 
 | 358 | 顶栏 | 森木志 | https://imxxz.cn |
-| 359 | 顶栏 | Y7n05h 技术分享 | https://blog.y7n05h.xyz |
+| 359 | 顶栏 | Y7n05h 技术分享 | https://blog.y7n05h.dev |
 | 360 | 顶栏 | 晓果冻 | https://www.chenmx.net | 
 | 361 | 顶栏 | 若志随笔 | https://www.rz.sb |
 | 362 | 顶栏 | 初 x 见 | https://chuxjian.asia |
@@ -435,7 +437,7 @@
 | 376 | 顶栏 | LTY's Blog | https://blog.ltya.top/ |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
-| 379 | 侧栏 | 林林杂语 | https://blog.linlinzzo.top |
+| 379 | 侧栏 | 林林杂语 | https://www.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
 | 382 | 顶栏 | 萌贴士 | https://moe.tips |
@@ -496,6 +498,8 @@
 | 434 | 侧栏 | 寒星皓月 | https://www.wanghanyue.com |
 | 435 | 顶栏 | 喵二の小博客 | https://www.miaoer.xyz |
 | 436 | 顶栏 | 了尘兰若的小坑 | https://www.liaochenlanruo.fun |
+| 437 | 顶栏 | Jason's Blog | https://blog.lking.icu/ |
+| 438 | 侧栏* | 老哲的小客栈 | https://masle.top/ |
 
 
 ---
@@ -550,7 +554,6 @@
 | 104 | SSL | 728004090博客 | https://www.googlessr.top |
 | 107 | QUIT | 尼采般地抒情 | https://www.wztlink1013.com |
 | 109 | LOST | NekoX | https://nekox.cn |
-| 110 | QUIT | 低调小熊猫 | http://ilovey.live |
 | 113 | ERROR | 莫逡巡的博客 | https://wangpl.top |
 | 114 | QUIT | 三路清风 | https://www.yansanlu.com |
 | 115 | LOST | 房东的猫 | https://www.fddmao.com |
