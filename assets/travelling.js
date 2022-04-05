@@ -173,7 +173,7 @@ function travelling() {
   url[168] = rip_url;
   url[169] = rip_url;
   url[170] = rip_url;
-  url[171] = "https://ccccc.cyou";
+  url[171] = rip_url;
   url[172] = "https://www.funix.cn";
   url[173] = "https://www.codinglink.tech";
   url[174] = "https://www.bluesdawn.top";
@@ -364,7 +364,7 @@ function travelling() {
   url[359] = "https://blog.y7n05h.dev";
   url[360] = "https://www.chenmx.net";
   url[361] = "https://www.rz.sb";
-  url[362] = "https://chuxjian.asia";
+  url[362] = rip_url;
   url[363] = "https://www.cbxg.icu";
   url[364] = "https://wiki.eryajf.net";
   url[365] = "https://back2me.cn";
