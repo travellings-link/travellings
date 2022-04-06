@@ -15,7 +15,7 @@
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，[@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
 
 > ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助](http://afdian.net/@volfclub)，为域名续费（请选 Travellings Sponsors）。
@@ -46,7 +46,7 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/volfclub/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
 - **最佳实践**：将 `开往` 的外链（`https://travellings.link`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
@@ -61,7 +61,7 @@
   - 方浅 PNG：`https://travellings.link/assets/travelling-light.png`
   - 矢量 SVG：`https://travellings.link/assets/logo.svg`
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
-  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://travellings.link/assets/` 替换为 `https://cdn.jsdelivr.net/gh/volfclub/travellings@12.0/assets/` 。
+  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://travellings.link/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` 。
 
 ```
 <a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
@@ -91,24 +91,22 @@
 
 ---
 
-### ~~ 无缝接力 β ~~
+###  无缝接力 β 
 
-~~可用 jsdelivr 加速，中间无开往跳转页。~~
-
-> 🚨 不再推荐，可能更新不及时。
+可用 jsdelivr 加速，中间无开往跳转页。我们会及时清除 jsdelivr 缓存。
 
 ```
 <head>
-<script src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/travelling.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/travelling.min.js"></script>
 </head>
 <body>
-<a href="javascript:travelling()" title="开往-友链接力"><img src="https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+<a href="javascript:travelling()" title="开往-友链接力"><img src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 </body>
 ```
 
 ### 可选镜像
 
-- `https://volfclub.github.io/travellings`
+- `https://travellings-link.github.io/travellings/`
 
 - `https://travellings.pages.dev`
 
@@ -124,7 +122,7 @@
 
 | 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
-| 0 | 缺省 | 开往 | https://github.com/volfclub/travelling |
+| 0 | 缺省 | 开往 | https://github.com/travellings-link/travellings |
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
 | 3 | 底栏* | 原谅糖 | https://yltang.cn |
