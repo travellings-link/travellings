@@ -217,7 +217,7 @@ function travelling() {
   url[212] = "https://7bxing.com";
   url[213] = "https://www.overme.cn";
   url[214] = "https://vinking.top";
-  url[215] = "https://www.mmcee.cn";
+  url[215] = rip_url;
   url[216] = "https://www.wenbin.org.cn";
   url[217] = "https://fang.blog.miri.site";
   url[218] = "https://hiwannz.com";

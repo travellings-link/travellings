@@ -277,7 +277,6 @@
 | 212 | 顶栏 | qinxs小站 | https://7bxing.com |
 | 213 | 顶栏 | 鱼跃此时海 | https://www.overme.cn |
 | 214 | 侧栏 | Vinking的小站 | https://vinking.top |
-| 215 | 顶栏 | MineCraft爱好者 | https://www.mmcee.cn |
 | 216 | 顶栏 | anonymous's blog | https://www.wenbin.org.cn |
 | 217 | 侧栏 | 阿方的博客 | https://fang.blog.miri.site |
 | 218 | 侧栏* | 见字如面 | https://hiwannz.com |
@@ -607,6 +606,7 @@
 | 203 | LOST | wmz's blog | https://wmzwsa.xyz |
 | 204 | QUIT | 飞刀博客 | https://www.feidaoboke.com |
 | 207 | ERROR | 猫九大大のBlog | https://jianchengwang.info |
+| 215 | QUIT | MineCraft爱好者 | https://www.mmcee.cn |
 | 228 | LOST | Ty Blog | https://tyblog.com.cn |
 | 235 | ERROR | luosw 的小窝 | https://luosw.fun |
 | 237 | LOST | Sianx's Blog | https://blog.sianx.com |
