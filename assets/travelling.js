@@ -13,7 +13,7 @@ function travelling() {
   url[8] = "https://ryanc.cc";
   url[9] = rip_url;
   url[10] = "https://blog.uniartisan.com";
-  url[11] = "https://jinqimu.xyz";
+  url[11] = rip_url;
   url[12] = rip_url;
   url[13] = "https://heycmm.cn";
   url[14] = rip_url;
@@ -252,7 +252,7 @@ function travelling() {
   url[247] = "https://www.idasx.com";
   url[248] = "https://blog.xecades.xyz";
   url[249] = "https://blog.amoswu.cn";
-  url[250] = "https://www.mrgod.cn";
+  url[250] = rip_url;
   url[251] = "https://www.extlight.com";
   url[252] = "https://666wxy666.github.io";
   url[253] = "https://err0r.top";
@@ -403,7 +403,7 @@ function travelling() {
   url[398] = "https://www.ohyee.cc";
   url[399] = "https://szx.life";
   url[400] = "https://lifeni.life";
-  url[401] = "https://pzwd.net";
+  url[401] = rip_url;
   url[402] = "https://bntx.ml";
   url[403] = "https://blog.iqia.top";
   url[404] = rip_url;

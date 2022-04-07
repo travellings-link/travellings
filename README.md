@@ -308,7 +308,6 @@
 | 247 | 中心 | 飞云师兄的主页 | www.idasx.com |
 | 248 | 侧栏 | Xecades's Blog | https://blog.xecades.xyz |
 | 249 | 顶栏 | Amos‘blog | https://blog.amoswu.cn |
-| 250 | 侧栏 | Mr_God's Note | https://www.mrgod.cn |
 | 251 | 顶栏 | 月光中的污点 | https://www.extlight.com |
 | 252 | 顶栏 | Sekiro's Blog | https://666wxy666.github.io |
 | 253 | 侧栏 | Err0r | https://err0r.top |
@@ -457,7 +456,6 @@
 | 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 400 | 顶栏 | 记录干杯 | https://lifeni.life |
-| 401 | 顶栏 | 抛砖问答 | https://pzwd.net |
 | 402 | 顶栏 | 深海小屋 | https://bntx.ml |
 | 403 | 底部 | iqia | https://blog.iqia.top |
 | 404 | —— | 🧑‍💻 | —— |
@@ -610,6 +608,7 @@
 | 228 | LOST | Ty Blog | https://tyblog.com.cn |
 | 235 | ERROR | luosw 的小窝 | https://luosw.fun |
 | 237 | LOST | Sianx's Blog | https://blog.sianx.com |
+| 250 | QUIT | Mr_God's Note | https://www.mrgod.cn |
 | 257 | QUIT | 秉性之松 | https://blog.iucky.cn |
 | 274 | QUIT | Sakurai Kaede's Blog | https://sakurai.in |
 | 261 | QUIT | 且听书吟 | https://yufan.me |
@@ -618,6 +617,7 @@
 | 338 | LOST | Cusalt! | https://cusalt.com |
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 401 | ERROR | 抛砖问答 | https://pzwd.net |
 
 ---
 
