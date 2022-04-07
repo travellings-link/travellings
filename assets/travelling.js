@@ -477,8 +477,15 @@ function travelling() {
   url[472] = "https://blog.isww.cn";
   url[473] = "https://blog.orangii.cn";
   url[474] = "https://blog.sukiu.top";
+  url[475] = "https://rousongs.com";
+  url[476] = "https://blogs.stephen-zhang.cn";
+  url[477] = "https://226yzy.com";
+  url[478] = "https://f2h2h1.github.io";
+  url[479] = "https://ba2in9a.top";
+  url[480] = "https://mol.ink";
+  url[481] = "https://sady0.com";
 
-  url[475] = "https://github.com/volfclub/travelling";
+  url[482] = "https://github.com/travellings-link/travellings";
 
 
   if (document.referrer) {
