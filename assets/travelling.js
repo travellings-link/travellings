@@ -174,7 +174,7 @@ function travelling() {
   url[169] = rip_url;
   url[170] = rip_url;
   url[171] = rip_url;
-  url[172] = "https://www.funix.cn";
+  url[172] = "https://funix.cn";
   url[173] = "https://www.codinglink.tech";
   url[174] = "https://www.bluesdawn.top";
   url[175] = "https://www.libertystore.one";

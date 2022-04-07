@@ -242,7 +242,7 @@
 | 165 | 顶栏 | 小孔成像 | https://kurumit3.top |
 | 166 | 顶栏 | Lime Network Blog | https://blog.limecho.net |
 | 167 | 顶栏 | Panedioic's blog | https://blog.pppane.com |
-| 172 | 顶栏 | 56Kb/s | https://www.funix.cn |
+| 172 | 顶栏 | 56Kb/s | https://funix.cn |
 | 173 | 顶栏 | 林克的编程小记 | https://www.codinglink.tech |
 | 174 | 顶栏 | BD的小窝 | https://www.bluesdawn.top |
 | 175 | 顶栏 | LBTSTO自由商店 | https://www.libertystore.one |
