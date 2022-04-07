@@ -395,7 +395,7 @@
 | 337 | 顶栏 | 雨临Lewis的博客 | https://lewky.cn |
 | 339 | 顶栏 | 雨中的博客 | https://blog.coolchong.cn |
 | 340 | 顶栏 | 陈鑫磊的博客 | https://www.cxl2020mc.top |
-| 341 | 顶栏 | 冻符「Minus-K」 | https://www.kawashiros.club |
+| 341 | 顶栏 | 冻符「Minus-K」 | https://bkryofu.xyz |
 | 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
 | 344 | 顶栏 | 996 worker's ICU | https://www.996workers.icu |
 | 345 | 顶栏 | Moyok的小屋 | https://blog.integer.top |
@@ -528,7 +528,7 @@
 | 471 | 顶栏 | 繁华是客's Blog | https://vlts.kract.xyz |
 | 472 | 顶栏 | 奇异维度 | https://blog.isww.cn |
 | 473 | 顶栏 | 一只橙梓一个窝 | https://blog.orangii.cn |
-
+| 474 | 顶栏 | 千反田 | https://blog.sukiu.top |
 
 ---
 

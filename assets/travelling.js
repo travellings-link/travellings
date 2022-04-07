@@ -343,7 +343,7 @@ function travelling() {
   url[338] = rip_url;
   url[339] = "https://blog.coolchong.cn";
   url[340] = "https://www.cxl2020mc.top";
-  url[341] = "https://www.kawashiros.club";
+  url[341] = "https://bkryofu.xyz";
   url[342] = "https://blog.laugh12321.cn";
   url[343] = rip_url;
   url[344] = "https://www.996workers.icu";
