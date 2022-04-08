@@ -484,8 +484,13 @@ function travelling() {
   url[479] = "https://ba2in9a.top";
   url[480] = "https://mol.ink";
   url[481] = "https://sady0.com";
+  url[482] = "https://www.nesxc.com";
+  url[483] = "https://xyzbz.cn";
+  url[484] = "https://www.mabby.cn";
+  url[485] = "https://aibofan.com";
+  url[486] = "https://fu1fan.cn";
 
-  url[482] = "https://github.com/travellings-link/travellings";
+  url[487] = "https://github.com/travellings-link/travellings";
 
 
   if (document.referrer) {
