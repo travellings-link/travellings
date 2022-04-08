@@ -9,11 +9,12 @@ jobs:
   move-to-project:
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - name: Move to project
+        uses: alex-page/github-project-automation-plus@v0.8.1
         with:
           project: "工作台"
           column: "待审核"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
   label-issue:
     runs-on: ubuntu-latest

@@ -12,7 +12,7 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.8.1
           project: "工作台"
           column: "已完成"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
   remove-labels:
     runs-on: ubuntu-latest
