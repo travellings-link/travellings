@@ -9,8 +9,7 @@ jobs:
   move-to-done:
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
-        with:
+      - uses: alex-page/github-project-automation-plus@v0.8.1
           project: "工作台"
           column: "已完成"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
@@ -21,7 +20,7 @@ jobs:
       issues: write
     steps:
       - name: Remove labels
-        uses: andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414
+        uses: andymckay/labeler@master
         with:
           remvoe-labels: "待处理, 待回应"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
