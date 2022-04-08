@@ -305,7 +305,7 @@
 | 244 | 顶栏 | Weidows の Nest | https://weidows.github.io |
 | 245 | 顶栏 | Magma Ink | https://magma.ink |
 | 246 | 顶栏 | 幼稚园园长 |https://yzyyz.top |
-| 247 | 中心 | 飞云师兄的主页 | www.idasx.com |
+| 247 | 中心 | 飞云师兄的主页 | https://www.idasx.com |
 | 248 | 侧栏 | Xecades's Blog | https://blog.xecades.xyz |
 | 249 | 顶栏 | Amos‘blog | https://blog.amoswu.cn |
 | 251 | 顶栏 | 月光中的污点 | https://www.extlight.com |
