@@ -545,6 +545,16 @@
 | 484 | 侧栏 | May be | https://www.mabby.cn |
 | 485 | 顶栏 | 朝露碎梦 | https://aibofan.com |
 | 486 | 顶栏 | 逸凡的小站 | https://fu1fan.cn |
+| 487 | 底部 | JerryDodo私日记 | https://jerrydodo.com |
+| 488 | 顶栏 | ZhengXi's Blog | https://zhengxi.io |
+| 489 | 顶栏 | V2HOT - 每日 V2EX 最热主题 | https://v2hot.pipecraft.net |
+| 490 | 顶栏 | Dvel's Blog | https://dvel.me |
+| 491 | 顶栏 | Joseph Z.的博客 | https://josephz.top |
+| 492 | 顶栏 | Justin写字的地方 | https://zblogs.top |
+| 493 | 侧栏 | 鼎天网络社区 | https://community.dtnetwork.top |
+| 494 | 侧栏 | PhyllisJohnson | https://iguangdie.xyz |
+| 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.github.io |
+| 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
 
 ---
 

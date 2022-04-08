@@ -489,8 +489,18 @@ function travelling() {
   url[484] = "https://www.mabby.cn";
   url[485] = "https://aibofan.com";
   url[486] = "https://fu1fan.cn";
+  url[487] = "https://jerrydodo.com";
+  url[488] = "https://zhengxi.io";
+  url[489] = "https://v2hot.pipecraft.net";
+  url[490] = "https://dvel.me";
+  url[491] = "https://josephz.top";
+  url[492] = "https://zblogs.top/";
+  url[493] = "https://community.dtnetwork.top/";
+  url[494] = "https://iguangdie.xyz";
+  url[495] = "https://yiqiangshiyia.github.io";
+  url[496] = "https://blog.starysky.top";
 
-  url[487] = "https://github.com/travellings-link/travellings";
+  url[497] = "https://github.com/travellings-link/travellings";
 
 
   if (document.referrer) {
