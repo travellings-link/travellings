@@ -249,7 +249,7 @@ function travelling() {
   url[244] = "https://weidows.github.io";
   url[245] = "https://magma.ink";
   url[246] = "https://yzyyz.top";
-  url[247] = "https://www.idasx.com";
+  url[247] = "https://idasx.com";
   url[248] = "https://blog.xecades.xyz";
   url[249] = "https://blog.amoswu.cn";
   url[250] = rip_url;
