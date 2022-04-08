@@ -1,6 +1,6 @@
 name: 申请收录
 description: 申请加入开往选这个
-labels: [pending triage]
+labels: ["申请收录"]
 body:
   - type: markdown
     attributes:
