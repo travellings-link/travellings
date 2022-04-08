@@ -1,0 +1,27 @@
+# Issue 关闭 时自动放置到工作台 “已完成” 列，并删除“待回应”、“待处理”标签
+
+name: Label and move to project on issue open
+on:
+  issue:
+    types: [closed]
+
+jobs:
+  move-to-done:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: alex-page/github-project-automation-plus@5bcba1c1c091a222584d10913e5c060d32c44044
+        with:
+          project: "工作台"
+          column: "已完成"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+  remove-labels:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Remove labels
+        uses: andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414
+        with:
+          remvoe-labels: "待处理, 待回应"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
