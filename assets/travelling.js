@@ -470,8 +470,8 @@ function travelling() {
   url[465] = "https://ba2in9a.top";
   url[466] = "https://weekdawn.github.io";
   url[467] = "https://lanky.cn";
-  url[468] = "https://blog.nofated.win"；
-  url[469] = "https://zhekunren.github.io"；
+  url[468] = "https://blog.nofated.win";
+  url[469] = "https://zhekunren.github.io";
   url[470] = "https://www.helywin.com";
   url[471] = "https://vlts.kract.xyz";
   url[472] = "https://blog.isww.cn";
