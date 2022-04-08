@@ -2,7 +2,7 @@
 
 name: Label and move to project on issue open
 on:
-  issue:
+  issues:
     types: [closed]
 
 jobs:
