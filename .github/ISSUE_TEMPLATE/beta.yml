@@ -39,6 +39,6 @@ body:
       label: 内容方向
       description: |
         不会展示在 Readme ；
-        你想与网络世界分享什么？请复制粘贴错误截图
+        你想与网络世界分享什么？
     validations:
       required: true
