@@ -31,8 +31,20 @@
             text-decoration: none;
         }
 
+        body {
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
         .blink {
-            position: fixed;
             height: 100%;
             width: 100%;
             text-align: center;
@@ -351,6 +363,38 @@
                 opacity: 1;
             }
         }
+
+        .button-container {
+            margin-top: 1.25rem;
+            opacity: 0;
+            animation: botCenter 3s linear;
+            -webkit-animation: botCenter 3s linear;
+            -moz-animation: botCenter 3s linear;
+            -ms-animation: botCenter 3s linear;
+            -o-animation: botCenter 3s linear;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+        }
+
+        .button-container button {
+            position: relative;
+            padding: .5rem 1rem;
+            opacity: .6;
+            border: 1px solid rgba(0, 0, 0, .8);
+            border-radius: 30px;
+            background: transparent;
+            cursor: pointer;
+            transform: scale(0.85);
+            transition: all .5s ease-in-out;
+        }
+
+        .button-container button:hover {
+            background: black;
+        }
+
+        .button-container button:hover b {
+            color: white !important;
+        }
     </style>
 
 </head>
@@ -362,6 +406,9 @@
         <a href="https://github.com/volfclub/travelling" target="_blank"
             title="点击加入“开往”，分享网站流量 :-)">欢迎回来，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome back, travelling to the next
             world…</a>
+    </div>
+    <div class="button-container">
+        <button onclick="travelling()"><b>点我立即跳转 →</b></button>
     </div>
 
 

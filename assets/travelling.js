@@ -502,5 +502,5 @@ function travelling() {
 
 
   var ints = Math.floor(Math.random() * url.length);
-  window.location = url[ints];
+  window.location.href = url[ints];
 }
