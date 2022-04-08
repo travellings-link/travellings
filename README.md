@@ -13,7 +13,9 @@
 
 想法来自 https://github.com/XXIIVV/webring
 
-> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) ，[@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
+> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz)
+
+> ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
@@ -39,9 +41,10 @@
 ### 1. 您的网页应满足：
 
 - 愿为开放的网络做出贡献（如乐于分享知识经验等）；
+- 禁止采集站内容农场（对多站点聚合，源站不提供的数据进行统计不在此列）；
 - 没有违法以及影响体验的内容（如侵入式广告等）；
 - 正常更新维护中（国内无法正常访问会被移除）；
-- 网页已有较多内容（建议已更新半年以上）；
+- 网页已有较多内容（建议20篇以上，已持续更新一段时间）；
 - 强制启用 https 。
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
@@ -456,6 +459,7 @@
 | 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 400 | 顶栏 | 记录干杯 | https://lifeni.life |
+| 401 | 顶栏 | 抛砖问答 | https://pzwd.net |
 | 402 | 顶栏 | 深海小屋 | https://bntx.ml |
 | 403 | 底部 | iqia | https://blog.iqia.top |
 | 404 | —— | 🧑‍💻 | —— |
@@ -632,7 +636,6 @@
 | 338 | LOST | Cusalt! | https://cusalt.com |
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
-| 401 | ERROR | 抛砖问答 | https://pzwd.net |
 
 ---
 

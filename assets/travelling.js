@@ -403,7 +403,7 @@ function travelling() {
   url[398] = "https://www.ohyee.cc";
   url[399] = "https://szx.life";
   url[400] = "https://lifeni.life";
-  url[401] = rip_url;
+  url[401] = "https://pzwd.net";
   url[402] = "https://bntx.ml";
   url[403] = "https://blog.iqia.top";
   url[404] = rip_url;
