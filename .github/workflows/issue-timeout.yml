@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: actions/stale@v5
         with:
+          days-before-stale: -1
           days-before-issue-stale: 15
           days-before-issue-close: 0
           stale-issue-label: "超时"
