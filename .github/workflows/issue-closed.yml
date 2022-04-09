@@ -1,6 +1,6 @@
 # Issue 关闭 时自动放置到工作台 “已完成” 列，并删除“待回应”、“待处理”标签
 
-name: Label and move to project on issue open
+name: 【Closed】Label and move to project on issue closed
 on:
   issues:
     types: [closed]

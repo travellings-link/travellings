@@ -1,9 +1,10 @@
-# Issue 创建时自动放置到工作台 “待审核” 列，并标记“待处理”标签
+# Issue reopen 时自动放置到工作台 “待回复” 列，并标记“待处理”标签
+# 用于当站点失效时重新打开 Issue 通知站长
 
-name: 【Open】Label and move to project on issue open
+name: 【Reopen】Label and move to project on issue reopen
 on:
   issues:
-    types: [opened]
+    types: [reopened]
 
 jobs:
   move-to-project:
@@ -13,7 +14,7 @@ jobs:
         uses: alex-page/github-project-automation-plus@v0.8.1
         with:
           project: "工作台"
-          column: "待审核"
+          column: "待站长回复"
           repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
   label-issue:
@@ -24,5 +25,5 @@ jobs:
       - name: Label issue
         uses: andymckay/labeler@master
         with:
-          add-labels: "待处理"
+          add-labels: "待回应"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
