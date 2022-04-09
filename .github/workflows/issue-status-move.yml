@@ -1,0 +1,50 @@
+# 当 Issue 在工作台上的状态发生变化时，更新 Label
+# 发生移动时，添加 “处理中” 标签，如果是从“待回复”移出，则删除“待回复”标签
+# 移动到待回复时，添加 “待回复” 标签
+
+name: Update Labels
+on:
+  project_card:
+    types:
+      - moved
+
+jobs:
+  add_processing:
+    if: github.event.project_card.column_id == "18384086" || github.event.project_card.column_id == "18414984" || github.event.project_card.column_id == "18385554" || github.event.project_card.column_id == "18384088"
+    #                                          待复核                                               待添加Readme                                          等待修改js                                            待站长回复
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Add processing label
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "处理中"
+          remove-labels: "待处理"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+  add_wating_response:
+    if: github.event.project_card.column_id == "18384088"
+    # 待站长回复
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Add waiting response label
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "待回复"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+  remove_wating_response:
+    if: github.event.project_card.column_id == "18384086" || github.event.project_card.column_id == "18414984" || github.event.project_card.column_id == "18385554"
+    #                                          待复核                                               待添加Readme                                          等待修改js
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Remove waiting response label
+        uses: andymckay/labeler@master
+        with:
+          remove-labels: "待回复"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

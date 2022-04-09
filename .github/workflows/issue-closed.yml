@@ -23,5 +23,5 @@ jobs:
       - name: Remove labels
         uses: andymckay/labeler@master
         with:
-          remove-labels: "待处理, 待回应"
+          remove-labels: "待处理, 待回应, 处理中"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
