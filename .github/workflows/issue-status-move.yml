@@ -1,6 +1,6 @@
 # 当 Issue 在工作台上的状态发生变化时，更新 Label
-# 发生移动时，添加 “处理中” 标签，如果是从“待回复”移出，则删除“待回复”标签
-# 移动到待回复时，添加 “待回复” 标签
+# 发生移动时，添加 “处理中” 标签，如果是从“待回应”移出，则删除“待回应”标签
+# 移动到待回应时，添加 “待回应” 标签
 
 name: Update Labels
 on:
@@ -33,7 +33,7 @@ jobs:
       - name: Add waiting response label
         uses: andymckay/labeler@master
         with:
-          add-labels: "待回复"
+          add-labels: "待回应"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
   remove_wating_response:
@@ -46,5 +46,5 @@ jobs:
       - name: Remove waiting response label
         uses: andymckay/labeler@master
         with:
-          remove-labels: "待回复"
+          remove-labels: "待回应"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
