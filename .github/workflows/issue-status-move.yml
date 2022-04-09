@@ -10,7 +10,7 @@ on:
 
 jobs:
   add_processing:
-    if: github.event.project_card.column_id == "18384086" || github.event.project_card.column_id == "18414984" || github.event.project_card.column_id == "18385554" || github.event.project_card.column_id == "18384088"
+    if: github.event.project_card.column_id == '18384086' || github.event.project_card.column_id == '18414984' || github.event.project_card.column_id == '18385554' || github.event.project_card.column_id == '18384088'
     #                                          待复核                                               待添加Readme                                          等待修改js                                            待站长回复
     runs-on: ubuntu-latest
     permissions:
@@ -24,7 +24,7 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
   add_wating_response:
-    if: github.event.project_card.column_id == "18384088"
+    if: github.event.project_card.column_id == '18384088'
     # 待站长回复
     runs-on: ubuntu-latest
     permissions:
@@ -37,8 +37,8 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
   remove_wating_response:
-    if: github.event.project_card.column_id == "18384086" || github.event.project_card.column_id == "18414984" || github.event.project_card.column_id == "18385554"
-    #                                          待复核                                               待添加Readme                                          等待修改js
+    if: github.event.project_card.column_id == '18384086' || github.event.project_card.column_id == '18414984' || github.event.project_card.column_id == '18385554' || github.event.project_card.column_id == '18384328'
+    #                                          待复核                                               待添加Readme                                          等待修改js                                            待审核
     runs-on: ubuntu-latest
     permissions:
       issues: write
