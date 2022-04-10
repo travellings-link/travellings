@@ -2,10 +2,11 @@
 name: Check members website
 on:
   workflow_dispatch:
-    note:
-      description: "检查一次大概半小时，请等待"
-      required: false
-      type: boolean
+    inputs:
+      note:
+        description: "检查一次大概半小时，请等待"
+        required: false
+        type: boolean
 
 jobs:
   checks:
