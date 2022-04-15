@@ -510,7 +510,7 @@ function travelling() {
     }
   }
 
-
+  url = [... new Set([rip_url,].concat(url))].slice(1);
   var ints = Math.floor(Math.random() * url.length);
   window.location = url[ints];
 }
