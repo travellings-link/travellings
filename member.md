@@ -357,7 +357,7 @@
 | 417 | 顶栏 | 令如律 | https://aloner.ink |
 | 418 | 侧栏* | 泠风寒声的小窝 | https://blog.lfhsheng.top |
 | 419 | 侧栏 | 涅槃博客 | https://love2wind.cn |
-| 420 | 顶栏 | 懒惰的科 | https://imba97.cn |
+| 420 | 顶栏 | imba久期的博客 | https://imba97.cn |
 | 421 | 顶栏 | 雾时之森 | https://fairysen.com |
 | 422 | 顶栏 | 煎茶 | https://www.frytea.com |
 | 423 | 顶栏 | ZingLix 博客 | https://zinglix.xyz |
