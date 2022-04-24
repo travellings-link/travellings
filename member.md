@@ -446,6 +446,9 @@
 | 503 | 顶栏 | Astrophel's Blog | https://www.astrophel.top |
 | 504 | 顶栏 | 启小凡 | https://www.qixiaofan.icu |
 | 505 | 顶栏 | 威风的博客 | https://weistuday.com/ |
+| 506 | 侧栏 | 芸熙の小屋 | https://stvue.com |
+| 507 | 底栏 | 百乐的编程学习 | https://www.leyoubaloy.xyz/ |
+| 508 | 侧栏 | MORA博客 | https://www.moraex.cn/ |
 
 ---
 
