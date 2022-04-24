@@ -499,8 +499,11 @@ function travelling() {
   url[494] = "https://iguangdie.xyz";
   url[495] = "https://yiqiangshiyia.github.io";
   url[496] = "https://blog.starysky.top";
+  url[497] = 'https://jukebox.pipecraft.net/';
+  url[498] = 'https://byzliublog.xyz/';
+  url[499] = 'https://discuss-cn.bestxtools.com/'
 
-  url[497] = "https://github.com/travellings-link/travellings";
+  url[url.length] = "https://github.com/travellings-link/travellings";
 
 
   if (document.referrer) {

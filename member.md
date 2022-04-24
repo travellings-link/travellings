@@ -434,6 +434,9 @@
 | 494 | 侧栏 | PhyllisJohnson | https://iguangdie.xyz |
 | 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.github.io |
 | 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
+| 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net/ |
+| 498 | 侧栏 | Byzliu's Blog | https://byzliublog.xyz/ |
+| 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com/ |
 
 ---
 
