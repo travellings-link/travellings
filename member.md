@@ -444,6 +444,8 @@
 | 501 | 顶栏 | Jun | https://blog.junrz.cn |
 | 502 | 顶栏 | 尖嘴钳子_lyon的记事本 | https://lml023.top |
 | 503 | 顶栏 | Astrophel's Blog | https://www.astrophel.top |
+| 504 | 顶栏 | 启小凡 | https://www.qixiaofan.icu |
+| 505 | 顶栏 | 威风的博客 | https://weistuday.com/ |
 
 ---
 

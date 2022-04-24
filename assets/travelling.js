@@ -506,6 +506,8 @@ function travelling() {
   url[501] = 'https://blog.junrz.cn';
   url[502] = 'https://lml023.top';
   url[503] = 'https://www.astrophel.top';
+  url[504] = 'https://www.qixiaofan.icu';
+  url[505] = 'https://weistuday.com/';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
