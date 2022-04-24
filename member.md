@@ -438,6 +438,13 @@
 | 498 | 侧栏 | Byzliu's Blog | https://byzliublog.xyz/ |
 | 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com/ |
 
+| 序号 | 位置 | 名称 | 网址 |
+| --- | --- | --- | --- |
+| 500 | 侧栏 | Oasis's Blog | https://blog.imoasislee.com |
+| 501 | 顶栏 | Jun | https://blog.junrz.cn |
+| 502 | 顶栏 | 尖嘴钳子_lyon的记事本 | https://lml023.top |
+| 503 | 顶栏 | Astrophel's Blog | https://www.astrophel.top |
+
 ---
 
 ## 下线列表 ♻️

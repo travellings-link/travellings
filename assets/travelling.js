@@ -501,7 +501,11 @@ function travelling() {
   url[496] = "https://blog.starysky.top";
   url[497] = 'https://jukebox.pipecraft.net/';
   url[498] = 'https://byzliublog.xyz/';
-  url[499] = 'https://discuss-cn.bestxtools.com/'
+  url[499] = 'https://discuss-cn.bestxtools.com/';
+  url[500] = 'https://blog.imoasislee.com';
+  url[501] = 'https://blog.junrz.cn';
+  url[502] = 'https://lml023.top';
+  url[503] = 'https://www.astrophel.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
