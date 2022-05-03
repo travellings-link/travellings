@@ -268,7 +268,7 @@ function travelling() {
   url[263] = "https://sciadv.mcseekeri.top";
   url[264] = "https://misakamoe.com";
   url[265] = "https://blog.stevelbr.top";
-  url[266] = "https://www.fwder.cn";
+  url[266] = "https://blog.fwder.cn/";
   url[267] = "https://blog.toutop.cn";
   url[268] = "https://ghostsf.com";
   url[269] = "https://www.xiaobai666.top";
@@ -510,7 +510,9 @@ function travelling() {
   url[505] = 'https://weistuday.com/';
   url[506] = 'https://stvue.com';
   url[507] = 'https://www.leyoubaloy.xyz/';
-  url[508] = 'https://www.moraex.cn/'
+  url[508] = 'https://www.moraex.cn/';
+  url[509] = 'https://yujiale.blog/';
+  url[510] = 'https://blog.jerrywick.com';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
