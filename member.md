@@ -434,9 +434,9 @@
 | 494 | 侧栏 | PhyllisJohnson | https://iguangdie.xyz |
 | 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.github.io |
 | 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
-| 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net/ |
-| 498 | 侧栏 | Byzliu's Blog | https://byzliublog.xyz/ |
-| 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com/ |
+| 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net |
+| 498 | 侧栏 | Byzliu's Blog | https://byzliublog.xyz |
+| 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com |
 
 | 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
@@ -451,6 +451,12 @@
 | 508 | 侧栏 | MORA博客 | https://www.moraex.cn/ |
 | 509 | 顶栏 | Joelの部落格 | https://yujiale.blog/ |
 | 510 | 顶栏 | 西郊有密林 | https://blog.jerrywick.com |
+| 511 | 侧栏 | 泠泫凝的异次元空间 | https://lxnchan.cn |
+| 512 | 顶栏 | 小灰灰博客 | https://www.xiaohuihui.net |
+| 513 | 顶栏 | 多米诺的BLOG | https://blog.dominoh.com |
+| 514 | 中心 | 听闻-导航页 | https://www.sangxuesheng.com |
+| 515 | 顶栏 | NikoBlog | https://www.nikoblog.top |
+| 516 | 侧栏 | 老邓的博客 | https://www.qinzhi.cc |
 
 ---
 
