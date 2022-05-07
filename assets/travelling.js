@@ -513,6 +513,12 @@ function travelling() {
   url[508] = 'https://www.moraex.cn/';
   url[509] = 'https://yujiale.blog/';
   url[510] = 'https://blog.jerrywick.com';
+  url[511] = 'https://lxnchan.cn';
+  url[512] = 'https://www.xiaohuihui.net';
+  url[513] = 'https://blog.dominoh.com';
+  url[514] = 'https://www.sangxuesheng.com';
+  url[515] = 'https://www.nikoblog.top';
+  url[516] = 'https://www.qinzhi.cc';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
