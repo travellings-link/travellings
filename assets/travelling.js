@@ -523,6 +523,7 @@ function travelling() {
   url[518] = 'https://www.zyglq.cn';
   url[519] = 'https://blog.yidaozhan.ga';
   url[520] = 'https://nanxing.ltd';
+  url[521] = 'https://www.keanes.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
