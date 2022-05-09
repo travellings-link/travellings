@@ -519,6 +519,7 @@ function travelling() {
   url[514] = 'https://www.sangxuesheng.com';
   url[515] = 'https://www.nikoblog.top';
   url[516] = 'https://www.qinzhi.cc';
+  url[517] = 'https://www.easyf12.top/';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
