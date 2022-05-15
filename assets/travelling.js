@@ -494,14 +494,14 @@ function travelling() {
   url[489] = "https://v2hot.pipecraft.net";
   url[490] = "https://dvel.me";
   url[491] = "https://josephz.top";
-  url[492] = "https://zblogs.top/";
-  url[493] = "https://community.dtnetwork.top/";
+  url[492] = "https://zblogs.top";
+  url[493] = "https://community.dtnetwork.top";
   url[494] = "https://iguangdie.xyz";
   url[495] = "https://yiqiangshiyia.github.io";
   url[496] = "https://blog.starysky.top";
   url[497] = 'https://jukebox.pipecraft.net/';
   url[498] = 'https://byzliublog.xyz/';
-  url[499] = 'https://discuss-cn.bestxtools.com/';
+  url[499] = 'https://discuss-cn.bestxtools.com';
   url[500] = 'https://blog.imoasislee.com';
   url[501] = 'https://blog.junrz.cn';
   url[502] = 'https://lml023.top';
@@ -509,9 +509,9 @@ function travelling() {
   url[504] = 'https://www.qixiaofan.icu';
   url[505] = 'https://weistuday.com/';
   url[506] = 'https://stvue.com';
-  url[507] = 'https://www.leyoubaloy.xyz/';
+  url[507] = 'https://www.leyoubaloy.xyz';
   url[508] = 'https://www.moraex.cn/';
-  url[509] = 'https://yujiale.blog/';
+  url[509] = 'https://yujiale.blog';
   url[510] = 'https://blog.jerrywick.com';
   url[511] = 'https://lxnchan.cn';
   url[512] = 'https://www.xiaohuihui.net';
@@ -524,6 +524,13 @@ function travelling() {
   url[519] = 'https://blog.yidaozhan.ga';
   url[520] = 'https://nanxing.ltd';
   url[521] = 'https://www.keanes.cn';
+  url[522] = 'https://lishizi.jushistudio.com';
+  url[523] = 'https://moi-mo.github.io';
+  url[524] = 'https://www.gjcloak.top';
+  url[525] = 'https://www.ygxz.in';
+  url[526] = 'https://helloseraphine.top';
+  url[527] = 'https://blog.sdgou.cc';
+  url[528] = 'https://cacx.cc';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
