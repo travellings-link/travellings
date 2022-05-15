@@ -531,6 +531,11 @@ function travelling() {
   url[526] = 'https://helloseraphine.top';
   url[527] = 'https://blog.sdgou.cc';
   url[528] = 'https://cacx.cc';
+  url[529] = 'https://blog.wlr.lol';
+  url[530] = 'https://blog.853lab.com';
+  url[531] = 'https://oi.saiodgm.gq';
+  url[532] = 'https://thtown.cn';
+  url[533] = 'https://www.shimmerl.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
