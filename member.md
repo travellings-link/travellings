@@ -20,6 +20,7 @@
 | 18 | 中心 | 煎饼果子 | https://owobest.com |
 | 19 | 顶栏 | Sakura | https://blog.moej.cn |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
+| 21 | 底栏 | Oasis's Blog | https://blog.imoasislee.com/ |
 | 22 | 顶栏 | 五叶魔法书 | https://grimoire.cn |
 | 23 | 侧栏 | 风渐远 | https://www.naraku.cn |
 | 24 | 顶栏 | XiYo吧 | https://www.xiyo8.cn |
@@ -493,7 +494,6 @@
 | 12 | QUIT | CrownDaisy | https://crowndaisy.com |
 | 14 | LOST | Yuki Yuki | https://wp.remudaisuki.top |
 | 17 | SSL | DIego's Blog | http://blog.diego.plus:5800 |
-| 21 | QUIT | Oasis's Blog | https://blog.imoasis.cn |
 | 28 | QUIT | lxxs的小屋 | https://lxxs.xyz |
 | 34 | LOST | Zi_Gao的小站 | https://blog.zigao.info |
 | 35 | LOST | 风也温柔 | https://blog.kaygb.com |

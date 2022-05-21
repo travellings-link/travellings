@@ -23,7 +23,7 @@ function travelling() {
   url[18] = "https://owobest.com";
   url[19] = "https://blog.moej.cn";
   url[20] = "https://mmyyll.ml";
-  url[21] = rip_url;
+  url[21] = 'https://blog.imoasislee.com/';
   url[22] = "https://grimoire.cn";
   url[23] = "https://www.naraku.cn";
   url[24] = "https://www.xiyo8.cn";
