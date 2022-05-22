@@ -73,7 +73,7 @@ function travelling() {
   url[68] = rip_url;
   url[69] = rip_url;
   url[70] = "https://www.jsxlo.com";
-  url[71] = "https://blog.iswl.vip";
+  url[71] = "https://blog.sdgou.cc";
   url[72] = rip_url;
   url[73] = rip_url;
   url[74] = "https://gupan.site";
@@ -536,6 +536,10 @@ function travelling() {
   url[531] = 'https://oi.saiodgm.gq';
   url[532] = 'https://thtown.cn';
   url[533] = 'https://www.shimmerl.top';
+  url[534] = 'https://liugezhou.github.io/blog';
+  url[535] = 'https://gmoe.cc';
+  url[536] = 'https://aotxland.com';
+  url[537] = 'https://blog.qaiu.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
