@@ -51,7 +51,7 @@
 | 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
 | 67 | 中心 | 刀客 | https://blog.mboker.cn |
 | 70 | 顶栏 | 及时行乐 | https://www.jsxlo.com |
-| 71 | 顶栏 | iSwl's Blog | https://blog.iswl.vip |
+| 71 | 顶栏 | DoveのBlog | https://blog.sdgou.cc |
 | 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
 | 75 | 侧栏 | 爆胎的博客 | https://www.itggg.cn |
 | 76 | 中心 | 花开陌上 | https://moshanghua.net |
@@ -475,6 +475,10 @@
 | 531 | Saiodgm の 博客儿 | https://oi.saiodgm.gq |
 | 532 | 等一只柴犬 | https://thtown.cn |
 | 533 | shunhang | https://www.shimmerl.top |
+| 534 | 六个周 | https://liugezhou.github.io/blog |
+| 535 | 咕萌小站 | https://gmoe.cc |
+| 536 | AoTxLand | https://aotxland.com |
+| 537 | QAIU's blog | https://blog.qaiu.top |
 
 ---
 
