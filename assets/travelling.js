@@ -540,6 +540,13 @@ function travelling() {
   url[535] = 'https://gmoe.cc';
   url[536] = 'https://aotxland.com';
   url[537] = 'https://blog.qaiu.top';
+  url[538] = 'https://nicejf.cn';
+  url[539] = 'https://wyxogo.top';
+  url[540] = 'https://hikki.site';
+  url[541] = 'https://wiki.pwddd.com';
+  url[542] = 'https://www.mrgod.cn';
+  url[543] = 'https://www.ykuee.link';
+  url[544] = 'https://blog.zhheo.com';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
