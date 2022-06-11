@@ -206,7 +206,7 @@ function travelling() {
   url[201] = "https://www.heson10.com";
   url[202] = rip_url;
   url[203] = rip_url;
-  url[204] = rip_url;
+  url[204] = "https://www.feidaoboke.com";
   url[205] = "https://vpsur.com";
   url[206] = "https://yexsi.com";
   url[207] = rip_url;
@@ -315,7 +315,7 @@ function travelling() {
   url[310] = "https://www.kirito41dd.cn";
   url[311] = "https://blog.imzy.ink";
   url[312] = "https://www.jianziruw.com";
-  url[313] = "https://www.moeor.com";
+  url[313] = "https://blog.emoao.com";
   url[314] = "https://sangxuesheng.com";
   url[315] = "https://www.nfxwblog.com";
   url[316] = "https://muspace.top";
@@ -547,6 +547,18 @@ function travelling() {
   url[542] = 'https://www.mrgod.cn';
   url[543] = 'https://www.ykuee.link';
   url[544] = 'https://blog.zhheo.com';
+  url[545] = 'https://mm.yaomomo.com';
+  url[546] = 'https://lymtics.top';
+  url[547] = 'https://www.rsecc.cn';
+  url[548] = 'https://www.writiger.cn';
+  url[549] = 'https://blog.wututu.cn';
+  url[550] = 'https://tool.cprk.cc';
+  url[551] = 'https://liupj.top';
+  url[552] = 'https://www.data-era.cn';
+  url[553] = 'https://www.panshenlian.com';
+  url[554] = 'https://kifuan.top';
+  url[555] = 'https://blog.lsilencej.top';
+  url[556] = 'https://www.imut.xyz';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
