@@ -559,6 +559,14 @@ function travelling() {
   url[554] = 'https://kifuan.top';
   url[555] = 'https://blog.lsilencej.top';
   url[556] = 'https://www.imut.xyz';
+  url[557] = 'https://xxp.one';
+  url[558] = 'https://blog.rick.icu';
+  url[559] = 'https://zzzing.cn';
+  url[560] = 'https://www.nonedata.com';
+  url[561] = 'https://www.cprk.cc';
+  url[562] = 'https://www.gonav.cn';
+  url[563] = 'https://www.chenii.com';
+  url[564] = 'https://www.feizhuqwq.com';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
