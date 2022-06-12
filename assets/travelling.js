@@ -127,7 +127,7 @@ function travelling() {
   url[122] = "https://fx7.top";
   url[123] = "https://blog.butanediol.me";
   url[124] = "https://loafing.cn";
-  url[125] = "https://www.ddg.ink";
+  url[125] = rip_url;
   url[126] = "https://blog.zggsong.cn";
   url[127] = "https://bestzuo.cn";
   url[128] = "https://handsonic.top";
@@ -139,7 +139,7 @@ function travelling() {
   url[134] = "https://www.wangyusong.cn";
   url[135] = "https://blog.zcmimi.top";
   url[136] = "https://blog.tengfei.website";
-  url[137] = "https://www.zk1220.com";
+  url[137] = rip_url;
   url[138] = rip_url;
   url[139] = "https://colsrch.cn";
   url[140] = "https://azusemisa.top";
@@ -168,7 +168,7 @@ function travelling() {
   url[163] = "https://www.acg19.top";
   url[164] = rip_url;
   url[165] = "https://kurumit3.top";
-  url[166] = "https://blog.limecho.net";
+  url[166] = rip_url;
   url[167] = "https://blog.pppane.com";
   url[168] = rip_url;
   url[169] = rip_url;
@@ -182,7 +182,7 @@ function travelling() {
   url[177] = rip_url;
   url[178] = "https://blog.luzy.top";
   url[179] = "https://senorui.top";
-  url[180] = "https://www.szfc13.cn";
+  url[180] = rip_url;
   url[181] = "https://blog.lihaojin.cn";
   url[182] = "https://www.saroin.com";
   url[183] = "https://zhenwu99.gitee.io";
@@ -261,7 +261,7 @@ function travelling() {
   url[256] = "https://loliloli.moe";
   url[257] = rip_url;
   url[258] = "https://blog.7wate.com";
-  url[259] = "https://www.wulinzeng.vip";
+  url[259] = rip_url;
   url[260] = "https://notes.zhangxiaocai.cn";
   url[261] = rip_url;
   url[262] = "https://www.tonylsl.top";
@@ -279,10 +279,10 @@ function travelling() {
   url[274] = rip_url;
   url[275] = "https://beelake.github.io";
   url[276] = rip_url;
-  url[277] = "https://caviar-x.top";
+  url[277] = rip_url;
   url[278] = "https://irr.ink";
   url[279] = "https://blog.ljcbaby.top";
-  url[280] = "https://www.flagg.cn";
+  url[280] = rip_url;
   url[281] = "https://www.aigeek.top";
   url[282] = "https://foolishfox.cn";
   url[283] = "https://jin-yuhan.github.io";
@@ -295,7 +295,7 @@ function travelling() {
   url[290] = "https://blog.bugcola.com/note";
   url[291] = "https://www.debuginn.cn";
   url[292] = "https://linzeyin.github.io";
-  url[293] = "https://blog.jerryiweb.com";
+  url[293] = rip_url;
   url[294] = "https://www.niuwx.cn";
   url[295] = "https://www.bangkaixin.com";
   url[296] = "https://hacbox.me";
@@ -352,7 +352,7 @@ function travelling() {
   url[347] = "https://blog.adworld.top";
   url[348] = "https://blog.libw.cc";
   url[349] = "https://blog.icecliffs.me";
-  url[350] = "https://here.sy";
+  url[350] = rip_url;
   url[351] = "https://shuxhan.com";
   url[352] = "https://jokerdig.com";
   url[353] = "https://www.morcat.cn";
