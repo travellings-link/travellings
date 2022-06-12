@@ -16,7 +16,7 @@ body:
       placeholder: ex. 开往
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: website
     attributes:
       label: 网站网址
@@ -26,7 +26,7 @@ body:
       placeholder: ex. https://travellings.link
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: place
     attributes:
       label: 徽标位置
