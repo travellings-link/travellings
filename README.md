@@ -100,10 +100,10 @@
 
 ```
 <head>
-<script src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/travelling.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/travellings-link/travellings/assets/travelling.min.js"></script>
 </head>
 <body>
-<a href="javascript:travelling()" title="开往-友链接力"><img src="https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
+<a href="javascript:travelling()" title="开往-友链接力"><img src="https://fastly.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 </body>
 ```
 
