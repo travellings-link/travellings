@@ -3,3 +3,7 @@ contact_links:
   - name: 问题 & 讨论 & 建议
     url: https://github.com/travellings-link/travellings/discussions
     about: 使用GitHub讨论进行留言板式的问题和讨论或功能建议
+contact_links:
+  - name: 申请修改网站信息
+    url: https://github.com/zh-blogs/blog-daohang/issues/new?assignees=linlinzzo&labels=%E5%BC%80%E5%BE%80&template=change.md&title=%E7%94%B3%E8%AF%B7%E4%BF%AE%E6%94%B9%E4%BF%A1%E6%81%AF-%5B%E7%BD%91%E7%AB%99%E5%BA%8F%E5%8F%B7%5D
+    about: 您将移步至“中文博客列表导航地址库维护组”申请修改信息
