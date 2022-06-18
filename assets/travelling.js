@@ -518,7 +518,7 @@ function travelling() {
   url[513] = 'https://blog.dominoh.com';
   url[514] = 'https://www.sangxuesheng.com';
   url[515] = 'https://www.nikoblog.top';
-  url[516] = 'https://www.qinzhi.cc';
+  url[516] = 'https://deng.life';
   url[517] = 'https://www.easyf12.top/';
   url[518] = 'https://www.zyglq.cn';
   url[519] = 'https://blog.yidaozhan.ga';
