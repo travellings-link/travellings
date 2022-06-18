@@ -449,7 +449,7 @@
 | 513 | 多米诺的BLOG | https://blog.dominoh.com |
 | 514 | 听闻-导航页 | https://www.sangxuesheng.com |
 | 515 | NikoBlog | https://www.nikoblog.top |
-| 516 | 老邓的博客 | https://www.qinzhi.cc |
+| 516 | DENG's LIFE | https://deng.life |
 | 517 | 一蓑烟雨的博客 | https://www.easyf12.top/ |
 | 518 | 资源管理器博客 | https://www.zyglq.cn |
 | 519 | 一刀斩の小窝 | https://blog.yidaozhan.ga |
@@ -496,7 +496,7 @@
 | 560 | NoneData | https://www.nonedata.com |
 | 561 | Prk博客 | https://www.cprk.cc |
 | 562 | Go导航 | https://www.gonav.cn |
-| 563 | 南生余 | https://www.imut.xyz |
+| 563 | 南生余 | https://www.chenii.com |
 | 564 | 肥猪のBlog | https://www.feizhuqwq.com |
 
 ---
