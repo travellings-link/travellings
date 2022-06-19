@@ -567,6 +567,12 @@ function travelling() {
   url[562] = 'https://www.gonav.cn';
   url[563] = 'https://www.chenii.com';
   url[564] = 'https://www.feizhuqwq.com';
+  url[565] = 'https://kuaikan.ink';
+  url[566] = 'https://www.tiaobug.com';
+  url[567] = 'https://www.zhc.ink';
+  url[568] = 'https://www.xdull.cn';
+  url[569] = 'https://blog.davidweng.tk';
+  url[570] = 'https://www.casecori.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
