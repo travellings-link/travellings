@@ -420,7 +420,7 @@ function travelling() {
   url[415] = "https://www.manshaoco.com";
   url[416] = "https://www.elliot98.top";
   url[417] = "https://aloner.ink";
-  url[418] = "https://blog.lfhsheng.top";
+  url[418] = "https://blog.lfhsheng.com";
   url[419] = "https://love2wind.cn";
   url[420] = "https://imba97.cn";
   url[421] = "https://fairysen.com";
