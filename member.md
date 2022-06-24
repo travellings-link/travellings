@@ -50,6 +50,7 @@
 | 65 | 顶栏 | 萌豚 Moechu | https://moechu.cn |
 | 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
 | 67 | 中心 | 刀客 | https://blog.mboker.cn |
+| 68 | 侧栏 | 静静的小窝 | https://wznmickey.com |
 | 70 | 顶栏 | 及时行乐 | https://www.jsxlo.com |
 | 71 | 顶栏 | DoveのBlog | https://blog.sdgou.cc |
 | 74 | 顶栏 | 顾盼の记事本 | https://gupan.site |
