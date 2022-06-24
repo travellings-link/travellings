@@ -70,7 +70,7 @@ function travelling() {
   url[65] = "https://moechu.cn";
   url[66] = "https://www.zqcnc.cn";
   url[67] = "https://blog.mboker.cn";
-  url[68] = rip_url;
+  url[68] = "https://wznmickey.com";
   url[69] = rip_url;
   url[70] = "https://www.jsxlo.com";
   url[71] = "https://blog.sdgou.cc";
