@@ -19,6 +19,7 @@
 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
+> 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q)
 
 > ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助](http://afdian.net/@volfclub)，为域名续费（请选 Travellings Sponsors）。
 
