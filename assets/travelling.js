@@ -223,7 +223,7 @@ function travelling() {
   url[218] = "https://hiwannz.com";
   url[219] = "https://www.zlinblog.cn";
   url[220] = "https://rhythmlian.cn";
-  url[221] = "https://www.alpaca.plus";
+  url[221] = "https://www.alpacabro.com";
   url[222] = "https://yingwiki.top";
   url[223] = "https://qikaile.tk";
   url[224] = "https://funs.life";
@@ -335,7 +335,7 @@ function travelling() {
   url[330] = "https://www.godapex.com";
   url[331] = "https://blog.gztime.cc";
   url[332] = "https://tir.cool";
-  url[333] = "https://sakurasep.club";
+  url[333] = "https://blog.sakurasep.club";
   url[334] = "https://ihkk.net";
   url[335] = rip_url;
   url[336] = "https://bbing.com.cn";
@@ -444,7 +444,7 @@ function travelling() {
   url[439] = "https://www.sccens.net";
   url[440] = "https://张晶晶.我爱你";
   url[441] = "https://blog.dylanwu.space";
-  url[442] = "https://sakurasep.site";
+  url[442] = "https://blog.sakurasep.site";
   url[443] = "https://nickx.cn";
   url[444] = "https://www.lanta.cyou";
   url[445] = "https://qystudio.ltd";
@@ -521,7 +521,7 @@ function travelling() {
   url[516] = 'https://deng.life';
   url[517] = 'https://www.easyf12.top/';
   url[518] = 'https://www.zyglq.cn';
-  url[519] = 'https://blog.yidaozhan.ga';
+  url[519] = 'https://blog.yidaozhan.top';
   url[520] = 'https://nanxing.ltd';
   url[521] = 'https://www.keanes.cn';
   url[522] = 'https://lishizi.jushistudio.com';
