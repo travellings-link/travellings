@@ -573,6 +573,11 @@ function travelling() {
   url[568] = 'https://www.xdull.cn';
   url[569] = 'https://blog.davidweng.tk';
   url[570] = 'https://www.casecori.top';
+  url[571] = 'https://blognas.hwb0307.com';
+  url[572] = 'https://www.aohuiliu.fun';
+  url[573] = 'https://gahotx.cn';
+  url[574] = 'https://www.tyrantg.com';
+  url[575] = 'https://www.izekel.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
