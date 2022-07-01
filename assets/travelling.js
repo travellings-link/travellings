@@ -579,6 +579,7 @@ function travelling() {
   url[574] = 'https://www.tyrantg.com';
   url[575] = 'https://www.izekel.cn';
   url[576] = 'https://www.shibuyu.fun';
+  url[577] = 'https://blog.kobin.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
