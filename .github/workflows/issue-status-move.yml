@@ -3,6 +3,7 @@
 # 移动到待回应时，添加 “待回应” 标签
 
 name: Update Labels
+
 on:
   project_card:
     types:
@@ -59,6 +60,5 @@ jobs:
       - name: Remove labels
         uses: andymckay/labeler@master
         with:
-          add-labels: "vote"
           remove-labels: "处理中, 待回应, 待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
