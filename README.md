@@ -112,8 +112,6 @@
 
 - `https://travellings-link.github.io/travellings/`
 
-- `https://travellings.pages.dev`
-
 - `https://travellings.netlify.com`
 
 - [不推荐](https://www.vercel-status.com/incidents/r758bhbklgfd) `https://travellings.vercel.app`
