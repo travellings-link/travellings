@@ -580,6 +580,7 @@ function travelling() {
   url[575] = 'https://www.izekel.cn';
   url[576] = 'https://www.shibuyu.fun';
   url[577] = 'https://blog.kobin.cn';
+  url[578] = 'https://panda995.xyz';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
