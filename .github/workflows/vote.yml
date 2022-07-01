@@ -1,0 +1,19 @@
+name: vote Reply
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  reply-helper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: out vercel
+        if: github.event.label.name == 'vote'
+        uses: actions-cool/issues-helper@v2.0.0
+        with:
+          actions: 'create-comment'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            请您为开往的发展投票（https://github.com/travellings-link/travellings/discussions/1061）
