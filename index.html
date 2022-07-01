@@ -386,11 +386,22 @@
     <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js"></script>
     <script>
 	iziToast.show({
-	title: 'Hi',
-    	message: '这里是我们的<a href="https://jq.qq.com/?_wv=1027&k=Ym87ov3q" target="_blank">QQ群</a>，欢迎加入',
-	icon: 'fa-brands fa-qq',
+	    title: 'Hi',
+    	message: '我们建立了QQ群,<a href="https://jq.qq.com/?_wv=1027&k=Ym87ov3q" target="_blank">点击进入</a>',
+	    icon: 'fa-brands fa-qq',
+        color: 'yellow',
     	time: 30000
 	});
+    </script>
+    <script>
+    iziToast.show({
+        title: '投票',
+        message: '<a href="https://github.com/travellings-link/travellings/discussions/1061" target="_blank">请您为开往的发展投票</a>',
+        icon: 'fa-light fa-check-to-slot',
+        position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+        color: 'blue',
+        time: 30000
+    });
     </script>
 </body>
 
