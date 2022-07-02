@@ -123,7 +123,7 @@
 
 ## 成员列表
 
-已经移至 https://github.com/travellings-link/travellings/blob/master/member.md 。
+[点此查看](https://github.com/travellings-link/travellings/blob/master/member.md)成员列表，已有超500成员加入过开往。[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
 ---
 
@@ -170,7 +170,7 @@ A：安全，不侵犯隐私。
 > - 无需 Cookie ：统计不使用任何 Cookie，没有烦人的 Cookie 提醒。
 > - 自托管服务：统计数据不会与第三方服务共享。
 > - [尊重“不跟踪”](https://support.mozilla.org/zh-CN/kb/%E5%A6%82%E4%BD%95%E5%81%9C%E6%AD%A2%E8%AE%A9%E7%BD%91%E7%AB%99%E8%BF%BD%E8%B8%AA%E6%88%91)：当浏览器开启“Do Not Track”时，会自动停用统计，尊重您的隐私。
-> - 公开透明：您可[点击此处](https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80)查看统计数据，了解开往的访问情况。
+> - 公开透明：您可[点此查看](https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80)统计数据，了解开往的访问情况。
 
 ### Q：开往给站长和访客带来了什么？
 
