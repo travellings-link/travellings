@@ -6,10 +6,7 @@
 
 
 ### 更新说明：
-- 新增 30+ 网页，维护 30+ 网页；
-- 调整了“申请收录”的 issues 模板；
-- 新增了相似项目推荐；
----
+
 
 想法来自 https://github.com/XXIIVV/webring
 
@@ -19,7 +16,7 @@
 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
 
-> 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q)
+<!-- > 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
 
 > ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助](http://afdian.net/@volfclub)，为域名续费（请选 Travellings Sponsors）。
 
@@ -38,6 +35,8 @@
 > ✨ 新 logo 灵感：代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。
 
 ---
+
+<details><summary>✅ 怎样加入开往？</summary>
 
 ### 1. 您的网页应满足：
 
@@ -95,9 +94,9 @@
 
 ---
 
-###  无缝接力 β 
+###  ~~无缝接力~~ （不推荐）
 
-可用 jsdelivr 加速，中间无开往跳转页。我们会及时清除 jsdelivr 缓存。
+可用 jsdelivr 加速，中间无开往跳转页。
 
 ```
 <head>
@@ -115,6 +114,9 @@
 - `https://travellings.netlify.com`
 
 - [不推荐](https://www.vercel-status.com/incidents/r758bhbklgfd) `https://travellings.vercel.app`
+
+
+</details>
 
 ---
 ## 成员列表
