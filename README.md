@@ -4,11 +4,11 @@
 
 相似项目推荐：[虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
 
+想法来自 https://github.com/XXIIVV/webring
 
 ### 更新说明：
 
-
-想法来自 https://github.com/XXIIVV/webring
+[🔮 统计数据](https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80) | [♻️ 网站状态](https://status.travellings.link/status/index)
 
 > ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz)
 
@@ -42,7 +42,8 @@
 
 - 愿为开放的网络做出贡献（如乐于分享知识经验等）；
 - 禁止采集站内容农场（对多站点聚合，源站不提供的数据进行统计不在此列）；
-- 没有违法以及影响体验的内容（如侵入式广告等）；
+- 禁止违法违规及影响体验的内容（如侵入式广告等）；
+- 禁止 NSFW 等敏感引人不适的内容；
 - 正常更新维护中（国内无法正常访问会被移除）；
 - 网页已有较多内容（建议20篇以上，已持续更新一段时间）；
 - 强制启用 https 。
@@ -119,8 +120,14 @@
 </details>
 
 ---
+
 ## 成员列表
+
 已经移至 https://github.com/travellings-link/travellings/blob/master/member.md 。
+
+---
+
+<details><summary>✅ 常见问答帮助？</summary>
 
 ## Q&A
 
@@ -134,7 +141,7 @@ A：**任何网页都可以**。
 
 A：😻 有两种方案可选。
 
-- 参考使用说明中的 [额外可选](https://github.com/volfclub/travellings#2-%E5%B0%86%E5%BC%80%E5%BE%80%E6%94%BE%E5%88%B0%E6%82%A8%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%90%8E%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%8F%8B%E9%93%BE%E6%8E%A5%E5%8A%9B%E4%B8%8B%E5%8E%BB)，在你的网页上放置开往的徽标，帮助宣传让更多的人加入开往。
+- 参考使用说明中的 [额外可选](https://github.com/travellings-link/travellings#2-%E5%B0%86%E5%BC%80%E5%BE%80%E6%94%BE%E5%88%B0%E6%82%A8%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%90%8E%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%8F%8B%E9%93%BE%E6%8E%A5%E5%8A%9B%E4%B8%8B%E5%8E%BB)，在你的网页上放置开往的徽标，帮助宣传让更多的人加入开往。
 
 - [打赏作者](https://afdian.net/@volfclub)，一些零钱总能激励作者更新维护项目的积极性。
 
@@ -158,6 +165,13 @@ A：安全，不侵犯隐私。
 
 全部 https 抗劫持；开源**无统计代码***，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
 
+> 2022年7月更新：由于开往的发展与后续镜像站的计划，我们需要了解来往页面的访问情况，因此使用了自托管的 [umami](https://umami.is/) 服务进行统计。umami 是隐私友好的:
+> - [符合 GDPR](https://umami.is/docs/faq)：不收集任何个人身份信息，所有数据匿名化处理，不识别也不会跨网站追踪用户。
+> - 无需 Cookie ：统计不使用任何 Cookie，没有烦人的 Cookie 提醒。
+> - 自托管服务：统计数据不会与第三方服务共享。
+> - [尊重“不跟踪”](https://support.mozilla.org/zh-CN/kb/%E5%A6%82%E4%BD%95%E5%81%9C%E6%AD%A2%E8%AE%A9%E7%BD%91%E7%AB%99%E8%BF%BD%E8%B8%AA%E6%88%91)：当浏览器开启“Do Not Track”时，会自动停用统计，尊重您的隐私。
+> - 公开透明：您可[点击此处](https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80)查看统计数据，了解开往的访问情况。
+
 ### Q：开往给站长和访客带来了什么？
 
 A：网络曾经从封闭走向开放，如今又走向了封闭。在此环境下，独立网页（类似“独立游戏”）的流量或多或少的受到影响。开往尝试让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来。
@@ -180,3 +194,5 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 ### Q：举报问题网页或退出开往？
 
 A：提个 issues 吧。
+
+</details>
