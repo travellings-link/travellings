@@ -406,7 +406,7 @@ function travelling() {
   url[401] = "https://pzwd.net";
   url[402] = "https://bntx.ml";
   url[403] = "https://blog.iqia.top";
-  url[404] = rip_url;
+  url[404] = "https://travellings.link/assets/Zephyr.jpg";
   url[405] = "https://wr0926.ml";
   url[406] = "https://blog.gd1214b.icu";
   url[407] = "https://chukogals.top";
