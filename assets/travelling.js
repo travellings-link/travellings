@@ -582,6 +582,10 @@ function travelling() {
   url[577] = 'https://blog.kobin.cn';
   url[578] = 'https://panda995.xyz';
   url[579] = 'https://www.hezhigu.com';
+  url[580] = 'https://www.bytecho.net';
+  url[581] = 'https://blog.code520.com.cn';
+  url[582] = 'https://www.wikimimo.com';
+  url[583] = 'https://mojinxi.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
