@@ -586,6 +586,7 @@ function travelling() {
   url[581] = 'https://blog.code520.com.cn';
   url[582] = 'https://www.wikimimo.com';
   url[583] = 'https://mojinxi.cn';
+  url[584] = 'https://imum.me';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
