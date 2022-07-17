@@ -10,7 +10,7 @@ function travelling() {
   url[5] = rip_url;
   url[6] = "https://www.yamdr.cn";
   url[7] = "https://www.kanofans.com";
-  url[8] = "https://ryanc.cc";
+  url[8] = rip_url;
   url[9] = rip_url;
   url[10] = "https://blog.uniartisan.com";
   url[11] = rip_url;

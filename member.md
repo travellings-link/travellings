@@ -11,7 +11,6 @@
 | 4 | 底栏* | Barkure | https://guguga.cn |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 侧栏* | Arect和他的 | https://www.kanofans.com |
-| 8 | 底栏* | Ryan Wang's Blog | https://ryanc.cc |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
 | 11 | 顶栏 | JQM's Site | https://jinqimu.github.io |
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
@@ -535,6 +534,7 @@
 | 序号 | 原因 | 名称 | 网址 |
 | --- | --- | --- | --- |
 | 5 | LOST | Emoticon | https://mQAQm.com |
+| 8 | QUIT | Ryan Wang's Blog | https://ryanc.cc |
 | 9 | LOST | Seija | https://seija.me |
 | 12 | QUIT | CrownDaisy | https://crowndaisy.com |
 | 14 | LOST | Yuki Yuki | https://wp.remudaisuki.top |
