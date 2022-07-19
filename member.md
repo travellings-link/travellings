@@ -305,7 +305,7 @@
 | 375 | 顶栏 | 竹MC的博客 | https://bamboomc.cn |
 | 376 | 顶栏 | LTY's Blog | https://blog.ltya.top/ |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
-| 378 | 顶栏 | 敬一博客 | https://blog.owwee.top |
+| 378 | 顶栏 | 敬一博客 | https://www.owwee.cn |
 | 379 | 侧栏 | 林林杂语 | https://www.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
@@ -519,6 +519,7 @@
 | 583 | 竹春廿柒 | https://mojinxi.cn |
 | 584 | 你是人间的四月天 | https://imum.me |
 | 585 | 小新的博客 | https://xiaoxinblog.xyz |
+| 586 | 百里飞洋の小世界 | http://blog.meta-code.top |
 
 ---
 
