@@ -380,7 +380,7 @@ function travelling() {
   url[375] = "https://bamboomc.cn";
   url[376] = "https://blog.ltya.top";
   url[377] = "https://www.utopiaxc.cn";
-  url[378] = "https://blog.owwee.top";
+  url[378] = "https://www.owwee.cn";
   url[379] = "https://www.linlinzzo.top";
   url[380] = "https://chenhe.me";
   url[381] = "https://oiermikec.fun";
@@ -588,6 +588,7 @@ function travelling() {
   url[583] = 'https://mojinxi.cn';
   url[584] = 'https://imum.me';
   url[585] = 'https://xiaoxinblog.xyz';
+  url[586] = 'http://blog.meta-code.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
