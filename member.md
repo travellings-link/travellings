@@ -467,7 +467,7 @@
 | 531 | Saiodgm の 博客儿 | https://oi.saiodgm.gq |
 | 532 | 等一只柴犬 | https://thtown.cn |
 | 533 | shunhang | https://www.shimmerl.top |
-| 534 | 六个周 | https://liugezhou.github.io |
+| 534 | 六个周 | https://blog.liugezhou.online |
 | 535 | 咕萌小站 | https://gmoe.cc |
 | 536 | AoTxLand | https://aotxland.com |
 | 537 | QAIU's blog | https://blog.qaiu.top |
