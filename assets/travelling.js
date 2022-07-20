@@ -536,7 +536,7 @@ function travelling() {
   url[531] = 'https://oi.saiodgm.gq';
   url[532] = 'https://thtown.cn';
   url[533] = 'https://www.shimmerl.top';
-  url[534] = 'https://liugezhou.github.io/blog';
+  url[534] = 'https://liugezhou.github.io';
   url[535] = 'https://gmoe.cc';
   url[536] = 'https://aotxland.com';
   url[537] = 'https://blog.qaiu.top';
