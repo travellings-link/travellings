@@ -191,7 +191,7 @@ function travelling() {
   url[186] = rip_url;
   url[187] = "https://www.leejean.top";
   url[188] = rip_url;
-  url[189] = "https://www.extingstudio.com";
+  url[189] = rip_url;
   url[190] = "https://www.yunshu.site";
   url[191] = rip_url;
   url[192] = "https://xiaokang.me";
