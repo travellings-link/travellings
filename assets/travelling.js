@@ -191,7 +191,7 @@ function travelling() {
   url[186] = rip_url;
   url[187] = "https://www.leejean.top";
   url[188] = rip_url;
-  url[189] = "https://www.extingstudio.com";
+  url[189] = rip_url;
   url[190] = "https://www.yunshu.site";
   url[191] = rip_url;
   url[192] = "https://xiaokang.me";
@@ -589,7 +589,8 @@ function travelling() {
   url[584] = 'https://imum.me';
   url[585] = 'https://xiaoxinblog.xyz';
   url[586] = 'http://blog.meta-code.top';
-  url[587] = 'https://icooper.cc/';
+  url[587] = 'https://icooper.cc';
+  url[588] = 'https://xiangshu233.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
