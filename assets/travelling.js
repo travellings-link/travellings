@@ -589,7 +589,8 @@ function travelling() {
   url[584] = 'https://imum.me';
   url[585] = 'https://xiaoxinblog.xyz';
   url[586] = 'http://blog.meta-code.top';
-  url[587] = 'https://icooper.cc/';
+  url[587] = 'https://icooper.cc';
+  url[588] = 'https://xiangshu233.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
