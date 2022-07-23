@@ -591,6 +591,7 @@ function travelling() {
   url[586] = 'http://blog.meta-code.top';
   url[587] = 'https://icooper.cc';
   url[588] = 'https://xiangshu233.cn';
+  url[589] = 'https://u.mr90.top';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
