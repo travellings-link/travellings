@@ -593,6 +593,7 @@ function travelling() {
   url[588] = 'https://xiangshu233.cn';
   url[589] = 'https://u.mr90.top';
   url[590] = 'https://heychaw.cc';
+  url[591] = 'https://7gugu.com';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
