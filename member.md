@@ -528,6 +528,7 @@
 | 593 | 澄沨的漫游茶记 | https://champhoon.xyz |
 | 594 | 闪闪の小窝 | https://moechun.fun |
 | 595 | 落星屋 | https://www.cnortles.top |
+| 596 | Rekord's Blog | https://sxrekord.com |
 
 
 ---
