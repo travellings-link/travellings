@@ -514,7 +514,6 @@
 | 579 | 禾之谷 | https://www.hezhigu.com |
 | 580 | 字节星球 | https://www.bytecho.net |
 | 581 | 周靖 | https://blog.code520.com.cn |
-| 582 | WikiMimo | https://www.wikimimo.com |
 | 583 | 竹春廿柒 | https://mojinxi.cn |
 | 584 | 你是人间的四月天 | https://imum.me |
 | 585 | 小新的博客 | https://xiaoxinblog.xyz |
@@ -635,5 +634,6 @@
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 582 | 自退 | WikiMimo | https://www.wikimimo.com |
 
 ---
