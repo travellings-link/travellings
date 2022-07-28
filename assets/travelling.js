@@ -598,6 +598,7 @@ function travelling() {
   url[593] = 'https://champhoon.xyz';
   url[594] = 'https://moechun.fun';
   url[595] = 'https://www.cnortles.top';
+  url[596] = 'https://sxrekord.com';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
