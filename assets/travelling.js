@@ -306,7 +306,7 @@ function travelling() {
   url[301] = "https://imcys.com";
   url[302] = "https://xiwangly.top";
   url[303] = "https://blog.itsse.cn";
-  url[304] = "https://blog.gatesx.cn";
+  url[304] = "https://blog.noxsk.com";
   url[305] = "https://www.hzq.life";
   url[306] = "https://cayzlh.com";
   url[307] = "https://blog.garryde.com";
