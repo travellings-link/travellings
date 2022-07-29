@@ -461,7 +461,7 @@ function travelling() {
   url[456] = "https://rosmontis.com";
   url[457] = "https://dorakika.cn";
   url[458] = "https://blog.holic-x.com/wv-blog";
-  url[459] = "https://www.dabigu.xyz";
+  url[459] = "https://dabigu.xyz";
   url[460] = "https://hugo.bnblogs.cc";
   url[461] = "https://www.hovthen.com";
   url[462] = "https://www.wanglingyue.com";
