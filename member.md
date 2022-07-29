@@ -388,7 +388,7 @@
 | 456 | 顶栏 | 迷迭香的博客 | https://rosmontis.com |
 | 457 | 顶栏 | DORAKIKA | https://dorakika.cn |
 | 458 | 顶栏* | 一人の境 | https://blog.holic-x.com/wv-blog |
-| 459 | 侧栏 | Bi_Gu's Blog | https://www.dabigu.xyz |
+| 459 | 侧栏 | Bi_Gu's Blog | https://dabigu.xyz |
 | 460 | 顶栏 | barney的博客 | https://hugo.bnblogs.cc |
 | 461 | 顶栏 | 万里淘知 | https://www.hovthen.com |
 | 462 | 顶栏 | Sky's Blog | https://www.wanglingyue.com |
