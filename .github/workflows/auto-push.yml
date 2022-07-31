@@ -2,6 +2,7 @@ name: Synchronous # 部署
 'on':
   - workflow_dispatch
   - push
+jobs:
   auto-push:
     runs-on: ubuntu-latest
     steps:
