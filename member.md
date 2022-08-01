@@ -33,6 +33,7 @@
 | 33 | 顶栏 | 阿猫阿狗 | https://ionssource.cn |
 | 36 | 侧栏* | 云游君的小站 | https://www.yunyoujun.cn |
 | 41 | 顶栏 | krau'blog | https://krau.top |
+| 42 | 侧栏 | Weifeng's Blog | https://wfblog.net |
 | 45 | 顶栏 | ajian | https://blog.yegetables.cn |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://baka.fun |
@@ -55,6 +56,7 @@
 | 88 | 顶栏 | Ying | https://blog.luvying.com |
 | 89 | 侧栏 | 风之暇想 | https://www.fzxx.xyz |
 | 91 | 顶栏 | ADD-SP‘s Blog | https://www.addesp.com |
+| 92 | 侧栏 | 游轶的小站 | https://blog.devyi.com |
 | 93 | 顶栏 | MHuiG's Blog | https://blog.mhuig.top |
 | 95 | 顶栏 | LiuYun | https://blog.6yfz.cn |
 | 96 | 顶栏 | Geek Era | https://www.geekera.cn |
@@ -121,6 +123,7 @@
 
 | 序号 | 位置 | 名称 | 网址 |
 | --- | --- | --- | --- |
+| 200 | 顶栏 | 阿成儿Online | https://youdef.com |
 | 201 | 顶栏 | 黑石博客 | https://www.heson10.com |
 | 208 | 顶栏 | Juch 的导航 | https://www.vmert.com |
 | 210 | 中心 | The F Word | https://fiammanda.github.io |
@@ -518,7 +521,6 @@
 | 38 | QUIT | Eltrac's Track | https://blog.guhub.cn |
 | 39 | QUIT | yuaneuro的博客 | https://yuaneuro.cn |
 | 40 | QUIT | Smilear's Blog | https://smilear.cn |
-| 42 | ERROR | Weifeng's Blog | https://wfblog.net |
 | 43 | QUIT | Nymane's Blog | https://www.nymane.xyz |
 | 44 | LOST | 风吟 | https://blog.yilon.top |
 | 48 | LOST | Zhou‘s Blog | https://idream.ink |
