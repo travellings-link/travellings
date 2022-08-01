@@ -306,7 +306,7 @@ function travelling() {
   url[301] = "https://imcys.com";
   url[302] = "https://xiwangly.top";
   url[303] = "https://blog.itsse.cn";
-  url[304] = "https://blog.gatesx.cn";
+  url[304] = "https://blog.noxsk.com";
   url[305] = "https://www.hzq.life";
   url[306] = "https://cayzlh.com";
   url[307] = "https://blog.garryde.com";
@@ -461,7 +461,7 @@ function travelling() {
   url[456] = "https://rosmontis.com";
   url[457] = "https://dorakika.cn";
   url[458] = "https://blog.holic-x.com/wv-blog";
-  url[459] = "https://www.dabigu.xyz";
+  url[459] = "https://dabigu.xyz";
   url[460] = "https://hugo.bnblogs.cc";
   url[461] = "https://www.hovthen.com";
   url[462] = "https://www.wanglingyue.com";
@@ -584,7 +584,7 @@ function travelling() {
   url[579] = 'https://www.hezhigu.com';
   url[580] = 'https://www.bytecho.net';
   url[581] = 'https://blog.code520.com.cn';
-  url[582] = 'https://www.wikimimo.com';
+  url[582] = rip_url;
   url[583] = 'https://mojinxi.cn';
   url[584] = 'https://imum.me';
   url[585] = 'https://xiaoxinblog.xyz';

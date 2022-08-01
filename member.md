@@ -199,7 +199,7 @@
 | 301 | 侧栏* | 萌新杰少の秘密基地 | https://imcys.com |
 | 302 | 顶栏 | 希望的博客 | https://xiwangly.top |
 | 303 | 中心 | WishMeLz | https://blog.itsse.cn |
-| 304 | 侧栏 | 凝雀 | https://blog.gatesx.cn |
+| 304 | 侧栏 | Noxsk | https://blog.noxsk.com |
 | 305 | 侧栏* | 新加卷的小宇宙 | https://www.hzq.life |
 | 306 | 侧栏 | CAYZLH | https://cayzlh.com |
 | 307 | 侧栏 | 咖里De | https://blog.garryde.com |
@@ -352,7 +352,7 @@
 | 456 | 顶栏 | 迷迭香的博客 | https://rosmontis.com |
 | 457 | 顶栏 | DORAKIKA | https://dorakika.cn |
 | 458 | 顶栏* | 一人の境 | https://blog.holic-x.com/wv-blog |
-| 459 | 侧栏 | Bi_Gu's Blog | https://www.dabigu.xyz |
+| 459 | 侧栏 | Bi_Gu's Blog | https://dabigu.xyz |
 | 460 | 顶栏 | barney的博客 | https://hugo.bnblogs.cc |
 | 461 | 顶栏 | 万里淘知 | https://www.hovthen.com |
 | 462 | 顶栏 | Sky's Blog | https://www.wanglingyue.com |
@@ -478,7 +478,6 @@
 | 579 | 禾之谷 | https://www.hezhigu.com |
 | 580 | 字节星球 | https://www.bytecho.net |
 | 581 | 周靖 | https://blog.code520.com.cn |
-| 582 | WikiMimo | https://www.wikimimo.com |
 | 583 | 竹春廿柒 | https://mojinxi.cn |
 | 584 | 你是人间的四月天 | https://imum.me |
 | 585 | 小新的博客 | https://xiaoxinblog.xyz |
@@ -635,5 +634,6 @@
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 582 | QUIT | WikiMimo | https://www.wikimimo.com |
 
 ---
