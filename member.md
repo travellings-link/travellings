@@ -530,7 +530,7 @@
 | 56 | QUIT | TigerRoot | https://blog.tigerroot.cn |
 | 57 | QUIT | 蝶恋花 | https://kylin.dev |
 | 58 | LOST | 摸鱼堂 | https://blog.moefishtang.xyz |
-| 59 | LOST | Pluveto | https://www.pluvet.com |
+| 59 | ERROR | Pluveto | https://www.pluvet.com |
 | 60 | LOST | Ma's Blog | https://6773.ink |
 | 62 | LOST | 遇见孤独 | https://blog.aenjoy.cn |
 | 63 | SSL | LifeAlsoIsGG's blog | https://blog.lifeisgg.online |
@@ -539,7 +539,7 @@
 | 72 | SSL | 魏巍 | https://paperbox.xyz |
 | 73 | QUIT | Leo’s Blog | https://www.isolitude.cn |
 | 75 | QUIT | 爆胎的博客 | https://www.itggg.cn |
-| 78 | LOST | 青行三の个人博客 | https://blog.jiehua1995.xyz |
+| 78 | ERROR | 青行三の个人博客 | https://blog.jiehua1995.xyz |
 | 79 | LOST | 有次博客 | https://you.ci |
 | 80 | ERROR | 德令哈 | https://www.deepwave.top |
 | 81 | QUIT | SkyWT | https://skywt.cn |
@@ -560,7 +560,7 @@
 | 113 | ERROR | 莫逡巡的博客 | https://wangpl.top |
 | 114 | QUIT | 三路清风 | https://www.yansanlu.com |
 | 115 | LOST | 房东的猫 | https://www.fddmao.com |
-| 116 |  LOST | Guyi’s Blog | https://www.y2jq.com |
+| 116 | LOST | Guyi’s Blog | https://www.y2jq.com |
 | 118 | LOST | 旧叙新陈'Blog | https://jiuxuxinchen.xyz |
 | 119 | SSL | 九汐 | https://blog.lu-sky.com |
 | 120 | LOST | MZRME‘S | https://mzrme.com |
