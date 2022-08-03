@@ -135,6 +135,7 @@
 | 218 | 侧栏* | 见字如面 | https://hiwannz.com |
 | 219 | 顶栏 | 徐泽林的博客 | https://www.zlinblog.cn |
 | 220 | 顶栏 | RhythmLian's Blog | https://rhythmlian.cn |
+| 222 | 顶栏 | 越行勤‘s Blog | https://blog.yxqin.top |
 | 223 | 侧栏 | 云生博客 | https://qikaile.tk |
 | 225 | 中心 | 听得入迷空间 | https://www.tdrme.cn |
 | 226 | 顶栏 | hongCYu's Blog | https://hongcyu.cn |
@@ -494,6 +495,7 @@
 | 596 | Rekord's Blog | https://sxrekord.com |
 | 597 | ガヴのサイト | https://gabrielxd.top |
 | 598 | Cubik的小站 | https://www.cubik65536.top |
+| 599 | wallleap | https://myblog.wallleap.cn |
 
 
 ---
@@ -610,7 +612,6 @@
 | 215 | QUIT | MineCraft爱好者 | https://www.mmcee.cn |
 | 216 | LOST | anonymous's blog | https://www.wenbin.org.cn |
 | 221 | QUIT | alpacabro | https://www.alpacabro.com |
-| 222 | LOST | 越行勤‘s Blog | https://yingwiki.top |
 | 224 | QUIT | Funs Life | https://funs.life |
 | 228 | LOST | Ty Blog | https://tyblog.com.cn |
 | 235 | ERROR | luosw 的小窝 | https://luosw.fun |
