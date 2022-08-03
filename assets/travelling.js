@@ -206,7 +206,7 @@ function travelling() {
   url[201] = "https://www.heson10.com";
   url[202] = rip_url;
   url[203] = rip_url;
-  url[204] = rip_url;
+  url[204] = 'https://www.feidaoboke.com';
   url[205] = rip_url;
   url[206] = rip_url;
   url[207] = rip_url;
@@ -224,7 +224,7 @@ function travelling() {
   url[219] = "https://www.zlinblog.cn";
   url[220] = "https://rhythmlian.cn";
   url[221] = rip_url;
-  url[222] = rip_url;
+  url[222] = 'https://blog.yxqin.top';
   url[223] = "https://qikaile.tk";
   url[224] = rip_url;
   url[225] = "https://www.tdrme.cn";
@@ -599,6 +599,9 @@ function travelling() {
   url[594] = 'https://moechun.fun';
   url[595] = 'https://www.cnortles.top';
   url[596] = 'https://sxrekord.com';
+  url[597] = 'https://gabrielxd.top';
+  url[598] = 'https://www.cubik65536.top';
+  url[599] = 'https://myblog.wallleap.cn';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
