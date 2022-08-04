@@ -602,6 +602,8 @@ function travelling() {
   url[597] = 'https://gabrielxd.top';
   url[598] = 'https://www.cubik65536.top';
   url[599] = 'https://myblog.wallleap.cn';
+  url[600] = 'https://xlenco.eu.org';
+  url[601] = 'https://baii.icu';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
