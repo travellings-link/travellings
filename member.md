@@ -498,6 +498,7 @@
 | 598 | Cubik的小站 | https://www.cubik65536.top |
 | 599 | wallleap | https://myblog.wallleap.cn |
 | 600 | Xlencoの小窝 | https://xlenco.eu.org |
+| 601 | FuBaooo 博客 | https://baii.icu |
 
 ---
 
