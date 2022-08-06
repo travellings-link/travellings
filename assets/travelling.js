@@ -88,7 +88,7 @@ function travelling() {
   url[83] = rip_url;
   url[84] = rip_url;
   url[85] = "https://takuron.top";
-  url[86] = rip_url;
+  url[86] = "https://musenxi.com";
   url[87] = "https://www.wasabi.fun";
   url[88] = "https://blog.luvying.com";
   url[89] = "https://www.fzxx.xyz";
