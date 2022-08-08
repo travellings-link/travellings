@@ -115,7 +115,9 @@
 ```
 
 ### 可选镜像
-
+ 
+- `https://travellings.cn`HK镜像(感谢蓝易云提供服务器)
+ 
 - `https://travellings-link.github.io/travellings/`
 
 - `https://travellings.netlify.com`
