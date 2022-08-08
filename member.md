@@ -500,6 +500,7 @@
 | 599 | wallleap | https://myblog.wallleap.cn |
 | 600 | Xlencoの小窝 | https://xlenco.eu.org |
 | 601 | FuBaooo 博客 | https://baii.icu |
+| 602 | Bluemangoo's Blog | https://blog.bluemangoo.net |
 
 ---
 
