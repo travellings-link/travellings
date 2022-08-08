@@ -604,6 +604,7 @@ function travelling() {
   url[599] = 'https://myblog.wallleap.cn';
   url[600] = 'https://xlenco.eu.org';
   url[601] = 'https://baii.icu';
+  url[602] = 'https://blog.bluemangoo.net';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
