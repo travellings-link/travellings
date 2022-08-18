@@ -607,6 +607,7 @@ function travelling() {
   url[602] = 'https://blog.bluemangoo.net';
   url[603] = 'https://www.ordchaos.com';
   url[604] = 'https://yuanzj.top';
+  url[605] = 'https://www.hairy.blog';
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
