@@ -605,6 +605,10 @@ function travelling() {
   url[600] = "https://xlenco.eu.org";
   url[601] = "https://baii.icu";
   url[602] = "https://blog.bluemangoo.net";
+  url[603] = "https://www.ordchaos.com";
+  url[604] = "https://yuanzj.top";
+  url[605] = "https://www.hairy.blog";
+  url[606] = "https://blog.roccoshi.top";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
