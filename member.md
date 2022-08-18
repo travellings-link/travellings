@@ -504,6 +504,7 @@
 | 603 | 序炁的博客 | https://www.ordchaos.com |
 | 604 | 圆周率的博客 | https://yuanzj.top |
 | 605 | Hairy's Blog | https://www.hairy.blog |
+| 606 | ShootZone | https://blog.roccoshi.top |
 
 ---
 
