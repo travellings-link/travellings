@@ -1,8 +1,8 @@
 name: vote Reply
 
-'on':
-  - workflow_dispatch
-
+on:
+  workflow_dispatch:
+  
 jobs:
   remove_labels_when_done:
     runs-on: ubuntu-latest
