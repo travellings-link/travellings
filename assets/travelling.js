@@ -506,7 +506,7 @@ function travelling() {
   url[501] = "https://blog.junrz.cn";
   url[502] = "https://lml023.top";
   url[503] = "https://www.astrophel.top";
-  url[504] = "https://www.qixiaofan.icu";
+  url[504] = rip_url;
   url[505] = "https://weistuday.com/";
   url[506] = "https://stvue.com";
   url[507] = "https://www.leyoubaloy.xyz";

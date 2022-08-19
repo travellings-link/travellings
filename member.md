@@ -403,7 +403,6 @@
 | 501 | Jun | https://blog.junrz.cn |
 | 502 | 尖嘴钳子_lyon的记事本 | https://lml023.top |
 | 503 | Astrophel's Blog | https://www.astrophel.top |
-| 504 | 启小凡 | https://www.qixiaofan.icu |
 | 505 | 威风的博客 | https://weistuday.com |
 | 506 | 芸熙の小屋 | https://stvue.com |
 | 507 | 百乐的编程学习 | https://www.leyoubaloy.xyz/ |
@@ -643,6 +642,7 @@
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 504 | QUIT | 启小凡 | https://www.qixiaofan.icu |
 | 582 | QUIT | WikiMimo | https://www.wikimimo.com |
 
 ---
