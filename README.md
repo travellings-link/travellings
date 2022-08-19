@@ -50,6 +50,10 @@
 - 网页已有较多内容（建议20篇以上，已持续更新一段时间）；
 - 强制启用 https 。
 
+引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q&A 中有强调）。如果引导页有链接到博客子站，则需要博客符合上述的标准。个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定。
+
+要求中的“网站已有较多内容”因为删库等非正常情况的存在一般情况下不会对已有成员进行复查。
+
 开往与十年之约合作，目前十年之约成员在加入开往时仅需检查开往的徽标放置，内容方面的审查直接通过。十年之约成员加入开往可以点[十年之约成员申请收录](https://github.com/travellings-link/travellings/issues/new?assignees=linlinzzo%2CHAHH9527&labels=%E7%94%B3%E8%AF%B7%E6%94%B6%E5%BD%95&template=foreverblog.yml)。
 
 对于存在不适宜内容的成员网站，任何人都可以通过[开往成员网站问题反馈](https://docs.qq.com/form/page/DQ0dkT1NoeUFQa2dF)向我们反馈。
@@ -116,7 +120,7 @@
 
 ### 可选镜像
  
-- `https://travellings.cn`HK镜像(感谢蓝易云提供服务器)
+- `https://travellings.cn`HK镜像（感谢蓝易云提供服务器）
  
 - `https://travellings-link.github.io/travellings/`
 
@@ -221,6 +225,6 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 ### Q：举报问题网页或退出开往？
 
-A：提个 issues 吧。
+A：提个 issues 吧。问题网页请通过[开往成员网站问题反馈](https://docs.qq.com/form/page/DQ0dkT1NoeUFQa2dF)向我们反映。
 
 </details>
