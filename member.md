@@ -37,6 +37,7 @@
 | 45 | 顶栏 | ajian | https://blog.yegetables.cn |
 | 46 | 侧栏* | freejishu的美丽世界 | https://www.freejishu.com |
 | 47 | 侧栏* | 小太の游乐园 | https://baka.fun |
+| 48 | 底部 | 梦墨's HomePage | https://dreamo.ink |
 | 49 | 侧栏 | 地皮-DefiedParty | https://dpii.club |
 | 52 | 顶栏 | SpinTouch's Something | https://spinaround.tk |
 | 53 | 顶栏 | Lin. 's Blog | https://www.lin03.cn |
@@ -504,6 +505,8 @@
 | 604 | 圆周率的博客 | https://yuanzj.top |
 | 605 | Hairy's Blog | https://www.hairy.blog |
 | 606 | ShootZone | https://blog.roccoshi.top |
+| 607 | CheeseburgerIM's Blog | https://cheeseburgerim.github.io |
+| 608 | 强曰为道 | https://pkold.com |
 
 ---
 
@@ -533,7 +536,6 @@
 | 40 | QUIT | Smilear's Blog | https://smilear.cn |
 | 43 | QUIT | Nymane's Blog | https://www.nymane.xyz |
 | 44 | LOST | 风吟 | https://blog.yilon.top |
-| 48 | LOST | Zhou‘s Blog | https://idream.ink |
 | 50 | QUIT | CORE | https://core.moe |
 | 51 | LOST | solar'blog | https://www.solarme.vip |
 | 52 | QUIT | SpinTouch's Something | https://spinblog.tk |
