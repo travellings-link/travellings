@@ -50,7 +50,7 @@ function travelling() {
   url[45] = "https://blog.yegetables.cn";
   url[46] = "https://www.freejishu.com";
   url[47] = "https://baka.fun";
-  url[48] = rip_url;
+  url[48] = "https://dreamo.ink";
   url[49] = "https://dpii.club";
   url[50] = rip_url;
   url[51] = rip_url;
@@ -609,6 +609,8 @@ function travelling() {
   url[604] = "https://yuanzj.top";
   url[605] = "https://www.hairy.blog";
   url[606] = "https://blog.roccoshi.top";
+  url[607] = "https://cheeseburgerim.github.io";
+  url[608] = "https://pkold.com";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
