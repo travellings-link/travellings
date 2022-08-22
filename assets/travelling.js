@@ -612,6 +612,7 @@ function travelling() {
   url[607] = "https://cheeseburgerim.github.io";
   url[608] = "https://pkold.com";
   url[609] = "https://wumingboke.xyz";
+  url[610] = "https://blog.xsnetw.cf";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 

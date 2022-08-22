@@ -508,6 +508,7 @@
 | 607 | CheeseburgerIM's Blog | https://cheeseburgerim.github.io |
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
+| 610 | SinGO博客 | https://blog.xsnetw.cf |
 
 ---
 
