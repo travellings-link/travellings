@@ -420,7 +420,6 @@
 | 518 | 资源管理器博客 | https://www.zyglq.cn |
 | 519 | 一刀斩の小窝 | https://blog.yidaozhan.top |
 | 520 | 南星の博客 | https://nanxing.ltd |
-| 521 | 梦境花园 | https://www.keanes.cn |
 | 522 | 量子猫也喜欢摸电子鱼 | https://lishizi.jushistudio.com |
 | 523 | mes ames | https://moi-mo.github.io |
 | 524 | 公爵书房技术分享 | https://www.gjcloak.top |
@@ -509,6 +508,8 @@
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
 | 610 | SinGO博客 | https://blog.xsnetw.cf |
+| 611 | 小明的博客 | https://xiaoming.vercel.app |
+| 612 | 嘉嘉的博客 | https://blog.jiajia.ml |
 
 ---
 
@@ -647,6 +648,7 @@
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
 | 504 | QUIT | 启小凡 | https://www.qixiaofan.icu |
+| 521 | BROKEN | 梦境花园 | https://www.keanes.cn |
 | 582 | QUIT | WikiMimo | https://www.wikimimo.com |
 
 ---
