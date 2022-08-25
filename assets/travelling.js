@@ -523,7 +523,7 @@ function travelling() {
   url[518] = "https://www.zyglq.cn";
   url[519] = "https://blog.yidaozhan.top";
   url[520] = "https://nanxing.ltd";
-  url[521] = "https://www.keanes.cn";
+  url[521] = rip_url;
   url[522] = "https://lishizi.jushistudio.com";
   url[523] = "https://moi-mo.github.io";
   url[524] = "https://www.gjcloak.top";
@@ -613,6 +613,8 @@ function travelling() {
   url[608] = "https://pkold.com";
   url[609] = "https://wumingboke.xyz";
   url[610] = "https://blog.xsnetw.cf";
+  url[611] = "https://xiaoming.vercel.app";
+  url[612] = "https://blog.jiajia.ml";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
