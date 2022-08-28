@@ -615,6 +615,8 @@ function travelling() {
   url[610] = "https://blog.xsnetw.cf";
   url[611] = "https://xiaoming.vercel.app";
   url[612] = "https://blog.jiajia.ml";
+  url[613] = "https://xsunhua.cn";
+  url[614] = "https://wufan.fun";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
