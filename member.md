@@ -512,6 +512,7 @@
 | 612 | 嘉嘉的博客 | https://blog.jiajia.ml |
 | 613 | 怡然一记 | https://xsunhua.cn |
 | 614 | WindowsRegeditのsite | https://wufan.fun |
+| 615 | Niute Fony | https://blogs.niufuyu.top |
 
 ---
 

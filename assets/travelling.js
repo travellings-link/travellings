@@ -617,6 +617,7 @@ function travelling() {
   url[612] = "https://blog.jiajia.ml";
   url[613] = "https://xsunhua.cn";
   url[614] = "https://wufan.fun";
+  url[615] = "https://blogs.niufuyu.top";
 
   url[url.length] = "https://github.com/travellings-link/travellings";
 
