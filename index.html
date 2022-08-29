@@ -15,409 +15,287 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>开往-友链接力</title>
-    <link rel="shortcut icon" href="assets/favicon.png">
-    <script src="assets/travelling.js"></script>
-    <link href="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css" rel="stylesheet">
-    <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet">
-
-    <style type="text/css">
-        * {
-            color: #111827;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .blink {
-            position: fixed;
-            height: 100%;
-            width: 100%;
-            text-align: center;
-            display: flex;
-            display: -webkit-flex;
-            align-items: center;
-            justify-content: center;
-            animation: blink 3s linear infinite;
-            -webkit-animation: blink 3s linear infinite;
-            -moz-animation: blink 3s linear infinite;
-            -ms-animation: blink 3s linear infinite;
-            -o-animation: blink 3s linear infinite;
-        }
-
-        @keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-moz-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-ms-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-o-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        .botCenter {
-            position: fixed;
-            width: 100%;
-            height: 50px;
-            bottom: 10px;
-            line-height: 20px;
-            font-size: 12px;
-            text-align: center;
-            animation: botCenter 3s linear;
-            -webkit-animation: botCenter 3s linear;
-            -moz-animation: botCenter 3s linear;
-            -ms-animation: botCenter 3s linear;
-            -o-animation: botCenter 3s linear;
-        }
-
-        @keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-webkit-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-moz-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-ms-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-o-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
-    <script>
-        ! function (p) {
-            "use strict";
-            ! function (t) {
-                var s = window,
-                    e = document,
-                    i = p,
-                    c = "".concat("https:" === e.location.protocol ? "https://" : "http://",
-                        "sdk.51.la/js-sdk-pro.min.js"),
-                    n = e.createElement("script"),
-                    r = e.getElementsByTagName("script")[0];
-                n.type = "text/javascript", n.setAttribute("charset", "UTF-8"), n.async = !0, n.src = c, n.id =
-                    "LA_COLLECT", i.d = n;
-                var o = function () {
-                    s.LA.ids.push(i)
-                };
-                s.LA ? s.LA.ids && o() : (s.LA = p, s.LA.ids = [], o()), r.parentNode.insertBefore(n, r)
-            }()
-        }({
-            id: "JjjZrv4wpUnimks1",
-            ck: "JjjZrv4wpUnimks1",
-            hashMode: true
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>开往-友链接力</title>
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <script src="assets/travelling.js"></script>
+  <link href="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css" rel="stylesheet">
+  <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      color: #111827;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .blink {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: center;
+      animation: blink 3s linear infinite;
+      -webkit-animation: blink 3s linear infinite;
+      -moz-animation: blink 3s linear infinite;
+      -ms-animation: blink 3s linear infinite;
+      -o-animation: blink 3s linear infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-moz-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-ms-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-o-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    .botCenter {
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      bottom: 10px;
+      line-height: 20px;
+      font-size: 12px;
+      text-align: center;
+      animation: botCenter 3s linear;
+      -webkit-animation: botCenter 3s linear;
+      -moz-animation: botCenter 3s linear;
+      -ms-animation: botCenter 3s linear;
+      -o-animation: botCenter 3s linear;
+    }
+
+    @keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-ms-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <script>
+    ! function(p) {
+      "use strict";
+      ! function(t) {
+        var s = window,
+          e = document,
+          i = p,
+          c = "".concat("https:" === e.location.protocol ? "https://" : "http://",
+            "sdk.51.la/js-sdk-pro.min.js"),
+          n = e.createElement("script"),
+          r = e.getElementsByTagName("script")[0];
+        n.type = "text/javascript", n.setAttribute("charset", "UTF-8"), n.async = !0, n.src = c, n.id =
+          "LA_COLLECT", i.d = n;
+        var o = function() {
+          s.LA.ids.push(i)
+        };
+        s.LA ? s.LA.ids && o() : (s.LA = p, s.LA.ids = [], o()), r.parentNode.insertBefore(n, r)
+      }()
+    }({
+      id: "JjjZrv4wpUnimks1",
+      ck: "JjjZrv4wpUnimks1",
+      hashMode: true
+    });
+  </script>
 </head>
 
 <body>
-
-
-    <div class="blink">
-        <a href="https://github.com/travellings-link/travellings" target="_blank"
-            title="点击加入“开往”，分享网站流量 :-)">欢迎回来，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome back, travelling to the next
-            world…</a>
-    </div>
-
-
-    <div class="botCenter">
-        ↩️ Tips: <b>后退</b>网页可再次开往<br />
-        <a href="https://github.com/travellings-link/travellings" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
-        <a href="https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80" target="_blank">🔮 统计</a>&nbsp;|&nbsp;
-        <a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />
-        <a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars"
-                src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>
-    </div>
-
-    <script language="javascript">
-        window.setTimeout("window.location.href='javascript:travelling()'", 1500);
-    </script>
-    <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
-    </script>
-    <script>
-        iziToast.show({
-            title: 'Hi',
-            message: '建立了QQ群,<a href="https://jq.qq.com/?_wv=1027&k=Ym87ov3q" target="_blank">点击进入</a>',
-            icon: 'fa-brands fa-qq',
-            color: 'yellow',
-            time: 30000
-        });
-    </script>
-
-    <!-- Umami 统计，尊重隐私 umami.is/docs/faq -->
-    <script async defer data-website-id="db0dc3e8-344a-486b-8fc9-2a868bff8305"
-        src="https://data.travellings.link/umami.js" data-do-not-track="true"></script>
-
+  <div class="blink">
+    <a href="https://github.com/travellings-link/travellings" target="_blank" title="点击加入“开往”，分享网站流量 :-)">欢迎回来，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome back, travelling to the next world…</a>
+  </div>
+  <div class="botCenter">
+    ↩️ Tips: <b>后退</b>网页可再次开往<br />
+    <a href="https://github.com/travellings-link/travellings" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
+    <a href="https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80" target="_blank">🔮 统计</a>&nbsp;|&nbsp;
+    <a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />
+    <a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>
+  </div>
+  <script>
+    window.setTimeout(travelling, 1500);
+  </script>
+  <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js">
+  </script>
+  <script>
+    iziToast.show({
+      title: 'Hi',
+      message: '建立了QQ群,<a href="https://jq.qq.com/?_wv=1027&k=Ym87ov3q" target="_blank">点击进入</a>',
+      icon: 'fa-brands fa-qq',
+      color: 'yellow',
+      time: 30000
+    });
+  </script>
+  <!-- Umami 统计，尊重隐私 umami.is/docs/faq -->
+  <script async defer data-website-id="db0dc3e8-344a-486b-8fc9-2a868bff8305" src="https://data.travellings.link/umami.js" data-do-not-track="true"></script>
 </body>
 
 </html>
