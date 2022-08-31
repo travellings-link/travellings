@@ -350,7 +350,7 @@ function travelling() {
   urls[343] = empty;
   urls[344] = "www.996workers.icu";
   urls[345] = "blog.integer.top";
-  urls[346] = "www.hicool.icu";
+  urls[346] = empty;
   urls[347] = "blog.adworld.top";
   urls[348] = "blog.libw.cc";
   urls[349] = "blog.icecliffs.me";
