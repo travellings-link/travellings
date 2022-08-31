@@ -242,7 +242,6 @@
 | 342 | 顶栏 | Laugh | https://blog.laugh12321.cn |
 | 344 | 顶栏 | 996 worker's ICU | https://www.996workers.icu |
 | 345 | 顶栏 | Moyok的小屋 | https://blog.integer.top |
-| 346 | 顶栏 | Hicool嗨酷 | https://www.hicool.icu |
 | 347 | 侧栏 | 云梦 ╮不浅の部落阁 | https://blog.adworld.top |
 | 348 | 顶栏 | 李本伟的博客 | https://blog.libw.cc |
 | 349 | 顶栏 | Po7mn1's Blog | https://blog.icecliffs.me |
@@ -653,5 +652,6 @@
 | 504 | QUIT | 启小凡 | https://www.qixiaofan.icu |
 | 521 | BROKEN | 梦境花园 | https://www.keanes.cn |
 | 582 | QUIT | WikiMimo | https://www.wikimimo.com |
+| 346 | QUIT | Hicool嗨酷 | https://www.hicool.icu |
 
 ---
