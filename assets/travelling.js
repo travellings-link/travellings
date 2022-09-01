@@ -246,7 +246,7 @@ function travelling() {
   urls[239] = "syzhan.cn";
   urls[240] = "www.liuzhimin.vip";
   urls[241] = "www.hin.cool";
-  urls[242] = "www.3328bk.cn";
+  urls[242] = "hilzl.cn";
   urls[243] = "www.ganto.cn";
   urls[244] = "weidows.github.io";
   urls[245] = "magma.ink";
