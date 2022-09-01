@@ -153,7 +153,7 @@
 | 239 | 顶栏 | 拾忆小站 | https://syzhan.cn |
 | 240 | 顶栏 | 嚣张的灯塔 | https://www.liuzhimin.vip |
 | 241 | 顶栏 | W4J1e's blog | https://www.hin.cool |
-| 242 | 侧栏 | 轻风记 | https://www.3328bk.cn |
+| 242 | 侧栏 | 轻风记 | https://hilzl.cn |
 | 243 | 中心 | Ganto的个人主页 | https://www.ganto.cn |
 | 244 | 顶栏 | Weidows の Nest | https://weidows.github.io |
 | 245 | 顶栏 | Magma Ink | https://magma.ink |
