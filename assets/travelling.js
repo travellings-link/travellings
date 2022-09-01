@@ -620,6 +620,10 @@ function travelling() {
   urls[613] = "xsunhua.cn";
   urls[614] = "wufan.fun";
   urls[615] = "blogs.niufuyu.top";
+  urls[616] = "fffzlfk.github.io";
+  urls[617] = "www.penginman.com";
+  urls[618] = "tuerxuan.top";
+  urls[619] = "yisous.xyz";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
