@@ -507,7 +507,7 @@
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
 | 610 | SinGO博客 | https://blog.xsnetw.cf |
-| 611 | 小明的博客 | https://xiaoming.vercel.app |
+| 611 | 小明的博客 | https://blog.kobal.cn |
 | 612 | 嘉嘉的博客 | https://blog.jiajia.ml |
 | 613 | 怡然一记 | https://xsunhua.cn |
 | 614 | WindowsRegeditのsite | https://wufan.fun |

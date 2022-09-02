@@ -615,7 +615,7 @@ function travelling() {
   urls[608] = "pkold.com";
   urls[609] = "wumingboke.xyz";
   urls[610] = "blog.xsnetw.cf";
-  urls[611] = "xiaoming.vercel.app";
+  urls[611] = "blog.kobal.cn";
   urls[612] = "blog.jiajia.ml";
   urls[613] = "xsunhua.cn";
   urls[614] = "wufan.fun";
