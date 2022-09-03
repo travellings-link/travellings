@@ -394,7 +394,6 @@
 | 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.github.io |
 | 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
 | 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net |
-| 498 | 侧栏 | Byzliu's Blog | https://byzliublog.xyz |
 | 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com |
 
 | 序号 | 名称 | 网址 |
@@ -653,6 +652,7 @@
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 498 | LOST | Byzliu's Blog | https://byzliublog.xyz |
 | 504 | QUIT | 启小凡 | https://www.qixiaofan.icu |
 | 521 | BROKEN | 梦境花园 | https://www.keanes.cn |
 | 582 | QUIT | WikiMimo | https://www.wikimimo.com |
