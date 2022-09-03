@@ -444,7 +444,7 @@ function travelling() {
   urls[437] = "blog.lking.icu";
   urls[438] = "masle.top";
   urls[439] = "www.sccens.net";
-  urls[440] = "张晶晶.我爱你";
+  urls[440] = "xn--e1t46na.xn--6qq986b3xl";
   urls[441] = "blog.dylanwu.space";
   urls[442] = "blog.sakurasep.site";
   urls[443] = "nickx.cn";
