@@ -502,7 +502,7 @@ function travelling() {
   urls[495] = "yiqiangshiyia.github.io";
   urls[496] = "blog.starysky.top";
   urls[497] = "jukebox.pipecraft.net/";
-  urls[498] = "byzliublog.xyz/";
+  urls[498] = empty;
   urls[499] = "discuss-cn.bestxtools.com";
   urls[500] = "blog.wingszeng.top";
   urls[501] = "blog.junrz.cn";
