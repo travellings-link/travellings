@@ -382,7 +382,6 @@
 | 484 | 侧栏 | May be | https://www.mabby.cn |
 | 485 | 顶栏 | 朝露碎梦 | https://aibofan.com |
 | 486 | 顶栏 | 逸凡的小站 | https://fu1fan.cn |
-| 487 | 底部 | JerryDodo私日记 | https://jerrydodo.com |
 | 488 | 顶栏 | ZhengXi's Blog | https://zhengxi.io |
 | 489 | 顶栏 | V2HOT - 每日 V2EX 最热主题 | https://v2hot.pipecraft.net |
 | 490 | 顶栏 | Dvel's Blog | https://dvel.me |
