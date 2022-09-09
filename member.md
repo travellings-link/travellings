@@ -572,7 +572,7 @@
 | 83 | QUIT | MySpace | https://www.zkl2333.com |
 | 84 | LOST | 皮毛技术君 | https://www.whoit.top |
 | 90 | QUIT | 今今今生 | https://noheart.cn |
-| 94 | LOST | JalenChuh | https://blog.jalenchuh.cn |
+| 94 | QUIT | Jalen | https://jalenz.cn |
 | 97 | QUIT | 南瓜奶酪 | https://blog.china97.cn |
 | 100 | SSL | The Palace | https://seiryu.cn |
 | 102 | LOST | 土豆和豌豆 | https://www.luxinzhangyun.top |
