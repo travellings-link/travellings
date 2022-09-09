@@ -112,7 +112,6 @@
 | 178 | 顶栏 | 江风引雨の小站 | https://blog.luzy.top |
 | 179 | 中心 | 睿先森 | https://senorui.top |
 | 181 | 顶栏 | Declan's Blog | https://blog.lihaojin.cn |
-| 182 | 侧栏 | 鲸一 | https://www.saroin.com |
 | 183 | 顶栏* | JaneWu's Blog | https://zhenwu99.gitee.io |
 | 187 | 顶栏 | LeeBlog | https://www.leejean.top |
 | 190 | 顶栏 | YunShu'Blog | https://www.yunshu.site |
@@ -383,7 +382,6 @@
 | 484 | 侧栏 | May be | https://www.mabby.cn |
 | 485 | 顶栏 | 朝露碎梦 | https://aibofan.com |
 | 486 | 顶栏 | 逸凡的小站 | https://fu1fan.cn |
-| 487 | 底部 | JerryDodo私日记 | https://jerrydodo.com |
 | 488 | 顶栏 | ZhengXi's Blog | https://zhengxi.io |
 | 489 | 顶栏 | V2HOT - 每日 V2EX 最热主题 | https://v2hot.pipecraft.net |
 | 490 | 顶栏 | Dvel's Blog | https://dvel.me |
@@ -457,7 +455,6 @@
 | 558 | rickのblog | https://blog.rick.icu |
 | 559 | 速溶 | https://zzzing.cn |
 | 560 | NoneData | https://www.nonedata.com |
-| 561 | Prk博客 | https://www.cprk.cc |
 | 562 | Go导航 | https://www.gonav.cn |
 | 563 | 南生余 | https://www.chenii.com |
 | 564 | 肥猪のBlog | https://www.feizhuqwq.com |
@@ -574,7 +571,7 @@
 | 83 | QUIT | MySpace | https://www.zkl2333.com |
 | 84 | LOST | 皮毛技术君 | https://www.whoit.top |
 | 90 | QUIT | 今今今生 | https://noheart.cn |
-| 94 | LOST | JalenChuh | https://blog.jalenchuh.cn |
+| 94 | QUIT | Jalen | https://jalenz.cn |
 | 97 | QUIT | 南瓜奶酪 | https://blog.china97.cn |
 | 100 | SSL | The Palace | https://seiryu.cn |
 | 102 | LOST | 土豆和豌豆 | https://www.luxinzhangyun.top |
@@ -616,6 +613,7 @@
 | 171 | LOST | 大海的页面 | https://ccccc.cyou |
 | 177 | LOST | Pootey's Blog | https://www.pootey.com |
 | 180 | LOST | 神州部落格 | https://www.szfc13.cn |
+| 182 | SSL | 鲸一 | https://www.saroin.com |
 | 184 | LOST | Zoyua's blog | https://zoyua.cn |
 | 185 | LOST | hermoso | https://www.webpages.show |
 | 186 | QUIT | Johnson的博客 | https://johnsonlee.site |
@@ -656,12 +654,14 @@
 | 335 | BROKEN | 开心果 | https://www.zhw150.top |
 | 338 | LOST | Cusalt! | https://cusalt.com |
 | 343 | QUIT | 小理的小窝 | https://xiaolii.com |
+| 346 | QUIT | Hicool嗨酷 | https://www.hicool.icu |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 487 | LOST | JerryDodo私日记 | https://jerrydodo.com |
 | 498 | LOST | Byzliu's Blog | https://byzliublog.xyz |
 | 504 | QUIT | 启小凡 | https://www.qixiaofan.icu |
 | 521 | BROKEN | 梦境花园 | https://www.keanes.cn |
+| 561 | LOST | Prk博客 | https://www.cprk.cc |
 | 582 | QUIT | WikiMimo | https://www.wikimimo.com |
-| 346 | QUIT | Hicool嗨酷 | https://www.hicool.icu |
 
 ---
