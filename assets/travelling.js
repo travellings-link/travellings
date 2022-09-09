@@ -565,7 +565,7 @@ function travelling() {
   urls[558] = "blog.rick.icu";
   urls[559] = "zzzing.cn";
   urls[560] = "www.nonedata.com";
-  urls[561] = "www.cprk.cc";
+  urls[561] = empty;
   urls[562] = "www.gonav.cn";
   urls[563] = "www.chenii.com";
   urls[564] = "www.feizhuqwq.com";
