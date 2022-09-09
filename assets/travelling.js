@@ -186,7 +186,7 @@ function travelling() {
   urls[179] = "senorui.top";
   urls[180] = empty;
   urls[181] = "blog.lihaojin.cn";
-  urls[182] = "www.saroin.com";
+  urls[182] = empty;
   urls[183] = "zhenwu99.gitee.io";
   urls[184] = empty;
   urls[185] = empty;
@@ -491,7 +491,7 @@ function travelling() {
   urls[484] = "www.mabby.cn";
   urls[485] = "aibofan.com";
   urls[486] = "fu1fan.cn";
-  urls[487] = "jerrydodo.com";
+  urls[487] = empty;
   urls[488] = "zhengxi.io";
   urls[489] = "v2hot.pipecraft.net";
   urls[490] = "dvel.me";
