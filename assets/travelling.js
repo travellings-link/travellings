@@ -4,7 +4,7 @@ function travelling() {
   const reg = new RegExp("^" + https);
   const empty = null;
 
-  urls[0] = "https://github.com/volfclub/travelling";
+  urls[0] = "https://github.com/travellings-link/travellings";
   urls[1] = "www.volf.club";
   urls[2] = "sonic.volf.club";
   urls[3] = "yltang.cn";
@@ -114,7 +114,7 @@ function travelling() {
   urls[107] = empty;
   urls[108] = "zkpeace.com";
   urls[109] = empty;
-  urls[110] = "http://ilovey.live";
+  urls[110] = "ilovey.live";
   urls[111] = empty;
   urls[112] = "jimmyqin.cn";
   urls[113] = empty;
@@ -590,7 +590,7 @@ function travelling() {
   urls[583] = "mojinxi.cn";
   urls[584] = "imum.me";
   urls[585] = "xiaoxinblog.xyz";
-  urls[586] = "http://blog.meta-code.top";
+  urls[586] = "blog.meta-code.top";
   urls[587] = "icooper.cc";
   urls[588] = "xiangshu233.cn";
   urls[589] = "u.mr90.top";
@@ -625,6 +625,11 @@ function travelling() {
   urls[618] = "tuerxuan.top";
   urls[619] = "yisous.xyz";
   urls[620] = "blog.panghai.top";
+  urls[621] = "b.925i.cn";
+  urls[622] = "wangyunzi.com";
+  urls[623] = "yuano.cc";
+  urls[624] = "www.bahuangshanren.tech";
+  urls[625] = "blog.nosecurity.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
