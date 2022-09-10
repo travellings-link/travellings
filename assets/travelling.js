@@ -389,7 +389,7 @@ function travelling() {
   urls[382] = "moe.tips";
   urls[383] = "www.chenxublog.com";
   urls[384] = "jkkoi.top";
-  urls[385] = "www.sanshuifeibing.com";
+  urls[385] = empty;
   urls[386] = "longtao.fun";
   urls[387] = "blog.dlya.top";
   urls[388] = "yleave.top";
@@ -558,7 +558,7 @@ function travelling() {
   urls[551] = "liupj.top";
   urls[552] = "www.data-era.cn";
   urls[553] = "www.panshenlian.com";
-  urls[554] = "kifuan.top";
+  urls[554] = "blog.kifuan.me";
   urls[555] = "blog.lsilencej.top";
   urls[556] = "www.imut.xyz";
   urls[557] = "xxp.one";
