@@ -389,7 +389,7 @@ function travelling() {
   urls[382] = "moe.tips";
   urls[383] = "www.chenxublog.com";
   urls[384] = "jkkoi.top";
-  urls[385] = "www.sanshuifeibing.com";
+  urls[385] = empty;
   urls[386] = "longtao.fun";
   urls[387] = "blog.dlya.top";
   urls[388] = "yleave.top";
