@@ -448,7 +448,7 @@
 | 551 | Peijie's Wiki | https://liupj.top |
 | 552 | 羁鸟博客 | https://www.data-era.cn |
 | 553 | 潘深练的个人网站 | https://www.panshenlian.com |
-| 554 | 摸鱼中... | blog.kifuan.me |
+| 554 | 摸鱼中... | https://blog.kifuan.me |
 | 555 | lsilencej の Blog | https://blog.lsilencej.top |
 | 556 | DaPeng's Blog | https://www.imut.xyz |
 | 557 | xxp'blog | https://xxp.one |
