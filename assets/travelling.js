@@ -558,7 +558,7 @@ function travelling() {
   urls[551] = "liupj.top";
   urls[552] = "www.data-era.cn";
   urls[553] = "www.panshenlian.com";
-  urls[554] = "kifuan.top";
+  urls[554] = "blog.kifuan.me";
   urls[555] = "blog.lsilencej.top";
   urls[556] = "www.imut.xyz";
   urls[557] = "xxp.one";
