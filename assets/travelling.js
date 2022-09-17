@@ -554,7 +554,7 @@ function travelling() {
   urls[547] = "www.rsecc.cn";
   urls[548] = "www.writiger.cn";
   urls[549] = "blog.wututu.cn";
-  urls[550] = "tool.cprk.cc";
+  urls[550] = empty;
   urls[551] = "liupj.top";
   urls[552] = "www.data-era.cn";
   urls[553] = "www.panshenlian.com";
@@ -630,6 +630,9 @@ function travelling() {
   urls[623] = "yuano.cc";
   urls[624] = "www.bahuangshanren.tech";
   urls[625] = "blog.nosecurity.cn";
+  urls[626] = "ameow.xyz";
+  urls[627] = "anzhiy.cn";
+
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
