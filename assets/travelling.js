@@ -22,7 +22,7 @@ function travelling() {
   urls[15] = "jinjis.cn";
   urls[16] = "blog.tigerxly.com";
   urls[17] = empty;
-  urls[18] = "owobest.com";
+  urls[18] = "cak.moe";
   urls[19] = "blog.moej.cn";
   urls[20] = "mmyyll.ml";
   urls[21] = "blog.imoasislee.com/";
