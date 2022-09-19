@@ -16,7 +16,7 @@
 | 13 | 底栏* | 殆己 | https://heycmm.cn |
 | 15 | 侧栏 | Legroft | https://jinjis.cn |
 | 16 | 顶栏 | FANTASY | https://blog.tigerxly.com |
-| 18 | 中心 | 煎饼果子 | https://owobest.com |
+| 18 | 中心 | 煎饼果子 | https://cak.moe |
 | 19 | 顶栏 | Sakura | https://blog.moej.cn |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
 | 21 | 底栏 | Oasis's Blog | https://blog.imoasislee.com/ |
