@@ -644,7 +644,7 @@ function travelling() {
   if (document.referrer) {
     const origin = new URL(document.referrer).origin;
     if (urls.includes(origin)) {
-      urls.splice(url.indexOf(origin), 1);
+      urls.splice(urls.indexOf(origin), 1);
     }
   }
 
