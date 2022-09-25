@@ -533,7 +533,7 @@ function travelling() {
   urls[526] = "helloseraphine.top";
   urls[527] = "blog.sdgou.cc";
   urls[528] = "cacx.cc";
-  urls[529] = "blog.wlr.lol";
+  urls[529] = "weiliangrong.eu.org";
   urls[530] = "blog.853lab.com";
   urls[531] = "oi.saiodgm.gq";
   urls[532] = "thtown.cn";
