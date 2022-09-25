@@ -206,7 +206,7 @@ function travelling() {
   urls[199] = empty;
   urls[200] = "youdef.com";
   urls[201] = "www.heson10.com";
-  urls[202] = empty;
+  urls[202] = "yf-ch.com";
   urls[203] = empty;
   urls[204] = "www.feidaoboke.com";
   urls[205] = empty;
@@ -303,7 +303,7 @@ function travelling() {
   urls[296] = "hacbox.me";
   urls[297] = "www.limina.top";
   urls[298] = empty;
-  urls[299] = "blog.southfox.tk";
+  urls[299] = "blog.southfox.me";
   urls[300] = "imfurry.com";
   urls[301] = "imcys.com";
   urls[302] = "xiwangly.top";
@@ -632,6 +632,9 @@ function travelling() {
   urls[625] = "blog.nosecurity.cn";
   urls[626] = "ameow.xyz";
   urls[627] = "anzhiy.cn";
+  urls[628] = "shockerli.net";
+  urls[629] = "www.dnxrzl.com";
+  urls[630] = "blog.ohtoai.com";
 
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
