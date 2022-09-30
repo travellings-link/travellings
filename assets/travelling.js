@@ -635,6 +635,10 @@ function travelling() {
   urls[628] = "shockerli.net";
   urls[629] = "www.dnxrzl.com";
   urls[630] = "blog.ohtoai.com";
+  urls[631] = "www.x8xx.cn";
+  urls[632] = "www.iftft.com";
+  urls[633] = "blog.ciraos.top";
+  urls[634] = "www.shifeiti.com";
 
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
