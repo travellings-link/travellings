@@ -639,7 +639,10 @@ function travelling() {
   urls[632] = "www.iftft.com";
   urls[633] = "blog.ciraos.top";
   urls[634] = "www.shifeiti.com";
-
+  urls[635] = "www.loquy.cn";
+  urls[636] = "yingqing.cf";
+  urls[637] = "bolg.wuenci.wang";
+  urls[638] = "www.zh996.com";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
