@@ -643,6 +643,7 @@ function travelling() {
   urls[636] = "yingqing.cf";
   urls[637] = "bolg.wuenci.wang";
   urls[638] = "www.zh996.com";
+  urls[639] = "cpen.top";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
