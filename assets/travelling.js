@@ -655,6 +655,7 @@ function travelling() {
   urls[648] = "z555.icu";
   urls[649] = "www.bio-w.cn";
   urls[650] = "www.czfq99.cn";
+  urls[651] = "www.zhengqiao.wang";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
