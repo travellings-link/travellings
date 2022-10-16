@@ -644,6 +644,17 @@ function travelling() {
   urls[637] = "bolg.wuenci.wang";
   urls[638] = "www.zh996.com";
   urls[639] = "cpen.top";
+  urls[640] = "www.luodeb.top";
+  urls[641] = "blog.mrzefr.cn";
+  urls[642] = "kqh.me";
+  urls[643] = "heroxin.xyz";
+  urls[644] = "hu86.cc";
+  urls[645] = "blog.jaspirit.cc";
+  urls[646] = "kenshin2438.top";
+  urls[647] = "www.tonyyin.top";
+  urls[648] = "z555.icu";
+  urls[649] = "www.bio-w.cn";
+  urls[650] = "www.czfq99.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
