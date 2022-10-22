@@ -657,6 +657,9 @@ function travelling() {
   urls[650] = "www.czfq99.cn";
   urls[651] = "www.zhengqiao.wang";
   urls[652] = "bigcake.cakemc.top";
+  urls[653] = "xiamoqwq.com";
+  urls[654] = "blog.lovelu.top";
+  urls[655] = "www.xiaoxiaosky.top";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
