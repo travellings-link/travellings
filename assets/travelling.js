@@ -17,7 +17,7 @@ function travelling() {
   urls[10] = "blog.uniartisan.com";
   urls[11] = empty;
   urls[12] = empty;
-  urls[13] = "heycmm.cn";
+  urls[13] = empty;
   urls[14] = empty;
   urls[15] = "jinjis.cn";
   urls[16] = "blog.tigerxly.com";

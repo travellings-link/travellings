@@ -13,7 +13,6 @@
 | 7 | 顶栏* | Arect和他的 | https://www.kanofans.com |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
 | 11 | 顶栏 | JQM's Site | https://jinqimu.github.io |
-| 13 | 底栏* | 殆己 | https://heycmm.cn |
 | 15 | 侧栏 | Legroft | https://jinjis.cn |
 | 16 | 顶栏 | FANTASY | https://blog.tigerxly.com |
 | 18 | 中心 | 煎饼果子 | https://cak.moe |
@@ -565,6 +564,7 @@
 | 8 | QUIT | Ryan Wang's Blog | https://ryanc.cc |
 | 9 | LOST | Seija | https://seija.me |
 | 12 | QUIT | CrownDaisy | https://crowndaisy.com |
+| 13 | QUIT | 殆己 | https://heycmm.cn |
 | 14 | LOST | Yuki Yuki | https://wp.remudaisuki.top |
 | 17 | SSL | DIego's Blog | http://blog.diego.plus:5800 |
 | 28 | QUIT | lxxs的小屋 | https://lxxs.xyz |
