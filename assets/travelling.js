@@ -614,7 +614,7 @@ function travelling() {
   urls[607] = "cheeseburgerim.github.io";
   urls[608] = "pkold.com";
   urls[609] = "wumingboke.xyz";
-  urls[610] = "blog.xsnetw.cf";
+  urls[610] = "blog.xsnet.eu.org";
   urls[611] = "blog.kobal.cn";
   urls[612] = "blog.jiajia.ml";
   urls[613] = "xsunhua.cn";
@@ -659,6 +659,17 @@ function travelling() {
   urls[652] = "bigcake.cakemc.top";
   urls[653] = "xiamoqwq.com";
   urls[654] = "www.xiaoxiaosky.top";
+  urls[655] = "acchw.top";
+  urls[656] = "www.zhengwenfeng.com";
+  urls[657] = "www.itbob.cn";
+  urls[658] = "yoseya2410.github.io";
+  urls[659] = "jiejie.de/blog";
+  urls[660] = "www.lizhichen.cn";
+  urls[661] = "blog.lovelu.top";
+  urls[662] = "blog.mariozzj.cn";
+  urls[663] = "www.aurora.love";
+  urls[664] = "www.xcshare.cn";
+  urls[665] = "furryowo.top";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 

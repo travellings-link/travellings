@@ -497,7 +497,7 @@
 | 607 | CheeseburgerIM's Blog | https://cheeseburgerim.github.io |
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
-| 610 | SinGO博客 | https://blog.xsnetw.cf |
+| 610 | SinGO博客 | https://blog.xsnet.eu.org |
 | 611 | 小明的博客 | https://blog.kobal.cn |
 | 612 | 嘉嘉的博客 | https://blog.jiajia.ml |
 | 613 | 怡然一记 | https://xsunhua.cn |
@@ -542,6 +542,17 @@
 | 652 | 大蛋糕的烘焙坊 | https://bigcake.cakemc.top |
 | 653 | Ace浅末 | https://xiamoqwq.com |
 | 654 | 习物志 | https://www.xiaoxiaosky.top |
+| 655 | 知秋 | https://acchw.top |
+| 656 | 郑文峰的博客 | https://www.zhengwenfeng.com |
+| 657 | BOB'S BLOG | https://www.itbob.cn |
+| 658 | 釉色鸭知识库 | https://yoseya2410.github.io |
+| 659 | 姐姐的个人博客 | https://jiejie.de/blog |
+| 660 | 懋和道人 | https://www.lizhichen.cn |
+| 661 | 满心 | https://blog.lovelu.top |
+| 662 | MarioZZJ's blog | https://blog.mariozzj.cn |
+| 663 | misaka10201的站 | https://www.aurora.love |
+| 664 | xcshare | https://www.xcshare.cn |
+| 665 | 布丁の小窝 | https://furryowo.top |
 
 ---
 
