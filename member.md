@@ -497,7 +497,7 @@
 | 607 | CheeseburgerIM's Blog | https://cheeseburgerim.github.io |
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
-| 610 | SinGO博客 | https://blog.xsnetw.cf |
+| 610 | SinGO博客 | https://blog.xsnet.eu.org |
 | 611 | 小明的博客 | https://blog.kobal.cn |
 | 612 | 嘉嘉的博客 | https://blog.jiajia.ml |
 | 613 | 怡然一记 | https://xsunhua.cn |
