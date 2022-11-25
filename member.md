@@ -269,7 +269,6 @@
 | 376 | 顶栏 | 岚天小窝 | https://blog.ltya.top |
 | 377 | 顶栏 | UtopiaXC‘s Sites | https://www.utopiaxc.cn |
 | 378 | 顶栏 | 敬一博客 | https://www.owwee.cn |
-| 379 | 侧栏 | 林林杂语 | https://www.linlinzzo.top |
 | 380 | 顶栏 | 晨鹤小站 | https://chenhe.me |
 | 381 | 侧栏 | MikeC's Blog | https://oiermikec.fun |
 | 382 | 顶栏 | 萌贴士 | https://moe.tips |
@@ -520,7 +519,7 @@
 | 630 | 大户爱の博客 | https://blog.ohtoai.com |
 | 631 | 树洞笔记 | https://www.x8xx.cn |
 | 632 | 方糖 | https://www.iftft.com |
-| 633 | 葱苓小居 | https://blog.ciraos.top |
+| 633 | 葱苓 | https://blog.itciraos.cn |
 | 634 | 是非题 | https://www.shifeiti.com |
 | 635 | loquy | https://www.loquy.cn |
 | 636 | 浅溪-Ling Chen's blog | https://yingqing.cf |
@@ -553,6 +552,11 @@
 | 663 | misaka10201的站 | https://www.aurora.love |
 | 664 | xcshare | https://www.xcshare.cn |
 | 665 | 布丁の小窝 | https://furryowo.top |
+| 666 | 听寒's blog | https://blog.moew.xyz |
+| 667 | 小杨生活志 | https://www.yanghuaxing.com |
+| 668 | HONG的小站 | https://hongweblog.com |
+| 669 | Eamon's Blog | https://fanyiming.life |
+| 670 | L1nSn0w's Blog | https://blog.linsnow.cn |
 
 ---
 
@@ -694,6 +698,7 @@
 | 346 | QUIT | Hicool嗨酷 | https://www.hicool.icu |
 | 350 | QUIT | 人人都是艺术家 | https://here.sy |
 | 362 | ERROR | 初 x 见 | https://chuxjian.asia |
+| 379 | QUIT | 林林杂语 | https://www.linlinzzo.top |
 | 385 | LOST | 三水非冰 | https://www.sanshuifeibing.com |
 | 465 | LOST | 放养平凡 | https://ba2in9a.top |
 | 487 | LOST | JerryDodo私日记 | https://jerrydodo.com |
