@@ -383,7 +383,7 @@ function travelling() {
   urls[376] = "blog.ltya.top";
   urls[377] = "www.utopiaxc.cn";
   urls[378] = "www.owwee.cn";
-  urls[379] = "www.linlinzzo.top";
+  urls[379] = empty;
   urls[380] = "chenhe.me";
   urls[381] = "oiermikec.fun";
   urls[382] = "moe.tips";
@@ -637,7 +637,7 @@ function travelling() {
   urls[630] = "blog.ohtoai.com";
   urls[631] = "www.x8xx.cn";
   urls[632] = "www.iftft.com";
-  urls[633] = "blog.ciraos.top";
+  urls[633] = "blog.itciraos.cn";
   urls[634] = "www.shifeiti.com";
   urls[635] = "www.loquy.cn";
   urls[636] = "yingqing.cf";
@@ -670,6 +670,11 @@ function travelling() {
   urls[663] = "www.aurora.love";
   urls[664] = "www.xcshare.cn";
   urls[665] = "furryowo.top";
+  urls[666] = "blog.moew.xyz";
+  urls[667] = "www.yanghuaxing.com";
+  urls[668] = "hongweblog.com";
+  urls[669] = "fanyiming.life";
+  urls[670] = "blog.linsnow.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
