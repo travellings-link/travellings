@@ -194,7 +194,7 @@ function travelling() {
   urls[187] = "www.leejean.top";
   urls[188] = empty;
   urls[189] = empty;
-  urls[190] = "yunshu.site";
+  urls[190] = "blog.yunshu.site";
   urls[191] = empty;
   urls[192] = "xiaokang.me";
   urls[193] = "megatontech.github.io";
@@ -260,7 +260,7 @@ function travelling() {
   urls[253] = "err0r.top";
   urls[254] = empty;
   urls[255] = "www.roaing.com";
-  urls[256] = empty;
+  urls[256] = "loliloli.moe";
   urls[257] = empty;
   urls[258] = "blog.7wate.com";
   urls[259] = empty;
@@ -273,7 +273,7 @@ function travelling() {
   urls[266] = "blog.fwder.cn/";
   urls[267] = empty;
   urls[268] = "ghostsf.com";
-  urls[269] = empty;
+  urls[269] = "www.aiyo99.com";
   urls[270] = "www.moleft.cn";
   urls[271] = empty;
   urls[272] = "blog.moeworld.tech";
@@ -310,7 +310,7 @@ function travelling() {
   urls[303] = "blog.itsse.cn";
   urls[304] = "blog.noxsk.com";
   urls[305] = "www.hzq.life";
-  urls[306] = "www.cayzlh.com/";
+  urls[306] = "www.cayzlh.com";
   urls[307] = "blog.garryde.com";
   urls[308] = "blog.thiefship.com";
   urls[309] = "eritque-arcus.tech";
@@ -363,7 +363,7 @@ function travelling() {
   urls[356] = "wangquanguo.life";
   urls[357] = "blog.lovem.fun";
   urls[358] = "imxxz.cn";
-  urls[359] = empty;
+  urls[359] = "blog.y7n05h.dev";
   urls[360] = "www.chenmx.net";
   urls[361] = "www.rz.sb";
   urls[362] = empty;
@@ -506,7 +506,7 @@ function travelling() {
   urls[499] = "discuss-cn.bestxtools.com";
   urls[500] = "blog.wingszeng.top";
   urls[501] = "blog.junrz.cn";
-  urls[502] = empty;
+  urls[502] = "lml023.top";
   urls[503] = "www.astrophel.top";
   urls[504] = empty;
   urls[505] = "weistuday.com";
@@ -536,7 +536,7 @@ function travelling() {
   urls[529] = empty;
   urls[530] = "blog.853lab.com";
   urls[531] = "oi.saiodgm.gq";
-  urls[532] = "saryn.cn";
+  urls[532] = empty;
   urls[533] = "www.shimmerl.top";
   urls[534] = "blog.liugezhou.online";
   urls[535] = "gmoe.cc";
@@ -566,7 +566,7 @@ function travelling() {
   urls[559] = "zzzing.cn";
   urls[560] = "www.nonedata.com";
   urls[561] = empty;
-  urls[562] = empty;
+  urls[562] = "www.gonav.cn";
   urls[563] = "www.chenii.com";
   urls[564] = "www.feizhuqwq.com";
   urls[565] = "kuaikan.ink";
@@ -583,7 +583,7 @@ function travelling() {
   urls[576] = "www.shibuyu.fun";
   urls[577] = "blog.kobin.cn";
   urls[578] = "panda995.xyz";
-  urls[579] = empty;
+  urls[579] = "blog.foxcm.com";
   urls[580] = "www.bytecho.net";
   urls[581] = "blog.code520.com.cn";
   urls[582] = empty;
@@ -616,13 +616,13 @@ function travelling() {
   urls[609] = "wumingboke.xyz";
   urls[610] = "blog.xsnet.eu.org";
   urls[611] = "blog.kobal.cn";
-  urls[612] = empty;
+  urls[612] = "blog.hijiajia.xyz";
   urls[613] = "xsunhua.cn";
   urls[614] = "wufan.fun";
   urls[615] = "blogs.niufuyu.top";
   urls[616] = "fffzlfk.github.io";
   urls[617] = "www.penginman.com";
-  urls[618] = empty;
+  urls[618] = "tuerxuan.com";
   urls[619] = "yisous.xyz";
   urls[620] = "blog.panghai.top";
   urls[621] = "b.925i.cn";
@@ -663,7 +663,7 @@ function travelling() {
   urls[656] = "www.zhengwenfeng.com";
   urls[657] = "www.itbob.cn";
   urls[658] = "yoseya2410.github.io";
-  urls[659] = empty;
+  urls[659] = "jiejie.de/blog";
   urls[660] = "www.lizhichen.cn";
   urls[661] = "blog.lovelu.top";
   urls[662] = "blog.mariozzj.cn";
