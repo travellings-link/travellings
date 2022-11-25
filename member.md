@@ -354,7 +354,7 @@
 | 491 | 顶栏 | Joseph Z.的博客 | https://josephz.top |
 | 492 | 顶栏 | Justin写字的地方 | https://zblogs.top |
 | 493 | 侧栏 | 鼎天网络社区 | https://www.dtcommunity.top |
-| 495 | 顶栏 | 一腔诗意啊 | http://yiqiangshiyia.cn |
+| 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.cn |
 | 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
 | 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net |
 | 499 | 顶栏 | 好工具周刊 | https://discuss-cn.bestxtools.com |
@@ -436,7 +436,7 @@
 | 583 | 竹春廿柒 | https://mojinxi.cn |
 | 584 | 你是人间的四月天 | https://imum.me |
 | 585 | 小新的博客 | https://xiaoxinblog.xyz |
-| 586 | 百里飞洋の小世界 | http://blog.meta-code.top |
+| 586 | 百里飞洋の小世界 | https://blog.meta-code.top |
 | 587 | iCooper Blog | https://icooper.cc |
 | 588 | 乡树 | https://xiangshu233.cn |
 | 589 | Harryの心阁 | https://u.mr90.top |
@@ -456,7 +456,7 @@
 | 604 | 圆周率的博客 | https://yuanzj.top |
 | 605 | Hairy's Blog | https://www.hairy.blog |
 | 606 | ShootZone | https://blog.roccoshi.top |
-| 607 | CheeseburgerIM's Blog | http://panyizhe.com |
+| 607 | CheeseburgerIM's Blog | https://panyizhe.com |
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
 | 610 | SinGO博客 | https://blog.xsnet.eu.org |
