@@ -8,7 +8,7 @@
 | 1 | 侧栏 | 狼牌工作网址导航 | https://www.volf.club |
 | 2 | 侧栏 | 音速装机 | https://sonic.volf.club |
 | 3 | 底栏* | 原谅糖 | https://yltang.cn |
-| 4 | 底栏* | Barkure | https://guguga.cn |
+| 4 | 底栏* | Barkure | https://barku.re/blog |
 | 6 | 底部* | Yamdr | https://www.yamdr.cn |
 | 7 | 顶栏* | Arect和他的 | https://www.kanofans.com |
 | 10 | 收起侧栏* | 致远博客 | https://blog.uniartisan.com |
@@ -70,7 +70,7 @@
 | 103 | 顶栏 | tabris的遥远星系 | https://www.tabirstrees.top |
 | 106 | 顶栏 | 服务猿's 学习笔记 | https://www.ishells.cn |
 | 108 | 顶栏 | Zkpeace | https://zkpeace.com |
-| 110 | 顶栏 | 低调小熊猫 | http://ilovey.live |
+| 110 | 顶栏 | 低调小熊猫 | https://ilovey.live |
 | 112 | 顶栏 | 挨拍的儿 | https://jimmyqin.cn |
 | 117 | 顶栏 | 七米蓝 | https://www.chirmyram.top |
 | 122 | 顶栏 | 人家故里 | https://fx7.top |
@@ -112,7 +112,7 @@
 | 181 | 顶栏 | Declan's Blog | https://blog.lihaojin.cn |
 | 183 | 顶栏* | JaneWu's Blog | https://zhenwu99.gitee.io |
 | 187 | 顶栏 | LeeBlog | https://www.leejean.top |
-| 190 | 顶栏 | YunShu'Blog | https://www.yunshu.site |
+| 190 | 顶栏 | YunShu'Blog | https://yunshu.site |
 | 192 | 顶栏 | 小康的个人主页 | https://xiaokang.me |
 | 193 | 顶栏 | 威廉伯爵 | https://megatontech.github.io |
 | 195 | 顶栏 | Huiris's Log | https://huiris.com |
@@ -144,13 +144,13 @@
 | 229 | 顶栏 | TomyJan的博客 | https://blog.tomys.top |
 | 230 | 顶栏 | 一点快乐 | https://www.yidiankuaile.com |
 | 231 | 侧栏 | 白日梦研究所 | https://blog.angustar.com |
-| 232 | 侧栏 | LCZBlog | https://licaoz.com|
+| 232 | 侧栏 | LCZBlog | https://blog.licaoz.com |
 | 233 | 侧栏 | MoYi's Blog | https://blog.nekomoyi.com |
 | 234 | 顶栏 | Troy & Chloe | https://www.yotroy.cool |
 | 236 | 顶栏 | 林中小屋 | https://imszz.com |
 | 239 | 顶栏 | 拾忆小站 | https://syzhan.cn |
 | 240 | 顶栏 | 嚣张的灯塔 | https://www.liuzhimin.vip |
-| 241 | 顶栏 | W4J1e's blog | https://www.hin.cool |
+| 241 | 顶栏 | W4J1e's blog | https://hin.cool |
 | 242 | 侧栏 | 轻风记 | https://hilzl.cn |
 | 243 | 中心 | Ganto的个人主页 | https://www.ganto.cn |
 | 244 | 顶栏 | Weidows の Nest | https://weidows.github.io |
@@ -166,7 +166,7 @@
 | 256 | 顶栏 | 萌！萝莉 | https://loliloli.moe |
 | 258 | 底部 | 7WATE`S Blog | https://blog.7wate.com |
 | 260 | 顶栏 | 斯莫笔记 | https://notes.zhangxiaocai.cn |
-| 263 | 顶栏 | 科学ADV整合站 | https://sciadv.mcseekeri.top |
+| 263 | 顶栏 | 科学ADV整合站 | https://lib.sci-adv.cc |
 | 264 | 顶栏 | 御坂の地下室 | https://misakamoe.com |
 | 266 | 顶栏 | Weclont Blog | https://blog.fwder.cn/ |
 | 267 | 侧栏 | 当神奇降临 | https://blog.toutop.cn |
@@ -190,7 +190,7 @@
 | 290 | 侧栏 | 肥虫汽水摊 | https://blog.bugcola.com/note |
 | 291 | 侧栏 | Debug客栈 | https://www.debuginn.cn |
 | 292 | 顶栏 | Lin's Blog | https://linzeyin.github.io |
-| 295 | 顶栏 | 帮开心 | https://www.bangkaixin.com |
+| 295 | 顶栏 | 帮开心 | https://bangkaixin.com |
 | 296 | 顶栏 | 灰域行者的罐头盒 | https://hacbox.me |
 | 297 | 顶栏 | 阈 | https://www.limina.top |
 | 299 | 顶栏 | Foxhole | https://blog.southfox.me |
@@ -199,15 +199,15 @@
 | --- | --- | --- | --- |
 | 300 | 顶栏 | Hello! I’m 中二病晚期 | https://imfurry.com |
 | 301 | 侧栏* | 萌新杰少の秘密基地 | https://imcys.com |
-| 302 | 顶栏 | 希望的博客 | https://xiwangly.top |
+| 302 | 顶栏 | 希望的博客 | https://www.xiwangly.top |
 | 303 | 中心 | WishMeLz | https://blog.itsse.cn |
 | 304 | 侧栏 | Noxsk | https://blog.noxsk.com |
 | 305 | 侧栏* | 新加卷的小宇宙 | https://www.hzq.life |
-| 306 | 侧栏 | CAYZLH | https://cayzlh.com |
+| 306 | 侧栏 | CAYZLH | https://www.cayzlh.com/ |
 | 307 | 侧栏 | 咖里De | https://blog.garryde.com |
 | 308 | 顶栏 | 贼ㄨ船 | https://blog.thiefship.com |
 | 309 | 顶栏 | Eritque arcus's blog | https://eritque-arcus.tech |
-| 310 | 顶栏 | kirito41dd's blog | https://www.kirito41dd.cn | 
+| 310 | 顶栏 | kirito41dd's blog | https://www.kirito41dd.cn |
 | 311 | 顶栏 | 墨泽 | https://blog.imzy.ink |
 | 312 | 顶栏 | 见字如晤 | https://www.jianziruw.com |
 | 313 | 顶栏 | 繁星博客 | https://blog.emoao.com |
@@ -231,7 +231,7 @@
 | 332 | 顶栏 | TIR: Today I Read | https://tir.cool |
 | 333 | 顶栏 | 九月的生活 | https://blog.sakurasep.club |
 | 334 | 顶栏 | HKK's Diary | https://ihkk.net |
-| 336 | 顶栏 | BBing's Blog | https://bbing.com.cn |
+| 336 | 顶栏 | BBing's Blog | https://imcbc.cn |
 | 337 | 顶栏 | 雨临Lewis的博客 | https://lewky.cn |
 | 339 | 顶栏 | 雨中的博客 | https://blog.coolchong.cn |
 | 340 | 顶栏 | 陈鑫磊的博客 | https://www.cxl2020mc.top |
@@ -248,9 +248,9 @@
 | 354 | 中心 | ldo's blog | https://ldo.one |
 | 355 | 顶栏 | KatCloud | https://katcloud.cn |
 | 356 | 顶栏 | 温华的博客 | https://wangquanguo.life |
-| 357 | 顶栏 | 进击的学霸的博客 | https://blog.lovem.fun | 
+| 357 | 顶栏 | 进击的学霸的博客 | https://blog.lovem.fun |
 | 358 | 顶栏 | 森木志 | https://imxxz.cn |
-| 359 | 顶栏 | Y7n05h 技术分享 | https://blog.y7n05h.dev |
+| 360 | 顶栏 | 晓果冻 | https://www.chenmx.net |
 | 360 | 顶栏 | 晓果冻 | https://www.chenmx.net | 
 | 361 | 顶栏 | 若志随笔 | https://www.rz.sb |
 | 363 | 顶栏 | 城北徐公 | https://www.cbxg.icu |
@@ -260,8 +260,8 @@
 | 367 | 侧栏 | Thun888 | https://blog.thun888.xyz |
 | 368 | 侧栏 | Sakitami的集装箱 | https://blog.skihome.xyz |
 | 369 | 顶栏 | CairBin's Blog | https://cairbin.top |
-| 370 | 顶栏 | Savant's Blog |  https://blog.lxscloud.top | 
-| 371 | 顶栏 | 半闲 | https://zhaobanxian.top |
+| 370 | 顶栏 | Savant's Blog |  https://blog.lxscloud.top |
+| 372 | 顶栏 | 沐瑾年 | https://www.lemonx.cn |
 | 372 | 顶栏 | 沐瑾年 | https://lemonx.cn |
 | 373 | 侧栏 | 逍遥隐士 | https://cry33.com |
 | 374 | 顶栏 | RSSBlog | https://rssblog.cn |
@@ -310,7 +310,7 @@
 | 416 | 顶栏 | Elliot's Blog | https://www.elliot98.top |
 | 417 | 顶栏 | 令如律 | https://aloner.ink |
 | 418 | 侧栏* | 泠风寒声的小窝 | https://blog.lfhsheng.com |
-| 419 | 侧栏 | 涅槃博客 | https://love2wind.cn |
+| 419 | 侧栏 | 涅槃博客 | https://nie.su |
 | 420 | 顶栏 | imba久期的博客 | https://imba97.cn |
 | 421 | 顶栏 | 雾时之森 | https://fairysen.com |
 | 422 | 顶栏 | 煎茶 | https://www.frytea.com |
@@ -335,8 +335,8 @@
 | 441 | 顶栏 | 瓠樽 | https://blog.dylanwu.space |
 | 442 | 顶栏 | 九月的生活 | https://blog.sakurasep.site |
 | 443 | 侧栏 | Nick的技术博客 | https://nickx.cn |
-| 444 | 侧栏* | Lanta Zone | https://www.lanta.cyou |
-| 445 | 顶栏 | 青云小站 | https://qystudio.ltd |
+| 444 | 侧栏* | Lanta Zone | https://lanta.bangumi.cyou/ |
+| 445 | 顶栏 | 青云小站 | https://www.qystu.cc |
 | 446 | 顶栏 | 狼堡实验室 | https://blog.xieqingxin.com |
 | 447 | 顶栏 | 记录生活，精彩一刻 | https://ikii.net |
 | 448 | 侧栏* | ImCaO‘s Blog | https://www.imcao.cn |
@@ -344,7 +344,7 @@
 | 450 | 顶栏 | ポ叶-shutiaoya | https://www.shutiaoya.com |
 | 451 | 顶栏 | 张赛东的艺苑 | https://zsd.name |
 | 452 | 顶栏 | Larthur | https://liu527.gitee.io |
-| 453 | 顶栏 | Wlog | https://blog.wmza.cn |
+| 453 | 顶栏 | Wlog | https://blog.w03.cc |
 | 454 | 侧栏 | 小升博 | https://blog.diz7.com |
 | 455 | 顶栏 | Kouki-α | https://kouki.ltd |
 | 456 | 顶栏 | 迷迭香的博客 | https://rosmontis.com |
@@ -372,7 +372,7 @@
 | 479 | 顶栏 | 放养平凡 | https://ba2in9a.top |
 | 480 | 侧栏 | MOLINK | https://mol.ink |
 | 481 | 顶栏 | Sady'Blog | https://www.sady0.com |
-| 482 | 顶栏 | 小N同学 | https://www.nesxc.com |
+| 482 | 顶栏 | 小N同学 | https://www.imcharon.com |
 | 483 | 顶栏 | 网友小宋 | https://xyzbz.cn |
 | 484 | 侧栏 | May be | https://www.mabby.cn |
 | 485 | 顶栏 | 朝露碎梦 | https://aibofan.com |
@@ -382,8 +382,8 @@
 | 490 | 顶栏 | Dvel's Blog | https://dvel.me |
 | 491 | 顶栏 | Joseph Z.的博客 | https://josephz.top |
 | 492 | 顶栏 | Justin写字的地方 | https://zblogs.top |
-| 493 | 侧栏 | 鼎天网络社区 | https://community.dtnetwork.top |
-| 494 | 侧栏 | PhyllisJohnson | https://iguangdie.xyz |
+| 493 | 侧栏 | 鼎天网络社区 | https://www.dtcommunity.top |
+| 495 | 顶栏 | 一腔诗意啊 | http://yiqiangshiyia.cn |
 | 495 | 顶栏 | 一腔诗意啊 | https://yiqiangshiyia.github.io |
 | 496 | 顶栏 | USTC-茶糜花开 | https://blog.starysky.top |
 | 497 | 顶栏 | 聚客盒 (Jukebox 📻) | https://jukebox.pipecraft.net |
@@ -398,7 +398,7 @@
 | 505 | 威风的博客 | https://weistuday.com |
 | 506 | 芸熙の小屋 | https://stvue.com |
 | 507 | 百乐的编程学习 | https://www.leyoubaloy.xyz/ |
-| 508 | MORA博客 | https://www.moraex.cn |
+| 508 | MORA博客 | https://www.moraex.com |
 | 509 | Joelの部落格 | https://yujiale.blog |
 | 510 | 西郊有密林 | https://blog.jerrywick.com |
 | 511 | 泠泫凝的异次元空间 | https://lxnchan.cn |
@@ -407,7 +407,7 @@
 | 514 | 听闻-导航页 | https://www.sangxuesheng.com |
 | 515 | NikoBlog | https://www.nikoblog.top |
 | 516 | DENG's LIFE | https://deng.life |
-| 517 | 一蓑烟雨的博客 | https://www.easyf12.top/ |
+| 517 | 一蓑烟雨的博客 | https://easyf12.top |
 | 518 | 资源管理器博客 | https://www.zyglq.cn |
 | 519 | 一刀斩の小窝 | https://blog.yidaozhan.top |
 | 520 | 南星の博客 | https://nanxing.ltd |
@@ -421,7 +421,7 @@
 | 529 | 伟良荣博客 | https://weiliangrong.eu.org |
 | 530 | Sonic853 | https://blog.853lab.com |
 | 531 | Saiodgm の 博客儿 | https://oi.saiodgm.gq |
-| 532 | 等一只柴犬 | https://thtown.cn |
+| 532 | 等一只柴犬 | https://saryn.cn |
 | 533 | shunhang | https://www.shimmerl.top |
 | 534 | 六个周 | https://blog.liugezhou.online |
 | 535 | 咕萌小站 | https://gmoe.cc |
@@ -493,7 +493,7 @@
 | 604 | 圆周率的博客 | https://yuanzj.top |
 | 605 | Hairy's Blog | https://www.hairy.blog |
 | 606 | ShootZone | https://blog.roccoshi.top |
-| 607 | CheeseburgerIM's Blog | https://cheeseburgerim.github.io |
+| 607 | CheeseburgerIM's Blog | http://panyizhe.com |
 | 608 | 强曰为道 | https://pkold.com |
 | 609 | 无名博客 | https://wumingboke.xyz |
 | 610 | SinGO博客 | https://blog.xsnet.eu.org |
