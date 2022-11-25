@@ -499,7 +499,7 @@ function travelling() {
   urls[492] = "zblogs.top";
   urls[493] = "www.dtcommunity.top";
   urls[494] = empty;
-  urls[495] = "yiqiangshiyia.github.io";
+  urls[495] = "yiqiangshiyia.cn";
   urls[496] = "blog.starysky.top";
   urls[497] = "jukebox.pipecraft.net/";
   urls[498] = empty;
