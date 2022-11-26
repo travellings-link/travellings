@@ -15,7 +15,7 @@ function travelling() {
   urls[8] = empty;
   urls[9] = empty;
   urls[10] = "blog.uniartisan.com";
-  urls[11] = empty;
+  urls[11] = "jinqimu.github.io";
   urls[12] = empty;
   urls[13] = empty;
   urls[14] = empty;
@@ -150,7 +150,7 @@ function travelling() {
   urls[143] = "hasaik.com";
   urls[144] = "shoka.lostyu.me";
   urls[145] = "www.mrskye.cn";
-  urls[146] = empty;
+  urls[146] = "zigzagk.top";
   urls[147] = "jsongx.com";
   urls[148] = "www.kiritoghy.cn";
   urls[149] = "www.cnblogs.com/borber";
@@ -251,7 +251,7 @@ function travelling() {
   urls[244] = "weidows.github.io";
   urls[245] = "magma.ink";
   urls[246] = "yzyyz.top";
-  urls[247] = "idasx.com";
+  urls[247] = "www.idasx.com";
   urls[248] = "blog.xecades.xyz";
   urls[249] = "blog.amoswu.cn";
   urls[250] = empty;
@@ -467,8 +467,8 @@ function travelling() {
   urls[460] = "hugo.bnblogs.cc";
   urls[461] = "www.hovthen.com";
   urls[462] = "www.wanglingyue.com";
-  urls[463] = "www.oplog.cn/";
-  urls[464] = "thymrios.com";
+  urls[463] = "irithys.com";
+  urls[464] = "www.oplog.cn";
   urls[465] = empty;
   urls[466] = "weekdawn.github.io";
   urls[467] = empty;
@@ -501,7 +501,7 @@ function travelling() {
   urls[494] = empty;
   urls[495] = "yiqiangshiyia.cn";
   urls[496] = "blog.starysky.top";
-  urls[497] = "jukebox.pipecraft.net/";
+  urls[497] = "jukebox.pipecraft.net";
   urls[498] = empty;
   urls[499] = "discuss-cn.bestxtools.com";
   urls[500] = "blog.wingszeng.top";
@@ -663,7 +663,7 @@ function travelling() {
   urls[656] = "www.zhengwenfeng.com";
   urls[657] = "www.itbob.cn";
   urls[658] = "yoseya2410.github.io";
-  urls[659] = "jiejie.de/blog";
+  urls[659] = "jiejie.uk/blog";
   urls[660] = "www.lizhichen.cn";
   urls[661] = "blog.lovelu.top";
   urls[662] = "blog.mariozzj.cn";
@@ -675,6 +675,10 @@ function travelling() {
   urls[668] = "hongweblog.com";
   urls[669] = "fanyiming.life";
   urls[670] = "blog.linsnow.cn";
+  urls[671] = "blog.ganxb2.com";
+  urls[672] = "www.iots.vip";
+  urls[673] = "wannote.com";
+  urls[674] = "amiaaaz.github.io";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 

@@ -168,7 +168,7 @@
 | 264 | 顶栏 | 御坂の地下室 | https://misakamoe.com |
 | 266 | 顶栏 | Weclont Blog | https://blog.fwder.cn/ |
 | 268 | 侧栏 | Hi,ghostsf | https://ghostsf.com |
-| 269 | 顶栏  | 小白 の 博客        | https://www.xiaobai666.top |
+| 269 | 顶栏  | 小白 の 博客        | https://www.aiyo99.com |
 | 270 | 顶栏 | MoLeft's Blog | https://www.moleft.cn |
 | 272 | 顶栏 | 空域 | https://blog.moeworld.tech |
 | 273 | 底栏* | lzlz000 | https://blog.lzlz.site |
@@ -315,7 +315,7 @@
 | 441 | 顶栏 | 瓠樽 | https://blog.dylanwu.space |
 | 442 | 顶栏 | 九月的生活 | https://blog.sakurasep.site |
 | 443 | 侧栏 | Nick的技术博客 | https://nickx.cn |
-| 444 | 侧栏* | Lanta Zone | https://lanta.bangumi.cyou/ |
+| 444 | 侧栏* | Lanta Zone | https://lanta.bangumi.cyou |
 | 445 | 顶栏 | 青云小站 | https://www.qystu.cc |
 | 446 | 顶栏 | 狼堡实验室 | https://blog.xieqingxin.com |
 | 448 | 侧栏* | ImCaO‘s Blog | https://www.imcao.cn |
@@ -331,7 +331,7 @@
 | 460 | 顶栏 | barney的博客 | https://hugo.bnblogs.cc |
 | 461 | 顶栏 | 万里淘知 | https://www.hovthen.com |
 | 462 | 顶栏 | Sky's Blog | https://www.wanglingyue.com |
-| 463 | 侧栏 | 沉醒凝香 | https://irithys.com |
+| 463 | 侧栏 | 山茶花舍 | https://irithys.com |
 | 464 | 顶栏 | 啊不都 | https://www.oplog.cn |
 | 466 | 顶栏 | 卫可冬的个人网站 | https://weekdawn.github.io |
 | 468 | 顶栏 | Nofated's Blog | https://blog.nofated.win |
@@ -345,7 +345,7 @@
 | 477 | 顶栏 | 星空下的YZY | https://226yzy.com |
 | 478 | 侧栏* | f2h2h1's blog | https://f2h2h1.github.io |
 | 480 | 侧栏 | MOLINK | https://mol.ink |
-| 481 | 顶栏 | Sady'Blog | https://www.sady0.com |
+| 481 | 顶栏 | Sady'Blog | https://sady0.com |
 | 482 | 顶栏 | 小N同学 | https://www.imcharon.com |
 | 483 | 顶栏 | 网友小宋 | https://xyzbz.cn |
 | 484 | 侧栏 | May be | https://www.mabby.cn |
@@ -370,7 +370,7 @@
 | 503  | Astrophel's  Blog      | https://www.astrophel.top       |
 | 505  | 威风的博客             | https://weistuday.com           |
 | 506  | 芸熙の小屋             | https://stvue.com               |
-| 507  | 百乐的编程学习         | https://www.leyoubaloy.xyz/     |
+| 507  | 百乐的编程学习         | https://www.leyoubaloy.xyz     |
 | 508  | MORA博客               | https://www.moraex.com          |
 | 509  | Joelの部落格           | https://yujiale.blog            |
 | 510  | 西郊有密林             | https://blog.jerrywick.com      |
@@ -435,7 +435,7 @@
 | 576  | 不予の测试笔记         | https://www.shibuyu.fun         |
 | 577  | Kobin 技术随笔         | https://blog.kobin.cn           |
 | 578  | 熊猫不是猫             | https://panda995.xyz            |
-| 579  | 禾之谷                 | https://www.hezhigu.com         |
+| 579  | 禾之谷                 | https://blog.foxcm.com |
 | 580  | 字节星球               | https://www.bytecho.net         |
 | 581  | 周靖                   | https://blog.code520.com.cn     |
 | 583  | 竹春廿柒               | https://mojinxi.cn              |
@@ -466,13 +466,13 @@
 | 609  | 无名博客               | https://wumingboke.xyz          |
 | 610  | SinGO博客              | https://blog.xsnet.eu.org       |
 | 611  | 小明的博客             | https://blog.kobal.cn           |
-| 612  | 嘉嘉的博客             | https://blog.jiajia.ml          |
+| 612  | 嘉嘉的博客             | https://blog.hijiajia.xyz         |
 | 613  | 怡然一记               | https://xsunhua.cn              |
 | 614  | WindowsRegeditのsite   | https://wufan.fun               |
 | 615  | Niute Fony             | https://blogs.niufuyu.top       |
 | 616  | fffzlfk's Blog         | https://fffzlfk.github.io       |
 | 617  | Braindance             | https://www.penginman.com       |
-| 618  | 兔儿轩的小空间         | https://tuerxuan.top            |
+| 618  | 兔儿轩の小破站  | https://tuerxuan.com |
 | 619  | LYXの小破站            | https://yisous.xyz              |
 | 620  | 心流                   | https://blog.panghai.top        |
 | 621  | 小莫唐尼               | https://b.925i.cn               |
@@ -513,7 +513,7 @@
 | 656  | 郑文峰的博客           | https://www.zhengwenfeng.com    |
 | 657  | BOB'S BLOG             | https://www.itbob.cn            |
 | 658  | 釉色鸭知识库           | https://yoseya2410.github.io    |
-| 659  | 姐姐的个人博客         | https://jiejie.de/blog          |
+| 659  | 姐姐的个人博客         | https://jiejie.uk/blog |
 | 660  | 懋和道人               | https://www.lizhichen.cn        |
 | 661  | 满心                   | https://blog.lovelu.top         |
 | 662  | MarioZZJ's  blog       | https://blog.mariozzj.cn        |
@@ -525,6 +525,10 @@
 | 668  | HONG的小站             | https://hongweblog.com          |
 | 669  | Eamon's Blog           | https://fanyiming.life          |
 | 670  | L1nSn0w's Blog         | https://blog.linsnow.cn         |
+| 671  | 廿壴(ganxb2)博客         | https://blog.ganxb2.com         |
+| 672 | Alliot's blog | https://www.iots.vip |
+| 673 | 万笔记 | https://wannote.com |
+| 674 | AmiaaaZ's Site | https://amiaaaz.github.io |
 ---
 
 ## 下线列表 ♻️
