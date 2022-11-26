@@ -56,7 +56,7 @@ function travelling() {
   urls[49] = "dpii.club";
   urls[50] = empty;
   urls[51] = empty;
-  urls[52] = "spinaround.tk";
+  urls[52] = empty;
   urls[53] = "www.lin03.cn";
   urls[54] = empty;
   urls[55] = empty;
@@ -149,8 +149,8 @@ function travelling() {
   urls[142] = "www.yilantingfeng.site";
   urls[143] = "hasaik.com";
   urls[144] = "shoka.lostyu.me";
-  urls[145] = "www.mrskye.cn";
-  urls[146] = "zigzagk.top";
+  urls[145] = empty;
+  urls[146] = empty;
   urls[147] = "jsongx.com";
   urls[148] = "www.kiritoghy.cn";
   urls[149] = "www.cnblogs.com/borber";
