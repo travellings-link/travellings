@@ -17,13 +17,12 @@
 | 16 | 顶栏 | FANTASY | https://blog.tigerxly.com |
 | 18 | 中心 | 煎饼果子 | https://cak.moe |
 | 20 | 顶栏 | Muyulong's Blog | https://mmyyll.ml |
-| 21 | 底栏 | Oasis's Blog | https://blog.imoasislee.com/ |
+| 21 | 底栏 | Oasis's Blog | https://blog.imoasislee.com |
 | 22 | 顶栏 | 五叶魔法书 | https://grimoire.cn |
 | 23 | 侧栏 | 风渐远 | https://www.naraku.cn |
 | 24 | 顶栏 | XiYo吧 | https://www.xiyo8.cn |
 | 25 | 侧栏 | 锴 | https://www.wangkai88.com |
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
-| 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
 | 30 | 侧栏 | 星云馆 | https://www.m78.co |
 | 31 | 顶栏 | Cheung | https://icheung.net |
@@ -45,7 +44,6 @@
 | 66 | 侧栏 | ncc的个人网站 | https://www.zqcnc.cn |
 | 68 | 侧栏 | 静静的小窝 | https://wznmickey.com |
 | 70 | 顶栏 | 及时行乐 | https://www.jsxlo.com |
-| 71 | 顶栏 | DoveのBlog | https://blog.sdgou.cc |
 | 76 | 中心 | 花开陌上 | https://moshanghua.net |
 | 77 | 顶栏 | 炎忍的博客 | https://blog.imyan.ren |
 | 82 | 底部 | 执手对影成双 | https://www.lipk.org |
@@ -74,7 +72,6 @@
 | 117 | 顶栏 | 七米蓝 | https://www.chirmyram.top |
 | 122 | 顶栏 | 人家故里 | https://fx7.top |
 | 123 | 顶栏 | 丁丁の店 | https://blog.butanediol.me |
-| 124 | 顶栏 | 饿龙不是龙哩 | https://loafing.cn |
 | 126 | 侧栏 | SWJ | https://blog.zggsong.cn |
 | 127 | 顶栏 | Sanarous's Blog | https://bestzuo.cn |
 | 128 | 顶栏 | HandSonic‘s Blog | https://handsonic.top |
@@ -115,7 +112,6 @@
 | 192 | 顶栏 | 小康的个人主页 | https://xiaokang.me |
 | 193 | 顶栏 | 威廉伯爵 | https://megatontech.github.io |
 | 195 | 顶栏 | Huiris's Log | https://huiris.com |
-| 196 | 顶栏 | iVampireSP的物语 | https://ivampiresp.com |
 | 197 | 中心 | UTOPIA | https://ishya.top |
 | 198 | 侧栏 | MBR的博客 | https://blog.mbrjun.cn |
 
@@ -154,7 +150,6 @@
 | 244 | 顶栏 | Weidows の Nest | https://weidows.github.io |
 | 245 | 顶栏 | Magma Ink | https://magma.ink |
 | 246 | 顶栏 | 幼稚园园长 |https://yzyyz.top |
-| 247 | 中心 | 飞云师兄的主页 | https://www.idasx.com |
 | 248 | 侧栏 | Xecades's Blog | https://blog.xecades.xyz |
 | 249 | 顶栏 | Amos‘blog | https://blog.amoswu.cn |
 | 251 | 顶栏 | 月光中的污点 | https://www.extlight.com |
@@ -163,10 +158,9 @@
 | 255 | 顶栏 | 墨染 の 博客 | https://www.roaing.com |
 | 256 | 顶栏  | 萌！萝莉            | https://loliloli.moe |
 | 258 | 底部 | 7WATE`S Blog | https://blog.7wate.com |
-| 260 | 顶栏 | 斯莫笔记 | https://notes.zhangxiaocai.cn |
 | 263 | 顶栏 | 科学ADV整合站 | https://lib.sci-adv.cc |
 | 264 | 顶栏 | 御坂の地下室 | https://misakamoe.com |
-| 266 | 顶栏 | Weclont Blog | https://blog.fwder.cn/ |
+| 266 | 顶栏 | Weclont Blog | https://blog.fwder.cn |
 | 268 | 侧栏 | Hi,ghostsf | https://ghostsf.com |
 | 269 | 顶栏  | 小白 の 博客        | https://www.aiyo99.com |
 | 270 | 顶栏 | MoLeft's Blog | https://www.moleft.cn |
@@ -218,7 +212,6 @@
 | 323 | 顶栏 | Revincx的小破站 | https://blog.revincx.icu |
 | 324 | 顶栏 | 东方幻梦 | https://blog.badapple.pro |
 | 325 | 中心 | xuanzhi33的小站 | https://www.xuanzhi33.cn |
-| 326 | 顶栏 | Xzy® Homepage | https://xzy.one |
 | 327 | 侧栏 | 星路博客 | https://www.ariels.xyz |
 | 328 | 顶栏 | K'Blog | https://www.amazingk.cn |
 | 331 | 顶栏 | GZTime's Blog | https://blog.gztime.cc |
@@ -238,10 +231,8 @@
 | 355 | 顶栏 | KatCloud | https://katcloud.cn |
 | 356 | 顶栏 | 温华的博客 | https://wangquanguo.life |
 | 357 | 顶栏 | 进击的学霸的博客 | https://blog.lovem.fun |
-| 358 | 顶栏 | 森木志 | https://imxxz.cn |
 | 359 | 顶栏  | Y7n05h 技术分享       | https://blog.y7n05h.dev |
 | 360 | 顶栏 | 晓果冻 | https://www.chenmx.net |
-| 361 | 顶栏 | 若志随笔 | https://www.rz.sb |
 | 363 | 顶栏 | 城北徐公 | https://www.cbxg.icu |
 | 364 | 顶栏 | 二丫讲梵 | https://wiki.eryajf.net |
 | 365 | 顶栏 | liuliのsite | https://back2me.cn |
@@ -269,7 +260,6 @@
 | 394 | 顶栏 | YeungYeah 的乱写地 | https://scottyeung.top |
 | 395 | 侧栏 | 小角落 | https://kk.hackerjk.top |
 | 396 | 顶栏 | 迷失博客 | https://www.mishi23.com |
-| 397 | 侧栏 | 奈斯 | https://nai.si |
 | 398 | 侧栏 | OhYee's Blog | https://www.ohyee.cc |
 | 399 | 侧栏 | 巷子深的生活 | https://szx.life |
 
@@ -317,7 +307,6 @@
 | 443 | 侧栏 | Nick的技术博客 | https://nickx.cn |
 | 444 | 侧栏* | Lanta Zone | https://lanta.bangumi.cyou |
 | 445 | 顶栏 | 青云小站 | https://www.qystu.cc |
-| 446 | 顶栏 | 狼堡实验室 | https://blog.xieqingxin.com |
 | 448 | 侧栏* | ImCaO‘s Blog | https://www.imcao.cn |
 | 449 | 侧栏 | 听闻.导航页 | https://zhuye.sangxuesheng.com |
 | 451 | 顶栏 | 张赛东的艺苑 | https://zsd.name |
@@ -344,11 +333,9 @@
 | 476 | 顶栏 | Stephen Zhang's Blogs | https://blogs.stephen-zhang.cn |
 | 477 | 顶栏 | 星空下的YZY | https://226yzy.com |
 | 478 | 侧栏* | f2h2h1's blog | https://f2h2h1.github.io |
-| 480 | 侧栏 | MOLINK | https://mol.ink |
 | 481 | 顶栏 | Sady'Blog | https://sady0.com |
 | 482 | 顶栏 | 小N同学 | https://www.imcharon.com |
 | 483 | 顶栏 | 网友小宋 | https://xyzbz.cn |
-| 484 | 侧栏 | May be | https://www.mabby.cn |
 | 485 | 顶栏 | 朝露碎梦 | https://aibofan.com |
 | 486 | 顶栏 | 逸凡的小站 | https://fu1fan.cn |
 | 488 | 顶栏 | ZhengXi's Blog | https://zhengxi.io |
@@ -365,7 +352,6 @@
 | 序号 | 名称 | 网址 |
 | --- | --- | --- |
 | 500  | Wings 的博客           | https://blog.wingszeng.top      |
-| 501  | Jun                    | https://blog.junrz.cn           |
 | 502  | 尖嘴钳子_lyon的记事本  | https://lml023.top              |
 | 503  | Astrophel's  Blog      | https://www.astrophel.top       |
 | 505  | 威风的博客             | https://weistuday.com           |
@@ -379,14 +365,11 @@
 | 513  | 多米诺的BLOG           | https://blog.dominoh.com        |
 | 514  | 听闻-导航页            | https://www.sangxuesheng.com    |
 | 515  | NikoBlog               | https://www.nikoblog.top        |
-| 516  | DENG's LIFE            | https://deng.life               |
-| 517  | 一蓑烟雨的博客         | https://easyf12.top             |
-| 518  | 资源管理器博客         | https://www.zyglq.cn            |
+| 516  | 邓先生的博客      | https://qinzhi.cc      |
 | 519  | 一刀斩の小窝           | https://blog.yidaozhan.top      |
 | 520  | 南星の博客             | https://nanxing.ltd             |
 | 522  | 量子猫也喜欢摸电子鱼   | https://lishizi.jushistudio.com |
 | 523  | mes ames               | https://moi-mo.github.io        |
-| 524  | 公爵书房技术分享       | https://www.gjcloak.top         |
 | 525  | 一个小站               | https://www.ygxz.in             |
 | 526  | Seraphineの小窝        | https://helloseraphine.top      |
 | 527  | 三道勾                 | https://blog.sdgou.cc           |
@@ -429,7 +412,6 @@
 | 570  | CasecoRI 的小站        | https://www.casecori.top        |
 | 571  | 浮云翩迁之间           | https://blognas.hwb0307.com     |
 | 572  | AOHUI BLOG.            | https://www.aohuiliu.fun        |
-| 573  | Gahotx                 | https://gahotx.cn               |
 | 574  | 心智备份               | https://www.tyrantg.com         |
 | 575  | Izekel'Blog            | https://www.izekel.cn           |
 | 576  | 不予の测试笔记         | https://www.shibuyu.fun         |
@@ -449,9 +431,7 @@
 | 592  | Leonus                 | https://blog.leonus.cn          |
 | 593  | 澄沨的漫游茶记         | https://champhoon.xyz           |
 | 594  | 闪闪の小窝             | https://moechun.fun             |
-| 595  | 落星屋                 | https://www.cnortles.top        |
 | 596  | Rekord's Blog          | https://sxrekord.com            |
-| 597  | ガヴのサイト           | https://gabrielxd.top           |
 | 598  | Cubik的小站            | https://www.cubik65536.top      |
 | 599  | wallleap               | https://myblog.wallleap.cn      |
 | 600  | Xlencoの小窝           | https://xlenco.eu.org           |
@@ -561,7 +541,6 @@
 | 44   | LOST   | 风吟                   | https://blog.yilon.top                             |
 | 50   | QUIT   | CORE                   | https://core.moe                                   |
 | 51   | LOST   | solar'blog             | https://www.solarme.vip                            |
-| 52   | QUIT   | SpinTouch's  Something | https://spinblog.tk                                |
 | 54   | LOST   | 王荣胜                 | https://sqdxwz.top                                 |
 | 55   | QUIT   | 自说自话               | https://rua.ink                                    |
 | 56   | QUIT   | TigerRoot              | https://blog.tigerroot.cn                          |
@@ -573,6 +552,7 @@
 | 63   | SSL    | LifeAlsoIsGG's  blog   | https://blog.lifeisgg.online                       |
 | 67   | QUIT   | 刀客                   | https://blog.mboker.cn                             |
 | 69   | LOST   | xiadengmaのblog        | https://blog.xiadengma.top                         |
+| 71 | LOST | iSwl's Blog | https://blog.iswl.vip |
 | 72   | SSL    | 魏巍                   | https://paperbox.xyz                               |
 | 73   | QUIT   | Leo’s Blog             | https://www.isolitude.cn                           |
 | 74   | LOST   | 顾盼の记事本           | https://gupan.site                                 |
@@ -601,6 +581,7 @@
 | 119  | SSL    | 九汐                   | https://blog.lu-sky.com                            |
 | 120  | LOST   | MZRME‘S                | https://mzrme.com                                  |
 | 121  | QUIT   | 归舟棹远               | https://www.tanknee.cn                             |
+| 124 | QUIT | 饿龙不是龙哩 | https://loafing.cn |
 | 125  | QUIT   | 低调阁                 | https://www.ddg.ink                                |
 | 129  | LOST   | 雾漫江南               | https://oxoch.com                                  |
 | 134  | LOST   | 独人欣赏               | https://www.wangyusong.cn                          |
@@ -608,8 +589,6 @@
 | 137  | LOST   | 简兮小站               | https://www.zk1220.com                             |
 | 138  | LOST   | 满月技术君             | https://jishujun.com                               |
 | 141  | SSL    | UTS                    | https://uts.ski                                    |
-| 145  | LOST   | MES                    | https://rain.moimo.me                              |
-| 146  | LOST   | 开心果个人博客         | https://zhw150.top                                 |
 | 150  | LOST   | NEROASMAR.TOP          | https://neroasmar.top                              |
 | 152  | LOST   | Jim's Blog             | https://www.iibaofu.cn                             |
 | 153  | 重复   | 若非                   | https://github.com/volfclub/travellings/issues/549 |
@@ -710,4 +689,25 @@
 | 561  | LOST   | Prk博客                | https://www.cprk.cc                                |
 | 567  | ERROR  | zhc`s blog             | https://www.zhc.ink                                |
 | 582  | QUIT   | WikiMimo               | https://www.wikimimo.com                           |
+| 595 | ERROR  | 落星屋                | https://www.cnortles.top |
+| 27 | QUIT   | Guqing's Blog         | https://guqing.xyz |
+| 196 | QUIT   | iVampireSP的物语      | https://ivampiresp.com |
+| 247 | QUIT   | 飞云师兄的主页        | https://www.idasx.com |
+| 260 | QUIT   | 斯莫笔记              | https://notes.zhangxiaocai.cn |
+| 326 | QUIT   | Xzy® Homepage         | https://xzy.one |
+| 358 | QUIT   | 森木志                | https://imxxz.cn |
+| 361 | QUIT   | 若志随笔              | https://www.rz.sb |
+| 397 | QUIT   | 奈斯                  | https://nai.si |
+| 446 | QUIT   | 狼堡实验室            | https://blog.xieqingxin.com |
+| 480 | QUIT   | MOLINK                | https://mol.ink |
+| 484 | QUIT   | May be                | https://www.mabby.cn |
+| 501 | QUIT   | Jun                   | https://blog.junrz.cn |
+| 517 | QUIT   | 一蓑烟雨的博客        | https://easyf12.top |
+| 518 | QUIT   | 资源管理器博客        | https://www.zyglq.cn |
+| 524 | QUIT   | 公爵书房技术分享      | https://www.gjcloak.top |
+| 573 | QUIT   | Gahotx                | https://gahotx.cn |
+| 590 | BROKEN | 修仙大佬              | https://heychaw.cc/ |
+| 597 | QUIT   | ガヴのサイト          | https://gabrielxd.top |
+
+
 ---
