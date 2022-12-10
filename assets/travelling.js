@@ -690,6 +690,7 @@ function travelling() {
   urls[683] = "www.xrpyq.com";
   urls[684] = "www.chwin.asia";
   urls[685] = "www.yuanning0818.tk";
+  urls[686] = "www.ittongxue.cn";
 
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
