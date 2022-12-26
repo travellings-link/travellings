@@ -34,7 +34,7 @@ function travelling() {
   urls[27] = empty;
   urls[28] = empty;
   urls[29] = "feiliwuyan.com";
-  urls[30] = "www.m78.co";
+  urls[30] = "blog.m78.co";
   urls[31] = "icheung.net";
   urls[32] = "www.sitstars.com";
   urls[33] = "ionssource.cn";
@@ -691,7 +691,12 @@ function travelling() {
   urls[684] = "www.chwin.asia";
   urls[685] = "www.yuanning0818.tk";
   urls[686] = "www.ittongxue.cn";
-
+  urls[687] = "ruyun.tk";
+  urls[688] = "blog.rickyxrc.top";
+  urls[689] = "tdeh.top";
+  urls[690] = "www.rqdmap.top";
+  urls[691] = "ymckc.cn";
+  urls[692] = "muidar.com";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
