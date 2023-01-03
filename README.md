@@ -8,17 +8,17 @@
 
 ### 更新说明：
 
-[🔮 统计数据](https://data.travellings.link/share/js3UvdC4/%E5%BC%80%E5%BE%80) | [♻️ 网站状态](https://status.travellings.link/status/index)
+[🔮 统计数据](https://u.xiaozonglin.cn/share/yAqZzwUs/%E5%BC%80%E5%BE%80) | [♻️ 网站状态]()
 
 > ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw)
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn` 。
 
 <!-- > 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
 
-> ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助](http://afdian.net/@volfclub)，为域名续费（请选 Travellings Sponsors）。
+> ⏰ **域名**：`travellings.link` 已续费至 2024年5月。[点此赞助]https://afdian.net/a/travellings()，为域名续费。
 
 ## 使用说明
 
@@ -30,7 +30,7 @@
 
 “ 网页E → 开往 → 网页X → 开往 → 网页A → 开往 → 网页M → 开往 → 网页P → 开往 → 网页L → 开往 → 网页E … ”
 
-![example](https://travellings.link/assets/logo.gif)
+![example](https://www.travellings.cn/assets/logo.gif)
 
 > ✨ 新 logo 灵感：代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。
 
@@ -58,26 +58,26 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://travellings.link` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn` 。
 
-- **最佳实践**：将 `开往` 的外链（`https://travellings.link`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
+- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
   - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
 - **额外可选**：将开往的徽标放到您的底部或其他位置，表示对开往的支持：
-  - 动图 GIF：`https://travellings.link/assets/logo.gif`
-  - 深色 PNG：`https://travellings.link/assets/b.png`
-  - 浅色 PNG：`https://travellings.link/assets/w.png`
-  - 方形 PNG：`https://travellings.link/assets/travelling.png`
-  - 方深 PNG：`https://travellings.link/assets/travelling-dark.png`
-  - 方浅 PNG：`https://travellings.link/assets/travelling-light.png`
-  - 矢量 SVG：`https://travellings.link/assets/logo.svg`
+  - 动图 GIF：`https://www.travellings.cn/assets/logo.gif`
+  - 深色 PNG：`https://www.travellings.cn/assets/b.png`
+  - 浅色 PNG：`https://www.travellings.cn/assets/w.png`
+  - 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
+  - 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
+  - 方浅 PNG：`https://www.travellings.cn/assets/travelling-light.png`
+  - 矢量 SVG：`https://www.travellings.cn/assets/logo.svg`
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
-  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://travellings.link/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` 。
+  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内CDN加速了，加载速度应该不会太慢吧？）。
 
 ```
-<a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
-    <img src="https://travellings.link/assets/logo.gif" alt="开往-友链接力" width="120">
+<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+    <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
 ```
 
@@ -87,11 +87,11 @@
 
 - 顶栏放置开往外链（必要），侧栏放置开往徽标（可选）；
 
-![example1](https://travellings.link/assets/example1.png)
+![example1](https://www.travellings.cn/assets/example1.png)
 
 - 侧栏放置开往外链（必要），底部放置开往的徽标（可选）；
 
-![example2](https://travellings.link/assets/example2.png)
+![example2](https://www.travellings.cn/assets/example2.png)
 
 ### 3. 提个 issue，等待审核通过（每月维护一次左右）。
 
@@ -115,17 +115,6 @@
 <a href="javascript:travelling()" title="开往-友链接力"><img src="https://fastly.jsdelivr.net/gh/travellings-link/travellings/assets/logo.gif" alt="开往-友链接力" width="120"></a>
 </body>
 ```
-
-### 可选镜像
- 
-- `https://travellings.cn`HK镜像（感谢蓝易云提供服务器）
- 
-- `https://travellings-link.github.io/travellings/`
-
-- `https://travellings.netlify.com`
-
-- [不推荐](https://www.vercel-status.com/incidents/r758bhbklgfd) `https://travellings.vercel.app`
-
 
 </details>
 
@@ -153,7 +142,7 @@ A：😻 有多种方案可选。
 
 - 参考使用说明中的 [额外可选](https://github.com/travellings-link/travellings#2-%E5%B0%86%E5%BC%80%E5%BE%80%E6%94%BE%E5%88%B0%E6%82%A8%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%90%8E%E5%B0%B1%E8%83%BD%E7%9C%8B%E5%88%B0%E7%9A%84%E5%9C%B0%E6%96%B9%E8%AE%A9%E5%8F%8B%E9%93%BE%E6%8E%A5%E5%8A%9B%E4%B8%8B%E5%8E%BB)，在你的网页上放置开往的徽标，帮助宣传让更多的人加入开往。
 
-- [打赏作者](https://afdian.net/@volfclub)，一些零钱总能激励作者更新维护项目的积极性。
+- [打赏作者](https://afdian.net/a/travellings)，一些零钱总能激励作者更新维护项目的积极性。
 
 - 🎂 开往的生日是 **2020年3月12日**，祝它生日快乐！
 
@@ -205,7 +194,7 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 您也可在域名到期前尽早的设置重定向，开往也会在维护中注意到并更正网址。
 
-> 💡 选购域名时，您应注意它的**续费价格**。某些域名，如 `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, sapce, fun` ，第二年续费就会暴涨到15美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/volfclub/travellings/issues/566) ，不妨一开始就做好准备。
+> 💡 选购域名时，您应注意它的**续费价格**。某些域名，如 `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, sapce, fun` ，第二年续费就会暴涨到15美刀以上（`.com` 域名也就每年8美刀）。更换域名总会有损失 [#556](https://github.com/travellings-link/travellings/issues/566) ，不妨一开始就做好准备。
 
 ### Q：举报问题网页或退出开往？
 
