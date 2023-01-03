@@ -8,7 +8,7 @@
 
 ### 更新说明：
 
-[🔮 统计数据](https://u.xiaozonglin.cn/share/yAqZzwUs/%E5%BC%80%E5%BE%80) | [♻️ 网站状态]()
+[🔮 统计数据]() | [♻️ 网站状态]()
 
 > ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw)
 
