@@ -10,7 +10,7 @@
 
 [🔮 统计数据]() | [♻️ 网站状态]()
 
-> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536]()https://github.com/Cubik65536)
+> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536)
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
