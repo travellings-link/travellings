@@ -130,7 +130,7 @@ function travelling() {
   urls[123] = "blog.butanediol.me";
   urls[124] = empty;
   urls[125] = empty;
-  urls[126] = "blog.zggsong.cn";
+  urls[126] = "zggsong.com";
   urls[127] = "bestzuo.cn";
   urls[128] = "handsonic.top";
   urls[129] = empty;
