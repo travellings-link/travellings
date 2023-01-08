@@ -3,6 +3,7 @@ function travelling() {
   const https = "https://";
   const reg = new RegExp("^" + https);
   const empty = null;
+  const suffix = "/?utm_source=travellings";
 
   urls[0] = "https://github.com/travellings-link/travellings";
   urls[1] = "www.volf.club";
@@ -714,7 +715,7 @@ function travelling() {
   // 去除 null ，以及拼接 https://
   urls = urls
     .filter((url) => url)
-    .map((url) => (reg.test(url) ? url : https + url));
+    .map((url) => (reg.test(url) ? url : https + url + suffix));
 
   if (document.referrer) {
     const origin = new URL(document.referrer).origin;
