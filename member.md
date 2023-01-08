@@ -23,7 +23,7 @@
 | 24 | 顶栏 | XiYo吧 | https://www.xiyo8.cn |
 | 25 | 侧栏 | 锴 | https://www.wangkai88.com |
 | 26 | 侧栏 | Zeruns's Blog | https://blog.zeruns.tech |
-| 27 | 顶栏 | ZGGSONG | https://www.zggsong.cn |
+| 27 | 顶栏 | Guqing's Blog | https://guqing.xyz |
 | 29 | 侧栏 | 非礼勿言 | https://feiliwuyan.com |
 | 30 | 顶栏 | 星空博客 | https://blog.m78.co |
 | 31 | 顶栏 | Cheung | https://icheung.net |

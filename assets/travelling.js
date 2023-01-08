@@ -31,7 +31,7 @@ function travelling() {
   urls[24] = "www.xiyo8.cn";
   urls[25] = "www.wangkai88.com";
   urls[26] = "blog.zeruns.tech";
-  urls[27] = "https://guqing.xyz";
+  urls[27] = "guqing.xyz";
   urls[28] = empty;
   urls[29] = "feiliwuyan.com";
   urls[30] = "blog.m78.co";
