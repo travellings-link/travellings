@@ -31,7 +31,7 @@ function travelling() {
   urls[24] = "www.xiyo8.cn";
   urls[25] = "www.wangkai88.com";
   urls[26] = "blog.zeruns.tech";
-  urls[27] = empty;
+  urls[27] = "https://guqing.xyz";
   urls[28] = empty;
   urls[29] = "feiliwuyan.com";
   urls[30] = "blog.m78.co";
@@ -699,16 +699,15 @@ function travelling() {
   urls[692] = "muidar.com";
   urls[693] = "www.kaitaku.xyz";
   urls[694] = "amber6hua.github.io";
-  urls[695] = "guqing.xyz";
-  urls[696] = "b.hui.ke";
-  urls[697] = "www.codeqihan.com";
-  urls[698] = "w.reol.ml";
-  urls[699] = "www.iamdt.cn";
-  urls[700] = "www.xiangming.site";
-  urls[701] = "www.haoba.cc";
-  urls[702] = "www.alpacabro.com";
-  urls[703] = "echeverra.cn";
-  urls[704] = "blog.wyblog1.tk";
+  urls[695] = "b.hui.ke";
+  urls[696] = "www.codeqihan.com";
+  urls[697] = "w.reol.ml";
+  urls[698] = "www.iamdt.cn";
+  urls[709] = "www.xiangming.site";
+  urls[700] = "www.haoba.cc";
+  urls[701] = "www.alpacabro.com";
+  urls[702] = "echeverra.cn";
+  urls[703] = "blog.wyblog1.tk";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
