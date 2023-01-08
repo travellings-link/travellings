@@ -3,6 +3,7 @@ function travelling() {
   const https = "https://";
   const reg = new RegExp("^" + https);
   const empty = null;
+  const suffix = "/?utm_source=travellings";
 
   urls[0] = "https://github.com/travellings-link/travellings";
   urls[1] = "www.volf.club";
@@ -31,7 +32,7 @@ function travelling() {
   urls[24] = "www.xiyo8.cn";
   urls[25] = "www.wangkai88.com";
   urls[26] = "blog.zeruns.tech";
-  urls[27] = empty;
+  urls[27] = "guqing.xyz";
   urls[28] = empty;
   urls[29] = "feiliwuyan.com";
   urls[30] = "blog.m78.co";
@@ -130,7 +131,7 @@ function travelling() {
   urls[123] = "blog.butanediol.me";
   urls[124] = empty;
   urls[125] = empty;
-  urls[126] = "blog.zggsong.cn";
+  urls[126] = "zggsong.com";
   urls[127] = "bestzuo.cn";
   urls[128] = "handsonic.top";
   urls[129] = empty;
@@ -697,13 +698,24 @@ function travelling() {
   urls[690] = "www.rqdmap.top";
   urls[691] = "ymckc.cn";
   urls[692] = "muidar.com";
+  urls[693] = "www.kaitaku.xyz";
+  urls[694] = "amber6hua.github.io";
+  urls[695] = "b.hui.ke";
+  urls[696] = "www.codeqihan.com";
+  urls[697] = "w.reol.ml";
+  urls[698] = "www.iamdt.cn";
+  urls[709] = "www.xiangming.site";
+  urls[700] = "www.haoba.cc";
+  urls[701] = "www.alpacabro.com";
+  urls[702] = "echeverra.cn";
+  urls[703] = "blog.wyblog1.tk";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
   // 去除 null ，以及拼接 https://
   urls = urls
     .filter((url) => url)
-    .map((url) => (reg.test(url) ? url : https + url));
+    .map((url) => (reg.test(url) ? url : https + url + suffix));
 
   if (document.referrer) {
     const origin = new URL(document.referrer).origin;
