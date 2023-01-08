@@ -707,7 +707,8 @@ function travelling() {
   urls[700] = "www.xiangming.site";
   urls[701] = "www.haoba.cc";
   urls[702] = "www.alpacabro.com";
-  urls[703] = "echeverra.cn"
+  urls[703] = "echeverra.cn";
+  urls[704] = "blog.wyblog1.tk";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
