@@ -709,6 +709,14 @@ function travelling() {
   urls[701] = "www.alpacabro.com";
   urls[702] = "echeverra.cn";
   urls[703] = "blog.wyblog1.tk";
+  urls[704] = "www.yoliliyo.com";
+  urls[705] = "easyf12.top";
+  urls[706] = "www.hsuyeung.com";
+  urls[707] = "his2nd.life";
+  urls[708] = "taheta.ren";
+  urls[709] = "veryjack.com";
+  urls[710] = "anotherdayu.com";
+  urls[711] = "www.nuyoahbk.com";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
