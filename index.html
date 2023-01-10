@@ -23,6 +23,11 @@
   <script src="assets/travelling.js"></script>
   <link href="https://cdn.staticfile.org/izitoast/1.4.0/css/iziToast.min.css" rel="stylesheet">
   <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet">
+  <script>
+    if (document.domain !== 'www.travellings.cn' && location.port === '') {
+      location.href = "https://www.travellings.cn/go.html";
+    }
+  </script>
   <style>
     * {
       color: #111827;
