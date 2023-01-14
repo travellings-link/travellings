@@ -717,6 +717,15 @@ function travelling() {
   urls[709] = "veryjack.com";
   urls[710] = "anotherdayu.com";
   urls[711] = "www.nuyoahbk.com";
+  urls[712] = "blog.outpost54.top";
+  urls[713] = "blog.mocn.top";
+  urls[714] = "blog.zzppjj.top";
+  urls[715] = "shape.kloudy.cn";
+  urls[716] = "www.zywvvd.com";
+  urls[717] = "louisfiy.com";
+  urls[718] = "moyu233.top";
+  urls[719] = "blog.rabbitwebs.cn";
+  urls[720] = "www.dong27th.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
