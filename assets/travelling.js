@@ -724,9 +724,8 @@ function travelling() {
   urls[716] = "www.zywvvd.com";
   urls[717] = "louisfiy.com";
   urls[718] = "moyu233.top";
-  urls[719] = "blog.moyuql.top";
-  urls[720] = "blog.rabbitwebs.cn";
-  urls[721] = "www.dong27th.cn";
+  urls[719] = "blog.rabbitwebs.cn";
+  urls[720] = "www.dong27th.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
