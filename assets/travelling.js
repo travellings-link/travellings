@@ -26,7 +26,7 @@ function travelling() {
   urls[18] = "cak.moe";
   urls[19] = empty;
   urls[20] = "mmyyll.ml";
-  urls[21] = "blog.imoasislee.com";
+  urls[21] = empty;
   urls[22] = "grimoire.cn";
   urls[23] = "www.naraku.cn";
   urls[24] = "www.xiyo8.cn";
@@ -36,7 +36,7 @@ function travelling() {
   urls[28] = empty;
   urls[29] = "feiliwuyan.com";
   urls[30] = "blog.m78.co";
-  urls[31] = "icheung.net";
+  urls[31] = empty;
   urls[32] = "www.sitstars.com";
   urls[33] = "ionssource.cn";
   urls[34] = empty;
@@ -66,7 +66,7 @@ function travelling() {
   urls[58] = empty;
   urls[59] = empty;
   urls[60] = empty;
-  urls[61] = "www.6zgm.com";
+  urls[61] = empty;
   urls[62] = empty;
   urls[63] = empty;
   urls[64] = "blog.ojhdt.com";
