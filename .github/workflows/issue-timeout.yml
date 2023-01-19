@@ -20,5 +20,5 @@ jobs:
           days-before-issue-close: 0
           stale-issue-label: '超时'
           only-issue-labels: '待回应,审核驳回'
-          close-issue-message: "距离上次等待您的回复，已经过去15天，团队将关闭您的本次请求，如您后续希望继续申请，可以重新提交 Issue 再次申请。感谢您对 开往-友链接力 的支持！"
+          close-issue-message: '距离上次等待您的回复，已经过去15天，团队将关闭您的本次请求，如您后续希望继续申请，可以重新提交 Issue 再次申请。感谢您对 开往-友链接力 的支持！'
           remove-issue-stale-when-updated: true
