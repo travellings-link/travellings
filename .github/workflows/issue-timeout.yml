@@ -3,8 +3,8 @@
 name: Close timeout issues
 on:
   schedule:
-    # Runs at 16:00 UTC/24:00 CST every day.
-    - cron: '0 16 * * *'
+    # Runs at 12:00 UTC/20:00 CST every day.
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
