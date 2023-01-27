@@ -405,7 +405,7 @@
 
 | 序号 | 名称                  | 网址                            |
 | ---- | --------------------- | ------------------------------- |
-| 600  | Xlencoの小窝          | https://xlenco.eu.org           |
+| 600  | Xlencoの小窝          | https://blog.xlenco.top/        |
 | 601  | FuBaooo 博客          | https://baii.icu                |
 | 602  | Bluemangoo's Blog     | https://blog.bluemangoo.net     |
 | 603  | 序炁的博客            | https://www.ordchaos.com        |
@@ -454,7 +454,7 @@
 | 649  | 西瓜撞地球            | https://www.bio-w.cn            |
 | 650  | 小志IT知识库          | https://www.czfq99.cn           |
 | 651  | 王政乔                | https://www.zhengqiao.wang      |
-| 652  | 大蛋糕的烘焙坊        | https://bigcake.cakemc.top      |
+| 652  | 大蛋糕的烘焙坊        | https://lihaoyu.cn               |
 | 653  | Ace浅末               | https://xiamoqwq.com            |
 | 654  | 习物志                | https://www.xiaoxiaosky.top     |
 | 655  | 知秋                  | https://acchw.top               |
@@ -493,7 +493,7 @@
 | 693  | 望月阁                | https://www.kaitaku.xyz         |
 | 694  | 六花丶紫              | https://amber6hua.github.io     |
 | 695  | Hui.Ke                | https://b.hui.ke                |
-| 696  | 启涵的博客            | https://www.codeqihan.com       |
+| 696  | 启涵的博客            | https://blog.1id.top       |
 | 697  | 我的博客              | https://w.reol.ml               |
 | 698  | 冬天的小窝            | https://www.iamdt.cn            |
 | 699  | 湘铭呀！              | https://www.xiangming.site      |
