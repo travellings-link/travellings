@@ -219,7 +219,7 @@
 | 364  | 二丫讲梵              | https://wiki.eryajf.net       |
 | 365  | liuliのsite           | https://back2me.cn            |
 | 366  | totoro & home         | https://totoro.site           |
-| 367  | Thun888               | https://blog.thun888.xyz      |
+| 367  | Thun888               | https://blog.hzchu.top      |
 | 368  | Sakitami的集装箱      | https://blog.skihome.xyz      |
 | 369  | CairBin's Blog        | https://cairbin.top           |
 | 370  | Savant's Blog         | https://blog.lxscloud.top     |
