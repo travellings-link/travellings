@@ -726,6 +726,7 @@ function travelling() {
   urls[718] = "moyu233.top";
   urls[719] = "blog.rabbitwebs.cn";
   urls[720] = "www.dong27th.cn";
+  urls[721] = "blog.zhangda.xyz";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
