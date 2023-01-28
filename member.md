@@ -521,6 +521,7 @@
 | 718  | 摸鱼屋           | https://moyu233.top        |
 | 719  | 兔say博客        | https://blog.rabbitwebs.cn |
 | 720  | Jelly27th's Blog | https://www.dong27th.cn    |
+| 721  | zd小达's blog    | https://blog.zhangda.xyz    |
 
 ---
 
