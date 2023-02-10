@@ -362,7 +362,7 @@ function travelling() {
   urls[354] = "ldo.one";
   urls[355] = "katcloud.cn";
   urls[356] = "wangquanguo.life";
-  urls[357] = "blog.lovem.fun";
+  urls[357] = "blog.jjdxb.top";
   urls[358] = empty;
   urls[359] = "blog.y7n05h.dev";
   urls[360] = "www.chenmx.net";
@@ -476,7 +476,7 @@ function travelling() {
   urls[468] = "blog.nofated.win";
   urls[469] = "zhekunren.github.io";
   urls[470] = "www.helywin.com";
-  urls[471] = empty;
+  urls[471] = "blog.withkr.xyz";
   urls[472] = "blog.isww.cn";
   urls[473] = "blog.orangii.cn";
   urls[474] = "blog.sukiu.top";
@@ -540,7 +540,7 @@ function travelling() {
   urls[532] = empty;
   urls[533] = "www.shimmerl.top";
   urls[534] = "blog.liugezhou.online";
-  urls[535] = "gmoe.cc";
+  urls[535] = "ggj.moe";
   urls[536] = "aotxland.com";
   urls[537] = "blog.qaiu.top";
   urls[538] = "nicejf.cn";
