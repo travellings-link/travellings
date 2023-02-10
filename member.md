@@ -212,7 +212,7 @@
 | 354  | ldo's blog            | https://ldo.one               |
 | 355  | KatCloud              | https://katcloud.cn           |
 | 356  | 温华的博客            | https://wangquanguo.life      |
-| 357  | 进击的学霸的博客      | https://blog.lovem.fun        |
+| 357  | 进击的学霸的博客      | https://blog.jjdxb.top        |
 | 359  | Y7n05h 技术分享       | https://blog.y7n05h.dev       |
 | 360  | 晓果冻                | https://www.chenmx.net        |
 | 363  | 城北徐公              | https://www.cbxg.icu          |
@@ -303,6 +303,7 @@
 | 468  | Nofated's Blog             | https://blog.nofated.win          |
 | 469  | zhekunのblog               | https://zhekunren.github.io       |
 | 470  | 封楚寒的空中花园           | https://www.helywin.com           |
+| 471  | 繁华是客's Blog             |    https://blog.withkr.xyz     |
 | 472  | 奇异维度                   | https://blog.isww.cn              |
 | 473  | 一只橙梓一个窝             | https://blog.orangii.cn           |
 | 474  | 千反田                     | https://blog.sukiu.top            |
@@ -349,7 +350,7 @@
 | 530  | Sonic853              | https://blog.853lab.com         |
 | 533  | shunhang              | https://www.shimmerl.top        |
 | 534  | 六个周                | https://blog.liugezhou.online   |
-| 535  | 咕萌小站              | https://gmoe.cc                 |
+| 535  | 咕萌小站              | https://ggj.moe                 |
 | 536  | AoTxLand              | https://aotxland.com            |
 | 537  | QAIU's blog           | https://blog.qaiu.top           |
 | 538  | 井犯博客              | https://nicejf.cn               |
@@ -720,7 +721,6 @@
 | 463  | LOST   | 山茶花舍               | https://irithys.com                                |
 | 465  | LOST   | 放养平凡               | https://ba2in9a.top                                |
 | 467  | LOST   | 蓝奇导航               | https://lanky.cn                                   |
-| 471  | ERROR  | 繁华是客's Blog        | https://vlts.kract.xyz                             |
 | 479  | LOST   | 放养平凡               | https://ba2in9a.top                                |
 | 480  | QUIT   | MOLINK                 | https://mol.ink                                    |
 | 484  | QUIT   | May be                 | https://www.mabby.cn                               |
