@@ -693,7 +693,7 @@ function travelling() {
   urls[685] = "www.yuanning0818.tk";
   urls[686] = "www.ittongxue.cn";
   urls[687] = "ruyun.tk";
-  urls[688] = "blog.rickyxrc.top";
+  urls[688] = "blog.rickyxrc.cc";
   urls[689] = "tdeh.top";
   urls[690] = "www.rqdmap.top";
   urls[691] = "ymckc.cn";
