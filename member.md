@@ -486,7 +486,7 @@
 | 685  | 阳光下的小宁宁        | https://www.yuanning0818.tk     |
 | 686  | IT同学的数字空间      | https://www.ittongxue.cn        |
 | 687  | 菜鸟博客              | https://ruyun.tk                |
-| 688  | Rickyxrc的博客        | https://blog.rickyxrc.top       |
+| 688  | Rickyxrc的博客        | https://blog.rickyxrc.cc       |
 | 689  | 老虎不吃人            | https://tdeh.top                |
 | 690  | rqdmap                | https://www.rqdmap.top          |
 | 691  | 长江南北青            | https://ymckc.cn                |
