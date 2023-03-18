@@ -384,7 +384,7 @@ function travelling() {
   urls[376] = "blog.ltya.top";
   urls[377] = "www.utopiaxc.cn";
   urls[378] = "www.owwee.cn";
-  urls[379] = empty;
+  urls[379] = "www.xiaozonglin.cn";
   urls[380] = "chenhe.me";
   urls[381] = empty;
   urls[382] = "moe.tips";
@@ -727,6 +727,12 @@ function travelling() {
   urls[719] = "blog.rabbitwebs.cn";
   urls[720] = "www.dong27th.cn";
   urls[721] = "blog.zhangda.xyz";
+  urls[722] = "zyxin.xyz/blog";
+  urls[723] = "bugcoder.gq";
+  urls[724] = "9941y.top";
+  urls[725] = "www.ccyh.xyz";
+  urls[726] = "www.okace.cn";
+  urls[727] = "blog.lvbyte.top";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
