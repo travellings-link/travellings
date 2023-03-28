@@ -103,7 +103,7 @@
 | 193  | 威廉伯爵           | https://megatontech.github.io  |
 | 195  | Huiris's Log       | https://huiris.com             |
 | 197  | UTOPIA             | https://ishya.top              |
-| 198  | MBR的博客          | https://blog.mbrjun.cn         |
+| 198  | MBRjun-Blog        | https://www.mbrjun.cn          |
 
 | 序号 | 名称                | 网址                          |
 | ---- | ------------------- | ----------------------------- |
