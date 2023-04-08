@@ -203,7 +203,7 @@ function travelling() {
   urls[195] = "huiris.com";
   urls[196] = empty;
   urls[197] = "ishya.top";
-  urls[198] = "blog.mbrjun.cn";
+  urls[198] = "www.mbrjun.cn";
   urls[199] = empty;
   urls[200] = "youdef.com";
   urls[201] = "www.heson10.com";
