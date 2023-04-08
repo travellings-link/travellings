@@ -24,7 +24,7 @@ function travelling() {
   urls[16] = "blog.tigerxly.com";
   urls[17] = empty;
   urls[18] = "cak.moe";
-  urls[19] = empty;
+  urls[19] = "blog.moej.cn";
   urls[20] = "mmyyll.ml";
   urls[21] = empty;
   urls[22] = "grimoire.cn";
