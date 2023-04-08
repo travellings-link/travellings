@@ -736,6 +736,12 @@ function travelling() {
   urls[728] = "202271.xyz";
   urls[729] = "cheapy.top";
   urls[730] = "ichika.cc";
+  urls[731] = "www.skyre.cn";
+  urls[732] = "blog.jerryz.com.cn";
+  urls[733] = "suemor.com";
+  urls[734] = "letanml.xyz";
+  urls[735] = "lorre.top";
+  urls[736] = "tabotef134.top";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
