@@ -14,6 +14,7 @@
 | 15   | Legroft               | https://jinjis.cn                               |
 | 16   | FANTASY               | https://blog.tigerxly.com                       |
 | 18   | 煎饼果子              | https://cak.moe                                 |
+| 19   | Sakura                 | https://blog.moej.cn                               |
 | 20   | Muyulong's Blog       | https://mmyyll.ml                               |
 | 22   | 五叶魔法书            | https://grimoire.cn                             |
 | 23   | 风渐远                | https://www.naraku.cn                           |
@@ -545,7 +546,6 @@
 | 13   | QUIT   | 殆己                   | https://heycmm.cn                                  |
 | 14   | LOST   | Yuki Yuki              | https://wp.remudaisuki.top                         |
 | 17   | SSL    | DIego's Blog           | http://blog.diego.plus:5800                        |
-| 19   | SSL    | Sakura                 | https://blog.moej.cn                               |
 | 21   | LOST   | Oasis's Blog           | https://blog.imoasislee.com                        |
 | 28   | QUIT   | lxxs的小屋             | https://lxxs.xyz                                   |
 | 31   | LOST   | Cheung                 | https://icheung.net                                |
