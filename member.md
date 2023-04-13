@@ -183,7 +183,7 @@
 | 307  | 咖里De                | https://blog.garryde.com      |
 | 308  | 贼ㄨ船                | https://blog.thiefship.com    |
 | 309  | Eritque arcus's blog  | https://eritque-arcus.tech    |
-| 310  | kirito41dd's blog     | https://www.kirito41dd.cn     |
+| 310  | kirito's blog     | https://www.kirito.info     |
 | 311  | 墨泽                  | https://blog.imzy.ink         |
 | 313  | 繁星博客              | https://blog.emoao.com        |
 | 315  | 南风的博客            | https://www.nfxwblog.com      |
