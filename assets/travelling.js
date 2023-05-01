@@ -742,6 +742,11 @@ function travelling() {
   urls[734] = "letanml.xyz";
   urls[735] = "lorre.top";
   urls[736] = "tabotef134.top";
+  urls[737] = "rl1.cc";
+  urls[738] = "wanyijizi.com";
+  urls[739] = "blog.zekun.fun";
+  urls[740] = "ley.best";
+  urls[741] = "ayu.land";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
