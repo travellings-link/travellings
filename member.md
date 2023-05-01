@@ -720,7 +720,6 @@
 | 361  | QUIT   | 若志随笔               | https://www.rz.sb                                  |
 | 362  | ERROR  | 初 x 见                | https://chuxjian.asia                              |
 | 371  | LOST   | 半闲                   | https://zhaobanxian.top                            |
-| 379  | QUIT   | 林林杂语               | https://www.linlinzzo.top                          |
 | 381  | LOST   | MikeC's Blog           | https://oiermikec.fun                              |
 | 384  | ERROR  | Jkkoi 的魔法地带       | https://jkkoi.top                                  |
 | 385  | LOST   | 三水非冰               | https://www.sanshuifeibing.com                     |
