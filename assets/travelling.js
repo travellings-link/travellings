@@ -747,6 +747,16 @@ function travelling() {
   urls[739] = "blog.zekun.fun";
   urls[740] = "ley.best";
   urls[741] = "ayu.land";
+  urls[742] = "blog.moyuql.top";
+  urls[743] = "blog.shineyu.cn";
+  urls[744] = "idealistyu.github.io";
+  urls[745] = "www.wellobserve.com";
+  urls[746] = "moyude.ren";
+  urls[747] = "blog.chaunceychi.fun";
+  urls[748] = "blog.1703.site";
+  urls[749] = "xyhelper.top";
+  urls[750] = "blog.chrison.cn";
+  urls[751] = "www.fish9.cn";
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
