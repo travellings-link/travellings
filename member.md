@@ -554,6 +554,7 @@
 | 749  | 汐语の小栈             | https://xyhelper.top   |
 | 750  | 目的地-Destination     | https://blog.chrison.cn   |
 | 751  | 吃猫的鱼个人博客     | https://www.fish9.cn   |
+| 752  | Leo's blog     | https://leonis.cc/   |
 
 ---
 
