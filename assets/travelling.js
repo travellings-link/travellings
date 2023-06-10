@@ -741,7 +741,7 @@ function travelling() {
   urls[733] = "suemor.com";
   urls[734] = "letanml.xyz";
   urls[735] = "lorre.top";
-  urls[736] = "tabotef134.top";
+  urls[736] = "jiyu134.top";
   urls[737] = "rl1.cc";
   urls[738] = "wanyijizi.com";
   urls[739] = "blog.zekun.fun";
