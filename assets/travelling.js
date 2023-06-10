@@ -757,6 +757,7 @@ function travelling() {
   urls[749] = "xyhelper.top";
   urls[750] = "blog.chrison.cn";
   urls[751] = "www.fish9.cn";
+  urls[752] = "leonis.cc"
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
