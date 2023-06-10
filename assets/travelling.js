@@ -758,6 +758,7 @@ function travelling() {
   urls[750] = "blog.chrison.cn";
   urls[751] = "www.fish9.cn";
   urls[752] = "leonis.cc"
+  urls[753] = "blog.pylogmon.com"
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
