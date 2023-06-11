@@ -557,6 +557,7 @@
 | 752  | Leo's blog     | https://leonis.cc/   |
 | 753  | 派了个萌     | https://blog.pylogmon.com/   |
 | 754  | Echocbxの异次元     | https://ezgx.site/   |
+| 755  | SinzMise的小屋     | https://blog.sinzmise.top/   |
 
 ---
 
