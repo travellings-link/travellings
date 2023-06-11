@@ -538,7 +538,7 @@
 | 733  | Suemor's Blog         | https://suemor.com         |
 | 734  | 浅梦’s Blog           | https://letanml.xyz        |
 | 735  | 悬铃木的精神世界      | https://lorre.top          |
-| 736  | 咬一口激动的鱼        | https://tabotef134.top     |
+| 736  | 咬一口激动的鱼        | https://jiyu134.top/     |
 | 737  | 我在人间贩卖黄昏      | https://rl1.cc             |
 | 738  | peachRL 的小站        | https://wanyijizi.com      |
 | 739  | HZK's Blog            | https://blog.zekun.fun     |
