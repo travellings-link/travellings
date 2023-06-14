@@ -514,7 +514,7 @@
 | 709  | Jack's Space          | https://veryjack.com       |
 | 710  | Another Dayu          | https://anotherdayu.com    |
 | 711  | Rhys Wang's Blog      | https://www.nuyoahbk.com   |
-| 712  | 慕雪的寒舍            | https://blog.musnow.top/ |
+| 712  | 慕雪的寒舍            | https://blog.musnow.top |
 | 713  | 莫莫逗狗              | https://blog.mocn.top      |
 | 714  | 章工运维              | https://blog.zzppjj.top    |
 | 715  | Kloudy Shape          | https://shape.kloudy.cn    |
