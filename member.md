@@ -443,7 +443,7 @@
 | 636  | 浅溪-Ling Chen's blog   | https://yingqing.cf             |
 | 637  | 武恩赐博客              | https://bolg.wuenci.wang        |
 | 638  | BinGo's Blog            | https://www.zh996.com           |
-| 639  | Mycpen                  | https://cpen.top                |
+| 639  | Mycpen                  | https://blog.cpen.top                |
 | 640  | 今天是晴天              | https://www.luodeb.top          |
 | 641  | MrZeFr 的小窝           | https://blog.mrzefr.cn          |
 | 642  | 赫赫文王                | https://kqh.me                  |
