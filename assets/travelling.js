@@ -762,6 +762,7 @@ function travelling() {
   urls[754] = "ezgx.site"
   urls[755] = "blog.sinzmise.top"
   urls[756] = "gorpeln.cn"
+  urls[757] = "liuyude.com"
 
   urls[urls.length] = "https://github.com/travellings-link/travellings";
 
