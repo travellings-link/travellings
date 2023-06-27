@@ -333,7 +333,7 @@ function travelling() {
   url[328] = "https://www.amazingk.cn";
   url[329] = "https://asuko.icu";
   url[330] = "https://www.godapex.com";
-  url[331] = "https://blog.gztime.cc";
+  url[331] = "https://blog.gzti.me";
   url[332] = "https://tir.cool";
   url[333] = "https://sakurasep.club";
   url[334] = "https://ihkk.net";

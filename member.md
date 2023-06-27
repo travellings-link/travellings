@@ -197,7 +197,7 @@
 | 324  | 东方幻梦              | https://blog.badapple.pro     |
 | 327  | 星路博客              | https://www.ariels.xyz        |
 | 328  | K'Blog                | https://www.amazingk.cn       |
-| 331  | GZTime's Blog         | https://blog.gztime.cc        |
+| 331  | GZTime's Blog         | https://blog.gzti.me        |
 | 333  | 九月的生活            | https://blog.sakurasep.club   |
 | 334  | HKK's Diary           | https://ihkk.net              |
 | 336  | BBing's Blog          | https://imcbc.cn              |

@@ -336,7 +336,7 @@ function travelling() {
   urls[328] = "www.amazingk.cn";
   urls[329] = empty;
   urls[330] = empty;
-  urls[331] = "blog.gztime.cc";
+  urls[331] = "blog.gzti.me";
   urls[332] = empty;
   urls[333] = "blog.sakurasep.club";
   urls[334] = "ihkk.net";
