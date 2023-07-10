@@ -126,7 +126,7 @@
 
 ## 成员列表
 
-[点此查看](https://github.com/travellings-link/travellings/blob/master/member.md)成员列表，已有超500成员加入过开往。[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
+[点此查看](https://api.travellings.cn/all)成员列表，已有超800成员加入过开往。[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
 ---
 
