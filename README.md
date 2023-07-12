@@ -9,12 +9,11 @@
 ### 更新说明：
 
 
-> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan)
-[@baipin](https://github.com/baipin)
+> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg)
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
 <!-- > 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
 
@@ -62,9 +61,9 @@
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
-> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn` 。
+> 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
-- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
+- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
   - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
