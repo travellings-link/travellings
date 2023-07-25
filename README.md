@@ -6,20 +6,20 @@
 
 > 一群狼走得远……
 
-相似项目推荐：[虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
+相似项目推荐：[虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html) [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818) [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
 
 想法来自 https://github.com/XXIIVV/webring
 
 ### 更新说明：
 
 
-> ☕ **维护者**：[@volfclub](https://github.com/volfclub) [@linlinzzo](https://github.com/linlinzzo) [@qystudio0](https://github.com/qystudio0) [@HAHH9527](https://github.com/HAHH9527) [@Jiaocz](https://github.com/Jiaocz) [@essesoul](https://github.com/essesoul) [@A7103](https://github.com/A7103) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg)
+> ☕ **维护者**：<!--[@vicevolf](https://github.com/vicevolf)--> [@linlinzzo](https://github.com/linlinzzo) [@Jiaocz](https://github.com/Jiaocz) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg) [@jiangmiemie](https://github.com/jiangmiemie) 
 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
-<!-- > 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
+<!-- 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
 
 > ⏰ **域名**：`travellings.cn` 已续费至 2024年7月。[点此赞助](https://afdian.net/a/travellings)，为域名续费。
 
@@ -61,7 +61,7 @@
 
 加入开往的申请提交之后，我们会观察您的网站至少一个月，以确保您的网站稳定。算上申请时需要的已更新两个月，在初审时，您的网站需要至少持续更新三个月。
 
-对于存在不适宜内容的成员网站，任何人都可以通过[开往成员网站问题反馈](https://docs.qq.com/form/page/DQ0dkT1NoeUFQa2dF)向我们反馈。
+对于存在不适宜内容的成员网站，任何人都可以向我们反馈。
 
 ### 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）：
 
@@ -205,6 +205,10 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 ### Q：举报问题网页或退出开往？
 
-A：提个 issues 吧。问题网页请通过[开往成员网站问题反馈](https://docs.qq.com/form/page/DQ0dkT1NoeUFQa2dF)向我们反映。
+A：提个 issues 吧。问题网页请向我们反映。
+
+### Q：开往维护小组的联系方式？
+
+A：您可以从维护者的简介 Profile 中找到维护小组成员公开的联系方式。您可以向维护小组成员说明您的建议或问题，我们会及时处理您的请求。
 
 </details>
