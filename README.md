@@ -11,10 +11,10 @@
 
 ### 更新说明：
 
-> [来discussions一起讨论开往的下一步](https://github.com/orgs/travellings-link/discussions)
-> 
-> ☕ **维护者**：<!--[@vicevolf](https://github.com/vicevolf)--> [@linlinzzo](https://github.com/linlinzzo) [@Jiaocz](https://github.com/Jiaocz) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg) [@jiangmiemie](https://github.com/jiangmiemie)
-> 
+[来discussions一起讨论开往的下一步](https://github.com/orgs/travellings-link/discussions)
+ 
+点此查看[维护团队](https://github.com/orgs/travellings-link/teams)
+ 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
 > 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
