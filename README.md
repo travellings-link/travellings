@@ -2,21 +2,24 @@
 
 > 一群狼走得远……
 
-相似项目推荐：[虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html) [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818) [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
+相似项目推荐：
+- [虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
+- [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818)
+- [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
 
 想法来自 https://github.com/XXIIVV/webring
 
 ### 更新说明：
 
-
-> ☕ **维护者**：<!--[@vicevolf](https://github.com/vicevolf)--> [@linlinzzo](https://github.com/linlinzzo) [@Jiaocz](https://github.com/Jiaocz) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg) [@jiangmiemie](https://github.com/jiangmiemie) 
-
+> [来discussions一起讨论开往的下一步](https://github.com/orgs/travellings-link/discussions)
+> 
+> ☕ **维护者**：<!--[@vicevolf](https://github.com/vicevolf)--> [@linlinzzo](https://github.com/linlinzzo) [@Jiaocz](https://github.com/Jiaocz) [@LeonShaw](https://github.com/Leon-Shaw) [@Cubik65536](https://github.com/Cubik65536) [@rabbitxuanxuan](https://github.com/rabbitxuanxuan) [@baipin](https://github.com/baipin) [@Big-Cake-jpg](https://github.com/Big-Cake-jpg) [@jiangmiemie](https://github.com/jiangmiemie)
+> 
 > ☕ **感谢**：特别感谢 [@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。
-
+> 
 > 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
-
-<!-- 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
-
+> <!-- 💥 **Q群**： [Q群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q) -->
+> 
 > ⏰ **域名**：`travellings.cn` 已续费至 2024年7月。[点此赞助](https://afdian.net/a/travellings)，为域名续费。
 
 ## 使用说明
@@ -84,16 +87,13 @@
 </a>
 ```
 
-- 简易方案：将上方的代码插到您网页打开后就能看到的地方，如顶栏侧栏。
+- 简易方案：将上方的代码插到您网页**打开后就能看到的地方**，如顶栏侧栏（折叠在顶栏的下拉菜单则不符合要求）。
 
 【💡 举个例子】
-
-- 顶栏放置开往外链（必要），侧栏放置开往徽标（可选）；
-
+顶栏放置开往外链（必要），侧栏放置开往徽标（可选）；
 ![example1](https://www.travellings.cn/assets/example1.png)
 
-- 侧栏放置开往外链（必要），底部放置开往的徽标（可选）；
-
+侧栏放置开往外链（必要），底部放置开往的徽标（可选）；
 ![example2](https://www.travellings.cn/assets/example2.png)
 
 ### 3. 提个 issue，等待审核通过（每月维护一次左右）。
@@ -193,7 +193,7 @@ A：`assets` 文件夹中有各种图片素材，可修改自行托管。
 
 ### Q ：我需要变更网址或其他信息
 
-请将先前您申请加入的 Issue Reopen，并在其中评论网站序号和修改的信息。
+请将先前您申请加入的 Issue Reopen，并在其中评论修改的信息。
 
 您也可在域名到期前尽早的设置重定向，开往也会在维护中注意到并更正网址。
 
