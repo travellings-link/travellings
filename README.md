@@ -28,8 +28,8 @@
 - [点此赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。
 
 ## 联系开往
- 
-- 点此查看[维护团队](https://github.com/orgs/travellings-link/teams)成员
+
+- 点此查看[维护团队](https://github.com/orgs/travellings-link/discussions/1639)成员
 
 - 来[discussions](https://github.com/orgs/travellings-link/discussions)一起讨论开往的下一步
 
@@ -158,6 +158,6 @@ A：安全，不侵犯隐私。
 
 ### Q ：我需要变更网址或举报问题网页或退出开往
 
-A：在[issue](https://github.com/travellings-link/travellings/issues)中搜索您需要反馈的网址，并@[审核团队](https://github.com/orgs/travellings-link/teams/check)即可
+A：在[issue](https://github.com/travellings-link/travellings/issues)中搜索您需要反馈的网址，并@[审核团队](https://github.com/orgs/travellings-link/discussions/1639)即可
 
 
