@@ -97,7 +97,9 @@
 
 ### 3. 提个 issue，等待审核通过。
 
-我们至少会在每周周末处理您的issue，点此查看[审核团队](https://github.com/orgs/travellings-link/discussions/1639)空闲时段安排
+我们至少会在每周周末处理您的issue，点此查看[审核团队](https://github.com/orgs/travellings-link/discussions/1639)空闲时段安排。
+
+如您的站点观察期超过1个月，可以在周末@[审核团队](https://github.com/orgs/travellings-link/discussions/1639)中周末固定值班人员催促复核。
 
 💡 常见的可能导致审核失败的原因与解决方案：
 
