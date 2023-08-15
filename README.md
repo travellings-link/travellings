@@ -66,7 +66,7 @@
 
 - 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
-- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`），加入您的**顶栏**导航或**侧栏**导航中，**便于访客看到并点击**（折叠在顶栏的下拉菜单则不符合要求）：
+- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**醒目位置，便于访客看到并点击**（折叠在下拉菜单则不符合要求）：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
   - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
@@ -89,10 +89,7 @@
 ```
 
 【💡 示例】
-顶栏放置开往外链（必要），侧栏放置开往徽标（可选）；
 ![example1](https://www.travellings.cn/assets/example1.png)
-
-侧栏放置开往外链（必要），底部放置开往的徽标（可选）；
 ![example2](https://www.travellings.cn/assets/example2.png)
 
 ### 3. 提个 issue，等待审核通过。
