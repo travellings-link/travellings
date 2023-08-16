@@ -33,7 +33,7 @@
 
 - 来[discussions](https://github.com/orgs/travellings-link/discussions)一起讨论开往的下一步
 
-- 这是我们正在努力的方向：[开往2.0](https://github.com/travellings-link/travellings/milestone/1)
+- 这是我们正在努力的方向：[开往更新计划](https://github.com/travellings-link/travellings/milestones)
 
 - 加入[QQ群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q)一起谈天说地
 
