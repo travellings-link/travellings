@@ -160,8 +160,9 @@ A：安全，不侵犯隐私。
 
 全部 https 抗劫持；开源**无统计代码**，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
 
-### Q ：我需要变更网址或举报问题网页或退出开往
+### Q ：我需要变更网址或举报问题网页或退出开往或联系站长
 
-A：在[issue](https://github.com/travellings-link/travellings/issues)中搜索您需要反馈的网址，并@[审核团队](https://github.com/orgs/travellings-link/discussions/1639)即可
+A：在[issue](https://github.com/travellings-link/travellings/issues)中@[审核团队](https://github.com/orgs/travellings-link/discussions/1639)即可。
 
-
+搜索您需要反馈的网址的二级域，假设问题网址是：https://www.travellings.cn/ 则搜素travellings.cn 请注意不要输入额外的空格与斜杠。 
+通常能搜索到申请时的issue，若对应多个issue，则在最早的issue下@网站所有者更新，或者@[审核团队](https://github.com/orgs/travellings-link/discussions/1639)即可。
