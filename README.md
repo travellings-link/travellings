@@ -4,11 +4,9 @@
 
 开往的logo是代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。![example](https://www.travellings.cn/assets/logo.gif)
 
-将**开往**放入您的网页，表示您乐于分享并支持开放的网络。目前已有超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表，1k人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
-
 每当有人访问加入开往的网页时，点击“开往“会**随机跳转**到另一个加入开往的网页。之后，再次点击网页上的”开往“或**后退网页**，将继续随机跳转到另一个加入开往的网页。
 
-加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
+加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。目前已有超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表，1k人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
 “ 网页E → 开往 → 网页X → 开往 → 网页A → 开往 → 网页M → 开往 → 网页P → 开往 → 网页L → 开往 → 网页E … ”
 
@@ -66,7 +64,7 @@
 
 - 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
-- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**醒目位置，便于访客看到并点击**（折叠在下拉菜单则不符合要求）：
+- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**打开后就能看到的地方**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
   - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
   - 如需 Emoji，推荐 `🚇`；
@@ -100,18 +98,17 @@
 
 💡 常见的可能导致审核失败的原因与解决方案：
 
-⛔ 只在网页底部放置开往，或把开往放到了默认收起的的菜单中
+⛔ 把开往放到了默认收起的的菜单中
 
-✅ 推荐放在顶栏侧栏等打开网页就能看到的地方，便于访客看到并点击；
+✅ 推荐放在打开网页就能看到的地方，便于访客看到并点击；
 
 ⛔ 网页没有启用 https
 
 ✅ 开启强制 https（有很多免费的途径，如面板一键开启等）；
 
-
 ⛔ 网页上的内容过少，如博文只有几篇
 
-✅ 内容更新充盈后再来申请试试。
+✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
 
 
 ## 致谢：
