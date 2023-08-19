@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- CSS -->
+<link href="https://unpkg.com/artalk@2.5.5/dist/Artalk.css" rel="stylesheet">
+
+<!-- JS -->
+<script src="https://unpkg.com/artalk@2.5.5/dist/Artalk.js"></script>
+    </head>
+    <body>
+        <!-- Artalk -->
+<div id="Comments"></div>
+<script>
+  Artalk.init({
+    el:        '#Comments',              // 绑定元素的 Selector
+    pageKey:   '/comment.html',                // 固定链接 (留空自动获取)
+    pageTitle: '测试', // 页面标题 (留空自动获取)
+    server:    'https://comment.travellings.cn',  // 后端地址
+    site:      '开往博客',           // 你的站点名
+  })
+</script>
+    </body>
+</html>
