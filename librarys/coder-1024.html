@@ -133,7 +133,7 @@ _  /   _  /   / /_/ /__ |/ //  __/  / _  / _  / _  / / /  /_/ /_(__  )
         appendToTerminal("Commands：<br>t               开始穿梭！<br>cmd             输出版权信息<br>help            输出帮助菜单<br>echo            输出文字<br>date            输出当前时间<br>clear           清空历史记录<br>travellings     开始穿梭吧！");
       } else if (command.toLowerCase() === "cmd") {
         // Print the title
-        appendToTerminal("Travellings CLI [Version 1.49]<br>(C) Travellings-link Group. All rights reserved.");
+        appendToTerminal("Travellings CLI [Version 1.49]<br>(C) Travellings-link Project. All rights reserved.");
       } else if (command.toLowerCase().startsWith("echo ")) {
         const text = command.slice(5);
         appendToTerminal("C:\\Travellings > " + command);
