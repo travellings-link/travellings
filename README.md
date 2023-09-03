@@ -1,5 +1,7 @@
 # 开往-友链接力 2.0.0_b
 
+[开往维护组关于停止维护QQ群的公告](https://blog.travellings.cn/posts/qq-group-closed/)
+
 ## 关于开往
 
 **开往**的生日是 **2020年3月12日**，取自**开**放的**网**络。
@@ -33,8 +35,6 @@
 - 来[discussions](https://github.com/orgs/travellings-link/discussions)一起讨论开往的下一步
 
 - 这是我们正在努力的方向：[开往更新计划](https://github.com/travellings-link/travellings/milestones)
-
-- 加入[QQ群](https://jq.qq.com/?_wv=1027&k=Ym87ov3q)一起谈天说地
 
 ## 加入开往
 
