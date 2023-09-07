@@ -26,5 +26,5 @@
 
 ## 加入开往
 
-点此[查看加入开往要求](./custom/docs/jion.md)
-点此[查看常见QA](./custom/docs/qa.md)
+点此[查看加入开往要求](./docs/jion.md)
+点此[查看常见QA](./docs/qa.md)
