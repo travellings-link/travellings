@@ -10,18 +10,6 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-
-  .content {
-    margin: 0 5% 0 5%;
-    border-radius: 5px;
-    padding: 1em;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-}
 
 .buttons {
   display: flex;
@@ -43,4 +31,24 @@
   border-radius: 5px;
   padding: 1em;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.join {
+  border-radius: 5px;
+  background-color: #3273dc;
+  border-color: transparent;
+  color: #fff
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .content {
+    margin: 0 5% 0 5%;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 }

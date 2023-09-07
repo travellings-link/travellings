@@ -95,12 +95,13 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://www.travellings.cn/go.html',
+            to: '/go.html',
             label: '开始穿梭',
             position: 'right',
+            className: 'join_src-pages-index-module',
           },
           {
-            href: 'https://github.com/travellings-link/travellings/blob/sources',
+            to: '/docs/jion',
             label: '加入开往',
             position: 'right',
           },
