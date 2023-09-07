@@ -1,0 +1,38 @@
+/*
+ _____                    _ _ _                   _____                _                 _  __     ______  
+|_   _| __ __ ___   _____| | (_)_ __   __ _ ___  |  ___| __ ___  _ __ | |_ ___ _ __   __| | \ \   / /___ \ 
+  | || '__/ _` \ \ / / _ \ | | | '_ \ / _` / __| | |_ | '__/ _ \| '_ \| __/ _ \ '_ \ / _` |  \ \ / /  __) |
+  | || | | (_| |\ V /  __/ | | | | | | (_| \__ \ |  _|| | | (_) | | | | ||  __/ | | | (_| |   \ V /  / __/ 
+  |_||_|  \__,_| \_/ \___|_|_|_|_| |_|\__, |___/ |_|  |_|  \___/|_| |_|\__\___|_| |_|\__,_|    \_/  |_____|
+                                      |___/                                                                
+    🚇 开往·友链接力！ 一群狼走得远   https://github.com/travellings-link/travellings
+*/
+
+@charset "UTF-8";
+
+html {
+  background-image: url("/assets/img/kw-bg-2560.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box {
+  max-width: 90%;
+  margin: 25px auto;
+}
+
+nav {
+  box-shadow: 0px 5px 10px #e2e2e2;
+}
+
+div.title {
+  margin-top: 25px;
+}
+
+iframe.afdian {
+  height: 200px;
+  position: relative;
+  width: 100%;
+}

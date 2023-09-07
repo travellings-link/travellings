@@ -1,0 +1,271 @@
+<!--
+ _____                    _ _ _                   _____                _                 _  __     ______  
+|_   _| __ __ ___   _____| | (_)_ __   __ _ ___  |  ___| __ ___  _ __ | |_ ___ _ __   __| | \ \   / /___ \ 
+  | || '__/ _` \ \ / / _ \ | | | '_ \ / _` / __| | |_ | '__/ _ \| '_ \| __/ _ \ '_ \ / _` |  \ \ / /  __) |
+  | || | | (_| |\ V /  __/ | | | | | | (_| \__ \ |  _|| | | (_) | | | | ||  __/ | | | (_| |   \ V /  / __/ 
+  |_||_|  \__,_| \_/ \___|_|_|_|_| |_|\__, |___/ |_|  |_|  \___/|_| |_|\__\___|_| |_|\__,_|    \_/  |_____|
+                                      |___/                                                                
+	🚇 开往·友链接力！ 一群狼走得远   https://github.com/travellings-link/travellings
+-->
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>开往-友链接力</title>
+  <link rel="shortcut icon" href="/assets/favicon.png" />
+  <script>
+  function travelling() {
+      function reqListener() {
+          var x = JSON.parse(this.responseText);
+          window.location = x["url"];
+          
+      }
+      var oReq = new XMLHttpRequest();
+      oReq.addEventListener("load", reqListener);
+      oReq.open("GET", "https://api.travellings.cn/random");
+      oReq.send();
+  }
+  </script>
+  <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet" charset="UTF-8" />
+  <style>
+    * {
+      color: #111827;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .blink {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: center;
+      animation: blink 3s linear infinite;
+      -webkit-animation: blink 3s linear infinite;
+      -moz-animation: blink 3s linear infinite;
+      -ms-animation: blink 3s linear infinite;
+      -o-animation: blink 3s linear infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-moz-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-ms-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    @-o-keyframes blink {
+      0% {
+        opacity: 0;
+        transform: scale(1);
+      }
+
+      40% {
+        opacity: 0.3;
+        transform: scale(1);
+      }
+
+      80% {
+        opacity: 1;
+        transform: scale(0.98);
+      }
+
+      100% {
+        opacity: 0.2;
+        transform: scale(1.2);
+      }
+    }
+
+    .botCenter {
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      bottom: 10px;
+      line-height: 20px;
+      font-size: 12px;
+      text-align: center;
+      animation: botCenter 3s linear;
+      -webkit-animation: botCenter 3s linear;
+      -moz-animation: botCenter 3s linear;
+      -ms-animation: botCenter 3s linear;
+      -o-animation: botCenter 3s linear;
+    }
+
+    @keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-ms-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes botCenter {
+      0% {
+        opacity: 0;
+      }
+
+      40% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blink">
+    <a href="https://github.com/travellings-link/travellings" target="_blank" title="点击加入“开往”，分享网站流量 :-)">欢迎回来，正在<b>&nbsp开往&nbsp</b>下一个世界…<br />Welcome back, travelling to the next world…</a>
+  </div>
+  <div class="botCenter">
+    ↩️ Tips: <b>后退</b>网页可再次开往<br />
+    <a href="https://github.com/travellings-link/travellings" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
+    <!--<a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />-->
+    <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048号</a><!--<br />本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">🆙 又拍云</a>提供CDN加速服务<br />-->
+    <!--<a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>-->
+  </div>
+  <script>
+    window.setTimeout(travelling, 1000);
+  </script>
+</body>
+</html>
