@@ -1,6 +1,6 @@
 # 开往-友链接力 2.0.0_b
 
-[开往维护组关于停止维护QQ群的公告](https://blog.travellings.cn/blog/qq-group-closed/)
+[开往维护组关于停止维护QQ群的公告](https://blog.travellings.cn/post/qq-group-closed)
 
 ## 关于开往
 
@@ -38,4 +38,4 @@
 
 ## 加入开往
 
-点此查看[开往加入要求](https://github.com/travellings-link/travellings/wiki/%E5%8A%A0%E5%85%A5%E5%BC%80%E5%BE%80)
+点此查看[开往加入要求](https://blog.travellings.cn/docs/jion)
