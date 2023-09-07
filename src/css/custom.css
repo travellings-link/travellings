@@ -28,3 +28,10 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.join {
+  border-radius: 5px;
+  background-color: #3273dc;
+  border-color: transparent;
+  color: #fff
+}

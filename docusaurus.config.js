@@ -98,7 +98,7 @@ const config = {
             to: '/go.html',
             label: '开始穿梭',
             position: 'right',
-            className: 'join_src-pages-index-module',
+            className: 'join',
           },
           {
             to: '/docs/jion',

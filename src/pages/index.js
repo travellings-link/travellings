@@ -9,9 +9,9 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="开往">
-      <main class={styles.main}>
-        <div class={styles.content}>
-          <h2 class="title is-4">介绍</h2>
+      <main className={styles.main}>
+        <div className={styles.content}>
+          <h2 className="title is-4">介绍</h2>
           <p>在去地铁站的路上，两位站长相遇了，他们决定一起同行。</p>
           <p>
             二人聊得很是投机，你一言我一句，其中一位突然说：“欸，对了，你知道有一个叫‘开往’的项目吗？”
