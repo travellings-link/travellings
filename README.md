@@ -26,8 +26,5 @@
 
 ## 加入开往
 
-点此查看[查看加入开往要求](./custom/post/jion.md)
-
-## QA
-
-[查看开往QA](./custom/post/qa.md)
+点此[查看加入开往要求](./custom/docs/jion.md)
+点此[查看常见QA](./custom/docs/qa.md)
