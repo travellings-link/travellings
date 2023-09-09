@@ -11,7 +11,7 @@ const config = {
   favicon: 'https://www.travellings.cn/assets/img/mini-logo.svg',
 
   // Set the production url of your site here
-  url: 'https://blog.travellings.cn/',
+  url: 'https://www.travellings.cn/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
