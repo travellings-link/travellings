@@ -4,10 +4,19 @@
         <title>Travelling Blog</title>
         <link>https://www.travellings.cn/blog</link>
         <description>Travelling Blog</description>
-        <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Sep 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[9月更新：合并技术栈]]></title>
+            <link>https://www.travellings.cn/blog/9</link>
+            <guid>https://www.travellings.cn/blog/9</guid>
+            <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[9月9号：我们合并了技术栈，先从博客开刀。从分支合并入了主库。]]></description>
+            <content:encoded><![CDATA[<p>9月9号：我们合并了技术栈，先从博客开刀。从分支合并入了主库。</p>]]></content:encoded>
+            <category>后端</category>
+        </item>
         <item>
             <title><![CDATA[8月更新：新增博客页并定期爬虫]]></title>
             <link>https://www.travellings.cn/blog/8</link>

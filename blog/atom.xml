@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.travellings.cn/blog</id>
     <title>Travelling Blog</title>
-    <updated>2023-08-31T00:00:00.000Z</updated>
+    <updated>2023-09-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.travellings.cn/blog"/>
     <subtitle>Travelling Blog</subtitle>
     <icon>https://www.travellings.cn/https://www.travellings.cn/assets/img/mini-logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[9月更新：合并技术栈]]></title>
+        <id>https://www.travellings.cn/blog/9</id>
+        <link href="https://www.travellings.cn/blog/9"/>
+        <updated>2023-09-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[9月9号：我们合并了技术栈，先从博客开刀。从分支合并入了主库。]]></summary>
+        <content type="html"><![CDATA[<p>9月9号：我们合并了技术栈，先从博客开刀。从分支合并入了主库。</p>]]></content>
+        <category label="后端" term="后端"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[8月更新：新增博客页并定期爬虫]]></title>
         <id>https://www.travellings.cn/blog/8</id>
