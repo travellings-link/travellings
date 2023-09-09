@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 # 开往-友链接力 2.1.0
 
-[开往维护组关于停止维护QQ群的公告](https://blog.travellings.cn/posts/qq-group-closed/)
+[开往维护组关于停止维护QQ群的公告](https://www.travellings.cn/posts/qq-group-closed/)
 
 ## 关于开往
 
@@ -42,4 +42,4 @@ sidebar_position: 1
 
 ## 加入开往
 
-点此查看[开往加入要求](https://blog.travellings.cn/docs/jion)
+点此查看[开往加入要求](https://www.travellings.cn/docs/jion)
