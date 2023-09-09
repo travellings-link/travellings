@@ -2,16 +2,26 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Travelling Blog</title>
-        <link>https://blog.travellings.cn/blog</link>
+        <link>https://www.travellings.cn/blog</link>
         <description>Travelling Blog</description>
-        <lastBuildDate>Sun, 25 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 31 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[8月更新：新增博客页并定期爬虫]]></title>
+            <link>https://www.travellings.cn/blog/8</link>
+            <guid>https://www.travellings.cn/blog/8</guid>
+            <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[8月开往测试了博客页，效果还是不错了，现在正式把它合并到主站里。]]></description>
+            <content:encoded><![CDATA[<p>8月开往测试了博客页，效果还是不错了，现在正式把它合并到主站里。</p><p>爬虫目前分为2种：</p><p>简单的测活爬虫，可以在最低配的服务器上运行。每天都跑。
+复杂的测开往存在爬虫，在开发人员的电脑上运行，看开发人员时间，一般每个周末跑。因为2核2G的服务器很容易跑崩，感觉这里可以加一个广告（招中小云服务器提供商）或者放一个爱发电的捐赠按钮。</p>]]></content:encoded>
+            <category>后端</category>
+        </item>
+        <item>
             <title><![CDATA[开往使用后端随机接口]]></title>
-            <link>https://blog.travellings.cn/blog/welcome</link>
-            <guid>https://blog.travellings.cn/blog/welcome</guid>
+            <link>https://www.travellings.cn/blog/welcome</link>
+            <guid>https://www.travellings.cn/blog/welcome</guid>
             <pubDate>Sun, 25 Jun 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[在 2022 年暑假的时候，我们就在讨论一件事情————开往使用前端来实现随机，目前文件越来越大，势必会影响页面加载速度，不妨实现后端随机。我们注意到十年之约的虫洞就是使用后端实现随机，这样可以避免传输全量的博客数据。但在往后的一年当中，我们一直就需求及其可实现性一拖再拖，拖到了最近几天。近期一位爬虫工程师向我们沟通了开发的事宜（其实是我们主动问他的），在 6 月 16 日，我们完成了接口的测试，并进行了部署。现在，您打开开往的随机跳转页面，就会发现原来的travellings.js改成内联脚本了。]]></description>
             <content:encoded><![CDATA[<p>在 2022 年暑假的时候，我们就在讨论一件事情————开往使用前端来实现随机，目前文件越来越大，势必会影响页面加载速度，不妨实现后端随机。我们注意到十年之约的虫洞就是使用后端实现随机，这样可以避免传输全量的博客数据。但在往后的一年当中，我们一直就需求及其可实现性一拖再拖，拖到了最近几天。近期一位爬虫工程师向我们沟通了开发的事宜（其实是我们主动问他的），在 6 月 16 日，我们完成了接口的测试，并进行了部署。现在，您打开开往的随机跳转页面，就会发现原来的<code>travellings.js</code>改成内联脚本了。</p><p>后端随机接口地址：<code>https://api.travellings.cn/random</code>
