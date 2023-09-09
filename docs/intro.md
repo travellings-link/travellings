@@ -4,8 +4,6 @@ sidebar_position: 1
 ---
 # 开往-友链接力 2.1.0
 
-[开往维护组关于停止维护QQ群的公告](https://www.travellings.cn/posts/qq-group-closed/)
-
 ## 关于开往
 
 **开往**的生日是 **2020年3月12日**，取自**开**放的**网**络。

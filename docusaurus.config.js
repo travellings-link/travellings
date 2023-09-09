@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/travellings-link/travellings/blob/source',
+            'https://github.com/travellings-link/travellings/blob/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/travellings-link/travellings/blob/source',
+            'https://github.com/travellings-link/travellings/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,7 +66,7 @@ const config = {
         routeBasePath: "post",
         sidebarPath: require.resolve("./sidebars.js"),
         editUrl:
-          'https://github.com/travellings-link/travellings/blob/source',
+          'https://github.com/travellings-link/travellings/blob/master',
       },
     ],
   ],
@@ -76,10 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        logo: {
-          alt: 'My Site Logo',
-          src: 'https://www.travellings.cn/assets/logo.gif',
-        },
+        title: '首页',
         items: [
           {
             type: 'docSidebar',
@@ -95,15 +92,25 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://afdian.net/a/travellings',
+            logo: {
+              alt: 'My Site Logo',
+              src: 'https://www.travellings.cn/assets/logo.gif',
+            },
+            position: 'left',
+
+          },
+          {
             to: '/go.html',
-            label: '开始穿梭',
+            className: 'go',
+
             position: 'right',
-            className: 'join',
           },
           {
             to: '/docs/jion',
             label: '加入开往',
             position: 'right',
+            className: 'join',
           },
         ],
       },
@@ -111,11 +118,20 @@ const config = {
         style: 'dark',
         links: [
         ],
-        copyright: `闽 ICP 备 2023011626 号 - 1    闽公网安备 35059102000048 号`,
+        copyright: `<img src="https://www.xiaozonglin.cn/usr/themes/bearsimple/assets/image/police.png">
+        <a class="ba" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000047">闽 ICP 备 2023011626 号 - 1</a> | <a class="ba" href="https://beian.miit.gov.cn/">闽公网安备 35059102000048 号</a>`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '🚀 如果你觉得还不错, 就给一个 ⭐️ Start 吧 ~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/travellings-link/travellings">Click here</a>',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
       },
     }),
 };
