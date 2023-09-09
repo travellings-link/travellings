@@ -2,7 +2,7 @@ name: Build HTML
 on:
   push:
     branches:
-      - source
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
