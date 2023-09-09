@@ -101,9 +101,8 @@ const config = {
 
           },
           {
-            to: '/go.html',
+            href: 'https://www.travellings.cn/go.html',
             className: 'go',
-
             position: 'right',
           },
           {
