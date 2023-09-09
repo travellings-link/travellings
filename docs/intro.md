@@ -30,15 +30,7 @@ sidebar_position: 1
 
 - 在你的网页上尽可能多的放置开往的徽标，帮助宣传让更多的人加入开往。
 
-- [点此赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。
-
-## 联系开往
-
-- 点此查看[维护团队](https://github.com/orgs/travellings-link/discussions/1639)成员
-
-- 来[discussions](https://github.com/orgs/travellings-link/discussions)一起讨论开往的下一步
-
-- 这是我们正在努力的方向：[开往更新计划](https://github.com/travellings-link/travellings/milestones)
+- [点此赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
 
 ## 加入开往
 

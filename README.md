@@ -16,14 +16,6 @@
 
 点此[查看完整的开往简介](./docs/intro.md)
 
-## 联系开往
-
-- 点此查看[维护团队](https://github.com/orgs/travellings-link/discussions/1639)成员
-
-- 来[discussions](https://github.com/orgs/travellings-link/discussions)一起讨论开往的下一步
-
-- 这是我们正在努力的方向：[开往更新计划](https://github.com/travellings-link/travellings/milestones)
-
 ## 加入开往
 
 点此[查看加入开往要求](./docs/jion.md)
