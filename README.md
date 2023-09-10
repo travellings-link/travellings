@@ -8,7 +8,7 @@
 
 - 点此[查看完整的开往简介](./docs/intro.md)
 
-- 点此[查看加入开往要求](./docs/jion.md)
+- 点此[查看加入开往要求](./docs/join.md)
 
 - 点此[查看常见QA](./docs/qa.md)
 

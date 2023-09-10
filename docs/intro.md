@@ -24,7 +24,7 @@ sidebar_position: 1
 
 ## 加入开往
 
-- 点此查看[开往加入要求](https://www.travellings.cn/docs/jion)
+- 点此查看[开往加入要求](https://www.travellings.cn/docs/join)
 
 - 点此[查看常见QA](https://www.travellings.cn/docs/qa.md)
 

@@ -107,7 +107,7 @@ const config = {
             position: 'right',
           },
           {
-            to: '/docs/jion',
+            to: '/docs/join',
             label: '加入开往',
             position: 'right',
             className: 'join',
@@ -119,7 +119,7 @@ const config = {
         links: [
         ],
         copyright: `<img src="https://www.xiaozonglin.cn/usr/themes/bearsimple/assets/image/police.png">
-        <a class="ba" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000047">闽 ICP 备 2023011626 号 - 1</a> | <a class="ba" href="https://beian.miit.gov.cn/">闽公网安备 35059102000048 号</a>`,
+        <a class="ba" href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a> | <a class="ba" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048 号</a>`,
       },
       prism: {
         theme: lightCodeTheme,
