@@ -39,3 +39,13 @@ sidebar_position: 1
 - [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818)
 
 - [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
+
+## 支持开往
+
+- 在你的网页上尽可能多的放置开往的徽标，帮助宣传让更多的人加入开往。
+
+- [点此赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
+
+## 加入开往
+
+点此查看[开往加入要求](https://www.travellings.cn/docs/join)
