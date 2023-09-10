@@ -32,7 +32,3 @@
 | 2023-08-10 | X        | 5元       | 未定                   |
 | 2023-08-19 | Allen        | 5元       | 未定                   |
 | 2023-09-02 | BLxcwg666     | 15元       | 未定                   |
-
-## 特别感谢
-
-[@LEORChn](https://github.com/LEORChn) [@caibingcheng](https://github.com/caibingcheng) [@ljcbaby](https://github.com/ljcbaby) [@YiHui-Liu](https://github.com/YiHui-Liu) [WhitemuTeam](https://github.com/WhitemuTeam) [@ScarletDor](https://github.com/ScarletDor) [@Ljcbaby](https://github.com/ljcbaby) ，反馈了一些存在问题的网页 —— 均已得到处理。

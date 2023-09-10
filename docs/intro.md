@@ -12,17 +12,9 @@ sidebar_position: 1
 
 每当有人访问加入开往的网页时，点击“开往“会**随机跳转**到另一个加入开往的网页。之后，再次点击网页上的”开往“或**后退网页**，将继续随机跳转到另一个加入开往的网页。
 
-加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。目前已有超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表，1k人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
+加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-“ 网页E → 开往 → 网页X → 开往 → 网页A → 开往 → 网页M → 开往 → 网页P → 开往 → 网页L → 开往 → 网页E … ”
-
-想法来自 [webring](https://github.com/XXIIVV/webring)，相似项目推荐：
-
-- [虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
-
-- [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818)
-
-- [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
+目前已有900+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表。
 
 ## 支持开往
 
@@ -32,4 +24,18 @@ sidebar_position: 1
 
 ## 加入开往
 
-点此查看[开往加入要求](https://www.travellings.cn/docs/jion)
+- 点此查看[开往加入要求](https://www.travellings.cn/docs/jion)
+
+- 点此[查看常见QA](https://www.travellings.cn/docs/qa.md)
+
+- 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou.md)
+
+## 项目推荐
+
+想法来自 [webring](https://github.com/XXIIVV/webring)，相似项目推荐：
+
+- [虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
+
+- [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818)
+
+- [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)

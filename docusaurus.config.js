@@ -48,6 +48,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          postsPerPage: 'ALL',
           editUrl:
             'https://github.com/travellings-link/travellings/blob/master',
         },

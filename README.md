@@ -1,26 +1,17 @@
 # 简介
 
-加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。目前已有超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表，1k人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
+加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-“ 网页E → 开往 → 网页X → 开往 → 网页A → 开往 → 网页M → 开往 → 网页P → 开往 → 网页L → 开往 → 网页E … ”
+目前已有900+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表。
 
-想法来自 [webring](https://github.com/XXIIVV/webring)，相似项目推荐：
+## 也许你在找这些
 
-- [虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
+- 点此[查看完整的开往简介](./docs/intro.md)
 
-- [个站商店虫洞-随机访问个站商店上的网站](https://storeweb.cn/s/1818)
+- 点此[查看加入开往要求](./docs/jion.md)
 
-- [中文博客列表导航随机跳转-随机访问中文博客](https://zhblogs.ohyee.cc/go)
+- 点此[查看常见QA](./docs/qa.md)
 
-## 关于开往
+- 点此[查看加入开往维护组要求](./docs/toyou.md)
 
-点此[查看完整的开往简介](./docs/intro.md)
-
-## 加入开往
-
-点此[查看加入开往要求](./docs/jion.md)
-点此[查看常见QA](./docs/qa.md)
-
-## 当前版本
-
-2.1.0_a
+- 点此[赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
