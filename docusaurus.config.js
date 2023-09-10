@@ -106,7 +106,7 @@ const config = {
             position: 'right',
           },
           {
-            to: '/docs/jion',
+            to: '/docs/join',
             label: '加入开往',
             position: 'right',
             className: 'join',
