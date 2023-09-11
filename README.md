@@ -6,7 +6,7 @@
 
 目前已有900+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表。
 
-点此访问[开往官方网址](www.travellings.cn)
+点此访问[开往官方网址](https://www.travellings.cn)
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/69161207/266809446-b37484cb-d525-4fe0-aa9d-2497d6421bf9.png">
 
