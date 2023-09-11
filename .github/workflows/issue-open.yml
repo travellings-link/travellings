@@ -1,4 +1,4 @@
-# Issue 创建时自动放置到工作台 “待审核” 列，并标记“待处理”标签
+# Issue 创建时自动标记“待处理”标签
 
 name: 【Open】Label and move to project on issue open
 on:
@@ -6,16 +6,6 @@ on:
     types: [opened]
 
 jobs:
-  move-to-project:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Move to project
-        uses: alex-page/github-project-automation-plus@v0.8.1
-        with:
-          project: "工作台"
-          column: "待审核"
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
-
   label-issue:
     runs-on: ubuntu-latest
     permissions:
