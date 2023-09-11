@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: 开往因ICP备案主体变更原因闭站
 date: 2023-07-21
 updated: 2023-07-22
