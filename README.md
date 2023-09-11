@@ -10,6 +10,23 @@
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/69161207/266809446-b37484cb-d525-4fe0-aa9d-2497d6421bf9.png">
 
+## 参与开发
+
+如果你对我们跳转页的样式不满意，欢迎你提交新的样式！
+> 只需几步，即可自定义你的样式!
+> 
+> 1.涉及到的所有的图片必须为SVG
+> 
+> 2.必须为单页html，如有css可以写入html头
+> 
+> 3.底部包含开往备案号
+> 
+> 4.设计精美
+> 
+> 5.提个PR @travellings-link/it
+>
+> 如果你是新手，可以在static/libraries/classic.html的模板上进行修改！
+
 ## 也许你在找这些
 
 - 点此[查看完整的开往简介](./docs/intro.md)
