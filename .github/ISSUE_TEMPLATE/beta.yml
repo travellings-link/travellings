@@ -1,8 +1,6 @@
 name: 申请收录
 description: 申请加入开往选这个
 labels: ["申请收录"]
-assignees:
-  - linlinzzo
 body:
   - type: markdown
     attributes:
