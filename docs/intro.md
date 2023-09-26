@@ -20,9 +20,9 @@ sidebar_position: 1
 
 - 点此查看[开往加入要求](https://www.travellings.cn/docs/join)
 
-- 点此[查看常见QA](https://www.travellings.cn/docs/qa.md)
+- 点此[查看常见QA](https://www.travellings.cn/docs/qa)
 
-- 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou.md)
+- 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou)
 
 ## 项目推荐
 
