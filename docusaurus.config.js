@@ -128,7 +128,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '🚀 如果你觉得还不错, 就给一个 ⭐️ Start 吧 ~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/travellings-link/travellings">Click here</a>',
+          '🚀 如果你觉得还不错, 就给一个 ⭐️ Star 吧 ~ <a target="_blank" rel="noopener noreferrer" href="https://github.com/travellings-link/travellings">Click here</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
