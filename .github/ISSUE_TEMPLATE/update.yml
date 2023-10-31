@@ -1,0 +1,33 @@
+name: 申请变更
+description: 申请变更网址选这个
+labels: ["申请变更"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        无论是否更换，请在标题写“网站名称”！
+  - type: input
+    id: name
+    attributes:
+      label: 网站名称
+      description: 会在 api 中展示
+      placeholder: ex. 开往
+    validations:
+      required: true
+  - type: input
+    id: oldwebsite
+    attributes:
+      label: 旧网站网址
+      description: 填写原本的网址，https开头
+      placeholder: ex. https://travellings.link
+    validations:
+      required: true
+  - type: input
+    id: newwebsite
+    attributes:
+      label: 新网站网址
+      description: 填写现在的网址，https开头
+      placeholder: ex. https://travellings.cn
+    validations:
+      required: true
+
