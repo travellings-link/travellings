@@ -29,3 +29,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+
+      - name: Sync
+        run: curl https://updates.travellings.cn/update
