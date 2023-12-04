@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>开往 - 友链接力</title>
+    <meta
+      name="description"
+      content="欢迎回来，正在开往下一个世界。https://github.com/travellings-link/travellings"
+    />
+    <link rel="shortcut icon" href="./assets/favicon-fluent-emoji.svg" />
+    <style>
+      /* 色板：https://www.materialui.co/colors */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Inter, -apple-system, HarmonyOS Sans SC, MiSans,
+          Source Han Sans SC, Noto Sans SC, system-ui, Roboto, emoji, sans-serif;
+        color: black;
+        background: white;
+        font-weight: 400;
+        font-size: 1rem;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        padding: 2rem;
+        flex: 1;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main h1 {
+        margin-top: 4rem;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.75;
+        text-align: center;
+      }
+
+      main h1 span {
+        white-space: nowrap;
+      }
+
+      footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.5rem;
+        align-items: center;
+        justify-content: center;
+        padding: 1.75rem 2rem;
+      }
+
+      footer a {
+        font-size: 0.875rem;
+        text-decoration: none;
+        color: #757575;
+        transition: all 0.2s;
+      }
+
+      footer span {
+        flex: 1;
+      }
+
+      footer a:hover {
+        color: #3f51b5;
+        text-decoration: underline;
+        text-underline-offset: 0.25rem;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #eeeeee;
+          background: #212121;
+        }
+
+        footer a {
+          color: #bdbdbd;
+          transition: all 0.2s;
+        }
+
+        footer a:hover {
+          color: #5c6bc0;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        main {
+          margin-top: 4.5rem;
+        }
+
+        main h1 {
+          font-size: 1.5rem;
+        }
+
+        footer {
+          gap: 0.5rem 1rem;
+        }
+
+        footer span {
+          display: none;
+        }
+      }
+
+      /* Material Design 风格的加载动画 https://codepen.io/mrrocks/pen/ExLovj  */
+      .spinner {
+        -webkit-animation: rotator 1.4s linear infinite;
+        animation: rotator 1.4s linear infinite;
+      }
+
+      @-webkit-keyframes rotator {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(270deg);
+        }
+      }
+
+      @keyframes rotator {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(270deg);
+        }
+      }
+
+      .path {
+        stroke-dasharray: 187;
+        stroke-dashoffset: 0;
+        transform-origin: center;
+        -webkit-animation: dash 1.4s ease-in-out infinite,
+          colors 5.6s ease-in-out infinite;
+        animation: dash 1.4s ease-in-out infinite,
+          colors 5.6s ease-in-out infinite;
+      }
+
+      @-webkit-keyframes colors {
+        0% {
+          stroke: #4285f4;
+        }
+        25% {
+          stroke: #de3e35;
+        }
+        50% {
+          stroke: #f7c223;
+        }
+        75% {
+          stroke: #1b9a59;
+        }
+        100% {
+          stroke: #4285f4;
+        }
+      }
+
+      @keyframes colors {
+        0% {
+          stroke: #4285f4;
+        }
+        25% {
+          stroke: #de3e35;
+        }
+        50% {
+          stroke: #f7c223;
+        }
+        75% {
+          stroke: #1b9a59;
+        }
+        100% {
+          stroke: #4285f4;
+        }
+      }
+      @-webkit-keyframes dash {
+        0% {
+          stroke-dashoffset: 187;
+        }
+        50% {
+          stroke-dashoffset: 46.75;
+          transform: rotate(135deg);
+        }
+        100% {
+          stroke-dashoffset: 187;
+          transform: rotate(450deg);
+        }
+      }
+      @keyframes dash {
+        0% {
+          stroke-dashoffset: 187;
+        }
+        50% {
+          stroke-dashoffset: 46.75;
+          transform: rotate(135deg);
+        }
+        100% {
+          stroke-dashoffset: 187;
+          transform: rotate(450deg);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1><span>欢迎回来，正在开往</span><span>下一个世界</span></h1>
+
+      <!-- Material Design 风格的加载动画 https://codepen.io/mrrocks/pen/ExLovj -->
+      <svg
+        class="spinner"
+        width="32px"
+        height="32px"
+        viewBox="0 0 66 66"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          class="path"
+          fill="none"
+          stroke-width="6"
+          stroke-linecap="round"
+          cx="33"
+          cy="33"
+          r="30"
+        ></circle>
+      </svg>
+    </main>
+    <footer>
+      <a
+        href="https://www.travellings.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        主页
+      </a>
+      <a
+        href="https://github.com/travellings-link/travellings"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+      <a
+        href="https://www.travellings.cn/docs/join"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        加入
+      </a>
+      <a
+        href="https://afdian.net/a/travellings"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        赞助
+      </a>
+      <span></span>
+      <a
+        href="https://beian.miit.gov.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        闽ICP备2023011626号-1
+      </a>
+      <a
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        闽公网安备 35059102000048号
+      </a>
+    </footer>
+    <script>
+      // 调试模式，不跳转页面
+      const debug = window.location.hostname === 'localhost'
+
+      window.setTimeout(() => {
+        fetch('https://api.travellings.cn/random')
+          .then(res => res.json())
+          .then(res =>
+            debug ? console.debug(res) : (window.location.href = res.url)
+          )
+          .catch(err => alert('出错了：' + err))
+      }, 1000)
+    </script>
+  </body>
+</html>
