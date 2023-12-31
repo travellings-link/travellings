@@ -284,15 +284,21 @@
     <script>
       // 调试模式，不跳转页面
       const debug = window.location.hostname === 'localhost'
-
+  
       window.setTimeout(() => {
-        fetch('https://api.travellings.cn/random')
-          .then(res => res.json())
-          .then(res =>
-            debug ? console.debug(res) : (window.location.href = res.url)
-          )
-          .catch(err => alert('出错了：' + err))
-      }, 1000)
-    </script>
+          fetch('https://api.travellings.cn/random') // Update the API endpoint
+              .then(res => res.json())
+              .then(res => {
+                  if (res.success && res.data.length > 0) {
+                      const randomItem = res.data[0];
+                      debug ? console.debug(randomItem) : (window.location.href = randomItem.url);
+                  } else {
+                      console.error("API request failed");
+                  }
+              })
+              .catch(err => alert('出错了：' + err));
+      }, 1000);
+  </script>
+  
   </body>
 </html>
