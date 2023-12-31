@@ -59,7 +59,7 @@ A：
 ## Q：巡查有什么特征咩？
 
 巡查后端使用固定的 User-Agent 为 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`  
-来自 `AS 8075` 的 Microsoft Azure 服务器（Japan East）  
+来自 `AS 8075` 的 Microsoft Azure 服务器（Japan East），反向解析 `site.checker.01.travellings.cn`
 请将此特征在您的 防火墙 / WAF 中放行，以免导致巡查误判从而无法跳转到您的网站  
 5 小时内请求不会超过 10 次，可以适当限速以免该特征被有心人利用  
 
