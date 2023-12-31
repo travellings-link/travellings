@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Travelling',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'https://www.travellings.cn/assets/img/mini-logo.svg',
+  title: '开往 - 友链接力',
+  tagline: '友链接力！',
+  favicon: 'https://www.travellings.cn/assets/img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://www.travellings.cn/',
