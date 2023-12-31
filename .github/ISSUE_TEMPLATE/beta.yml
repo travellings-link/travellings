@@ -33,15 +33,18 @@ body:
       placeholder: ex. 侧栏
     validations:
       required: true
-  - type: textarea
+  - type: dropdown 
     id: content
     attributes:
       label: 内容方向
       description: |
-        不会展示在 Readme ；
-        你想与网络世界分享什么？
+        请在此选择您的网站（博客）的内容方向，非博客请选择“其它”。这一项选择会影响博客网站审核的分配，技术类博客和生活类博客的审核条件不一。
+      options:
+        - 技术类博客
+        - 生活类博客
+        - 其它
     validations:
-      required: false
+      required: true
   - type: checkboxes
     id: checkagain
     attributes:
