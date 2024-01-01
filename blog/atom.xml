@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.travellings.cn/blog</id>
     <title>开往 - 友链接力 Blog</title>
-    <updated>2023-10-15T00:00:00.000Z</updated>
+    <updated>2024-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.travellings.cn/blog"/>
     <subtitle>开往 - 友链接力 Blog</subtitle>
     <icon>https://www.travellings.cn/https://www.travellings.cn/assets/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[2024年01月更新：新后端，新巡查机器人，迎接新的一年！]]></title>
+        <id>https://www.travellings.cn/blog/202401</id>
+        <link href="https://www.travellings.cn/blog/202401"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新的一年]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_FNw8" id="新的一年">新的一年<a href="#新的一年" class="hash-link" aria-label="Direct link to 新的一年" title="Direct link to 新的一年">​</a></h3><h3><font color="red">开往维护组祝全体开往成员新年快乐！</font></h3><h3 class="anchor anchorWithStickyNavbar_FNw8" id="功能更新">功能更新<a href="#功能更新" class="hash-link" aria-label="Direct link to 功能更新" title="Direct link to 功能更新">​</a></h3><p>在过去的一个月，维护组制作了一些新东西！  </p><ul><li>巡查机器人  </li><li>新的后端（ <a href="https://api.travellings.cn" target="_blank" rel="noopener noreferrer">https://api.travellings.cn</a> ）  </li><li>新的成员列表页（ <a href="https://list.travellings.cn" target="_blank" rel="noopener noreferrer">https://list.travellings.cn</a> ）  </li></ul><p>以及<del>优化了使用体验，提升整体流畅度</del><br>
+<!-- -->先前一个月内，开往持续受到了陆陆续续、大大小小的攻击，在新的一年中，我们将会提高安全性，极大程度地保证 SLA。</p><h3 class="anchor anchorWithStickyNavbar_FNw8" id="蒋洋退出开往维护组">蒋洋退出开往维护组<a href="#蒋洋退出开往维护组" class="hash-link" aria-label="Direct link to 蒋洋退出开往维护组" title="Direct link to 蒋洋退出开往维护组">​</a></h3><p>“我更喜欢改进现有的工具而不是创建自己的。如果你的开源项目需要一个网络爬虫引擎，我会很乐意提供帮助。”——蒋洋<br>
+<!-- -->近期，蒋洋（GitHub: <a href="https://github.com/jiangyangcreate" target="_blank" rel="noopener noreferrer">jiangyangcreate</a>）退出了开往维护组。在接近半年的时间里，他开发并上线了开往的后端，结束了开往使用原生 JavaScript 实现随机跳转的历史；组织制定《开往项目运维规定》；开发了网站状态检测爬虫；实现了开往项目维护中一些过程的自动化。</p>]]></content>
+        <author>
+            <name>linlinzzo</name>
+            <uri>https://github.com/linlinzzo</uri>
+        </author>
+        <author>
+            <name>BLxcwg666</name>
+            <uri>https://github.com/BLxcwg666</uri>
+        </author>
+        <category label="维护" term="维护"/>
+        <category label="后端" term="后端"/>
+        <category label="巡查" term="巡查"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年10月更新：国庆彩蛋，开往周边，开往成员订阅]]></title>
         <id>https://www.travellings.cn/blog/202310</id>
