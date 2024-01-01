@@ -4,7 +4,7 @@
 
 加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-目前已有1k+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超800成员加入过开往，[点此查看](https://api.travellings.cn/all)成员列表。
+目前已有1k+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超 900 成员加入过开往，[点此查看](https://list.travellings.cn)成员列表。
 
 点此访问[开往官方网址](https://www.travellings.cn)
 
@@ -15,9 +15,9 @@
 如果你对我们跳转页的样式不满意，欢迎你提交新的样式！
 > 只需几步，即可自定义你的样式!
 > 
-> 1.涉及到的所有的图片必须为SVG
+> 1.涉及到的所有的图片必须为 SVG
 > 
-> 2.必须为单页html，如有css可以写入html头
+> 2.必须为单页 html，如有 css 可以写入 html 头
 > 
 > 3.底部包含开往备案号
 > 
@@ -25,7 +25,7 @@
 > 
 > 5.提个PR @travellings-link/it
 >
-> 如果你是新手，可以在static/libraries/classic.html的模板上进行修改！
+> 如果你是新手，可以在 static/libraries/classic.html 的模板上进行修改！
 
 ## 也许你在找这些
 

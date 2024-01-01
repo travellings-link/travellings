@@ -20,13 +20,18 @@
     <script>
         function travelling() {
             function reqListener() {
-                var x = JSON.parse(this.responseText);
-                window.location = x["url"];
-
+                var response = JSON.parse(this.responseText);
+                if (response.success) {
+                    var randomItem = response.data[0];
+                    window.location = randomItem.url;
+                } else {
+                    console.error("API request failed");
+                }
             }
+    
             var oReq = new XMLHttpRequest();
             oReq.addEventListener("load", reqListener);
-            oReq.open("GET", "https://api.travellings.cn/random");
+            oReq.open("GET", "http://api.travellings.cn/random");
             oReq.send();
         }
     </script>
@@ -269,7 +274,7 @@
         <!--<a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>-->
     </div>
     <script>
-        window.setTimeout(travelling, 1000);
+        window.setTimeout(travelling, 1500);
     </script>
 </body>
 
