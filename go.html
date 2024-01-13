@@ -45,6 +45,19 @@
             text-decoration: none;
         }
 
+        body {
+            transition: background-color 0.5s;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            * {
+                color: #f9fafb;
+            }
+            body {
+                background: #111827;
+            }
+        }
+
         .blink {
             position: fixed;
             height: 100%;
