@@ -55,6 +55,8 @@
 
 ## 3. 提个 issue，等待审核通过
 
+[前往 Github Issues 页面](https://github.com/travellings-link/travellings/issues)
+
 我们至少会在每周周末处理您的issue，如您的站点观察期超过1个月，可以在@审核团队。
 
 💡 常见的可能导致审核失败的原因与解决方案：
