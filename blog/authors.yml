@@ -1,72 +1,78 @@
 baipin:
   name: baipin
-  title: Support
+  title: 维护组成员
   url: https://github.com/baipin
   image_url: https://github.com/baipin.png
 
 BCTX2010:
   name: BCTX2010
-  title: Support
+  title: 维护组成员
   url: https://github.com/BCTX2010
   image_url: https://github.com/BCTX2010.png
 
 Big-Cake-jpg:
   name: Big_Cake
-  title: Support
+  title: 维护组成员
   url: https://github.com/Big-Cake-jpg
   image_url: https://github.com/Big-Cake-jpg.png
 
 BLxcwg666:
   name: BLxcwg666
-  title: Support
+  title: 后端开发 / 运维
   url: https://github.com/BLxcwg666
   image_url: https://github.com/BLxcwg666.png
 
 Cubik65536:
   name: Qian Qian "Cubik"
-  title: Support
+  title: 维护组成员
   url: https://github.com/Cubik65536
   image_url: https://github.com/Cubik65536.png
 
 jiangmiemie:
-  name: jiangmiemie
-  title: Support
-  url: https://github.com/jiangmiemie
-  image_url: https://github.com/jiangmiemie.png
+  name: jiangyangcreate
+  title: 前任前后端开发
+  url: https://github.com/jiangyangcreate
+  image_url: https://github.com/jiangyangcreate.png
   email: jiangyangcreate@gmail.com
 
 Jiaocz:
   name: Orangii
-  title: Support
+  title: 维护组成员
   url: https://github.com/Jiaocz
   image_url: https://github.com/Jiaocz.png
 
 linlinzzo:
   name: linlinzzo
-  title: Support
+  title: 开往领导者
   url: https://github.com/linlinzzo
   image_url: https://github.com/linlinzzo.png
 
 Luochancy:
   name: Luochancy
-  title: Support
+  title: 维护组成员
   url: https://github.com/Luochancy
   image_url: https://github.com/Luochancy.png
 
 qystudio0:
   name: Jason
-  title: Support
+  title: 维护组成员
   url: https://github.com/qystudio0
   image_url: https://github.com/qystudio0.png
 
 rabbitxuanxuan:
   name: Rabbit_xuan
-  title: Support
+  title: 维护组成员
   url: https://github.com/rabbitxuanxuan
   image_url: https://github.com/rabbitxuanxuan.png
 
 vicevolf:
   name: vicevolf
-  title: Support
+  title: 开往创始人
   url: https://github.com/vicevolf
   image_url: https://github.com/vicevolf.png
+
+xuanzhi33:
+  name: xuanzhi33
+  title: 前端开发
+  url: https://github.com/xuanzhi33
+  image_url: https://github.com/xuanzhi33.png

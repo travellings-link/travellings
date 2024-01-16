@@ -48,20 +48,25 @@ A：
 - LOST     表示网址存活，但是没有找到开往徽标
 - ERROR    表示网址异常
 - 纯数字    表示该站点返回了除 200 以外的状态码
+- TIMEOUT  表示巡查后端在尝试连接到站点时超过了 15 秒
 
 仅 `RUN` 状态会被 API 分配跳转，更新状态请等待下一次巡查
 
 ## Q：多久一次嘞？
 
 A：
-目前在巡查后端存活的状态下，不出意外应该是每 5 小时巡查一次
+巡查后端有两个阶段的巡查  
+第一阶段由巡查后端快速检测所有站点（大约 30 分钟）  
+第二阶段巡查后端会使用浏览器对第一阶段检测出来的异常站点进行重新核查（可能比较久）  
+如果巡查后端服务器不爆炸的情况下，一般是每天凌晨 4 点开始巡查  
 
 ## Q：巡查有什么特征咩？
 
-巡查后端使用固定的 User-Agent 为 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`  
-来自 `AS 8075` 的 Microsoft Azure 服务器（Japan East），反向解析 `site.checker.01.travellings.cn`
-请将此特征在您的 防火墙 / WAF 中放行，以免导致巡查误判从而无法跳转到您的网站  
-5 小时内请求不会超过 10 次，可以适当限速以免该特征被有心人利用  
+巡查后端使用固定的 User-Agent 为  
+`Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`  
+使用来自中国北京的腾讯云服务器进行巡查  
+请将此特征在您的 防火墙 / WAF 中放行，以免导致巡查误判从而开往无法跳转到您的网站  
+一般一天内请求不会超过 10 次，可以适当限速以免该特征被有心人利用  
 
 ## Q：为什么某个网站状态为 RUN，但是无法访问？
 
@@ -69,7 +74,7 @@ A：假设某个网站对沿海地区支持较好，访问顺畅，但是对西�
 
 ## Q ：我需要变更网址或举报问题网页或退出开往或联系站长
 
-A：在[issue](https://github.com/travellings-link/travellings/issues)中 @ 审核团队
+A：在 [issues](https://github.com/travellings-link/travellings/issues) 中 @ 审核团队
 
 搜索您需要反馈的网址的二级域，假设问题网址是：<https://www.travellings.cn/> 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠  
 通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者更新，或者 @ 审核团队
