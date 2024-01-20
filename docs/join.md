@@ -57,7 +57,7 @@
 
 [前往 Github Issues 页面](https://github.com/travellings-link/travellings/issues)
 
-我们至少会在每周周末处理您的issue，如您的站点观察期超过1个月，可以在@审核团队。
+我们至少会在每周周末处理您的issue，如您的加入申请超过1个月还未审核，可以@我们或通过其他我们已经公示的联系渠道联系。
 
 💡 常见的可能导致审核失败的原因与解决方案：
 
