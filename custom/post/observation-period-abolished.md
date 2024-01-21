@@ -1,11 +1,10 @@
 ---
 sidebar_position: 5
-title: 关于《开往项目运维规定》（修订征求意见稿）公开征求意见的公告
-date: 2023-08-18
-updated: 2023-08-18
+title: 开往维护组关于废除观察期制度的公告
+date: 2024-01-21
+updated: 2024-01-21
 categories: 项目公告
 tags:
-  - 征求意见
   - 内部规定
 ---
 
