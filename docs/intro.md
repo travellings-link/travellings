@@ -4,6 +4,8 @@ sidebar_position: 1
 ---
 # 开往-友链接力 2.1.0
 
+<iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
+
 ## 关于开往
 
 **开往**的生日是 **2020年3月12日**，取自**开**放的**网**络，是一个友链接力项目。
