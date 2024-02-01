@@ -62,11 +62,18 @@ A：
 
 ## Q：巡查有什么特征咩？
 
-巡查后端使用固定的 User-Agent 为  
+A：巡查后端使用固定的 User-Agent 为  
 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`  
 使用来自中国北京的腾讯云服务器进行巡查  
 请将此特征在您的 防火墙 / WAF 中放行，以免导致巡查误判从而开往无法跳转到您的网站  
 一般一天内请求不会超过 10 次，可以适当限速以免该特征被有心人利用  
+
+## Q：为什么我的网站被标记为 LOST？
+A：开往目前使用的是 Axios（Node.JS）和 Puppeteer 每天对站点进行轮流巡查  
+如果您使用的是诸如 Next.JS 之类的服务端渲染框架，在 view-source 看不到开往字段，可能无法正常被巡查检测到  
+您可以尝试往 public / index 源代码中添加一个带 travellings 字段的注释  
+后续可能有废除巡查的计划，但是截止目前此类问题仍然没有好的解决方案  
+如果您有好的主意，欢迎向我们提出
 
 ## Q：为什么某个网站状态为 RUN，但是无法访问？
 
