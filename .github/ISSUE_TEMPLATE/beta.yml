@@ -1,16 +1,17 @@
 name: 申请收录
 description: 申请加入开往选这个
+title: "[替换为您自己的网站名称]"
 labels: ["申请收录"]
 body:
   - type: markdown
     attributes:
       value: |
-        请在标题写“网站名称”！
+        ↑ 上方的 Title 请改成您的 [网站名称]！
   - type: input
     id: name
     attributes:
       label: 网站名称
-      description: 会在 Readme 中展示
+      description: 会在 [开往成员列表](https://list.travellings.cn/) 中展示
       placeholder: ex. 开往
     validations:
       required: true
@@ -19,20 +20,22 @@ body:
     attributes:
       label: 网站网址
       description: |
-        必须是 http**s** 网站；
+        必须是 http**s** 网站（请带上“https://”协议头）；
         `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, sapce, fun` 这些域名往往购买时便宜，但第二年续费会在 100 元以上，你会坚持用这个域名吗？如果你更新了域名，记得打开 issues 更新信息。
       placeholder: ex. https://travellings.link
     validations:
       required: true
-  - type: input
+  - type: checkboxes
     id: place
     attributes:
       label: 徽标位置
       description: |
-        只放在“网页底部”，或只放在“默认收起的菜单里”，审核通过率较低。请放在打开网页后能**直接看到的地方**（顶栏或固定的侧栏是不错的选择，可参见 Readme 或已收录的网站）别忘记检查手机端能够看到开往（手机端允许折叠）；
-      placeholder: ex. 侧栏
-    validations:
-      required: true
+        只放在“网页底部”，或只放在“默认收起的菜单里”，审核通过率较低。请放在打开网页后能**直接看到的地方**（顶栏或固定的侧栏是不错的选择，可参见 Readme 或已收录的网站）别忘记检查**手机端**是否能看到开往徽标（手机端**允许**放置在折叠的菜单中）；
+      options:
+        - label: 顶栏
+        - label: 侧栏
+        - label: 底部（只选此项一般无法通过审核）
+        - label: 其它
   - type: dropdown 
     id: content
     attributes:
