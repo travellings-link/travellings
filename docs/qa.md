@@ -81,7 +81,7 @@ A：假设某个网站对沿海地区支持较好，访问顺畅，但是对西�
 
 ## Q ：我需要变更网址或举报问题网页或退出开往或联系站长
 
-A：在 [issues](https://github.com/travellings-link/travellings/issues) 中 @ 审核团队
-
-搜索您需要反馈的网址的二级域，假设问题网址是：<https://www.travellings.cn/> 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠  
-通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者更新，或者 @ 审核团队
+A：如果需要变更网址/名称，请在 [issues](https://github.com/travellings-link/travellings/issues) 中 选择“申请变更信息”并填写；
+如果需要向对应站长反馈问题，建议搜索您需要反馈的网址的二级域，假设问题网址是：<https://www.travellings.cn/> 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠  
+通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者；
+其他问题或建议请提Issue或在Github Discussion中讨论
