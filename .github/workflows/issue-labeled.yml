@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Comment on issue
-      uses: actions/github-script@v7
+      uses: actions/github-script@v4
       with:
         script: |
           const issue = context.issue;
