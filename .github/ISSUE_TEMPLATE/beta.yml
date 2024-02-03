@@ -1,12 +1,12 @@
 name: 申请收录
 description: 申请加入开往选这个
-title: "[替换为您自己的网站名称]"
+title: "[网站名称]"
 labels: ["申请收录"]
 body:
   - type: markdown
     attributes:
       value: |
-        ↑ 上方的 Title 请改成您的 [网站名称]！
+        ↑ 请将上方的 Title 中的[网站名称]改成您实际的网站名称 ！
   - type: input
     id: name
     attributes:
@@ -51,7 +51,7 @@ body:
   - type: checkboxes
     id: checkagain
     attributes:
-      label: 请确认一下事项
+      label: 请确认以下事项
       description: |
         1. 我已阅读要求且满足收录条件。
         2. 我的信息填写正确，若有变动如更新网址等会及时通知更正。
