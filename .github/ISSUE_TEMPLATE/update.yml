@@ -1,33 +1,52 @@
-name: 申请变更
-description: 申请变更网址选这个
+name: 申请变更信息
+description: 申请变更网址/名称选这个
+title: "申请变更：[网站名称]"
 labels: ["申请变更"]
 body:
   - type: markdown
     attributes:
       value: |
-        无论是否更换，请在标题写“网站名称”！
-  - type: input
-    id: name
-    attributes:
-      label: 网站名称
-      description: 会在 api 中展示
-      placeholder: ex. 开往
-    validations:
-      required: true
+        ↑ 请把上方 Title 中“[网站名称]”替换为您的原网站名称
   - type: input
     id: oldwebsite
     attributes:
-      label: 旧网站网址
-      description: 填写原本的网址，https开头
-      placeholder: ex. https://travellings.link
+      label: 原网址
+      description: 填写原本的网址（以“https://”开头）
+      placeholder: ex. https://www.travellings.link
     validations:
       required: true
   - type: input
-    id: newwebsite
+    id: oldissue
     attributes:
-      label: 新网站网址
-      description: 填写现在的网址，https开头
-      placeholder: ex. https://travellings.cn
+      label: 原 Issue 编号
+      description: 请填写之前申请加入的 Issue 的编号，便于确认身份（以#开头）
+      placeholder: "ex. #1234"
     validations:
       required: true
-
+  - type: input
+    id: name
+    attributes:
+      label: 新网站名称 (不更改名称请留空)
+      description: 会在 [开往成员列表](https://list.travellings.cn/) 中展示
+      placeholder: ex. 开往
+  - type: input
+    id: newwebsite
+    attributes:
+      label: 新网址（不更改网址请留空）
+      description: 填写更改后的网址（以“https://”开头）
+      placeholder: ex. https://www.travellings.cn
+  - type: textarea
+    id: description
+    attributes:
+      label: 备注
+      description: 如有其他需求请在此处填写
+  - type: checkboxes
+    id: checkagain
+    attributes:
+      label: 请确认以下事项
+      description: |
+        1. 请确认 [开往成员列表](https://list.travellings.cn/) 中能搜索到您的原网址，如果搜索不到，可能是[已被移除](https://www.travellings.cn/post/removed-dead-site)，请重新申请加入。
+        2. 开往维护组会再次审核您变更后的网址是否符合收录要求。
+      options:
+        - label: 我已确认以上事项
+          required: true

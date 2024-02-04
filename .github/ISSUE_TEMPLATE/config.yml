@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: 其他 Issue
+    url: https://github.com/travellings-link/travellings/issues/new
+    about: 创建一个空白的 Issue，不使用 Issue 模板
   - name: 问题 & 讨论 & 建议
     url: https://github.com/travellings-link/travellings/discussions
     about: 使用 GitHub 讨论进行留言板式的问题和讨论或功能建议
