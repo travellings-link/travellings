@@ -21,4 +21,11 @@ jobs:
               repo: context.repo.repo,
               body: "您的申请已通过，欢迎加入开往大家庭～\n约10分钟后您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的QQ群：186690715"
             });
+          } else if (label.name === "信息更改完成") {
+            github.issues.createComment({
+              issue_number: issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "您好，已为您更改。\n请查看[开往成员列表](https://list.travellings.cn/)"
+            });
           }
