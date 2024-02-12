@@ -26,6 +26,6 @@ jobs:
               issue_number: issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "您好，已为您更改。\n请查看[开往成员列表](https://list.travellings.cn/)\n开往的QQ群：186690715"
+              body: "您好，已为您更改。\n请查看[开往成员列表](https://list.travellings.cn/)"
             });
           }

@@ -28,24 +28,10 @@
                     console.error("API request failed");
                 }
             }
-
-            function getCookie(cname) {
-                var name = cname + "=";
-                var ca = document.cookie.split(';');
-                for(var i=0; i<ca.length; i++) {
-                    var c = ca[i].trim();
-                    if (c.indexOf(name)==0) return c.substring(name.length,c.length);
-                }
-                return false;
-            }
-            if (getCookie("preference")) {
-                let apiUrl = "https://api.travellings.cn/random?tag=" + getCookie("preference");
-            } else {
-                let apiUrl = "https://api.travellings.cn/random"
-            }
+    
             var oReq = new XMLHttpRequest();
             oReq.addEventListener("load", reqListener);
-            oReq.open("GET", apiUrl);
+            oReq.open("GET", "https://api.travellings.cn/random");
             oReq.send();
         }
     </script>

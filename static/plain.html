@@ -284,23 +284,9 @@
     <script>
       // 调试模式，不跳转页面
       const debug = window.location.hostname === 'localhost'
-      function getCookie(cname) {
-                var name = cname + "=";
-                var ca = document.cookie.split(';');
-                for(var i=0; i<ca.length; i++) {
-                    var c = ca[i].trim();
-                    if (c.indexOf(name)==0) return c.substring(name.length,c.length);
-                }
-                return false;
-            }
-            if (getCookie("preference")) {
-                let apiUrl = "https://api.travellings.cn/random?tag=" + getCookie("preference");
-            } else {
-                let apiUrl = "https://api.travellings.cn/random"
-            }
-      
+  
       window.setTimeout(() => {
-          fetch(apiUrl) // Update the API endpoint
+          fetch('https://api.travellings.cn/random') // Update the API endpoint
               .then(res => res.json())
               .then(res => {
                   if (res.success && res.data.length > 0) {
