@@ -185,7 +185,7 @@ _  /   _  /   / /_/ /__ |/ //  __/  / _  / _  / _  / / /  /_/ /_(__  )
     }
 
     function fetchNewDestination() {
-    fetch("https://api.travellings.cn/random") // Update the API endpoint
+    fetch("https://api.travellings.cn/random?tag=coder") // Update the API endpoint
         .then(response => response.json())
         .then(data => {
             if (data.success && data.data.length > 0) {
