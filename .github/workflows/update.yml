@@ -31,4 +31,4 @@ jobs:
           publish_dir: ./build
 
       - name: Sync
-        run: curl https://updates.travellings.cn/update
+        run: curl https://updates.travellings.cn/update?token=${{ secrets.SYNC_TOKEN }}
