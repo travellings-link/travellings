@@ -13,6 +13,7 @@ export default function Home() {
       title={`首页`}
       description="友链接力">
       <main className={styles.main}>
+        <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>
         <div className={styles.content}>
           <h2 className="title is-4">介绍</h2>          
           <p>在去地铁站的路上，两位站长相遇了，他们决定一起同行。</p>
