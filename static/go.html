@@ -16,7 +16,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>开往-友链接力</title>
-    <link rel="shortcut icon" href="/assets/favicon.png" />
+    <link rel="icon" href="./assets/favicon.png" />
+    <script>
+        const customPage = localStorage.getItem("t_preference_page");
+        if (customPage) {
+            location.href = "./" + customPage;
+        }
+    </script>
     <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>
     <script>
         function travelling() {
