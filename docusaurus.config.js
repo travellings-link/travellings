@@ -119,7 +119,8 @@ const config = {
         links: [
         ],
         copyright: `<img src="https://www.xiaozonglin.cn/usr/themes/bearsimple/assets/image/police.png">
-        <a class="ba" href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a> | <a class="ba" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048 号</a>`,
+        <a class="ba" href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a> | <a class="ba" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048 号</a>
+        <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>`,
       },
       prism: {
         theme: lightCodeTheme,

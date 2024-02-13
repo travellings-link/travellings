@@ -13,7 +13,6 @@ export default function Home() {
       title={`首页`}
       description="友链接力">
       <main className={styles.main}>
-        <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>
         <div className={styles.content}>
           <h2 className="title is-4">介绍</h2>          
           <p>在去地铁站的路上，两位站长相遇了，他们决定一起同行。</p>
@@ -33,8 +32,7 @@ export default function Home() {
             之后，再次点击网页上的‘开往’或后退网页，将继续随机跳转到另一个加入开往的网页。
           </p>
           <p>
-            同时，它也是一个尊重隐私的非盈利项目，网页全部使用 HTTPS
-            抗劫持，项目开源无统计代码。”
+            同时，它也是一个尊重隐私的非盈利项目，网页全部使用 HTTPS 抗劫持，项目前后端完全开源。”
           </p>
           <p>
             “哇哦，听起来很不错的样子！看起来项目组希望开往能够让网页互相接力，让流量互相流动，让网络开放起来吧！”
