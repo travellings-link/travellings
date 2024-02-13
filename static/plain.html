@@ -266,6 +266,9 @@
       >
         赞助
       </a>
+      <a href="./preference/">
+        偏好设置
+      </a>
       <span></span>
       <a
         href="https://beian.miit.gov.cn/"
@@ -282,28 +285,7 @@
         闽公网安备 35059102000048号
       </a>
     </footer>
-    <script>
-      // 调试模式，不跳转页面
-      const debug = window.location.hostname === 'localhost'
-      
-      const preferredTag = localStorage.getItem("t_preference_tag");
-      let apiUrl = "https://api.travellings.cn/random";
-      if (preferredTag) apiUrl += "?tag=" + preferredTag;
-      
-      window.setTimeout(() => {
-          fetch(apiUrl) // Update the API endpoint
-              .then(res => res.json())
-              .then(res => {
-                  if (res.success && res.data.length > 0) {
-                      const randomItem = res.data[0];
-                      debug ? console.debug(randomItem) : (window.location.href = randomItem.url);
-                  } else {
-                      console.error("API request failed");
-                  }
-              })
-              .catch(err => alert('出错了：' + err));
-      }, 1000);
-  </script>
+    <script src="./assets/js/go.js"></script>
   
   </body>
 </html>
