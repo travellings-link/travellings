@@ -1,4 +1,3 @@
-
 # 加入开往
 
 ## 1. 您的网页应满足
@@ -10,7 +9,7 @@
   - 包含辱骂、挑衅、诽谤、反动等违反法律法规的内容
   - 包含其它维护组成员认为的不适宜内容
 - 正常更新维护中（国内无法正常访问会被移除）；
-- 网页已有较多内容（应有20篇文章**或**10篇原创文章，需要已持续更新两个月以上，更新时间自博客第一篇内容时间开始算起）；
+- 网页已有较多内容（应有 20 篇文章**或**10 篇原创文章，需要已持续更新两个月以上，更新时间自博客第一篇内容时间开始算起）；
 - 强制启用 https 。
 
 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q&A 中有强调）。如果引导页有链接到博客子站，则需要博客符合上述的标准。个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定。
@@ -41,9 +40,9 @@
   - 矢量 SVG：`https://www.travellings.cn/assets/logo.svg`
   - 全部图片素材：可查阅`assets` 文件夹。
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
-  - 🚀 CDN加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内CDN加速了，加载速度应该不会太慢吧？）。
+  - 🚀 CDN 加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内 CDN 加速了，加载速度应该不会太慢吧？）。
 
-``` bash
+```bash
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
     <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
@@ -55,9 +54,9 @@
 
 ## 3. 提个 issue，等待审核通过
 
-[前往 Github Issues 页面](https://github.com/travellings-link/travellings/issues)
+[前往 GitHub Issues 页面](https://github.com/travellings-link/travellings/issues)
 
-我们至少会在每周周末处理您的issue，如您的加入申请超过1个月还未审核，可以@我们或通过其他我们已经公示的联系渠道联系。
+我们至少会在每周周末处理您的 issue，如您的加入申请超过 1 个月还未审核，可以@我们或通过其他我们已经公示的联系渠道联系。
 
 💡 常见的可能导致审核失败的原因与解决方案：
 
@@ -77,18 +76,18 @@
 
 如果你对我们跳转页的样式不满意，欢迎你提交新的样式，只需几步，即可自定义你的样式!
 
-> 1.涉及到的所有的图片必须为SVG
+> 1.涉及到的所有的图片必须为 SVG
 >
-> 2.必须为单页html，如有css可以写入html头
+> 2.必须为单页 html，如有 css 可以写入 html 头
 >
 > 3.底部包含开往备案号
 >
 > 4.设计精美
 >
-> 5.提个PR至static文件夹下 @travellings-link/it
+> 5.提个 PR 至 static 文件夹下 @travellings-link/it
 
 :::tip
 
-如果你是新手，可以在static/libraries/classic.html的模板上进行修改！
+如果你是新手，可以在 static/libraries/classic.html 的模板上进行修改！
 
 :::
