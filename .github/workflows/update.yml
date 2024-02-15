@@ -20,9 +20,9 @@ jobs:
           node-version: 18
 
       - name: Install
-        run: npm install pnpm && pnpm install
+        run: npm i -g pnpm && pnpm i
       - name: Build
-        run: pnpm run docs:build
+        run: pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
