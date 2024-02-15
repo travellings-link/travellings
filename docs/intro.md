@@ -1,16 +1,12 @@
----
-slug: /
-sidebar_position: 1
----
 # 开往-友链接力 2.1.0
 
 <iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
 
 ## 关于开往
 
-**开往**的生日是 **2020年3月12日**，取自**开**放的**网**络，是一个友链接力项目。
+**开往**的生日是 **2020 年 3 月 12 日**，取自**开**放的**网**络，是一个友链接力项目。
 
-开往的logo是代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。![example](https://www.travellings.cn/assets/logo-index.gif)
+开往的 logo 是代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。![example](https://www.travellings.cn/assets/logo-index.gif)
 
 每当有人访问加入开往的网页时，点击“开往“会**随机跳转**到另一个加入开往的网页。之后，再次点击网页上的”开往“或**后退网页**，将继续随机跳转到另一个加入开往的网页。
 
@@ -22,7 +18,7 @@ sidebar_position: 1
 
 - 点此查看[开往加入要求](https://www.travellings.cn/docs/join)
 
-- 点此[查看常见QA](https://www.travellings.cn/docs/qa)
+- 点此[查看常见 QA](https://www.travellings.cn/docs/qa)
 
 - 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou)
 
