@@ -6,7 +6,7 @@
         <div>
           仅跳转到指定类型的网站（当前网站分类尚未完成，设置此项后可跳转的网站可能较少）
         </div>
-        <select v-model="tag">
+        <select class="form-control" v-model="settings.tag">
           <option value="">不使用分类跳转</option>
           <option value="blog">博客网站</option>
           <option value="normal">杂项</option>
@@ -18,73 +18,71 @@
         <h2>跳转延时</h2>
         <div>在跳转页的停留时间，单位：毫秒</div>
         <input
+          class="form-control"
           type="number"
-          v-model="timeout"
+          v-model="settings.timeout"
           placeholder="不填写则取默认值“1500”"
         />
         <h2>自定义跳转页</h2>
         <div>
-          默认样式看腻了？可以在此选择使用其他样式的跳转页面，您也可以制作新的跳转页
+          默认样式看腻了？可以在此选择使用其他样式的跳转页面（<a href="https://www.travellings.cn/docs/pages">跳转页面一览</a>），您也可以<a
+                href="https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE">制作新的跳转页</a>
         </div>
-        <select v-model="page">
+        <select class="form-control" v-model="settings.page">
           <option value="">使用默认跳转页</option>
           <option>plain.html</option>
           <option>coder-1024.html</option>
         </select>
-        <a href="/go.html" target="_self">设置好了，继续开往吧~</a>
+        <br>
+        <a href="/go.html" class="go-travelling">设置好了，继续开往吧~</a>
       </div>
     </div>
   </ClientOnly>
 </template>
 
 <script>
+const prefix = "t_preference_";
+
 export default {
-    data() {
-        return {
+    data: () => ({
+        settings: {
             tag: '',
             timeout: '',
-            page: '',
+            page: ''
+        }
+    }),
+    
+    mounted() {
+        for (let key in this.settings) {
+            const value = this.getSettings(key);
+            if (value) {
+                this.settings[key] = value;
+            }
         }
     },
-    mounted() {
-        this.tag = this.getSettings('tag') || '';
-        this.timeout = this.getSettings('timeout') || '';
-        this.page = this.getSettings('page') || '';
-    },
+
     watch: {
-        tag: function(newVal) {
-            if (!newVal) {
-                this.removeSettings('tag');
-            } else {
-                this.setSettings('tag', newVal);
-            }
-        },
-        timeout: function(newVal) {
-            if (!newVal) {
-                this.removeSettings('timeout');
-            } else {
-                this.setSettings('timeout', newVal);
-            }
-        },
-        page: function(newVal) {
-            if (!newVal) {
-                this.removeSettings('page');
-            } else {
-                this.setSettings('page', newVal);
-            }
+        settings: {
+            handler(val) {
+                for (let key in val) {
+                    if (val[key]) {
+                      this.setSettings(key, val[key]);
+                    } else {
+                      this.removeSettings(key);
+                    }
+                }
+            },
+            deep: true
         }
     },
     methods: {
         getSettings(key) {
-            const prefix = "t_preference_";
             return localStorage.getItem(prefix + key);
         },
         removeSettings(key) {
-            const prefix = "t_preference_";
             localStorage.removeItem(prefix + key);
         },
         setSettings(key, value) {
-            const prefix = "t_preference_";
             localStorage.setItem(prefix + key, value);
         }
     }
@@ -92,23 +90,26 @@ export default {
 </script>
 
 <style scoped>
-  h3,
-  h2 {
-    margin-bottom: 10px;
-  }
-  select,
-  input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-  a {
+  .go-travelling {
+    margin-top: 2rem;
     display: inline-block;
-    padding: 10px 20px;
-    color: white;
-    background-color: #333;
     text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
     border-radius: 5px;
+    transition: all 0.3s;
+  }
+  .go-travelling:hover {
+    background-color: #555;
+    color: white;
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem
   }
 </style>
