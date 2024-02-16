@@ -1,15 +1,18 @@
 # 给维护组与社区的话
 
-如果你想加入维护组，可以查看开往[博客](https://www.travellings.cn/blog)，通过文章作者查看最近活跃的维护者。这里是一些开发规范和开发理念，便于新的维护者加入。
+如果你想加入维护组，可以查看开往[博客](https://www.travellings.cn/blog)，通过页面底部文章作者查看最近活跃的维护者。这里是一些开发规范和开发理念，便于新的维护者加入。
 
 ## 项目说明
 
-- `static` 文件夹会被完整的解码，`static/libraries` 里会存档一些跳转样式
-- `src` 文件夹建议放置一些单独的页面，譬如首页。首页样式可以在 `index.js` 中设计
-- `blog` 文件夹放置的是博客，上传 MD 或 MDX 文件即可生成博客
-- `docs` 与 `custom/post` 文件夹放置的是文档，也是上传 MD 或 MDX 文件即可生成文档。
+开往主站现基于 VitePress 构建。
 
-完整请参见 [Docusaurus 文档](https://docusaurus.io/zh-CN/docs/creating-pages)
+- `public` 文件夹存放静态文件，会被放置到根目录下。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE) 
+- `announcements` 文件夹中放置的是公告 (markdown格式)
+- `blog` 文件夹中放置的是博客 (markdown格式)
+- `docs` 文件夹放置的是文档 (markdown格式)
+
+点击页面下方的“在 GitHub 上编辑此页”也可以快速找到页面在仓库中的位置。你也可以参见 [VitePress 文档](https://vitepress.dev/)
+
 
 ## 开发理念
 

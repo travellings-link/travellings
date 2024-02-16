@@ -80,14 +80,16 @@
 >
 > 2.必须为单页 html，如有 css 可以写入 html 头
 >
-> 3.底部包含开往备案号
+> 3.底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
 >
-> 4.设计精美
+> 4.嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
 >
-> 5.提个 PR 至 static 文件夹下 @travellings-link/it
+> 5.设计精美/有创意
+>
+> 6.提个 PR 至 public 文件夹下 @ 最近活跃的开往维护组成员
 
 :::tip
 
-如果你是新手，可以在 static/libraries/classic.html 的模板上进行修改！
+如果你是新手，可以在原有跳转页的基础上进行修改~
 
 :::
