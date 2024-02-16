@@ -19,16 +19,14 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install
-        run: npm i -g pnpm && pnpm i
       - name: Build
-        run: pnpm docs:build
+        run: npm run docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./.vitepress/dist
 
       - name: Sync
         run: curl https://updates.travellings.cn/update?token=${{ secrets.SYNC_TOKEN }}
