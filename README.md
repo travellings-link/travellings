@@ -4,28 +4,20 @@
 
 加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-目前已有1k+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超 900 成员加入过开往，[点此查看](https://list.travellings.cn)成员列表。
+目前已有1k+人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，1k+ 成员加入过开往，[点此查看](https://list.travellings.cn)成员列表。
 
 点此访问[开往官方网址](https://www.travellings.cn)
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/69161207/266809446-b37484cb-d525-4fe0-aa9d-2497d6421bf9.png">
+## 项目说明
 
-## 参与开发
+开往主站现基于 VitePress 构建。
 
-如果你对我们跳转页的样式不满意，欢迎你提交新的样式！
-> 只需几步，即可自定义你的样式!
-> 
-> 1.涉及到的所有的图片必须为 SVG
-> 
-> 2.必须为单页 html，如有 css 可以写入 html 头
-> 
-> 3.底部包含开往备案号
-> 
-> 4.设计精美
-> 
-> 5.提个PR @travellings-link/it
->
-> 如果你是新手，可以在 static/libraries/classic.html 的模板上进行修改！
+- `public` 文件夹存放静态文件，会被放置到根目录下。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE) 
+- `announcements` 文件夹中放置的是公告 (markdown格式)
+- `blog` 文件夹中放置的是博客 (markdown格式)
+- `docs` 文件夹放置的是文档 (markdown格式)
+
+更多请可以参见 [VitePress 文档](https://vitepress.dev/)
 
 ## 也许你在找这些
 
