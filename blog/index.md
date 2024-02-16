@@ -1,3 +1,8 @@
+---
+contributors:
+  - Big-Cake-jpg
+---
+
 # 欢迎
 
 欢迎来到开往的博客页面！:tada:
