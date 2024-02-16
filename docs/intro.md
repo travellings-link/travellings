@@ -1,4 +1,6 @@
-# 开往-友链接力 2.1.0
+# 开往-友链接力 3.0.0
+
+## 宣传片
 
 <iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
 
@@ -12,15 +14,17 @@
 
 加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-目前已有 1k+ 人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超 900 成员加入过开往，[点此查看](https://list.travellings.cn)成员列表。
+目前已有 1k+ 人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超 1k+ 成员加入过开往。
 
-## 加入开往
+## 链接
 
-- 点此查看[开往加入要求](https://www.travellings.cn/docs/join)
+- 点此[查看成员列表](https://list.travellings.cn)
 
-- 点此[查看常见 QA](https://www.travellings.cn/docs/qa)
+- 点此[查看加入开往要求](./docs/join)
 
-- 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou)
+- 点此[查看常见疑难解答](./docs/qa)
+
+- 点此[查看加入开往维护组要求](./docs/toyou)
 
 ## 项目推荐
 
