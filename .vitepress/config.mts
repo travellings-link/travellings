@@ -27,7 +27,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/travellings-link/travellings/edit/master/docs/:path",
+        "https://github.com/travellings-link/travellings/edit/master/:path",
       text: "在 GitHub 上编辑此页",
     },
 
