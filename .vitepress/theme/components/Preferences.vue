@@ -25,8 +25,8 @@
         />
         <h2>自定义跳转页</h2>
         <div>
-          默认样式看腻了？可以在此选择使用其他样式的跳转页面（<a href="https://www.travellings.cn/docs/pages">跳转页面一览</a>），您也可以<a
-                href="https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE">制作新的跳转页</a>
+          默认样式看腻了？可以在此选择使用其他样式的跳转页面（<a href="/docs/pages">跳转页面一览</a>），您也可以<a
+                href="/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE">制作新的跳转页</a>
         </div>
         <select class="form-control" v-model="settings.page">
           <option value="">使用默认跳转页</option>
@@ -34,7 +34,7 @@
           <option>coder-1024.html</option>
         </select>
         <br>
-        <a href="/go.html" class="go-travelling">设置好了，继续开往吧~</a>
+        <a href="/go.html" class="go-travelling" target="_self">设置好了，继续开往吧~</a>
       </div>
     </div>
   </ClientOnly>
