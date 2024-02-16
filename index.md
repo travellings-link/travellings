@@ -29,7 +29,7 @@ features:
     icon: 🪟
   - title: 你的开往，就是你的
     details: 可自定义跳转页的部分设置与样式，如果不满意也可以自己制作一个。
-    link: /preference
+    link: https://www.travellings.cn/preference/
     linkText: 偏好设置
     icon: 🪄
 ---
