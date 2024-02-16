@@ -37,7 +37,7 @@ function isNotEmpty(arr: string | string[]) {
         rel="noreferrer"
         target="_blank"
         class="flex items-center gap-2">
-        <img :src="getAvatarUrl(contributor)" class="w-8 h-8 rounded-full" />
+        <img :src="getAvatarUrl(contributor)" class="w-8 h-8 rounded-full" loading="lazy" />
         <p class="vp-main-color">{{ contributor }}</p>
       </a>
     </div>
