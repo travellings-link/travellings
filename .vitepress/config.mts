@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "主页", link: "/" },
-      { text: "加入", link: "/docs/join", activeMatch: "/docs/" },
+      { text: "文档", link: "/docs/", activeMatch: "/docs/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
       { text: "公告", link: "/announcements/", activeMatch: "/announcements/" },
       { text: "赞助", link: "https://afdian.net/a/travellings" },
@@ -60,7 +60,7 @@ export default defineConfig({
   cleanUrls: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", href: "/assets/img/mini-logo.svg" }],
+    ["link", { rel: "icon", href: "/assets/favicon.png" }],
     [
       "script",
       {
