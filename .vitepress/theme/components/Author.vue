@@ -26,7 +26,7 @@ function isNotEmpty(arr: string | string[]) {
 </script>
 
 <template>
-  <p class="vp-main-color con">本文贡献者:</p>
+  <p v-if="isNotEmpty(contributors)" class="vp-main-color con">本文贡献者:</p>
   <div v-if="isNotEmpty(contributors)" class="flex flex-wrap gap-4">
     <div
       v-for="contributor of contributors"
@@ -41,16 +41,6 @@ function isNotEmpty(arr: string | string[]) {
         <p class="vp-main-color">{{ contributor }}</p>
       </a>
     </div>
-  </div>
-  <div v-else class="flex gap-2 items-center">
-    <a
-      :href="getGitHubLink(defaultAuthor)"
-      rel="noreferrer"
-      target="_blank"
-      class="flex items-center gap-2">
-      <img src="/assets/img/mini-logo.svg" class="w-8 h-8 rounded-full" />
-      <p class="vp-main-clolr">{{ "开往" }}</p>
-    </a>
   </div>
 </template>
 
