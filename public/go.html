@@ -1,11 +1,11 @@
 <!--
- _____                    _ _ _                   _____                _                 _  __     ______  
-|_   _| __ __ ___   _____| | (_)_ __   __ _ ___  |  ___| __ ___  _ __ | |_ ___ _ __   __| | \ \   / /___ \ 
-  | || '__/ _` \ \ / / _ \ | | | '_ \ / _` / __| | |_ | '__/ _ \| '_ \| __/ _ \ '_ \ / _` |  \ \ / /  __) |
-  | || | | (_| |\ V /  __/ | | | | | | (_| \__ \ |  _|| | | (_) | | | | ||  __/ | | | (_| |   \ V /  / __/ 
-  |_||_|  \__,_| \_/ \___|_|_|_|_| |_|\__, |___/ |_|  |_|  \___/|_| |_|\__\___|_| |_|\__,_|    \_/  |_____|
-                                      |___/                                                                
-	🚇 开往·友链接力！ 一群狼走得远   https://github.com/travellings-link/travellings
+ _____                    _ _ _                  __     _______ 
+|_   _| __ __ ___   _____| | (_)_ __   __ _ ___  \ \   / /___ / 
+  | || '__/ _` \ \ / / _ \ | | | '_ \ / _` / __|  \ \ / /  |_ \ 
+  | || | | (_| |\ V /  __/ | | | | | | (_| \__ \   \ V /  ___) |
+  |_||_|  \__,_| \_/ \___|_|_|_|_| |_|\__, |___/    \_/  |____/ 
+                                      |___/                     
+🚇 开往·友链接力！ 一群狼走得远   https://github.com/travellings-link/travellings
 -->
 
 <!DOCTYPE html>
@@ -23,8 +23,6 @@
         }
     </script>
     <link rel="icon" href="./assets/favicon.png" />
-    <link href="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/css/iziToast.min.css" rel="stylesheet">
-    <link href="https://npm.elemecdn.com/font6pro@6.0.1/css/all.min.css" rel="stylesheet">
     <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>
     <style>
         * {
@@ -258,6 +256,20 @@
                 opacity: 1;
             }
         }
+
+        .links {
+            --link-color: #5372b4;
+            color: var(--link-color);
+        }
+        .links:hover {
+            border-bottom: 2px solid var(--link-color);
+        }
+        @media (prefers-color-scheme: dark) {
+            .links {
+                --link-color: #9ca3af;
+            }
+        }
+
     </style>
 </head>
 
@@ -268,24 +280,42 @@
             world…</a>
     </div>
     <div class="botCenter">
-        ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference">⚙️ 开往偏好设置</a> 
+        ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference" class="links">⚙️ 开往偏好设置</a> | <a href="https://www.travellings.cn/docs/join" class="links" target="_blank">🚇 加入</a>
         <br />
-        <a href="https://www.travellings.cn/docs/join" target="_blank">🚇 加入</a>&nbsp;|&nbsp;
         <!--<a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />-->
         <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a> | <a target="_blank"
             href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备
             35059102000048号</a><!--<br />本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">🆙 又拍云</a>提供CDN加速服务<br />-->
         <!--<a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>-->
     </div>
+
+    <style>
+        #notice {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            padding: 0.75rem;
+            background-color: #eee;
+            font-size: 0.8rem;
+            transform: translateY(-100%);
+            transition: transform 0.5s;
+        }
+        @media (prefers-color-scheme: dark) {
+            #notice {
+                background-color: #222;
+            }
+        }
+    </style>
+    <div id="notice">
+    	Hi，这里是我们的 <a class="links" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=q8CdLceaQzVFRhXPL7aSydV0a-rOXrHX&authKey=rxWesNE7V2fHv1PdX%2FfNTPGI9ntA87m3O8XYpgT8me0w8JGm1bB1VcHetBm9T3Yl&noverify=0&group_code=186690715" target="_blank">QQ群</a> 和 <a href="https://t.me/TravellingsCN" class="links" target="_blank">TG群</a> ，欢迎加入
+    </div>
     <script src="./assets/js/go.js"></script>
-    <script src="https://npm.elemecdn.com/volantis-static@0.0.1654736714924/libs/izitoast/dist/js/iziToast.min.js"></script>
     <script>
-	iziToast.show({
-	title: 'Hi',
-    	message: '这里是我们的<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=q8CdLceaQzVFRhXPL7aSydV0a-rOXrHX&authKey=rxWesNE7V2fHv1PdX%2FfNTPGI9ntA87m3O8XYpgT8me0w8JGm1bB1VcHetBm9T3Yl&noverify=0&group_code=186690715" target="_blank">QQ群</a>和<a href="https://t.me/TravellingsCN" target="_blank">TG群</a>，欢迎加入',
-	icon: 'fa-brands fa-qq',
-    	time: 30000
-	});
+        setTimeout(() => {
+            document.querySelector("#notice").style.transform = "translateY(0)";
+        }, 0);
     </script>
 </body>
 
