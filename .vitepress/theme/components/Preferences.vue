@@ -11,7 +11,7 @@
           <option value="">不使用分类跳转</option>
           <option value="blog">博客网站</option>
           <option value="normal">杂项</option>
-          <option value="coder">技术类网站（博客或维基）</option>
+          <option value="tech">技术类网站（博客或维基）</option>
           <option value="site">网站分享类博客</option>
           <option value="life">生活类博客</option>
           <option value="hybrid">综合类博客</option>
