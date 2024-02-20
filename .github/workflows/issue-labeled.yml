@@ -27,5 +27,11 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: "您好，已为您更改。\n请查看[开往成员列表](https://list.travellings.cn/)\n开往的QQ群：186690715"
+            } else if (label.name === "社群通知") {
+            github.issues.createComment({
+              issue_number: issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "  开往成员站长，你好。\n  为了组织抽奖活动，及时通知开往的事务，提供站长交流的平台，开往开设了 QQ 群186690715和 Telegram 群 https://t.me/TravellingsCN，欢迎你加入。"
             });
           }
