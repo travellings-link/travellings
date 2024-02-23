@@ -12,20 +12,24 @@
 
 ::: info 说明
 
-- 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q&A 中有强调）。
-- 如果引导页有链接到博客子站，则需要博客符合上述的标准。
-- 个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定。
-- 对于一个独立域名下申请加入开往的不同网站，如果它们的内容相似**或**类型相同，则通过其中一个网站，或者将它们的引导页收录到开往。
-- 要求中的“网站已有较多内容”因为删库等非正常情况的存在一般情况下不会将未满足文章数量要求的成员删除。
-- 对于长期处于内容较少状态的成员网站，维护组成员可以经组内讨论并通知站长，等待 1 个月后删除。
-- 开往鼓励规范转载。
-- 对于存在不适宜内容的成员网站，任何人都可以向我们反馈。
+- 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q&A 中有强调）
+- 如果引导页有链接到博客子站，则需要博客符合上述的标准
+- 个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定
+- 对于一个独立域名下申请加入开往的不同网站，如果它们的内容相似**或**类型相同，则通过其中一个网站，或者将它们的引导页收录到开往
+- 要求中的“网站已有较多内容”因为删库等非正常情况的存在一般情况下不会将未满足文章数量要求的成员删除
+- 对于长期处于内容较少状态的成员网站，维护组成员可以经组内讨论并通知站长，等待 1 个月后删除
+- 开往鼓励规范转载
+- 对于存在不适宜内容的成员网站，任何人都可以向我们反馈
 
 :::
 
 ## 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）
 
-- 💥 **重要**： 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
+::: warning 重要
+
+由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
+
+:::
 
 - **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**打开后就能看到的地方**：
   - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
@@ -43,21 +47,24 @@
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
   - 🚀 CDN 加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内 CDN 加速了，加载速度应该不会太慢吧？）。
 
-```bash
+```html
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
     <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
 </a>
 ```
 
-【💡 示例】
+::: info 示例
+
 ![example1](https://www.travellings.cn/assets/example1.png)
 ![example2](https://www.travellings.cn/assets/example2.png)
+
+:::
 
 ## 3. 提个 issue，等待审核通过
 
 [前往 GitHub Issues 页面](https://github.com/travellings-link/travellings/issues)
 
-我们至少会在每周周末处理您的 Issue，如您的加入申请超过 1 个月还未审核，可以@我们或通过其它我们已经公示的联系渠道联系。
+我们至少会在每周周末处理您的 Issue，如您的加入申请超过 1 个月还未审核，可以 @ 最近活跃的维护组成员或通过其它我们已经公示的联系渠道联系。
 
 💡 常见的可能导致审核失败的原因与解决方案：
 
