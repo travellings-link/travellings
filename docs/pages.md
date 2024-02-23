@@ -20,7 +20,8 @@
   
 ## Go by Clouds 乘云而去
 
-页面作者：[@Karlukle](https://github.com/SmileGuide)  
-页面链接：`https://www.travellings.cn/go-by-clouds.html`  
-截图样例：![仿 CLI 版页面截图](/assets/img/go-by-clouds-page.png "Go by Clouds 乘云而去")
+即时渲染高清云彩效果；蓝天和Orbitron字体交融，营造出令人沉醉的后现代氛围。动画流畅，用户在页面切换时能体验到无缝流畅的过渡效果。
 
+页面作者：[@Karlukle](https://www.kalrukle.site)  
+页面链接：`https://www.travellings.cn/go-by-clouds.html`  
+截图样例：![Go by Clouds 乘云而去](/assets/img/go-by-clouds-page.png "Go by Clouds 乘云而去")
