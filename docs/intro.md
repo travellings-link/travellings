@@ -14,7 +14,9 @@
 
 加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
 
-目前已有 1k+ 人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，超 1k+ 成员加入过开往。
+目前已有 1k+ 人关注开往， 1k+ 成员加入过开往。
+
+[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
 ## 链接
 
