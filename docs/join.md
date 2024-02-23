@@ -86,7 +86,7 @@
 >
 > 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue`），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
 >
-> 8. 提个 PR 至 public 文件 @ 最近活跃的开往维护组成员
+> 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
 
 :::tip
 
