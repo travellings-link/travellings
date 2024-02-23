@@ -16,4 +16,11 @@
 
 页面作者：[@BLxcwg666](https://github.com/BLxcwg666)  
 页面链接：`https://www.travellings.cn/coder-1024.html`  
-截图样例：![仿 CLI 版页面截图](/assets/img/coder1024-page.png "仿 CLI 版页面截图")
+截图样例：![仿 CLI 版页面截图](/assets/img/coder1024-page.png "仿 CLI 版页面截图")  
+  
+## Go by Clouds 乘云而去
+
+页面作者：[@Karlukle](https://github.com/SmileGuide)  
+页面链接：`https://www.travellings.cn/go-by-clouds.html`  
+截图样例：![仿 CLI 版页面截图](/assets/img/go-by-clouds-page.png "Go by Clouds 乘云而去")
+
