@@ -70,22 +70,43 @@
 
 ## 参与项目
 
-如果你对我们跳转页的样式不满意，欢迎你提交新的样式，只需几步，即可自定义你的样式!
+如果你对我们跳转页的样式不满意，欢迎你在 `public` 文件夹中提交新的样式，只需几步，即可自定义你的样式!
 
-> 1.涉及到的所有的图片必须为 SVG
+> 1. 涉及到的所有的图片必须为 SVG
 >
-> 2.必须为单页 html，如有 css 可以写入 html 头
+> 2. 必须为单页 html，如有 css 可以写入 html 头，JS 库请使用外部公共 CDN
 >
-> 3.底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
+> 3. 底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
 >
-> 4.嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
+> 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
 >
-> 5.设计精美/有创意
+> 5. 设计精美/有创意
 >
-> 6.提个 PR 至 public 文件夹下 @ 最近活跃的开往维护组成员
+> 6. 请一并修改 [其他页面一览](https://www.travellings.cn/docs/pages)，加入你的页面描述和截图
+>
+> 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue`），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
+>
+> 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
 
 :::tip
 
 如果你是新手，可以在原有跳转页的基础上进行修改~
+
+:::
+
+::: warning
+
+如果你是以默认的`go.html`为基础进行修改的，请**务必先删除** `<head>` 中的以下代码：
+
+```html
+<script>
+    const customPage = localStorage.getItem("t_preference_page");
+    if (customPage) {
+        location.href = "./" + customPage;
+    }
+</script>
+```
+
+以上代码用于实现从默认页跳转到用户设置的自定义页，如果页面本身就是自定义页便会造成**循环跳转**。
 
 :::

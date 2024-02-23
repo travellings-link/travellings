@@ -31,9 +31,12 @@
         </div>
         <select class="form-control" v-model="settings.page">
           <option value="">使用默认跳转页</option>
+          <!-- 以下为自定义跳转页 -->
           <option>plain.html</option>
           <option>coder-1024.html</option>
           <option>go-by-clouds.html</option>
+
+          <!-- 以上为自定义跳转页 -->
         </select>
         <br>
         <a href="/go.html" class="go-travelling" target="_self">设置好了，继续开往吧~</a>
