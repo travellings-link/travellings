@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Document type declaration and language -->
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=VT323&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!-- Font links -->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Meta tags definition and settings -->
+
+    <title>开往-友链接力</title>
+    <!-- Page title -->
+
+    <meta name="title" content="开往-友链接力" />
+    <script>
+        const customPage = localStorage.getItem("t_preference_page");
+        if (customPage) {
+            location.href = "./" + customPage;
+        }
+    </script>
+
+
+    <!-- Website icons and logos -->
+   <link rel="icon" href="./assets/favicon.png" />
+    
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            font-family: Orbitron;
+            background-color: #333; /* Set default background color to dark grey */
+            transition: background-color 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+
+        #content {
+            position: fixed;
+            top: 56%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #050826cf;
+            font-size: 2vw;
+            opacity: 0;
+            transition: opacity 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+        }
+
+        #clouds {
+            opacity: 0;
+            transition: opacity 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+        }
+
+        /* Basic link styles */
+        a {
+            color: #000000cf; /* Set link color */
+            text-decoration: none; /* Remove underline */
+            transition: color 0.3s ease; /* Color change transition effect */
+        }
+
+        /* Color change on hover */
+        a:hover {
+            color: #0056b3; /* Hover color */
+        }
+
+        /* Provide distinct style for active links for better readability and accessibility */
+        a:active {
+            color: #ff0000; /* Active link color */
+        }
+
+        /* Highlight links with background color */
+        a.highlight {
+            background-color: #ffc107; /* Highlight background color */
+            padding: 2px 4px; /* Add some padding */
+            border-radius: 3px; /* Rounded border */
+        }
+        .botCenter {
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 10px;
+            line-height: 20px;
+            font-size: 12px;
+            text-align: center;
+            color: #000000cf;
+            font-family: Roboto Mono;
+
+        }
+
+        @keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <!-- Inline style sheet -->
+</head>
+
+<body id="clouds" onload="fadeIn()">
+    <!-- Page body -->
+
+    <div id="content">TRAVELLING INTO ANOTHER SPACE<br/><div id="arrive">WE WILL ARRIVE IN <span id="count">10</span>s</div></div>
+    <!-- Main content area -->
+
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/three.js/110/three.min.js"></script>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanta/0.5.21/vanta.clouds.min.js"></script>
+<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js"></script>
+
+
+
+    <!-- Script references -->
+
+    <script>
+        
+        var cloudsEffect = VANTA.CLOUDS({
+            el: "#clouds",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00
+        });
+
+
+
+        var
+
+ speedUpLink = document.getElementById("speedUpLink");
+        speedUpLink.addEventListener("click", function() {
+            // Modify cloud speed using TweenMax library
+            gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" }); // Change speed from default (0.5) to 0.8, lasting 2 seconds
+        });
+    </script>
+    <!-- Inline script -->
+        <div class="botCenter">
+        ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference" class="links">⚙️ 开往偏好设置</a> | <a href="https://www.travellings.cn/docs/join" class="links" target="_blank">🚇 加入</a>
+        <br />
+        <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a> | <a target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备35059102000048号</a>
+        <script>
+                        const prefix = "t_preference_";
+                const getSetting = key => localStorage.getItem(prefix + key);
+                const preferredTag = getSetting("tag");
+        var countElement = document.getElementById("count");
+        const travellingTimeout = getSetting("timeout") || 5000;
+        var count = Math.round(travellingTimeout/1000)+1;
+        var currentPageUrl = window.location.pathname;
+
+        function updateCount() {
+            count--; // 每次调用减少倒计时
+            countElement.textContent = count; // 更新倒计时显示
+
+            if (count > 0) {
+                setTimeout(updateCount, 1000); // 每秒更新一次倒计时
+            };
+
+            if (count == 3) {
+                gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" }); // 将速度从默认值（0.5）更改为0.8，持续2秒
+            }
+
+            if (count == 1) {
+                gsap.to(cloudsEffect.uniforms.speed, { value: 1.4, duration: 20, ease: "linear" });
+
+                let apiUrl = "https://api.travellings.cn/random";
+                if (preferredTag) apiUrl += "?tag=" + preferredTag;
+
+                let go = async () => {
+                    let res = await fetch(apiUrl);
+                    res = await res.json();
+                    if (!res.success) {
+                        alert("非常抱歉，后端服务器出现了问题，请稍后再试~")
+                        return;
+                    }
+                    location.href = res.data[0].url;
+                }
+
+                setTimeout(go, 0);
+            }
+
+            if (count == 0) {
+                document.getElementById("arrive").style.display = "none";
+                gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" });
+                document.getElementById("content").style.display = "none";
+            }
+        }
+
+        function fadeIn() {
+            var clouds = document.getElementById("clouds");
+            clouds.style.opacity = 1;
+            setTimeout(function() {
+                var content = document.getElementById("content");
+                content.style.opacity = 1;
+            }, 600);
+            updateCount();
+        }
+
+        var cloudsEffect = VANTA.CLOUDS({
+            el: "#clouds",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00
+        });
+
+        var speedUpLink = document.getElementById("speedUpLink");
+        speedUpLink.addEventListener("click", function() {
+            gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" });
+        });
+    </script>
+</body>
+
+</html>
