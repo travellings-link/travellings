@@ -1,0 +1,335 @@
+<!--
+ _____                    _ _ _                  __     _______ 
+|_   _| __ __ ___   _____| | (_)_ __   __ _ ___  \ \   / /___ / 
+  | || '__/ _` \ \ / / _ \ | | | '_ \ / _` / __|  \ \ / /  |_ \ 
+  | || | | (_| |\ V /  __/ | | | | | | (_| \__ \   \ V /  ___) |
+  |_||_|  \__,_| \_/ \___|_|_|_|_| |_|\__, |___/    \_/  |____/ 
+                                      |___/                     
+🚇 开往·友链接力！ 一群狼走得远   https://github.com/travellings-link/travellings
+-->
+
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>开往-友链接力</title>
+    <script>
+        const customPage = localStorage.getItem("t_preference_page");
+        if (customPage) {
+            location.href = "./" + customPage;
+        }
+    </script>
+    <link rel="icon" href="./assets/favicon.png" />
+    <script async src="https://umami.luochancy.com/script.js" data-website-id="23ac5682-b5b5-4013-8a32-5ceb3e598df2"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        * {
+            color: #111827;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            transition: background-color 0.5s;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            * {
+                color: #f9fafb;
+            }
+            body {
+                background: #111111;
+            }
+        }
+
+        .blink {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: center;
+            animation: blink 3s linear infinite;
+            -webkit-animation: blink 3s linear infinite;
+            -moz-animation: blink 3s linear infinite;
+            -ms-animation: blink 3s linear infinite;
+            -o-animation: blink 3s linear infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-moz-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-ms-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        @-o-keyframes blink {
+            0% {
+                opacity: 0;
+                transform: scale(1);
+            }
+
+            40% {
+                opacity: 0.3;
+                transform: scale(1);
+            }
+
+            80% {
+                opacity: 1;
+                transform: scale(0.98);
+            }
+
+            100% {
+                opacity: 0.2;
+                transform: scale(1.2);
+            }
+        }
+
+        .botCenter {
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 10px;
+            line-height: 20px;
+            font-size: 12px;
+            text-align: center;
+            animation: botCenter 3s linear;
+            -webkit-animation: botCenter 3s linear;
+            -moz-animation: botCenter 3s linear;
+            -ms-animation: botCenter 3s linear;
+            -o-animation: botCenter 3s linear;
+        }
+
+        @keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes botCenter {
+            0% {
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .links {
+            --link-color: #5372b4;
+            color: var(--link-color);
+        }
+        .links:hover {
+            border-bottom: 2px solid var(--link-color);
+        }
+        @media (prefers-color-scheme: dark) {
+            .links {
+                --link-color: #9ca3af;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="blink" id="clouds">
+        <a href="https://www.travellings.cn/" target="_blank"
+            title="点击前往“开往”官网 :-)">欢迎回来，正在<b>&nbsp开往&nbsp</b>下一个世界<br /><span style="font-family: Orbitron;">WELCOME BACK, TRAVELLING TO THE NEXT WORLD…</span></a>
+    </div>
+    <div class="botCenter">
+        ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference" class="links">⚙️ 开往偏好设置</a> | <a href="https://www.travellings.cn/docs/join" class="links" target="_blank">🚇 加入</a>
+        <br />
+        <!--<a href="https://status.travellings.link/status/index" target="_blank">♻️ 状态</a><br />-->
+        <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a> | <a target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备
+            35059102000048号</a><!--<br />本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">🆙 又拍云</a>提供CDN加速服务<br />-->
+        <!--<a href="https://github.com/travellings-link/travellings/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/travellings-link/travellings?style=social" height="18px"></a>-->
+    </div>
+
+    <style>
+        #notice {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            padding: 0.75rem;
+            background-color: #eee;
+            font-size: 0.8rem;
+            transform: translateY(-100%);
+            transition: transform 0.5s;
+        }
+        @media (prefers-color-scheme: dark) {
+            #notice {
+                background-color: #222;
+            }
+        }
+    </style>
+    <div id="notice">
+    	Hi，这里是我们的 <a class="links" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=q8CdLceaQzVFRhXPL7aSydV0a-rOXrHX&authKey=rxWesNE7V2fHv1PdX%2FfNTPGI9ntA87m3O8XYpgT8me0w8JGm1bB1VcHetBm9T3Yl&noverify=0&group_code=186690715" target="_blank">QQ群</a> 和 <a href="https://t.me/TravellingsCN" class="links" target="_blank">TG群</a> ，欢迎加入
+    </div>
+    <script src="./assets/js/go.js"></script>
+    <script>
+        setTimeout(() => {
+            document.querySelector("#notice").style.transform = "translateY(0)";
+        }, 0);
+    </script>
+
+    <script src="./gsap.min.js"></script>
+    <script src="./three.min.js"></script>
+    <script src="./vanta.clouds.min.js"></script>
+    <script type="text/javascript">
+            var cloudsEffect = VANTA.CLOUDS({
+            el: "#clouds",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            speed: 1.8,
+        });
+    </script>
+</body>
+
+</html>
