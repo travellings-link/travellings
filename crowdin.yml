@@ -1,0 +1,10 @@
+files:
+  - source: /**/**.md
+    ignore:
+      - /.github/
+      - /.vitepress/
+      - pnpm-lock.yaml
+      - package.json
+      - .gitignore
+      - LICENSE
+    translation: /%original_path%/%locale_with_underscore%/%original_file_name%
