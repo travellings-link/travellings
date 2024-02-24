@@ -1,18 +1,18 @@
-# 简介
+# Introduction
 
-**开往**的生日是 **2020年3月12日**，取自**开**放的**网**络，是一个友链接力项目。
+**Travellings** project was established on March 12th, 2020. Its name came from the open network(kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
-加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
+The more the websites which join this friend link relay are, the larger the scale of friend link relay and websites traffic sharing is.
 
-目前已有 1k+ 人关注开往[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，1k+ 成员加入过开往。
+Up to now, there are more than 1 thousand people giving stars to travellings repositories on GitHub.[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers) And more than 1 thousand webmasters have joined travellings.
 
-- 点此[查看成员列表](https://list.travellings.cn)
+- Click here to [view the member list of travellings](https://list.travellings.cn)
 
-- 点此[访问开往官网](https://www.travellings.cn)
+- Click here to [visit the official website of travellings](https://www.travellings.cn)
 
-## 项目说明
+## Repository Explanation
 
-开往主站现基于 VitePress 构建。
+The main site of travellings is now built with VitePress.
 
 - `public` 文件夹存放静态文件，会被放置到根目录下。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](./docs/join.md#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE)
 - `announcements` 文件夹中放置的是公告 (Markdown格式)
