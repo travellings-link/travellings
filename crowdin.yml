@@ -8,4 +8,5 @@ files:
       - .gitignore
       - LICENSE
       - /**/%locale_with_underscore%/
+      - preference.md
     translation: /%original_path%/%locale_with_underscore%/%original_file_name%
