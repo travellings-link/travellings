@@ -31,4 +31,4 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 - [Joining requirement of maintenance team](./docs/toyou.md)
 
-- [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.如有结余会在特定时间节点采用制作周边的方式回馈社区。
+- [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.如有结余会在特定时间节点采用制作周边的方式回馈社区。如有结余会在特定时间节点采用制作周边的方式回馈社区。
