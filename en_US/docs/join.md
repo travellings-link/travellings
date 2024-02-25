@@ -1,8 +1,8 @@
-# 加入开往
+# Join travellings project
 
-## 1. 您的网页应满足
+## Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
 
-- 愿为开放的网络做出贡献（如乐于分享知识经验等）
+- Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
 - **禁止采集站内容农场**（对多站点聚合，源站不提供的数据进行统计不在此列。博客网站如果可以在搜索引擎中搜到很多相同的内容可能会被判定为“内容农场”）
 - 没有违法违规和影响访问体验的内容（如侵入式广告）
 - 正常访问中（以巡查机器人是否可访问和人工巡查时域名未过期未脱离原先主体为准）
