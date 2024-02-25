@@ -14,7 +14,7 @@ Up to now, there are more than 1 thousand people giving stars to travellings rep
 
 The main site of travellings is now built with VitePress.
 
-- `public` 文件夹存放静态文件，会被放置到根目录下。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](./docs/join.md#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE)
+- `public` file folder stores the static file, which will be placed in the root folder of the site.The jump pages which is the most important feature of travellings are also placed here.If you want to make your own jump pages, see [Join the Project](./docs/join.md#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE).
 - `announcements` 文件夹中放置的是公告 (Markdown格式)
 - `blog` 文件夹中放置的是博客 (Markdown格式)
 - `docs` 文件夹放置的是文档 (Markdown格式)
