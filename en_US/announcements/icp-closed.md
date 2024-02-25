@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
-title: 开往因ICP备案主体变更原因闭站
+title: Travellings service is closed due to ICP filing
 date: 2023-07-21
 updated: 2023-07-22
-categories: 项目公告
+categories: Announcements
 tags:
   - ICP
 ---
 
-# 开往因 ICP 备案主体变更原因闭站
+# Travellings service is closed due to ICP filing
 
-开往现因进行 ICP 备案主体变更的原因进行预计 15 天的闭站。目前可供参考的预期时间表如下（时间节点可能会因为审核方面的原因延长）：
+The website will be closed for 15 days due to the body change of our ICP filing, which is necessary for website, whose server is placed in China Mainland.目前可供参考的预期时间表如下（时间节点可能会因为审核方面的原因延长）：
 
 | 时间                 | 预期                   |
 | ------------------ | -------------------- |
