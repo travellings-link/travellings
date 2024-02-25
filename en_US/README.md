@@ -29,6 +29,6 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 - [Q\&A](./docs/qa.md)
 
-- 点此[查看加入开往维护组要求](./docs/toyou.md)
+- [Joining requirement of maintenance team](./docs/toyou.md)
 
-- 点此[赞助](https://afdian.net/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
+- [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.如有结余会在特定时间节点采用制作周边的方式回馈社区。
