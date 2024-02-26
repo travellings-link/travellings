@@ -4,7 +4,7 @@ titleTemplate: 友情連結接力
 hero:
   name: 開往
   text: 友情連結接力！
-  tagline: 讓傳統的友情連結「活躍」，讓網頁互相接力，讓流量互相流動，讓網絡更加開放。
+  tagline: 讓傳統的友情連結「活躍」，讓網頁互相接力，讓流量互相流動，讓網路更加開放。
   image:
     src: /assets/travelling.png
     alt: 開往
