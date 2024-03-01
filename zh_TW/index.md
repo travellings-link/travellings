@@ -1,32 +1,32 @@
 ---
 layout: home
-titleTemplate: 友链接力
+titleTemplate: 友情連結接力
 hero:
-  name: 开往
-  text: 友链接力！
-  tagline: 让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来
+  name: 開往
+  text: 友情連結接力！
+  tagline: 讓傳統的友情連結「活躍」，讓網頁互相接力，讓流量互相流動，讓網路更加開放。
   image:
     src: /assets/travelling.png
-    alt: 开往
+    alt: 開往
   actions:
     - theme: brand
-      text: 加入开往
+      text: 加入開往
       link: /docs/join
     - theme: alt
-      text: 疑难解答
+      text: 疑難排解
       link: /docs/qa
 features:
-  - title: 隐私保护，安全无忧
-    details: 全部 HTTPS 抗劫持；前后端完全开源，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的
+  - title: 隱私保護，安全無憂
+    details: 全部 HTTPS 抗劫持；前後端完全開源，不侵犯隱私；鏡像自動部署，無人工干預。加入開往的網頁全部經過人工篩選，確保流量從源頭就是乾淨優質的。
     icon: 🔐
-  - title: 助推开放，助推流量
-    details: 支持网络的开放，获得更多的流量；发现更多优质的网站，来一场说走就走的网上旅行。
+  - title: 助推開放，促進流量
+    details: 支持網絡的開放，獲得更多的流量；發現更多優質的網站，來一場說走就走的網上旅行。
     link: /docs/join
-    linkText: 加入我们
+    linkText: 加入我們
     icon: 🪟
-  - title: 你的开往，就是你的
-    details: 可自定义跳转页的部分设置与样式，如果不满意也可以自己制作一个。
+  - title: 你的開往，就是你的
+    details: 可自訂跳轉頁面的部分設定與樣式，如果不滿意也可以自己製作一個。
     link: /preference
-    linkText: 偏好设置
+    linkText: 偏好設定
     icon: 🪄
 ---
