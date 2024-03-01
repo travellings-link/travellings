@@ -39,9 +39,9 @@ export default defineConfig({
     siteTitle: false,
 
     footer: {
+      copyright: "Copyright © 2020-2024 Travellings Project.",
       message:
-        'Released under the GPL License.<br /><a href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a><br /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048 号</a>',
-      copyright: "Copyright © 2020-present Travellings",
+          'Released under the GPL License.<br /><a href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a><br /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备 35059102000048 号</a>',
     },
 
     docFooter: {

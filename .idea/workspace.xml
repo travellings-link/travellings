@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f84c0840-1b34-4749-a0d1-1fa2b1a24529" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en_US/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/en_US/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zh_TW/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/zh_TW/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709301891010</updated>
-      <workItem from="1709301900970" duration="1044000" />
+      <workItem from="1709301900970" duration="3196000" />
     </task>
     <servers />
   </component>
