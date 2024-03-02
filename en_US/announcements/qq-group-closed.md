@@ -1,21 +1,20 @@
 ---
 sidebar_position: 4
-title: 开往维护组关于停止维护QQ群的公告
+title: The Traveling Maintenance Team discontinues support for QQ groups
 date: 2023-09-03
 updated: 2023-09-03
-categories: 项目公告
+categories: Announcements
 tags:
   - 提议公开
 ---
 
-# 开往维护组关于停止维护 QQ 群的公告
+# The Traveling Maintenance Team discontinues support for QQ groups
 
-开往维护组成员于 2023 年 8 月 30 日 提议取消维护 QQ 群并发布了组内投票。截止至 2023 年 9 月 2 日，共有 5 人参与了投票，其中投赞成票 4 人，投弃权票 1 人，符合《开往运维规定》中对 B 类事项的组内投票要求，开往停止维护 QQ 群的提议通过。
-自本公告公布之日起，开往放弃对 QQ 群（群号：282861667）的管理、删除项目说明文件中 QQ 群的有关内容并通知敦促 QQ 群负责人及时解散群聊，不再通过该群发布开往项目有关通知，不再接收来自该群的针对项目的反馈和建议。
-在停止维护 QQ 群后，开往成员可以通过 GitHub 仓库、成员联系方式、首页留言区、项目博客等方式与开往维护组取得联系。
+Members of the maintenance team proposed to discontinue the support for the QQ group on 30 August 2023 and issued a vote in the group.As of September 2, 2023, a total of 5 people participated in the vote, with 4 votes in favor, 1 abstention, meeting the requirements for Class B matters voting stipulated in the "Maintenance Regulations". The proposal to discontinue the support for the QQ group has been approved.
+From the date of this announcement, Travellings will abandon the management of the QQ group (Group ID: 282861667), remove the relevant content about the QQ group in the project documentation, and urge the owner of the QQ group to dissolve the group chat promptly. No further announcements related to Travellings will be made through this group, nor will feedback and suggestions regarding the project from this group be accepted.After discontinuing the support of the QQ group, members can contact Travelling Maintenance Team through methods such as the GitHub repository, member personal contacts, the comment section, and the project blog.
 
-开往维护组
-2023 年 9 月 3 日
+Traveling Maintenance Team
+September 3, 2023
 
 附：有关开往组内提议的内容
 事由：
