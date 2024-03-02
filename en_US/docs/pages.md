@@ -6,15 +6,15 @@
 
 如果你也想制作跳转页面，请查看 [参与项目](https://www.travellings.cn/docs/join#参与项目)
 
-## 简洁版页面
+## Simple Page
 
-虽然原本的经典页面已经够简洁了，不过仍然将这个页面叫作简洁版页面。（~~尽管它的 uri 叫 /plain.html~~）
+We still call this page as a "Simple Page", even though the original classic jump page is already simple.(~~note that the url is /plain.html~~)
 
 页面作者：[@Lifeni](https://github.com/Lifeni)\
 页面链接：`https://www.travellings.cn/plain.html`\
 截图样例：![简洁版页面截图](/assets/img/plain-page.png "简洁版页面截图")
 
-## 仿 CLI 页面
+## CLI-like Page
 
 页面作者：[@BLxcwg666](https://github.com/BLxcwg666)\
 页面链接：`https://www.travellings.cn/coder-1024.html`\
