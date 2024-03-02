@@ -21,22 +21,22 @@ A：网络曾经从封闭走向开放，如今又走向了封闭。在此环境�
 - 对站长：表示您支持网络的开放，并可获得更多的流量。
 - 对访客：发现更多优质的网页，一场说走就走的网上旅行。
 
-## Q: Does it only accept blog sites to join?
+## Q：只能是博客加入吗？
 
-A: **All types of websites are qualified to join.**
+A：**任何网页都可以**。
 
-It doesn't matter whether your website is a blog, a homepage, a tool, or a website navigation category. You are always welcome to join the Travellings project with your love of sharing.
+博客，主页，工具，导航等都可以，只要是乐于分享的网页就可以加入开往。
 
-## Q: What's the current project expenditure?
+## Q：当前项目支出？
 
-A:
+A：
 
 - 服务器：50 元/月，用于维护项目，如统计数据及观测成员网站在线状态。
 - 域名：7 元/月，为项目的域名 .cn 续费，按年续费平均到每个月。
 
-## Q: Is Travellings safe and secure?
+## Q：开往是否安全会不会侵犯隐私？
 
-A: Travellings prioritizes security and privacy.
+A：安全，不侵犯隐私。
 
 全部 https 抗劫持；前后端完全开源，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
 
@@ -85,8 +85,8 @@ A：假设某个网站对沿海地区支持较好，访问顺畅，但是对西�
 
 A：如果需要变更网址/名称，请在 [Issues](https://github.com/travellings-link/travellings/issues) 中 选择“申请变更信息”并填写；
 
-If you need to report the website to the maintenance team, please search the corresponding site in [Members](https://list.travellings.cn/) and click on Report (Flag) button on the right side to report it, which will be processed as soon as possible;
+如果需要向开往维护组举报相应网站，请在 [开往成员列表](https://list.travellings.cn/) 中搜索对应网站，并点击右侧“操作”栏中的举报（小旗子）按钮进行举报，维护组会尽快处理；
 
 如果需要向对应站长反馈问题，建议搜索您需要反馈的网址的二级域，假设问题网址是：https\://www\.travellings.cn/ 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠 通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者；
 
-Feel free to discuss other questions or give your advice via issues or GitHub Discussion.
+其他问题或建议请提 Issue 或在 GitHub Discussion 中讨论

@@ -3,12 +3,12 @@
 ## 1. Your page should meet these requirements:
 
 - Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
-- **Scraper sites and content farms are strictly forbidden.** (Websites that combining multiple sources, or providing statistics on data not provided by the source are excepted from this restriction.A blog site might be treated as a "content farm" if multiple same content can be found in search results.)Info
+- **Scraper sites and content farms are strictly forbidden.** (Websites that combining multiple sources, or providing statistics on data not provided by the source are excepted from this restriction.A blog site might be treated as a "content farm" if multiple same content can be found in search results.)InfoA single-page website for a personal homepage is likely to be rejected because of inadequate content, and it is suggested to utilize several pages for a comprehensive presentation.The web navigation website is subject to specific circumstances.
 - No content that breaches laws and regulations, or impairs user experience (e. g. intrusive ads) is present.
 - Normal Access(Whether the inspection robot can access and if the domain name has not been transferred from its original registrant inspections shall be the determining factor.)
 - The webpage already contains a substantial amount of content(The requirement is to have either 20 articles **or** 10 original pieces, and the site must have been in operation for over two months, with the updating timeline starting from the date of the first content published on the blog.)
 - For blog sites, it’s **advisable to** maintain an updating schedule that can accommodate both sporadic and regular posting of articles(Members who haven’t updated their blog posts for six months or more will be subject to a manual review and subsequently notified; however, this action is non-coercive.).
-- Force enable HTTPS, **recommeneded** to enable HSTS.
+- Force enable HTTPS, **recommended** to enable HSTS.
 
 :::info Info
 
@@ -70,25 +70,25 @@ We guarantee to handle your Issues, on a weekly basis at minimum over the weeken
 
 ⛔ Put ‘Travellings’ in the default minimized menu.
 
-✅ 推荐放在打开网页就能看到的地方，便于访客看到并点击；
+✅ We recommend placing the ‘Travellings’ button/link in a location that’s visible as soon as the website loads, so that visitors can easily see and click on it;
 
-⛔ 网页没有启用 https
+⛔ The website has not enabled HTTPS
 
-✅ 开启强制 https（有很多免费的途径，如面板一键开启等）；
+✅ Enable Forced HTTPS (There are many free options available, such as a one-button enable feature on the control panel, among others.);
 
-⛔ 网页上的内容过少，如博文只有几篇
+⛔ The website is notably deficient in content, for instance, featuring merely a few number of blog posts.
 
-✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
+✅ After sufficiently enriching your content and meeting the quantity and quality standards for articles on a blog website, you may then attempt to resubmit your application.
 
-## 参与项目
+## Participate in the project
 
-如果你对我们跳转页的样式不满意，欢迎你在 `public` 文件夹中提交新的样式，只需几步，即可自定义你的样式!
+If you are not satisfied with the style of our redirect page, feel free to submit new styles within the `public` folder. With just a few simple steps, you can customize your own styles!
 
-> 1. 涉及到的所有的图片必须为 SVG
+> 1. All images involved must be in SVG format.
 >
-> 2. 必须为单页 html，如有 css 可以写入 html 头，JS 库请使用外部公共 CDN
+> 2. The page must be a single-page HTML; any CSS can be embedded directly into the HTML `<head>` section; and for JavaScript libraries, please ensure they are loaded via external public CDN.
 >
-> 3. 底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
+> 3. It should include the ICP number of Travellings, and a link to the [Preferences](https://www.travellings.cn/preference) at the bottom of the page.
 >
 > 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
 >

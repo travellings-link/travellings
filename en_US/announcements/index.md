@@ -1,7 +1,7 @@
-# 关于公告栏
+# About the Bulletin Bar
 
-开往近日的公告，目前与 GitHub Discussions 人工同步
+Notifications to recent days, currently manually synced with GitHub Discussion
 
-通过 GitHub GraphQL API 将 GitHub 的讨论区映射为博客内容，可实现一处公告、处处生效。
+Map the GitHub forum to blog content via the GitHub GraphQL API. This allows for an announcement to take effect.
 
-~~切换过程可能会有样式显示异常~~ 用 VitePress 了，现在应该不会有什么太大毛病了。
+\~Switching may show anomalies in style\~\~-Press with Vite. There should not be too bad now.
