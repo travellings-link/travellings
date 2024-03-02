@@ -21,15 +21,15 @@ A：网络曾经从封闭走向开放，如今又走向了封闭。在此环境�
 - 对站长：表示您支持网络的开放，并可获得更多的流量。
 - 对访客：发现更多优质的网页，一场说走就走的网上旅行。
 
-## Q：只能是博客加入吗？
+## Q: Does it only accept blog sites to join?
 
-A：**任何网页都可以**。
+A: **All types of websites are qualified to join.**
 
-博客，主页，工具，导航等都可以，只要是乐于分享的网页就可以加入开往。
+It doesn't matter whether your website is a blog, a homepage, a tool, or a website navigation category. You are always welcome to join the Travellings project with your love of sharing.
 
-## Q：当前项目支出？
+## Q: What's the current project expenditure?
 
-A：
+A:
 
 - 服务器：50 元/月，用于维护项目，如统计数据及观测成员网站在线状态。
 - 域名：7 元/月，为项目的域名 .cn 续费，按年续费平均到每个月。

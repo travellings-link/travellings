@@ -3,7 +3,7 @@ contributors:
   - Big-Cake-jpg
 ---
 
-# 欢迎
+# Welcome
 
 欢迎来到开往的博客页面！:tada:
 
@@ -12,4 +12,4 @@ contributors:
 ## TODO
 
 - [ ] 使用 VitePress 自定义页面进行完善
-- [ ] 更改样式
+- [ ] Change the style
