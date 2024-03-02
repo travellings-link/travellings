@@ -3,23 +3,23 @@
 ## 1. Your page should meet these requirements:
 
 - Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
-- **Scraper sites and content farms are strictly forbidden.** (Websites that combining multiple sources, or providing statistics on data not provided by the source are excepted from this restriction.A blog site might be treated as a "content farm" if multiple same content can be found in search results.)
-- 没有违法违规和影响访问体验的内容（如侵入式广告）
-- 正常访问中（以巡查机器人是否可访问和人工巡查时域名未过期未脱离原先主体为准）
-- 网页已有较多内容（应有 20 篇文章**或** 10 篇原创文章，需要网站已创办两个月以上，更新时间自博客第一篇内容时间开始算起）
-- 对于博客网站，**推荐**能做到不定期或定期更新博文（半年及以上不更新博文的成员被人工审查后将被通知，非强制）
+- **Scraper sites and content farms are strictly forbidden.** (Websites that combining multiple sources, or providing statistics on data not provided by the source are excepted from this restriction.A blog site might be treated as a "content farm" if multiple same content can be found in search results.)Info
+- No content that breaches laws and regulations, or impairs user experience (e. g. intrusive ads) is present.
+- Normal Access(Whether the inspection robot can access and if the domain name has not been transferred from its original registrant inspections shall be the determining factor.)
+- The webpage already contains a substantial amount of content(The requirement is to have either 20 articles **or** 10 original pieces, and the site must have been in operation for over two months, with the updating timeline starting from the date of the first content published on the blog.)
+- For blog sites, it’s **advisable to** maintain an updating schedule that can accommodate both sporadic and regular posting of articles(Members who haven’t updated their blog posts for six months or more will be subject to a manual review and subsequently notified; however, this action is non-coercive.).
 - Force enable HTTPS, **recommeneded** to enable HSTS.
 
 :::info Info
 
-- 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q\&A 中有强调）
-- 如果引导页有链接到博客子站，则需要博客符合上述的标准
-- 个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定
-- 对于一个独立域名下申请加入开往的不同网站，如果它们的内容相似**或**类型相同，则通过其中一个网站，或者将它们的引导页收录到开往
-- 要求中的“网站已有较多内容”因为删库等非正常情况的存在一般情况下不会将未满足文章数量要求的成员删除
-- 对于长期处于内容较少状态的成员网站，维护组成员可以经组内讨论并通知站长，等待 1 个月后删除
-- 开往鼓励规范转载
-- 对于存在不适宜内容的成员网站，任何人都可以向我们反馈
+- Landing pages, personal homepages, and web navigation website are eligible to apply for inclusion in Travellings.(as highlighted in the Q\&A session)
+- If there are links on the landing pages directing to blog subdomains, the blog must adhere to the aforementioned standards.
+- A single-page website for a personal homepage is likely to be rejected because of inadequate content, and it is suggested to utilize several pages for a comprehensive presentation.The web navigation website is subject to specific circumstances.
+- For different websites applying to join the Travellings under the same top-level domain, if their content is similar or they belong to the same category, only one of these sites will be admitted, or their landing pages will be consolidated and listed within the Travellings.
+- Owing to the presence of exceptional circumstances like database deletion, under regular conditions, members who have not fulfilled the required volume of articles will not be removed based on the provision that ‘The webpage already contains a substantial amount of content’.
+- In the case of member websites with consistently sparse content over a prolonged duration, the maintenance team members can initiate internal discussions and inform the site administrator, subsequently scheduling deletion of the website after a one-month grace period.
+- Travellings promoting regulated reposting
+- Anyone can report to us concerning member websites that contain inappropriate content.
 
 :::
 
@@ -64,11 +64,11 @@
 
 [Go to GitHub Issues page](https://github.com/travellings-link/travellings/issues)
 
-我们至少会在每周周末处理您的 Issue，如您的加入申请超过 1 个月还未审核，可以 @ 最近活跃的维护组成员或通过其它我们已经公示的联系渠道联系。
+We guarantee to handle your Issues, on a weekly basis at minimum over the weekend. Should your membership application remain unprocessed for over a month, feel free to mention (@) the most currently active maintenance group members or reach out via alternative communication channels that we have officially made known.
 
-💡 常见的可能导致审核失败的原因与解决方案：
+💡 Common reasons that may lead to review failure and corresponding solutions ：
 
-⛔ 把开往放到了默认收起的的菜单中
+⛔ Put ‘Travellings’ in the default minimized menu.
 
 ✅ 推荐放在打开网页就能看到的地方，便于访客看到并点击；
 
