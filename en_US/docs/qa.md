@@ -36,7 +36,7 @@ A:
 
 ## Q: Is Travellings safe and secure?
 
-A：安全，不侵犯隐私。
+A: Travellings prioritizes security and privacy.
 
 全部 https 抗劫持；前后端完全开源，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的。
 
@@ -85,8 +85,8 @@ A：假设某个网站对沿海地区支持较好，访问顺畅，但是对西�
 
 A：如果需要变更网址/名称，请在 [Issues](https://github.com/travellings-link/travellings/issues) 中 选择“申请变更信息”并填写；
 
-如果需要向开往维护组举报相应网站，请在 [开往成员列表](https://list.travellings.cn/) 中搜索对应网站，并点击右侧“操作”栏中的举报（小旗子）按钮进行举报，维护组会尽快处理；
+If you need to report the website to the maintenance team, please search the corresponding site in [Members](https://list.travellings.cn/) and click on Report (Flag) button on the right side to report it, which will be processed as soon as possible;
 
 如果需要向对应站长反馈问题，建议搜索您需要反馈的网址的二级域，假设问题网址是：https\://www\.travellings.cn/ 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠 通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者；
 
-其他问题或建议请提 Issue 或在 GitHub Discussion 中讨论
+Feel free to discuss other questions or give your advice via issues or GitHub Discussion.
