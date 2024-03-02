@@ -1,24 +1,24 @@
 # 开往-友链接力 3.0.0
 
-## 宣传片
+## Promotional Video
 
 <iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
 
-## 关于开往
+## About Travellings
 
-**开往**的生日是 **2020 年 3 月 12 日**，取自**开**放的**网**络，是一个友链接力项目。
+**Travellings** project was established on March 12th, 2020. Its name came from the open network (kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
-开往的 logo 是代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。![example](https://www.travellings.cn/assets/logo-index.gif)
+The logo for ‘Travellings’ combines a star ring representing ‘the world’ with a train emblematic of ‘shuttling’ —— we trust that the phrase ‘Travellings’ is most frequently heard by you on a train, such as in ‘the train running from xx to xx…’![example](https://www.travellings.cn/assets/logo-index.gif)
 
-每当有人访问加入开往的网页时，点击“开往“会**随机跳转**到另一个加入开往的网页。之后，再次点击网页上的”开往“或**后退网页**，将继续随机跳转到另一个加入开往的网页。
+Whenever someone visits a webpage that has joined the ‘Travellings’ service, clicking on ‘Travellings’ will **randomly redirect to** another webpage that has also joined the same service.Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.
 
-加入开往的网页越多，友链接力的规模越大，分享流量的规模也越大。
+The more web pages that join the Travellings, the bigger the scale of the friend link network, and thus, the larger the volume of shared traffic.
 
-目前已有 1k+ 人关注开往， 1k+ 成员加入过开往。
+Hitherto, 1k+ people have starred the Travellings project, and 1k+ members have (or had) joined the project.
 
 [![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
-## 链接
+## Links
 
 - 点此[查看成员列表](https://list.travellings.cn)
 
@@ -28,9 +28,9 @@
 
 - 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou)
 
-## 项目推荐
+## Project Recommendation
 
-想法来自 [webring](https://github.com/XXIIVV/webring)，相似项目推荐：
+This project is inspired by the [webring](https://github.com/XXIIVV/webring) project, and here are some similar projects:
 
 - [虫洞-随机访问十年之约成员博客](https://www.foreverblog.cn/notice/16.html)
 
