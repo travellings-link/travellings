@@ -18,4 +18,4 @@ The website will be closed for 15 days due to the body change of our ICP filing,
 | 21 July-23 July        | Aliyun Worker                                          |
 | July 24 to August 7    | Authority Review                                       |
 
-During filing, you can open your journey by visiting `https://travellings.xiaozonglin.cn` (we do not recommend that the site be replaced with this alternate address for the time).We are sorry for the inconvenience of your use.Once filing, we will complete deployment to the new server as soon as possible and notify users in a timely manner.
+During filing, you can open your journey by visiting `https://travellings.xiaozonglin.cn` (we do not recommend that the site be replaced with this alternate address for the time).We are sorry for the inconvenience of your use.Once filing, we will complete deployment to the new server as soon as possible and notify users in a timely manner.We are sorry for the inconvenience of your use.Once filing, we will complete deployment to the new server as soon as possible and notify users in a timely manner.
