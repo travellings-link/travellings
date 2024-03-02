@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Travellings service is closed due to ICP filing
+title: The travelling service is suspended because of the ICP registration.
 date: 2023-07-21
 updated: 2023-07-22
 categories: Announcements
