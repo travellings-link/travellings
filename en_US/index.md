@@ -2,18 +2,18 @@
 layout: home
 titleTemplate: 友链接力
 hero:
-  name: 开往
+  name: Travellings
   text: 友链接力！
   tagline: 让传统友链“活跃”，让网页相互接力，让流量相互流动，让网络开放起来
   image:
     src: /assets/travelling.png
-    alt: 开往
+    alt: Travellings
   actions:
     - theme: brand
-      text: 加入开往
+      text: Join the project
       link: /docs/join
     - theme: alt
-      text: 疑难解答
+      text: Q&A
       link: /docs/qa
 features:
   - title: 隐私保护，安全无忧
@@ -22,11 +22,11 @@ features:
   - title: 助推开放，助推流量
     details: 支持网络的开放，获得更多的流量；发现更多优质的网站，来一场说走就走的网上旅行。
     link: /docs/join
-    linkText: 加入我们
+    linkText: Join us
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
   - title: 你的开往，就是你的
     details: 可自定义跳转页的部分设置与样式，如果不满意也可以自己制作一个。
     link: /preference
-    linkText: 偏好设置
+    linkText: Preferences
     icon: <img src="/assets/svg/1FA9F.svg" width="50%">
 ---
