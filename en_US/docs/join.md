@@ -1,16 +1,16 @@
-# Join travellings project
+# Join the Travellings project
 
-## Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
+## 1. Your page should meet these requirements:
 
 - Want to contribute to open networks (e.g. willing to share knowledge experiences, etc.)
-- **禁止采集站内容农场**（对多站点聚合，源站不提供的数据进行统计不在此列。博客网站如果可以在搜索引擎中搜到很多相同的内容可能会被判定为“内容农场”）
+- **Scraper sites and content farms are strictly forbidden.** (Websites that combining multiple sources, or providing statistics on data not provided by the source are excepted from this restriction.A blog site might be treated as a "content farm" if multiple same content can be found in search results.)
 - 没有违法违规和影响访问体验的内容（如侵入式广告）
 - 正常访问中（以巡查机器人是否可访问和人工巡查时域名未过期未脱离原先主体为准）
 - 网页已有较多内容（应有 20 篇文章**或** 10 篇原创文章，需要网站已创办两个月以上，更新时间自博客第一篇内容时间开始算起）
 - 对于博客网站，**推荐**能做到不定期或定期更新博文（半年及以上不更新博文的成员被人工审查后将被通知，非强制）
-- 强制启用 https ，**推荐**开启 HSTS
+- Force enable HTTPS, **recommeneded** to enable HSTS.
 
-:::info 说明
+:::info Info
 
 - 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q\&A 中有强调）
 - 如果引导页有链接到博客子站，则需要博客符合上述的标准
@@ -23,26 +23,26 @@
 
 :::
 
-## 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）
+## 2. Put the Travelling link on your web page **where it can be clearly seen when opened your page**. (to pass the link on)
 
-:::warning 重要
+:::warning Important
 
 由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
 
 :::
 
-- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**打开后就能看到的地方**：
-  - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
-  - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
-  - 如需 Emoji，推荐 `🚇`；
-- **额外可选**：将开往的徽标放到您的底部或其他位置，表示对开往的支持：
-  - 动图 GIF：`https://www.travellings.cn/assets/logo.gif`
-  - 深色 PNG：`https://www.travellings.cn/assets/b.png`
-  - 浅色 PNG：`https://www.travellings.cn/assets/w.png`
-  - 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
-  - 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
+- **Best practice**: Place the `Travelling` link (`https://www.travellings.cn/go.html`) on the place that **can be easily seen when opening your page.**
+  - For English navigation link, please use `Travelling` for reference (instead of Travelling**s**);
+  - If you need Font Awesome icon, we suggest you to use `fa-subway` ([Preview link](https://fontawesome.com/icons/subway?style=solid). For other icon packs, you can choose train or subway related icons, and to a lesser extent, rocket ship icons. Paper plane icons are **no longer** recommended, as they are easily confused with Telegram.)
+  - For Emoji, we recommend you to use `🚇`;
+- **Extra & Optional:** Put the Travellings logo at the bottom of your page or somewhere else, to show your support for the Travellings project:
+  - GIF: `https://www.travellings.cn/assets/logo.gif`
+  - Dark PNG: `https://www.travellings.cn/assets/b.png`
+  - Light PNG: `https://www.travellings.cn/assets/w.png`
+  - Square (Transparent) PNG: `https://www.travellings.cn/assets/travelling.png`
+  - Square (Dark) PNG: `https://www.travellings.cn/assets/travelling-dark.png`
   - 方浅 PNG：`https://www.travellings.cn/assets/travelling-light.png`
-  - 矢量 SVG：`https://www.travellings.cn/assets/logo.svg`
+  - Vector SVG: `https://www.travellings.cn/assets/logo.svg`
   - 全部图片素材：可查阅`assets` 文件夹。
   - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
   - 🚀 CDN 加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内 CDN 加速了，加载速度应该不会太慢吧？）。
@@ -60,9 +60,9 @@
 
 :::
 
-## 3. 提个 issue，等待审核通过
+## 3. Create an issue, then wait for approval
 
-[前往 GitHub Issues 页面](https://github.com/travellings-link/travellings/issues)
+[Go to GitHub Issues page](https://github.com/travellings-link/travellings/issues)
 
 我们至少会在每周周末处理您的 Issue，如您的加入申请超过 1 个月还未审核，可以 @ 最近活跃的维护组成员或通过其它我们已经公示的联系渠道联系。
 
@@ -108,7 +108,7 @@
 
 ::: warning
 
-如果你是以默认的 `go.html` 为基础进行修改的，请**务必先删除** `<head>` 中的以下代码：
+If you make changes based on the default `go.html`, please **delete the following code** in the `<head>` tag **first**.
 
 ```html
 <script>
