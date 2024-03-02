@@ -1,6 +1,6 @@
 # 开往-友链接力 3.0.0
 
-## Promotional Video
+## Publicity Video
 
 <iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
 
@@ -8,9 +8,9 @@
 
 **Travellings** project was established on March 12th, 2020. Its name came from the open network (kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
-The logo for ‘Travellings’ combines a star ring representing ‘the world’ with a train emblematic of ‘shuttling’ —— we trust that the phrase ‘Travellings’ is most frequently heard by you on a train, such as in ‘the train running from xx to xx…’![example](https://www.travellings.cn/assets/logo-index.gif)
+The logo for ‘Travellings’ combines a star ring representing ‘the world’ with a train emblematic of ‘shuttling’ —— we trust that the phrase ‘Travellings’ is most frequently heard by you on a train, such as in ‘the train running from xx to xx…’![example](https://www.travellings.cn/assets/logo-index.gif)![example](https://www.travellings.cn/assets/logo-index.gif)
 
-Whenever someone visits a webpage that has joined the ‘Travellings’ service, clicking on ‘Travellings’ will **randomly redirect to** another webpage that has also joined the same service.Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.
+Whenever someone visits a webpage that has joined the ‘Travellings’ service, clicking on ‘Travellings’ will **randomly redirect to** another webpage that has also joined the same service. Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.
 
 The more web pages that join the Travellings, the bigger the scale of the friend link network, and thus, the larger the volume of shared traffic.
 
