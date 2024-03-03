@@ -21,7 +21,7 @@ features:
     icon: <img src="/assets/svg/1F510.svg" width="50%">
   - title: 助推开放，助推流量
     details: 支持网络的开放，获得更多的流量；发现更多优质的网站，来一场说走就走的网上旅行。
-    link: /docs/join
+    link: /en_US/docs/join
     linkText: Join us
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
   - title: 你的开往，就是你的
