@@ -15,6 +15,6 @@ The main site of Travellings is now built with VitePress.
 
 ## Development Philosophies
 
-### Technology serves as a means to an end, enhancing efficiency with purpose.
+### Technology serves as a means to an end, enhancing efficiency and realizing purpose.
 
 A single adjustment, universal efficacy.Travellings uses GitHub primarily, yet offers information through its official website for those who find GitHub challenging to access.The most fundamental requirement of feature is to ensure that all parties see the same message, while the maintenance team needs only to maintain a single repository.Modifications to the repository take effects everywhere.Should there be no ready-made solution, then contemplate how to forge such a plan; this is the true calling of technology.
