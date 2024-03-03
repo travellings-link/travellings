@@ -15,7 +15,7 @@
 - Landing pages, personal homepages, and web navigation website are eligible to apply for inclusion in Travellings.(as highlighted in the Q\&A session)
 - If there are links on the landing pages directing to blog subdomains, the blog must adhere to the aforementioned standards.
 - A single-page website for a personal homepage is likely to be rejected because of inadequate content, and it is suggested to utilize several pages for a comprehensive presentation.The web navigation website is subject to specific circumstances.
-- For different websites applying to join the Travellings under the same top-level domain, if their content is similar or they belong to the same category, only one of these sites will be admitted, or their landing pages will be consolidated and listed within the Travellings.
+- For different websites applying to join the Travellings under the same independent domain, if their content is similar or they belong to the same category, only one of these sites will be admitted, or their landing pages will be consolidated and listed within the Travellings.
 - Owing to the presence of exceptional circumstances like database deletion, under regular conditions, members who have not fulfilled the required volume of articles will not be removed based on the provision that ‘The webpage already contains a substantial amount of content’.
 - In the case of member websites with consistently sparse content over a prolonged duration, the maintenance team members can initiate internal discussions and inform the site administrator, subsequently scheduling deletion of the website after a one-month grace period.
 - Travellings promoting regulated reposting
@@ -53,7 +53,7 @@
 </a>
 ```
 
-:::info 示例
+:::info Example
 
 ![example1](https://www.travellings.cn/assets/example1.png)
 ![example2](https://www.travellings.cn/assets/example2.png)
