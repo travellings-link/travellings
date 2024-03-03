@@ -8,7 +8,7 @@
 
 **Travellings** project was established on March 12th, 2020. Its name came from the open network (kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
-The logo for ‘Travellings’ combines a star ring representing ‘the world’ with a train emblematic of ‘shuttling’ —— we trust that the phrase ‘Travellings’ is most frequently heard by you on a train, such as in ‘the train running from xx to xx…’![example](https://www.travellings.cn/assets/logo-index.gif)![example](https://www.travellings.cn/assets/logo-index.gif)![example](https://www.travellings.cn/assets/logo-index.gif)
+开往的 logo 是代表“世界”的星环 + 代表“穿梭”的列车 —— 相信你听到“开往”这个词最多的时候一定是在列车上，“由 xx 开往 xx 的列车……”。![example](https://www.travellings.cn/assets/logo-index.gif)
 
 Whenever someone visits a webpage that has joined the ‘Travellings’ service, clicking on ‘Travellings’ will **randomly redirect to** another webpage that has also joined the same service. Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.
 

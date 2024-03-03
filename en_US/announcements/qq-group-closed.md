@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: The Traveling Maintenance Team discontinues support for QQ groups
+title: The Travellings Maintenance Team discontinues support for QQ groups
 date: 2023-09-03
 updated: 2023-09-03
 categories: Announcements
@@ -8,12 +8,12 @@ tags:
   - 提议公开
 ---
 
-# The Traveling Maintenance Team discontinues support for QQ groups
+# The Travellings Maintenance Team discontinues support for QQ groups
 
 Members of the maintenance team proposed to discontinue the support for the QQ group on 30 August 2023 and issued a vote in the group.As of September 2, 2023, a total of 5 people participated in the vote, with 4 votes in favor, 1 abstention, meeting the requirements for Class B matters voting stipulated in the "Maintenance Regulations". The proposal to discontinue the support for the QQ group has been approved.
 From the date of this announcement, Travellings will abandon the management of the QQ group (Group ID: 282861667), remove the relevant content about the QQ group in the project documentation, and urge the owner of the QQ group to dissolve the group chat promptly. No further announcements related to Travellings will be made through this group, nor will feedback and suggestions regarding the project from this group be accepted.After discontinuing the support of the QQ group, members can contact Travelling Maintenance Team through methods such as the GitHub repository, member personal contacts, the comment section, and the project blog.
 
-Traveling Maintenance Team
+Travellings Maintenance Team
 September 3, 2023
 
 附：有关开往组内提议的内容

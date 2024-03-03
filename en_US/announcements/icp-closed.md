@@ -15,7 +15,7 @@ The website will be closed for 15 days due to the body change of our ICP filing,
 | Time                   | Expectation                                            |
 | ---------------------- | ------------------------------------------------------ |
 | Jul. 19th to Jul. 20th | Change domain name information, submit ICP application |
-| 21 July-23 July        | Aliyun Worker                                          |
-| July 24 to August 7    | Authority Review                                       |
+| 7 月 21 日至 7 月 23 日     | 阿里云初审                                                  |
+| 7 月 24 日至 8 月 7 日      | Authority Review                                       |
 
-During filing, you can open your journey by visiting `https://travellings.xiaozonglin.cn` (we do not recommend that the site be replaced with this alternate address for the time).We are sorry for the inconvenience of your use.Once filing, we will complete deployment to the new server as soon as possible and notify users in a timely manner.
+在备案期间，您可以通过访问`https://travellings.xiaozonglin.cn`来开启您的旅途（我们暂时不建议网站将开往链接替换为这一备用地址）。We are sorry for the inconvenience of your use.在备案完成后，我们会尽可能快地完成开往在新服务器的部署，并及时通知各位使用者。

@@ -1,12 +1,12 @@
 # For maintenance team and community
 
-If you wish to join the maintenance team, you can visit the [blog](https://www.travellings.cn/blog). Then you'll find the most recently active maintainers through the article authors at the bottom of the page.Here are some development standards and philosophies to facilitate new maintainers joining.
+If you wish to join the maintenance team, you can visit the [blog](https://www.travellings.cn/blog). Then you'll find the most recently active maintainers through the article authors at the bottom of the page.Here are some development standards and philosophies to facilitate new maintainers joining.Here are some development standards and philosophies to facilitate new maintainers joining.
 
 ## Project Description
 
 The main site of Travellings is now built with VitePress.
 
-- `public` folder stores the static file, which will be placed in the root folder of the site.开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE)
+- `public` folder stores the static file, which will be placed in the root folder of the site.开往最重要的跳转页也在其中。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE)
 - `announcements` folder stores announcements (in Markdown).
 - `blog` folder stores our blog posts (in Markdown).
 - `docs` folder stores documents (in Markdown).

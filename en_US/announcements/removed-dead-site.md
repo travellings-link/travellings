@@ -10,4 +10,5 @@ tags:
 
 # Members with unresolved domains have been removed
 
-As the title suggests, Travellings has removed all members whose websites are inaccessible due to unresolved domain issues or prolonged `LOST` status.If you believe your website was removed by mistake, please feel free to open an issue to rejoin us. We apologize for any inconvenience caused by inadvertently removing your site.
+如题，开往近期已移除所有巡查失败原因为 `DNS 解析失败（域名不存在）` 和 长期巡查状态为 `LOST` 的成员站点\
+如果有误伤到您的站点，请向我们提出 Issues 重新加入，我们深表歉意
