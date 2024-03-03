@@ -65,12 +65,43 @@ export default defineConfig({
       lang: 'zh-CN'
     },
     zh_TW: {
-      label: '繁體中文',
+      label: '繁體中文（台灣）',
       lang: 'zh-TW',
+      themeConfig.nav: [
+        { text: "主頁", link: "/zh_TW/" },
+        { text: "文件", link: "/zh_TW/docs/intro", activeMatch: "/zh_TW/docs/" },
+        { text: "博客", link: "/zh_TW/blog/", activeMatch: "/zh_TW/blog/" },
+        { text: "公告", link: "/zh_TW/announcements/", activeMatch: "/zh_TW/announcements/" },
+        { text: "贊助", link: "https://afdian.net/a/travellings" },
+        { text: "成員清單", link: "https://list.travellings.cn" },
+        { text: "開往", link: "/go.html", target: "_blank" },
+      ],
+    },
+    zh_HK: {
+      label: '繁體中文（香港）',
+      lang: 'zh-HK',
+      themeConfig.nav: [
+        { text: "主頁", link: "/zh_HK/" },
+        { text: "文件", link: "/zh_HK/docs/intro", activeMatch: "/zh_HK/docs/" },
+        { text: "博客", link: "/zh_HK/blog/", activeMatch: "/zh_HK/blog/" },
+        { text: "公告", link: "/zh_HK/announcements/", activeMatch: "/zh_HK/announcements/" },
+        { text: "贊助", link: "https://afdian.net/a/travellings" },
+        { text: "成員清單", link: "https://list.travellings.cn" },
+        { text: "開往", link: "/go.html", target: "_blank" },
+      ],
     },
     en_US: {
       label: 'English',
       lang: 'en-US',
+      themeConfig.nav: [
+        { text: "Home", link: "/zh_HK/" },
+        { text: "Docs", link: "/zh_HK/docs/intro", activeMatch: "/zh_HK/docs/" },
+        { text: "Blog", link: "/zh_HK/blog/", activeMatch: "/zh_HK/blog/" },
+        { text: "Announcements", link: "/zh_HK/announcements/", activeMatch: "/zh_HK/announcements/" },
+        { text: "Sponsor", link: "https://afdian.net/a/travellings" },
+        { text: "Members", link: "https://list.travellings.cn" },
+        { text: "Travelling", link: "/go.html", target: "_blank" },
+      ],
     },
   },
 
