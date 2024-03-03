@@ -14,7 +14,7 @@ hero:
       link: /docs/join
     - theme: alt
       text: Q&A
-      link: /docs/qa
+      link: /en_US/docs/qa
 features:
   - title: 隐私保护，安全无忧
     details: 全部 HTTPS 抗劫持；前后端完全开源，不侵犯隐私；镜像自动部署，无人工干预。加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的
