@@ -68,36 +68,26 @@ We guarantee to handle your Issues, on a weekly basis at minimum over the weeken
 
 💡 Common reasons that may lead to review failure and corresponding solutions ：
 
-⛔ Put ‘Travellings’ in the default minimized menu.
-
+⛔ Put ‘Travellings’ in the default minimized menu.\
 ✅ We recommend placing the ‘Travellings’ button/link in a location that’s visible as soon as the website loads, so that visitors can easily see and click on it;
 
-⛔ The website has not enabled HTTPS
+⛔ The website has not enabled HTTPS\
+✅ Enable Forced HTTPS (There are many free options available, such as ZeroSSL, Let's Encrypt, among others.);
 
-✅ Enable Forced HTTPS (There are many free options available, such as a one-button enable feature on the control panel, among others.);
-
-⛔ The website is notably deficient in content, for instance, featuring merely a few number of blog posts.
-
-✅ After sufficiently enriching your content and meeting the quantity and quality standards for articles on a blog website, you may then attempt to resubmit your application.
+⛔ 网页上的内容过少，如博文只有几篇\
+✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
 
 ## Participate in the project
 
 If you are not satisfied with the style of our redirect page, feel free to submit new styles within the `public` folder. With just a few simple steps, you can customize your own styles!
 
 > 1. All images involved must be in SVG format.
->
 > 2. The page must be a single-page HTML; any CSS can be embedded directly into the HTML `<head>` section; and for JavaScript libraries, please ensure they are loaded via external public CDN.
->
 > 3. It should include the ICP number of Travellings, and a link to the [Preferences](https://www.travellings.cn/preference) at the bottom of the page.
->
 > 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
->
 > 5. 设计精美/有创意
->
 > 6. 请一并修改 [其他页面一览](https://www.travellings.cn/docs/pages)，加入你的页面描述和截图
->
 > 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue`），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
->
 > 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
 
 :::tip
