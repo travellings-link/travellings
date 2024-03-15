@@ -1,3 +1,4 @@
+<!-- BY KARLUKLE @ WWW.KARLUKLE.SITE -->
 <!DOCTYPE html>
 <html lang="en">
 <!-- Document type declaration and language -->
@@ -15,8 +16,15 @@
     <!-- Page title -->
 
     <meta name="title" content="开往-友链接力" />
+    <script>
+        const customPage = localStorage.getItem("t_preference_page");
+        if (customPage) {
+            location.href = "./" + customPage;
+        }
+    </script>
 
-    <!-- Website icons and logos -->
+
+    <!-- Website icons -->
    <link rel="icon" href="./assets/favicon.png" />
     
     <style>
@@ -44,7 +52,7 @@
             transform: translate(-50%, -50%);
             text-align: center;
             color: #050826cf;
-            font-size: 2vw;
+            font-size: clamp(15px, 2vw, 50px);
             opacity: 0;
             transition: opacity 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
         }
