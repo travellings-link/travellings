@@ -10,6 +10,8 @@ Up to now, there are more than 1 thousand people giving stars to travellings rep
 
 - Click here to [visit the official website of travellings](https://www.travellings.cn)
 
+![image](https://github.com/travellings-link/travellings/assets/66854530/572a3e88-828c-48f6-b7db-fcdb361b3295)
+
 ## Repository Explanation
 
 The main site of travellings is now built with VitePress.
