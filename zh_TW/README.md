@@ -10,6 +10,8 @@
 
 - 点此[访问开往官网](https://www.travellings.cn)
 
+![image](https://github.com/travellings-link/travellings/assets/66854530/572a3e88-828c-48f6-b7db-fcdb361b3295)
+
 ## 项目说明
 
 开往主站现基于 VitePress 构建。
