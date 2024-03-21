@@ -25,7 +25,7 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 ## See also
 
-- [Introduction of travellings](./docs/intro.md)
+- 点此[查看完整的开往简介](./docs/index.md)
 
 - [Joining requirement](./docs/join.md)
 
