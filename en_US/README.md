@@ -23,7 +23,7 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 ## See also
 
-- [Introduction of travellings](./docs/intro.md)
+- [Introduction of travellings](./docs/index.md)
 
 - [Joining requirement](./docs/join.md)
 
