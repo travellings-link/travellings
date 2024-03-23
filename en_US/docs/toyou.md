@@ -1,6 +1,6 @@
 # For maintenance team and community
 
-If you wish to join the maintenance team, you can visit the [blog](https://www.travellings.cn/blog). Then you'll find the most recently active maintainers through the article authors at the bottom of the page.Here are some development standards and philosophies to facilitate new maintainers joining.Here are some development standards and philosophies to facilitate new maintainers joining.
+如果你想加入维护组，可以查看开往[博客](https://www.travellings.cn/blog/index)，通过页面底部文章作者查看最近活跃的维护者。Here are some development standards and philosophies to facilitate new maintainers joining.
 
 ## Project Description
 
