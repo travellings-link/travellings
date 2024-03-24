@@ -16,6 +16,14 @@ body:
     validations:
       required: true
   - type: input
+    id: siteid
+    attributes:
+      label: 网站 ID
+      description: 请填写您的网站 ID（可以在 [开往成员列表](https://list.travellings.cn/) 中找到）
+      placeholder: "ex. 123"
+    validations:
+      required: true
+  - type: input
     id: oldissue
     attributes:
       label: 原 Issue 编号
