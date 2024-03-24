@@ -1,7 +1,7 @@
 name: 申请变更信息
 description: 申请变更网址/名称选这个
 title: "申请变更：[网站名称]"
-labels: ["申请变更"]
+labels: ["申请变更信息"]
 body:
   - type: markdown
     attributes:
