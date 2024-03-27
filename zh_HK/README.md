@@ -1,4 +1,8 @@
-# 简介
+# 开往 - 友链接力
+
+Language: **简体中文** | [English](./en_US/README.md)
+
+## 简介
 
 **开往**的生日是 **2020年3月12日**，取自**开**放的**网**络，是一个友链接力项目。
 
@@ -9,6 +13,8 @@
 - 点此[查看成员列表](https://list.travellings.cn)
 
 - 点此[访问开往官网](https://www.travellings.cn)
+
+![image](https://github.com/travellings-link/travellings/assets/66854530/572a3e88-828c-48f6-b7db-fcdb361b3295)
 
 ## 项目说明
 
