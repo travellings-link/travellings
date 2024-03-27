@@ -68,14 +68,14 @@ We guarantee to handle your Issues, on a weekly basis at minimum over the weeken
 
 💡 Common reasons that may lead to review failure and corresponding solutions ：
 
-⛔ Put ‘Travellings’ in the default minimized menu.\
+⛔ Put ‘Travellings’ in the default minimized menu.  
 ✅ We recommend placing the ‘Travellings’ button/link in a location that’s visible as soon as the website loads, so that visitors can easily see and click on it;
 
-⛔ The website has not enabled HTTPS\
+⛔ The website has not enabled HTTPS  
 ✅ Enable Forced HTTPS (There are many free options available, such as ZeroSSL, Let's Encrypt, among others.);
 
-⛔ 网页上的内容过少，如博文只有几篇\
-✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
+⛔ The website is notably deficient in content, for instance, featuring merely a few number of blog posts.  
+✅ After sufficiently enriching your content and meeting the quantity and quality standards for articles on a blog website, you may then attempt to resubmit your application.
 
 ## Participate in the project
 

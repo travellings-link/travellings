@@ -1,8 +1,4 @@
-# 开往 - 友链接力
-
-Language: **简体中文** | [English](./en_US/README.md)
-
-## Introduction
+# Introduction
 
 **Travellings** project was established on March 12th, 2020. Its name came from the open network(kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
@@ -13,8 +9,6 @@ Up to now, there are more than 1 thousand people giving stars to travellings rep
 - Click here to [view the member list of travellings](https://list.travellings.cn)
 
 - Click here to [visit the official website of travellings](https://www.travellings.cn)
-
-![image](https://github.com/travellings-link/travellings/assets/66854530/572a3e88-828c-48f6-b7db-fcdb361b3295)
 
 ## Repository Explanation
 
@@ -29,7 +23,7 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 ## See also
 
-- 点此[查看完整的开往简介](./docs/index.md)
+- [Introduction of travellings](./docs/index.md)
 
 - [Joining requirement](./docs/join.md)
 
