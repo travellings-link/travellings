@@ -1,4 +1,8 @@
-# Introduction
+# Travellings
+
+Language: [简体中文](./../README.md) | **English**
+
+## Introduction
 
 **Travellings** project was established on March 12th, 2020. Its name came from the open network(kai wang) and Travellings is a "web-roll-like" friend link relay project.
 
@@ -7,7 +11,6 @@ The more the websites which join this friend link relay are, the larger the scal
 Up to now, there are more than 1 thousand people giving stars to travellings repositories on GitHub.[![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers) And more than 1 thousand webmasters have joined travellings.
 
 - Click here to [view the member list of travellings](https://list.travellings.cn)
-
 - Click here to [visit the official website of travellings](https://www.travellings.cn)
 
 ## Repository Explanation
@@ -24,12 +27,8 @@ See [VitePress Document](https://vitepress.dev/) also.
 ## See also
 
 - [Introduction of travellings](./docs/index.md)
-
 - [Joining requirement](./docs/join.md)
-
 - [Q\&A](./docs/qa.md)
-
 - [Joining requirement of maintenance team](./docs/toyou.md)
-
 - [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.  
 If there is any surplus, it will be given back to the community by making peripherals at a specific time point. If there is any surplus, it will be given back to the community by making peripherals at a specific time point.
