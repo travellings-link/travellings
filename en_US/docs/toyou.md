@@ -1,6 +1,6 @@
 # For maintenance team and community
 
-If you wish to join the maintenance team, you can visit the [blog](https://www.travellings.cn/blog). Then you'll find the most recently active maintainers through the article authors at the bottom of the page.Here are some development standards and philosophies to facilitate new maintainers joining.Here are some development standards and philosophies to facilitate new maintainers joining.
+If you wish to join the maintenance team, you can visit the [blog](https://www.travellings.cn/blog). Then you'll find the most recently active maintainers through the article authors at the bottom of the page.Here are some development standards and philosophies to facilitate new maintainers joining.Here are some development standards and philosophies to facilitate new maintainers joining.Here are some development standards and philosophies to facilitate new maintainers joining.
 
 ## Project Description
 
@@ -11,7 +11,7 @@ The main site of Travellings is now built with VitePress.
 - `blog` folder stores our blog posts (in Markdown).
 - `docs` folder stores documents (in Markdown).
 
-点击页面下方的“在 GitHub 上编辑此页”也可以快速找到页面在仓库中的位置。See [VitePress Document](https://vitepress.dev/) for reference.
+You can also quickly find the page's location in the repository by clicking "Edit this page on GitHub" at the bottom of the page. See [VitePress Document](https://vitepress.dev/) for reference.See [VitePress Document](https://vitepress.dev/) for reference.
 
 ## Development Philosophies
 
