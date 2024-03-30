@@ -27,7 +27,7 @@
 
 :::warning Important
 
-由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
+Due to [force majeure reasons](https://github.com/travellings-link/travellings/issues/566), please change the domain name (including image materials) pointed to by your webpage Traveling from `https://travellings. now.sh` updated to `https://www.travellings.cn/go.html`.
 
 :::
 
@@ -41,11 +41,11 @@
   - Light PNG: `https://www.travellings.cn/assets/w.png`
   - Square (Transparent) PNG: `https://www.travellings.cn/assets/travelling.png`
   - Square (Dark) PNG: `https://www.travellings.cn/assets/travelling-dark.png`
-  - 方浅 PNG：`https://www.travellings.cn/assets/travelling-light.png`
+  - Square (Light) PNG：`https://www.travellings.cn/assets/travelling-light.png`
   - Vector SVG: `https://www.travellings.cn/assets/logo.svg`
-  - 全部图片素材：可查阅`assets` 文件夹。
-  - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
-  - 🚀 CDN 加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内 CDN 加速了，加载速度应该不会太慢吧？）。
+  - All picture materials: can be found in the `assets` folder.
+  - 💡 Reference code: (logo.gif can be replaced with other images above to fit your web page theme; width can limit the size of the image to make the logo look more appropriate.)
+  - 🚀 CDN acceleration: If the above image materials are slow to load, you can replace `https://www.travellings.cn/assets/` in the link with `https://cdn.jsdelivr.net/gh/travellings-link/ travellings/assets/` (It has been accelerated by domestic CDN, so the loading speed should not be too slow, right?).
 
 ```html
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
@@ -68,14 +68,14 @@ We guarantee to handle your Issues, on a weekly basis at minimum over the weeken
 
 💡 Common reasons that may lead to review failure and corresponding solutions ：
 
-⛔ Put ‘Travellings’ in the default minimized menu.  
+⛔ Put ‘Travellings’ in the default minimized menu.\
 ✅ We recommend placing the ‘Travellings’ button/link in a location that’s visible as soon as the website loads, so that visitors can easily see and click on it;
 
-⛔ The website has not enabled HTTPS  
+⛔ The website has not enabled HTTPS\
 ✅ Enable Forced HTTPS (There are many free options available, such as ZeroSSL, Let's Encrypt, among others.);
 
-⛔ The website is notably deficient in content, for instance, featuring merely a few number of blog posts.  
-✅ After sufficiently enriching your content and meeting the quantity and quality standards for articles on a blog website, you may then attempt to resubmit your application.
+⛔ 网页上的内容过少，如博文只有几篇\
+✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
 
 ## Participate in the project
 
@@ -84,15 +84,15 @@ If you are not satisfied with the style of our redirect page, feel free to submi
 > 1. All images involved must be in SVG format.
 > 2. The page must be a single-page HTML; any CSS can be embedded directly into the HTML `<head>` section; and for JavaScript libraries, please ensure they are loaded via external public CDN.
 > 3. It should include the ICP number of Travellings, and a link to the [Preferences](https://www.travellings.cn/preference) at the bottom of the page.
-> 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
-> 5. 设计精美/有创意
-> 6. 请一并修改 [其他页面一览](https://www.travellings.cn/docs/pages)，加入你的页面描述和截图
-> 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue`），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
-> 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
+> 4. Embed `https://www.travellings.cn/assets/js/go.js` to directly implement jump logic and automatically use user preferences
+> 5. Beautifully designed/creative
+> 6. Please modify [List of other pages](https://www.travellings.cn/docs/pages) and add your page description and screenshots
+> 7. Please modify **Go to Preferences** (located at `.vitepress/theme/components/Preferences.vue`) and add your custom page to the settings menu (located at line `34`)
+> 8. Submit a Pull Request and @ the most recently active member of the maintenance team
 
 :::tip
 
-如果你是新手，可以在原有跳转页的基础上进行修改\~
+If you are a novice, you can modify it based on the original jump page\~
 
 :::
 
@@ -109,6 +109,7 @@ If you make changes based on the default `go.html`, please **delete the followin
 </script>
 ```
 
-以上代码用于实现从默认页跳转到用户设置的自定义页，如果页面本身就是自定义页便会造成**循环跳转**。
+The above code is used to jump from the default page to the custom page set by the user. If the page itself is a custom page, it will cause a **jump-loop**.
+:::
 
 :::
