@@ -1,7 +1,6 @@
----
-contributors:
-  - Big-Cake-jpg
----
+<script setup>
+import Maintainers from '../.vitepress/theme/components/Maintainers.vue'
+</script>
 
 # Welcome
 
@@ -9,7 +8,9 @@ contributors:
 
 此处主要存放一些开往项目近期更新的内容，您现在可以通过侧边栏查看对应时间的文章。
 
-## TODO
+## 维护组成员
 
-- [ ] 使用 VitePress 自定义页面进行完善
-- [ ] Change the style
+<Maintainers>
+<template #active></template>
+<template #inactive></template>
+</Maintainers>
