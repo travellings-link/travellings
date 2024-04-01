@@ -1,12 +1,12 @@
-# 致谢
+# Acknowledgments
 
-在这个页面中，我们存放需要我们代表开往项目表达感谢的那些人。
+On this page we store those people who need to express our gratitude on behalf of the project.
 
-## 赞助者名单
+## Sponsor list
 
-在这里，我们会定期列出赞助开往的个人或团队。
+Here we regularly list the individuals or teams we sponsor to travel to.
 
-| **赞助时间**   | **赞助者**                          | **赞助金额** | **钱款去向**                                |
+| **Time**   | **Sponsor**                          | **Amount** | **Use**                                |
 | ---------- | -------------------------------- | -------- | --------------------------------------- |
 | 2022-12-11 | LeonShaw                         | 15 元     | 全部用于 CN 域名转入(续费一年)   |
 | 2022-12-11 | linlizzo                         | 14 元     | 全部用于 CN 域名转入(续费一年)   |
@@ -48,6 +48,6 @@
 | 2024-01-16 | 爱发电用户_12eb5 | 10.24 元  | 未定                                      |
 | 2024-01-21 | xuanzhi33                        | 5 元      | 未定                                      |
 
-## 开往前期成员名单
+## Heading to the early member list
 
-开往感谢在 1.2.3 版本及以前加入开往的成员，尽管他们中的大多数已经因各种原因退出开往或被开往巡查删除。这总共有 145 个网站。限于篇幅，您可以在[这里](https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95)看到他们。
+Kaiwei thanks the members who joined Kaiwei in version 1.2.3 and before, although most of them have quit Kaiwei for various reasons or been deleted by Kaiwei patrol. This totals 145 sites. Due to space limitations, you can read [here](https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6 %E5%BD%95) see them.
