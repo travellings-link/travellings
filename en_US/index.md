@@ -17,14 +17,14 @@ hero:
       link: /en_US/docs/qa
 features:
   - title: Privacy-friendly and Secure
-    details: The entire site is HTTPS resistant to hijacking; the front and back ends are completely open source and do not violate privacy; the mirror is automatically deployed without manual intervention. All web pages added to the destination are manually screened to ensure that the traffic is clean and high-quality from the source.加入开往的网页全部经过人工筛选，确保流量从源头就是干净优质的
+    details: The entire site is HTTPS resistant to hijacking; the front and back ends are completely open source and do not violate privacy; the mirror is automatically deployed without manual intervention. All web pages added to the destination are manually screened to ensure that the traffic is clean and high-quality from the source.
     icon: <img src="/assets/svg/1F510.svg" width="50%">
   - title: Boost openness, boost traffic
     details: Support the opening of networks to gain more traffic; find more high-quality websites for a trip on the web.
     link: /en_US/docs/join
     linkText: Join us
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
-  - title: 你的开往，就是你的
+  - title: Your Travelling, Is yours
     details: You can customize some settings and styles of the jump page. If you are not satisfied, you can also make one yourself.
     link: /preference
     linkText: Preferences

@@ -1,4 +1,4 @@
-# 开往 - 友链接力
+# Travellings
 
 Language: [简体中文](./../README.md) | **English**
 
@@ -28,8 +28,9 @@ See [VitePress Document](https://vitepress.dev/) also.
 
 ## See also
 
-- 点此[查看完整的开往简介](./docs/index.md)
+- [Introduction of travellings](./docs/index.md)
 - [Joining requirement](./docs/join.md)
 - [Q\&A](./docs/qa.md)
 - [Joining requirement of maintenance team](./docs/toyou.md)
-- [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.如有结余会在特定时间节点采用制作周边的方式回馈社区。如有结余会在特定时间节点采用制作周边的方式回馈社区。
+- [Sponsor the project](https://afdian.net/a/travellings), and the sponsored fee will be used for the server, DNS acceleration, and domain renewal fees.  
+If there is any surplus, it will be given back to the community by making peripherals at a specific time point. If there is any surplus, it will be given back to the community by making peripherals at a specific time point.
