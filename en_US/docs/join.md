@@ -92,7 +92,7 @@ If you are not satisfied with the style of our redirect page, feel free to submi
 
 :::tip
 
-If you are a novice, you can modify it based on the original jump page~
+If you are a novice, you can modify it based on the original jump page\~
 
 :::
 
@@ -110,5 +110,6 @@ If you make changes based on the default `go.html`, please **delete the followin
 ```
 
 The above code is used to jump from the default page to the custom page set by the user. If the page itself is a custom page, it will cause a **jump-loop**.
+:::
 
 :::
