@@ -4,7 +4,7 @@ On this page we store those people who need to express our gratitude on behalf o
 
 ## Sponsor list
 
-Here we regularly list the individuals or teams we sponsor to travel to.
+Here we regularly list the individuals or teams sponsors.
 
 | **Time**   | **Sponsor**                          | **Amount** | **Use**                                |
 | ---------- | -------------------------------- | -------- | --------------------------------------- |
@@ -50,4 +50,4 @@ Here we regularly list the individuals or teams we sponsor to travel to.
 
 ## Heading to the early member list
 
-Kaiwei thanks the members who joined Kaiwei in version 1.2.3 and before, although most of them have quit Kaiwei for various reasons or been deleted by Kaiwei patrol. This totals 145 sites. Due to space limitations, you can read [here](https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6 %E5%BD%95) see them.
+Kaiwang(Travellings) thanks the members who joined Kaiwang in version 1.2.3 and before, although most of them have quit Kaiwang for various reasons or been deleted by Kaiwang patrol. This totals 145 sites. Due to space limitations, you can read [here](https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6 %E5%BD%95) to see them.
