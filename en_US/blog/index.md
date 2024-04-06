@@ -1,15 +1,46 @@
----
-contributors:
-  - Big-Cake-jpg
----
-
+<script setup>
+import Maintainers from '../../.vitepress/theme/components/Maintainers.vue'
+import Changelog from '../../.vitepress/theme/components/Changelog.vue'
+</script>
 # Welcome
 
-欢迎来到开往的博客页面！:tada:
+Welcome to the blog page of Travellings Project! :tada:
 
-此处主要存放一些开往项目近期更新的内容，您现在可以通过侧边栏查看对应时间的文章。
+This is where some of the recent updates of the Travellings project are stored. You can now view the corresponding articles by time in the sidebar.
 
-## TODO
 
-- [ ] 使用 VitePress 自定义页面进行完善
-- [ ] Change the style
+<!--在翻译时请翻译下方具名插槽 template 内的文字-->
+## Maintainers
+
+<Maintainers>
+<template #active>
+Active Maintainers
+</template>
+<template #inactive>
+Other Maintainers
+</template>
+</Maintainers>
+
+## Changelog
+
+::: info
+This page only shows the latest 100 commits of the Git repository. For more information, please visit the [GitHub repository](https://github.com/travellings-link/travellings)
+:::
+
+<Changelog>
+<template #date>
+Time
+</template>
+<template #message>
+Message
+</template>
+<template #author>
+Committer
+</template>
+<template #loading>
+Loading data from GitHub...
+</template>
+<template #more>
+See more on GitHub
+</template>
+</Changelog>
