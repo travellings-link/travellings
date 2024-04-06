@@ -22,6 +22,10 @@ import Changelog from '../.vitepress/theme/components/Changelog.vue'
 
 ## 更新日志
 
+::: info 说明
+此处仅展示 Git 仓库的最近 100 条提交记录，更多信息请前往 [GitHub 仓库](https://github.com/travellings-link/travellings) 查看。
+:::
+
 <Changelog>
 <template #date>
 时间
