@@ -50,4 +50,4 @@ Here we regularly list the individuals or teams sponsors.
 
 ## Heading to the early member list
 
-Kaiwang(Travellings) thanks the members who joined Kaiwang in version 1.2.3 and before, although most of them have quit Kaiwang for various reasons or been deleted by Kaiwang patrol. This totals 145 sites. Due to space limitations, you can read <https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6 %E5%BD%95> to see them.
+Kaiwang(Travellings) thanks the members who joined Kaiwang in version 1.2.3 and before, although most of them have quit Kaiwang for various reasons or been deleted by Kaiwang patrol. This totals 145 sites. Due to space limitations, you can read [here](https://github.com/travellings-link/travellings/blob/a439f99eb100a454e419eb65182c980e848a9854/README.md#%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95) to see them.
