@@ -6,7 +6,7 @@ If you wish to join the maintenance team, you can visit the [blog](https://www.t
 
 The main site of Travellings is now built with VitePress.
 
-- `public` folder stores the static file, which will be placed in the root folder of the site. The most important jump pages are also included. Jump pages to the most important ones are also included. If you want to make a new jump page, please check out [Participation Project](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9% E7%9B%AE)
+- `public` folder stores the static file, which will be placed in the root folder of the site. The most important jump pages are also included. Jump pages to the most important ones are also included. If you want to make a new jump page, please check out [Participation Project](https://www.travellings.cn/docs/join#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE)
 - `announcements` folder stores announcements (in Markdown).
 - `blog` folder stores our blog posts (in Markdown).
 - `docs` folder stores documents (in Markdown).

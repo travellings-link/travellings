@@ -59,7 +59,7 @@ A:
 The patrol backend has two stages of patrols\
 The first stage is for the backend patrol to quickly detect all sites (about 30 minutes)\
 In the second stage, the backend patrol will use a browser to recheck the abnormal sites detected in the first stage (which may take longer)\
-If the backend patrol server does not explode, it usually starts patrolling around 4 am every day.
+If the backend patrol server does not crash, it usually starts patrolling around 4 am every day.
 
 ## Q: What are the characteristics of the patrol?
 
