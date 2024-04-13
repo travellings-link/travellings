@@ -195,7 +195,7 @@ _  /   _  /   / /_/ /__ |/ //  __/  / _  / _  / _  / / /  /_/ /_(__  )
         .then(response => response.json())
         .then(data => {
             if (data.success && data.data.length > 0) {
-                const selectedDestination = data.data[0];
+                selectedDestination = data.data[0];
 
                 // Clear previous destination information
                 output.innerHTML = "";
