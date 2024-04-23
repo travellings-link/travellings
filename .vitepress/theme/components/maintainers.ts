@@ -54,5 +54,9 @@ export default {
     Jiaocz: {
         title: "维护组成员",
         active: false
+    },
+    gtxykn0504: {
+        title: "维护组成员",
+        active: true
     }
 };
