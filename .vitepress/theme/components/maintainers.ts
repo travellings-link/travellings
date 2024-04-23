@@ -57,6 +57,6 @@ export default {
     },
     gtxykn0504: {
         title: "维护组成员",
-        active: false
+        active: true
     }
 };
