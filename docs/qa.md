@@ -87,6 +87,6 @@ A：如果需要变更网址/名称，请在 [Issues](https://github.com/travell
 
 如果需要向开往维护组举报相应网站，请在 [开往成员列表](https://list.travellings.cn/) 中搜索对应网站，并点击右侧“操作”栏中的举报（小旗子）按钮进行举报，维护组会尽快处理；
 
-如果需要向对应站长反馈问题，建议搜索您需要反馈的网址的二级域，假设问题网址是：<https://www.travellings.cn/> 则搜素 travellings.cn 请注意不要输入额外的空格与斜杠 通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者；
+如果需要向对应站长反馈问题，建议搜索您需要反馈的网址的二级域，假设问题网址是：<https://www.travellings.cn/> 则搜索 travellings.cn 请注意不要输入额外的空格与斜杠 通常能搜索到申请时的 Issue，若对应多个 Issue，则在最早的 Issue 下 @ 网站所有者；
 
 其他问题或建议请提 Issue 或在 GitHub Discussion 中讨论
