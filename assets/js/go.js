@@ -11,7 +11,7 @@ let go = async () => {
     let res = await fetch(apiUrl);
     res = await res.json();
     if (!res.success) {
-        alert("闈炲父鎶辨瓑锛屽悗绔湇鍔″櫒鍑虹幇浜嗛棶棰橈紝璇风◢鍚庡啀璇晘")
+        alert("非常抱歉，后端服务器出现了问题，请稍后再试~")
         return;
     }
     location.href = res.data[0].url;
