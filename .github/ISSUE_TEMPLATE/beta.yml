@@ -45,6 +45,8 @@ body:
       options:
         - 技术类博客
         - 生活类博客
+        - 生活兼技术
+        - 论坛
         - 其它
     validations:
       required: true
