@@ -8,10 +8,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "主页", link: "/" },
-      { text: "文档", link: "/docs/", activeMatch: "/docs/" },
-      { text: "博客", link: "/blog/", activeMatch: "/blog/" },
-      { text: "公告", link: "/announcements/", activeMatch: "/announcements/" },
+      { text: "主页", link: "./" },
+      { text: "文档", link: "./docs/", activeMatch: "./docs/" },
+      { text: "博客", link: "./blog/", activeMatch: "./blog/" },
+      { text: "公告", link: "./announcements/", activeMatch: "./announcements/" },
       { text: "赞助", link: "https://afdian.net/a/travellings" },
       { text: "成员列表", link: "https://list.travellings.cn" },
       { text: "开往", link: "/go.html", target: "_blank" },
