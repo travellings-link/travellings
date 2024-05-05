@@ -65,12 +65,8 @@ export default defineConfig({
       lang: 'zh-CN'
     },
     zh_TW: {
-      label: '繁體中文（台灣）',
+      label: '繁體中文',
       lang: 'zh-TW',
-    },
-    zh_HK: {
-      label: '繁體中文（香港）',
-      lang: 'zh-HK',
     },
     en_US: {
       label: 'English',
