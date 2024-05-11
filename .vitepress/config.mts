@@ -23,6 +23,7 @@ export default defineConfig({
         link: "https://github.com/travellings-link/travellings",
       },
       { icon: "twitter", link: "https://twitter.com/travellings_cn" },
+      { icon: "telegram", link: "https://t.me/TravellingsCN"},
     ],
 
     editLink: {
@@ -79,9 +80,16 @@ export default defineConfig({
     [
       "script",
       {
-        async: "",
-        src: "https://umami.luochancy.com/script.js",
-        "data-website-id": "23ac5682-b5b5-4013-8a32-5ceb3e598df2",
+        type: "application/ld+json",
+        innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: '开往 Travellings',
+        url: 'https://www.travellings.cn/',
+        sameAs: 'https://github.com/travellings-link',
+        logo: 'https://www.travellings.cn/assets/light.png',
+        email: 'contact@travellings.cn',
+      }),
       },
     ],
   ],
