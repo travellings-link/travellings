@@ -89,6 +89,7 @@ export default defineConfig({
         sameAs: 'https://github.com/travellings-link',
         logo: 'https://www.travellings.cn/assets/light.png',
         email: 'contact@travellings.cn',
+        slogan: '我们期望通过友链接力来让互联网流量变得开放。',
       }),
       },
     ],
