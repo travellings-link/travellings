@@ -1,6 +1,6 @@
 # 加入開往
 
-## 1. 您的网页应满足
+## 1. 您的網頁應該滿足
 
 - 願意為開放的網路做出貢獻（例如分享知識經驗）
 - **禁止採集站和內容農場**（對多站點聚合，源站不提供的資料進行統計不在此列。部落格網站內容如果可以在搜尋引擎中搜尋很多相同的內容，則可能會被判定為「內容農場」）
@@ -10,7 +10,7 @@
 - 對於部落格網站，**推薦** 能做到不定期或定期更新博文（半年及以上不更新博文的成員被人工審查後將被通知，非強制）
 - 強制啟用 https ，**建議** 開啟 HSTS
 
-:::info 说明
+:::info 說明
 
 - 引導頁、個人主頁、導航站等非部落格網站也可以申請加入開往（在 Q&A 中有強調）
 - 如果引導頁有連結到部落格子站，則需要部落格符合上述的標準
@@ -53,7 +53,7 @@
 </a>
 ```
 
-:::info 示例
+:::info 範例
 
 ![example1](https://www.travellings.cn/assets/example1.png)
 ![example2](https://www.travellings.cn/assets/example2.png)
@@ -86,7 +86,7 @@
 > 3. 底部包含開往備案號 和 指向 [開往偏好設定](https://www.travellings.cn/preference) 的鏈接
 > 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接實現跳轉邏輯，並自動使用使用者的偏好設置
 > 5. 設計精美/有創意
-> 6. 請一併修改 [其他頁面一覽](https://www.travellings.cn/docs/pages)，加入你的頁面描述和截圖
+> 6. 請一併修改 [其他頁面一覽](https://www.travellings.cn/zh_TW/docs/pages)，加入你的頁面描述和截圖
 > 7. 請一併修改 **開往偏好設定** （位於 `.vitepress/theme/components/Preferences.vue`），將你的自訂頁面加入設定選單中（位於第 `34` 行）
 > 8. 提交 Pull Request，並 @ 最近活躍的開往維護組成員
 

@@ -4,7 +4,7 @@
 
 你可以在 [開往偏好設定](https://www.travellings.cn/preference) 中選擇你喜歡的跳轉頁面。
 
-如果你也想製作跳轉頁面，請查看 [參加計畫](https://www.travellings.cn/docs/join#參加計畫)
+如果你也想製作跳轉頁面，請查看 [參加計畫](https://www.travellings.cn/zh_TW/docs/join#參加計畫)
 
 ## 簡潔版頁面
 
