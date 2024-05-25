@@ -22,11 +22,11 @@
 
 - 點這裡[查看成員列表](https://list.travellings.cn)
 
-- 點這裡[查看加入開往的要求](https://www.travellings.cn/docs/join)
+- 點這裡[查看加入開往的要求](https://www.travellings.cn/zh_TW/docs/join)
 
-- 點這裡[查看FAQ](https://www.travellings.cn/docs/qa)
+- 點這裡[查看FAQ](https://www.travellings.cn/zh_TW/docs/qa)
 
-- 點這裡[查看加入開往維護小組的要求](https://www.travellings.cn/docs/toyou)
+- 點這裡[查看加入開往維護小組的要求](https://www.travellings.cn/zh_TW/docs/toyou)
 
 ## 專案推薦
 

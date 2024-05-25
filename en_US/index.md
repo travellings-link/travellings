@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Join the project
-      link: ./docs/join
+      link: /en_US/docs/join
     - theme: alt
       text: FAQ
-      link: ./docs/qa
+      link: /en_US/docs/qa
 features:
   - title: Privacy-friendly and Secure
     details: The entire site is HTTPS resistant to hijacking; the front and back ends are completely open source and do not violate privacy; the mirror is automatically deployed without manual intervention. All web pages added to the destination are manually screened to ensure that the traffic is clean and high-quality from the source.

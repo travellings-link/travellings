@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 加入開往
-      link: ./docs/join
+      link: /zh_TW/docs/join
     - theme: alt
       text: 疑難排解
-      link: ./docs/qa
+      link: /zh_TW/docs/qa
 features:
   - title: 隱私保護，安全無憂
     details: 全部 HTTPS 抗劫持；前後端完全開源，不侵犯隱私；鏡像自動部署，無人工干預。加入開往的網頁全部經過人工篩選，確保流量從源頭就是乾淨優質的。
