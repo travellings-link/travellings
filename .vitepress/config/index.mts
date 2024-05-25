@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
-import { zh_CN } from './zh_CN'
-import { zh_TW } from './zh_TW'
-import { en_US } from './en_US'
+import { zh_CN } from './zh_CN.mts'
+import { zh_TW } from './zh_TW.mts'
+import { en_US } from './en_US.mts'
 
 export default defineConfig({
   locales: {
