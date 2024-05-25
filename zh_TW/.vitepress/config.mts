@@ -3,8 +3,8 @@ import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "开往",
-  description: "友链接力",
+  title: "開往",
+  description: "友鏈接力",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,7 +14,7 @@ export default defineConfig({
       { text: "公告", link: "/zh_TW/announcements/", activeMatch: "/zh_TW/announcements/" },
       { text: "贊助", link: "https://afdian.net/a/travellings" },
       { text: "成員列表", link: "https://list.travellings.cn" },
-      { text: "開往", link: "/go.html", target: "_blank" },
+      { text: "開往GO", link: "/go.html", target: "_blank" },
     ],
 
     socialLinks: [
