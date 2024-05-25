@@ -1,6 +1,6 @@
 <script setup>
-import Maintainers from '../.vitepress/theme/components/Maintainers.vue'
-import Changelog from '../.vitepress/theme/components/Changelog.vue'
+import Maintainers from '../../.vitepress/theme/components/Maintainers.vue'
+import Changelog from '../../.vitepress/theme/components/Changelog.vue'
 </script>
 # 欢迎
 
