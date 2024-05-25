@@ -3,18 +3,18 @@ import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 
 // https://vitepress.dev/reference/site-config
 export const en_US = defineConfig({
-  title: "开往",
-  description: "友链接力",
+  title: "Travellings",
+  description: "Friend Link Relation Project",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "主页", link: "/en_US/" },
-      { text: "文档", link: "/en_US/docs/", activeMatch: "/en_US/docs/" },
-      { text: "博客", link: "/en_US/blog/", activeMatch: "/en_US/blog/" },
-      { text: "公告", link: "/en_US/announcements/", activeMatch: "/en_US/announcements/" },
-      { text: "赞助", link: "https://afdian.net/a/travellings" },
-      { text: "成员列表", link: "https://list.travellings.cn" },
-      { text: "开往", link: "/go.html", target: "_blank" },
+      { text: "Home", link: "/en_US/" },
+      { text: "Docs", link: "/en_US/docs/", activeMatch: "/en_US/docs/" },
+      { text: "Blog", link: "/en_US/blog/", activeMatch: "/en_US/blog/" },
+      { text: "Announcement", link: "/en_US/announcements/", activeMatch: "/en_US/announcements/" },
+      { text: "Sponsor", link: "https://afdian.net/a/travellings" },
+      { text: "Member List", link: "https://list.travellings.cn" },
+      { text: "Travellings GO", link: "/go.html", target: "_blank" },
     ],
 
     socialLinks: [
@@ -29,7 +29,7 @@ export const en_US = defineConfig({
     editLink: {
       pattern:
         "https://github.com/travellings-link/travellings/edit/master/:path",
-      text: "在 GitHub 上编辑此页",
+      text: "Edit this page on GitHub",
     },
 
     logo: {
@@ -46,15 +46,15 @@ export const en_US = defineConfig({
     },
 
     docFooter: {
-      prev: "上一页",
-      next: "下一页",
+      prev: "Previous Page",
+      next: "Next Page",
     },
 
-    darkModeSwitchLabel: "外观",
-    darkModeSwitchTitle: "切换到深色模式",
-    lightModeSwitchTitle: "切换到浅色模式",
-    sidebarMenuLabel: "目录",
-    returnToTopLabel: "返回顶部",
+    darkModeSwitchLabel: "Theme",
+    darkModeSwitchTitle: "Switch to dark mode",
+    lightModeSwitchTitle: "Switch to light mode",
+    sidebarMenuLabel: "Menu",
+    returnToTopLabel: "Return to top",
     externalLinkIcon: true,
   },
 
@@ -89,7 +89,7 @@ export const en_US = defineConfig({
         sameAs: 'https://github.com/travellings-link',
         logo: 'https://www.travellings.cn/assets/light.png',
         email: 'contact@travellings.cn',
-        slogan: '我们期望通过友链接力来让互联网流量变得开放。',
+        slogan: 'We hope to make the Internet open through the Friend Link Relation Project.',
       }),
       },
     ],
