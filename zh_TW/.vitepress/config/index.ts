@@ -8,13 +8,13 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "主页", link: "/" },
-      { text: "文档", link: "/docs/", activeMatch: "/docs/" },
-      { text: "博客", link: "/blog/", activeMatch: "/blog/" },
-      { text: "公告", link: "/announcements/", activeMatch: "/announcements/" },
-      { text: "赞助", link: "https://afdian.net/a/travellings" },
-      { text: "成员列表", link: "https://list.travellings.cn" },
-      { text: "开往", link: "/go.html", target: "_blank" },
+      { text: "首頁", link: "/" },
+      { text: "檔案", link: "/zh_TW/docs/", activeMatch: "/zh_TW/docs/" },
+      { text: "部落格", link: "/zh_TW/blog/", activeMatch: "/zh_TW/blog/" },
+      { text: "公告", link: "/zh_TW/announcements/", activeMatch: "/zh_TW/announcements/" },
+      { text: "贊助", link: "https://afdian.net/a/travellings" },
+      { text: "成員列表", link: "https://list.travellings.cn" },
+      { text: "開往", link: "/go.html", target: "_blank" },
     ],
 
     socialLinks: [
@@ -29,7 +29,7 @@ export default defineConfig({
     editLink: {
       pattern:
         "https://github.com/travellings-link/travellings/edit/master/:path",
-      text: "在 GitHub 上编辑此页",
+      text: "在 GitHub 上編輯此頁",
     },
 
     logo: {
@@ -46,15 +46,15 @@ export default defineConfig({
     },
 
     docFooter: {
-      prev: "上一页",
-      next: "下一页",
+      prev: "上一頁",
+      next: "下一頁",
     },
 
-    darkModeSwitchLabel: "外观",
-    darkModeSwitchTitle: "切换到深色模式",
-    lightModeSwitchTitle: "切换到浅色模式",
-    sidebarMenuLabel: "目录",
-    returnToTopLabel: "返回顶部",
+    darkModeSwitchLabel: "外觀",
+    darkModeSwitchTitle: "切換到深色模式",
+    lightModeSwitchTitle: "切換到淺色模式",
+    sidebarMenuLabel: "目錄",
+    returnToTopLabel: "回到頂部",
     externalLinkIcon: true,
   },
 
@@ -89,7 +89,7 @@ export default defineConfig({
         sameAs: 'https://github.com/travellings-link',
         logo: 'https://www.travellings.cn/assets/light.png',
         email: 'contact@travellings.cn',
-        slogan: '我们期望通过友链接力来让互联网流量变得开放。',
+        slogan: '我們期望透過友鏈接力讓網路流量變得開放。',
       }),
       },
     ],

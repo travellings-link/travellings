@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 加入开往
-      link: ./docs/join
+      link: /docs/join
     - theme: alt
       text: 疑难解答
-      link: ./docs/qa
+      link: /docs/qa
 
 features:
   - title: 隐私保护，安全无忧
