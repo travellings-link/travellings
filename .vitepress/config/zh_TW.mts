@@ -8,7 +8,7 @@ export const zh_TW = defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "首頁", link: "/" },
+      { text: "首頁", link: "/zh_TW/" },
       { text: "檔案", link: "/zh_TW/docs/", activeMatch: "/zh_TW/docs/" },
       { text: "部落格", link: "/zh_TW/blog/", activeMatch: "/zh_TW/blog/" },
       { text: "公告", link: "/zh_TW/announcements/", activeMatch: "/zh_TW/announcements/" },
