@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export const zh_TW = defineConfig({
   title: "開往",
   description: "友鏈接力",
   themeConfig: {
