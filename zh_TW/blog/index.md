@@ -2,7 +2,7 @@
 import Maintainers from '../../.vitepress/theme/components/Maintainers.vue'
 import Changelog from '../../.vitepress/theme/components/Changelog.vue'
 </script>
-# 欢迎
+# 歡迎
 
 歡迎來到開往的部落格頁面！:tada:
 
