@@ -36,6 +36,12 @@ body:
         - label: 侧栏
         - label: 底部（只选此项一般无法通过审核）
         - label: 其它
+  - type: input
+    id: otherplace
+    attributes:
+      label: 更具体的徽标位置
+      description: |
+        如果您的徽标位置选择了「其它」，请在这里告诉我们您具体放置在了哪个位置。
   - type: dropdown 
     id: content
     attributes:
