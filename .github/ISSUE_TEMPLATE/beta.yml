@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         ↑ 请将上方的 Title 中的[网站名称]改成您实际的网站名称 ！
+        **警告！申请提交后，请勿进行二次修改！**
   - type: input
     id: name
     attributes:
@@ -56,6 +57,12 @@ body:
         - 其它
     validations:
       required: true
+  - type: input
+    id: otherplace
+    attributes:
+      label: 备注
+      description: |
+        如果您还有其它要说的内容，可以在这里填写。
   - type: checkboxes
     id: checkagain
     attributes:
