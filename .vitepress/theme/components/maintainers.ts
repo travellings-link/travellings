@@ -26,7 +26,7 @@ export default {
     ScaredCube: {
         title: "繁体中文翻译",
         active: true
-    }
+    },
     vicevolf: {
         title: "开往创始人",
         active: false
