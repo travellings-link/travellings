@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ↑ 请将上方的 Title 中的[网站名称]改成您实际的网站名称 ！
-        **警告！申请提交后，请勿进行二次修改！**
+        **特别提醒：申请提交后，请勿对模板内容进行二次修改！**
   - type: input
     id: name
     attributes:
