@@ -20,9 +20,13 @@ export default {
         active: true
     },
     NanamiNakano: {
-        title: "维护组成员",
+        title: "英文翻译",
         active: true
     },
+    ScaredCube: {
+        title: "繁体中文翻译",
+        active: true
+    }
     vicevolf: {
         title: "开往创始人",
         active: false
@@ -36,7 +40,7 @@ export default {
         active: false
     },
     imjason: {
-        title: "维护组成员",
+        title: "前开往负责人",
         active: false
     },
     rabbitxuanxuan: {
@@ -45,7 +49,7 @@ export default {
     },
     baipin: {
         title: "维护组成员",
-        active: false
+        active: true
     },
     BCTX2010: {
         title: "维护组成员",
@@ -56,7 +60,15 @@ export default {
         active: false
     },
     gtxykn0504: {
+        title: "文案编辑",
+        active: true
+    },
+    gxres042: {
         title: "维护组成员",
+        active: true
+    },
+    MengZeMC: {
+        title: "公共关系",
         active: true
     }
 };
