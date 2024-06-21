@@ -1,104 +1,108 @@
-# 加入开往
+# 加入開往
 
-## 1. 您的网页应满足
+## 1. 您的網頁應該滿足
 
-- 愿为开放的网络做出贡献（如乐于分享知识经验等）
-- **禁止采集站内容农场**（对多站点聚合，源站不提供的数据进行统计不在此列。博客网站如果可以在搜索引擎中搜到很多相同的内容可能会被判定为“内容农场”）
-- 没有违法违规和影响访问体验的内容（如侵入式广告）
-- 正常访问中（以巡查机器人是否可访问和人工巡查时域名未过期未脱离原先主体为准）
-- 网页已有较多内容（应有 20 篇文章**或** 10 篇原创文章，需要网站已创办两个月以上，更新时间自博客第一篇内容时间开始算起）
-- 对于博客网站，**推荐**能做到不定期或定期更新博文（半年及以上不更新博文的成员被人工审查后将被通知，非强制）
-- 强制启用 https ，**推荐**开启 HSTS
+- 願意為開放的網路做出貢獻（例如分享知識經驗）
+- **禁止採集站和內容農場**（對多站點聚合，源站不提供的資料進行統計不在此列。部落格網站內容如果可以在搜尋引擎中搜尋很多相同的內容，則可能會被判定為「內容農場」）
+- 沒有違規違規內容和影響訪問體驗的內容（如侵入式廣告）
+- 可以被正常存取（以巡查機器人是否可存取和人工巡查時網域未過期和未脫離原先主體為準）
+- 網頁中有較多的內容（應有 20 篇文章 **或** 10 篇原創文章，需要網站已創立兩個月以上，更新時間自博客第一篇內容時間開始算起）
+- 對於部落格網站，**推薦** 能做到不定期或定期更新博文（半年及以上不更新博文的成員被人工審查後將被通知，非強制）
+- 強制啟用 https ，**建議** 開啟 HSTS
 
-:::info 说明
+:::info 說明
 
-- 引导页、个人主页、导航站等非博客网站也可以申请加入开往（在 Q\&A 中有强调）
-- 如果引导页有链接到博客子站，则需要博客符合上述的标准
-- 个人主页的单页网站有很大可能会因为内容不丰富被驳回，建议用多个页面详细介绍。导航站视具体情况而定
-- 对于一个独立域名下申请加入开往的不同网站，如果它们的内容相似**或**类型相同，则通过其中一个网站，或者将它们的引导页收录到开往
-- 要求中的“网站已有较多内容”因为删库等非正常情况的存在一般情况下不会将未满足文章数量要求的成员删除
-- 对于长期处于内容较少状态的成员网站，维护组成员可以经组内讨论并通知站长，等待 1 个月后删除
-- 开往鼓励规范转载
-- 对于存在不适宜内容的成员网站，任何人都可以向我们反馈
+- 引導頁、個人主頁、導航站等非部落格網站也可以申請加入開往（在 Q&A 中有強調）
+- 如果引導頁有連結到部落格子站，則需要部落格符合上述的標準
+- 個人首頁的單頁網站有很大可能因為內容不豐富而被駁回，建議用多個頁面詳細介紹。導航站視具體情況而定
+- 對於一個獨立網域下申請加入開往的不同網站，如果它們的內容相似**或**類型相同，則收錄其中一個網站，或將它們的引導頁收錄到開往
+- 要求中的「網站已有較多內容」因為刪庫等非正常情況的存在一般情況下**不會**將未滿足文章數量要求的成員刪除
+- 對於長期處於較少內容狀態的成員網站，維護組成員可以經過組內討論並通知站長，等待 1 個月後刪除
+- 「開往」鼓勵規範轉載
+- 對於存在不適合內容的成員網站，任何人都可以向我們回饋和舉報
 
 :::
 
-## 2. 将开往放到您网页**打开后就能看到的地方**（让友链接力下去）
+## 將「開往」圖示放到您網頁**開啟後就能看到的地方**（讓友鏈接力下去）
 
 :::warning 重要
 
-由于[不可抗的原因](https://github.com/travellings-link/travellings/issues/566)，请尽快将您网页 Travelling 指向的域名（包括图片素材），从 `https://travellings.now.sh` 更新为 `https://www.travellings.cn/go.html` 。
+由於[不可抗力因素](https://github.com/travellings-link/travellings/issues/566)，請盡快將您網頁Travelling 指向的網域名稱（包括圖片素材）從`https://travellings.now.sh ` 更新為`https://www.travellings.cn/go.html` 。
 
 :::
 
-- **最佳实践**：将 `开往` 的外链（`https://www.travellings.cn/go.html`）放置在**打开后就能看到的地方**：
-  - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
-  - 如需 Font Awesome ，推荐 `fa-subway` （[点我预览](https://fontawesome.com/icons/subway?style=solid)，其他图标库可选火车地铁相关的图标，其次可选火箭飞船图标；**不**再推荐纸飞机图标，易与 Telegram 混淆）；
-  - 如需 Emoji，推荐 `🚇`；
-- **额外可选**：将开往的徽标放到您的底部或其他位置，表示对开往的支持：
-  - 动图 GIF：`https://www.travellings.cn/assets/logo.gif`
+- **最佳實踐**：將 `開往` 的外鏈（`https://www.travellings.cn/go.html`）放置在**打開後就能看到的地方**：
+  - 如是英文導航，可使用 `Travelling` （而非 Travelling**s**）；
+  - 如需Font Awesome ，推薦`fa-subway` （[點我預覽](https://fontawesome.com/icons/subway?style=solid)，其他圖標庫可選火車地鐵相關的圖標，其次可選火箭飛船圖標；**不**再推薦紙飛機圖標，易與Telegram 混淆）；
+  - 如需 Emoji，推薦 `🚇`；
+- **額外可選**：將開往的標誌放到您的底部或其他位置，表示對開往的支援：
+  - 動圖 GIF：`https://www.travellings.cn/assets/logo.gif`
   - 深色 PNG：`https://www.travellings.cn/assets/b.png`
-  - 浅色 PNG：`https://www.travellings.cn/assets/w.png`
+  - 淺色 PNG：`https://www.travellings.cn/assets/w.png`
   - 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
   - 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
-  - 方浅 PNG：`https://www.travellings.cn/assets/travelling-light.png`
-  - 矢量 SVG：`https://www.travellings.cn/assets/logo.svg`
-  - 全部图片素材：可查阅`assets` 文件夹。
-  - 💡 参考代码：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
-  - 🚀 CDN 加速：如以上图片素材加载缓慢，可将链接中的 `https://www.travellings.cn/assets/` 替换为 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已经有国内 CDN 加速了，加载速度应该不会太慢吧？）。
+  - 方淺 PNG：`https://www.travellings.cn/assets/travelling-light.png`
+  - 向量 SVG：`https://www.travellings.cn/assets/logo.svg`
+  - 全部圖片素材：可參考`assets` 資料夾。
+  - 💡 參考代碼：（logo.gif 可替換為上方的其他圖片，以適應您的網頁主題；width 可限制圖片的大小，讓標誌看起來更合適。）
+  - 🚀 CDN 加速：如以上圖片素材載入緩慢，可將連結中的`https://www.travellings.cn/assets/` 替換為`https://cdn.jsdelivr.net/gh/travellings-link/travellings/ assets/` （已經有國內CDN 加速了，載入速度應該不會太慢吧？）
 
 ```html
-<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
-    <img src="https://www.travellings.cn/assets/logo.gif" alt="开往-友链接力" width="120">
+<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="開往-友鏈接力">
+    <img src="https://www.travellings.cn/assets/logo.gif" alt="開往-友鏈接力" width="120">
 </a>
 ```
 
-:::info 示例
+:::info 範例
 
 ![example1](https://www.travellings.cn/assets/example1.png)
 ![example2](https://www.travellings.cn/assets/example2.png)
 
 :::
 
-## 3. 提个 issue，等待审核通过
+## 3. 建立 Issue，等待審核通過
 
-[前往 GitHub Issues 页面](https://github.com/travellings-link/travellings/issues)
+[前往 GitHub Issues 頁面](https://github.com/travellings-link/travellings/issues)
 
-我们至少会在每周周末处理您的 Issue，如您的加入申请超过 1 个月还未审核，可以 @ 最近活跃的维护组成员或通过其它我们已经公示的联系渠道联系。
+我們至少會在每週週末處理您的 Issue，如您的加入申請超過 1 個月還未審核，可以 @ 最近活躍的維護組成員或通過其它我們已經公示的聯繫渠道聯繫。
 
-💡 常见的可能导致审核失败的原因与解决方案：
+您的申請會因為一些原因被駁回。並且，若您在 15 天內未跟進回覆，我們會關閉您的 Issue，屆時需要您重新申請。
 
-⛔ 把开往放到了默认收起的的菜单中  
-✅ 推荐放在打开网页就能看到的地方，便于访客看到并点击；
+::: info 💡 常見的可能導致審核失敗的原因與解決方案：
 
-⛔ 网页没有启用 https  
-✅ 开启强制 https（有很多免费的途径，可以使用 ZeroSSL, Let's Encrypt 等免费服务）；
+⛔ 把開往放到了預設收起的選單中\
+✅ 推薦放在打開網頁就能看到的地方，方便訪客看到並點擊；
 
-⛔ 网页上的内容过少，如博文只有几篇  
-✅ 内容更新充盈后再来申请试试，参见开往对博客网站文章数量和内容的要求。
+⛔ 網頁沒有啟用 https\
+✅ 開啟強制 https（有許多免費的途徑，可以使用 ZeroSSL, Let's Encrypt 等免費服務）；
 
-## 参与项目
+⛔ 網頁上的內容過少，如博文只有幾篇\
+✅ 內容更新充盈後再來申請試試，請參閱開往部落格網站文章數量和內容的要求。
 
-如果你对我们跳转页的样式不满意，欢迎你在 `public` 文件夹中提交新的样式，只需几步，即可自定义你的样式!
+:::
 
-> 1. 涉及到的所有的图片必须为 SVG
-> 2. 必须为单页 html，如有 css 可以写入 html 头，JS 库请使用外部公共 CDN
-> 3. 底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
-> 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
-> 5. 设计精美/有创意
-> 6. 请一并修改 [其他页面一览](https://www.travellings.cn/docs/pages)，加入你的页面描述和截图
-> 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue`），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
-> 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
+## 參加計畫
+
+如果你對我們跳轉頁的樣式不滿意，歡迎你在 `public` 資料夾中提交新的樣式，只需幾步，即可自訂你的樣式!
+
+> 1. 所有涉及的圖片必須是 SVG
+> 2. 必須為單頁 html，如有 css 可以寫入 html 頭，JS 函式庫請使用外部公用 CDN
+> 3. 底部包含開往備案號 和 指向 [開往偏好設定](https://www.travellings.cn/preference) 的鏈接
+> 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接實現跳轉邏輯，並自動使用使用者的偏好設置
+> 5. 設計精美/有創意
+> 6. 請一併修改 [其他頁面一覽](https://www.travellings.cn/zh_TW/docs/pages)，加入你的頁面描述和截圖
+> 7. 請一併修改 **開往偏好設定** （位於 `.vitepress/theme/components/Preferences.vue`），將你的自訂頁面加入設定選單中（位於第 `34` 行）
+> 8. 提交 Pull Request，並 @ 最近活躍的開往維護組成員
 
 :::tip
 
-如果你是新手，可以在原有跳转页的基础上进行修改\~
+如果你是新手，可以在原有跳轉頁的基礎上進行修改\~
 
 :::
 
 ::: warning
 
-如果你是以默认的 `go.html` 为基础进行修改的，请**务必先删除** `<head>` 中的以下代码：
+如果你是以預設的 `go.html` 為基礎進行修改的，請**務必先刪除** `<head>` 中的以下程式：
 
 ```html
 <script>
@@ -109,6 +113,6 @@
 </script>
 ```
 
-以上代码用于实现从默认页跳转到用户设置的自定义页，如果页面本身就是自定义页便会造成**循环跳转**。
+以上程式碼用於實現從預設頁跳到使用者設定的自訂頁，如果頁面本身就是自訂頁便會造成**循環跳轉**。
 
 :::

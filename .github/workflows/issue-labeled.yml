@@ -19,7 +19,7 @@ jobs:
               issue_number: issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: "您的申请已通过，欢迎加入开往大家庭～\n约10分钟后您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的QQ群：186690715"
+              body: "您的申请已通过，欢迎加入开往大家庭～\n约 10 分钟后您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)"
             });
           } else if (label.name === "信息更改完成") {
             github.issues.createComment({
@@ -34,12 +34,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: "closed"
-            });
-          } else if (label.name === "社群通知") {
-            github.issues.createComment({
-              issue_number: issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "  开往成员站长，你好。\n  为了组织抽奖活动，及时通知开往的事务，提供站长交流的平台，开往开设了 QQ 群 186690715 和 Telegram 群 https://t.me/TravellingsCN ，欢迎你加入。"
             });
           }

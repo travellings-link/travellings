@@ -10,7 +10,7 @@ Language: **简体中文** | [English](./en_US/README.md)
 
 每当用户访问加入「开往 Travellings」的网页时，点击该网页上的“开往”按钮将随机跳转到另一个加入该项目的网页。无论是再次点击“开往”还是后退网页，都会继续随机跳转到其他参与者的网页。
 
-截至目前，「开往 Travellings」已经吸引了 1k+ 人的关注 [![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，并有 1k+ 成员加入过该项目。随着越来越多的网页选择加入「开往 Travellings」的行列，我们的友链网络也在不断扩大，这将进一步推动分享流量的增长，为本项目注入更多活力。
+截至目前，「开往 Travellings」已经吸引了 1k+ 人的关注 [![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)，并有 1k+ 成员加入了该项目。随着越来越多的网页选择加入「开往 Travellings」的行列，我们的友链网络也在不断扩大，这将进一步推动分享流量的增长，为本项目注入更多活力。
 
 - 点此[查看成员列表](https://list.travellings.cn)
 - 点此[访问开往官网](https://www.travellings.cn)

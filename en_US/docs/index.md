@@ -21,9 +21,9 @@ Hitherto, 1k+ people have starred the Travellings project, and 1k+ members have 
 ## Links
 
 - Click here [View member list](https://list.travellings.cn)
-- Click here [to view the requirements for joining the destination](https://www.travellings.cn/docs/join)
-- Click here [View FAQ](https://www.travellings.cn/docs/qa)
-- Click here [to view the requirements for joining the Toyou maintenance group](https://www.travellings.cn/docs/toyou)
+- Click here [to view the requirements for joining the destination](https://www.travellings.cn/en_US/docs/join)
+- Click here [View FAQ](https://www.travellings.cn/en_US/docs/qa)
+- Click here [to view the requirements for joining the Toyou maintenance group](https://www.travellings.cn/en_US/docs/toyou)
 
 ## Project Recommendation
 

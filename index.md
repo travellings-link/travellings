@@ -24,10 +24,10 @@ features:
     icon: <img src="/assets/svg/1F510.svg" width="50%">
   - title: 助推开放，助推流量
     details: 支持网络的开放，获得更多的流量；发现更多优质的网站，来一场说走就走的网上旅行。
-    link: /docs/join
+    link: ./docs/join
     linkText: 加入我们
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
-  - title: 你的开往，就是你的
+  - title: 你的开往，由你来定
     details: 可自定义跳转页的部分设置与样式，如果不满意也可以自己制作一个。
     link: /preference
     linkText: 偏好设置

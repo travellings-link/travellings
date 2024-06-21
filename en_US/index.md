@@ -21,7 +21,7 @@ features:
     icon: <img src="/assets/svg/1F510.svg" width="50%">
   - title: Boost openness, boost traffic
     details: Support the opening of networks to gain more traffic; find more high-quality websites for a trip on the web.
-    link: /en_US/docs/join
+    link: ./docs/join
     linkText: Join us
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
   - title: Your Travelling, Is yours
