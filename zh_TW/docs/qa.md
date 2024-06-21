@@ -65,7 +65,7 @@ A：
 
 A：巡查後端使用固定的 User-Agent 為\
 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`\
-使用來自中國北京的騰訊雲端伺服器進行巡查\
+IP 位址來自 中國/湖南/聯通，位於 CIDR 42.49.0.0/16 內\
 請將此特徵在您的 防火牆 / WAF 中放行，以免導致巡查誤判從而開往無法跳到您的網站\
 一般一天內請求不會超過 10 次，可以適當限速以免該特徵被有心人利用
 

@@ -65,7 +65,7 @@ If the backend patrol server does not crash, it usually starts patrolling around
 
 A: The patrol backend uses a fixed User-Agent as\
 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`\
-Using Tencent Cloud servers from Beijing, China for patrols\
+The IP address is from China/Hunan/China Unicom and is located within CIDR 42.49.0.0/16\
 Please allow this feature in your firewall / WAF to prevent misjudgments by patrols, thus preventing Travellings from redirecting to your website. Generally, requests within a day will not exceed 10 times, and appropriate throttling can be applied to prevent this feature from being exploited by malicious users.
 
 ## Q: Why is my website marked as LOST?

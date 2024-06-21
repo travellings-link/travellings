@@ -65,7 +65,7 @@ A：
 
 A：巡查后端使用固定的 User-Agent 为  
 `Mozilla/5.0 (compatible; Travellings Check Bot; +https://www.travellings.cn/docs/qa)`  
-使用来自中国北京的腾讯云服务器进行巡查  
+IP 地址来自 中国/湖南/联通，位于 CIDR 42.49.0.0/16 内   
 请将此特征在您的 防火墙 / WAF 中放行，以免导致巡查误判从而开往无法跳转到您的网站  
 一般一天内请求不会超过 10 次，可以适当限速以免该特征被有心人利用
 
