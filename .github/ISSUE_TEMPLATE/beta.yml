@@ -63,7 +63,7 @@ body:
       label: 备注
       description: |
         如果您还有其它要说的内容，可以在这里填写。
-  - type: checkbox
+  - type: checkboxes
     id: checkagain
     attributes:
       label: 请确认以下事项
