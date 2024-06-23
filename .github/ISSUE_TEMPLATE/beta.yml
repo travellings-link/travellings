@@ -58,12 +58,12 @@ body:
     validations:
       required: true
   - type: input
-    id: otherplace
+    id: remark
     attributes:
       label: 备注
       description: |
         如果您还有其它要说的内容，可以在这里填写。
-  - type: checkboxes
+  - type: checkbox
     id: checkagain
     attributes:
       label: 请确认以下事项
