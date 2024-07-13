@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-title: 开往关于招募维护组成员的公告
+title: 开往维护组关于招募审核人员的公告
 date: 2024-07-12
 updated: 2024-07-12
 categories: 项目公告
