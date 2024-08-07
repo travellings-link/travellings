@@ -8,31 +8,30 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-    - name: Comment on issue
-      uses: actions/github-script@v4
-      with:
-        script: |
-          const issue = context.issue;
-          const label = context.payload.label;
-          if (label.name === "审核通过") {
-            github.issues.createComment({
-              issue_number: issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "您的申请已通过，欢迎加入开往大家庭～\n约 10 分钟后您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)"
-            });
-          } else if (label.name === "信息更改完成") {
-            github.issues.createComment({
-              issue_number: issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "您好，已为您更改。\n请查看[开往成员列表](https://list.travellings.cn/)\n开往的QQ群：186690715"
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issue = context.issue;
+            const label = context.payload.label;
+            // 定义一个通用的 response function
+            function autoResponse(body) {
+              github.issues.createComment({
+                issue_number: issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              })
+            }
+            if (label.name === "审核通过") {
+                autoResponse("您的申请已通过，欢迎加入开往大家庭～\n当前 Issue 关闭后，您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)")
+            } else if (label.name === "信息更改完成") {
+                autoResponse("您申请的站点信息更改已经完成啦～\n请查看[开往成员列表](https://list.travellings.cn/)\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)")
+              // 关闭此 issue
+              github.issues.update({
+                issue_number: issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: "closed"
               });
-            // 关闭此 issue
-            github.issues.update({
-              issue_number: issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: "closed"
-            });
-          }
+            }
