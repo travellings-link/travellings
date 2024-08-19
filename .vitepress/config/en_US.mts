@@ -12,7 +12,7 @@ export const en_US = defineConfig({
       { text: "Docs", link: "/en_US/docs/", activeMatch: "/en_US/docs/" },
       { text: "Blog", link: "/en_US/blog/", activeMatch: "/en_US/blog/" },
       { text: "Announcement", link: "/en_US/announcements/", activeMatch: "/en_US/announcements/" },
-      { text: "Sponsor", link: "https://afdian.net/a/travellings" },
+      { text: "Sponsor", link: "https://afdian.com/a/travellings" },
       { text: "Member List", link: "https://list.travellings.cn" },
       { text: "Travellings GO", link: "/go.html", target: "_blank" },
     ],
