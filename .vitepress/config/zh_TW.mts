@@ -12,7 +12,7 @@ export const zh_TW = defineConfig({
       { text: "檔案", link: "/zh_TW/docs/", activeMatch: "/zh_TW/docs/" },
       { text: "部落格", link: "/zh_TW/blog/", activeMatch: "/zh_TW/blog/" },
       { text: "公告", link: "/zh_TW/announcements/", activeMatch: "/zh_TW/announcements/" },
-      { text: "贊助", link: "https://afdian.net/a/travellings" },
+      { text: "贊助", link: "https://afdian.com/a/travellings" },
       { text: "成員列表", link: "https://list.travellings.cn" },
       { text: "開往GO", link: "/go.html", target: "_blank" },
     ],
