@@ -11,10 +11,6 @@ export default {
         title: "后端开发 / 运维",
         active: true
     },
-    linlinzzo: {
-        title: "前开往负责人",
-        active: true
-    },
     "Big-Cake-jpg": {
         title: "维护组成员",
         active: true
@@ -70,5 +66,9 @@ export default {
     MengZeMC: {
         title: "公共关系",
         active: true
+    },
+    linlinzzo: {
+        title: "维护组成员",
+        active: false
     }
 };
