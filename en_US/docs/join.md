@@ -33,8 +33,10 @@ Due to [force majeure reasons](https://github.com/travellings-link/travellings/i
 
 - **Best practice**: Place the `Travelling` link (`https://www.travellings.cn/go.html`) on the place that **can be easily seen when opening your page.**
   - For English navigation link, please use `Travelling` for reference (instead of Travelling**s**);
-  - If you need Font Awesome icon, we suggest you to use `fa-train-subway` ([Preview link](https://fontawesome.com/icons/train-subway?f=classic&s=solid). For other icon packs, you can choose train or subway related icons, and to a lesser extent, rocket ship icons. Paper plane icons are **no longer** recommended, as they are easily confused with Telegram.)
-  - For Emoji, we recommend you to use `🚇`;
+  - If you want to use icons or emoji, we recommend using icons related to trains and subways, followed by rocket ship icons;
+    - You can use [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid) if you are using Font Awesome 6, or [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid) if you are still using Font Awesome 5;
+    - For Emoji, we recommend you to use `🚇`;
+    - Paper plane icons are **no longer** recommended, as they are easily confused with Telegram.
 - **Extra & Optional:** Put the Travellings logo at the bottom of your page or somewhere else, to show your support for the Travellings project:
   - GIF: `https://www.travellings.cn/assets/logo.gif`
   - Dark PNG: `https://www.travellings.cn/assets/b.png`
