@@ -47,8 +47,10 @@
 
 - **最佳實踐**：將 `開往` 的外鏈（`https://www.travellings.cn/go.html`）放置在**打開後就能看到的地方**：
   - 如是英文導航，可使用 `Travelling` （而非 Travelling**s**）；
-  - 如需Font Awesome ，推薦 `fa-train-subway` （[點我預覽](https://fontawesome.com/icons/train-subway?f=classic&s=solid)，其他圖標庫可選火車地鐵相關的圖標，其次可選火箭飛船圖標；**不**再推薦紙飛機圖標，易與 Telegram 混淆）；
-  - 如需 Emoji，推薦 `🚇`；
+  - 如需使用圖標或 Emoji，建議使用與火車地鐵相關的圖標，其次可選火箭飛船圖標；
+    - 若您正在使用 Font Awesome 6，可選用 [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid)，若為 Font Awesome 5 則可選用 [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid)
+    - 如需 Emoji，推薦 `🚇`；
+    - 我们 **不再推薦** 紙飛機圖標，易與 Telegram 混淆
 - **額外可選**：將開往的標誌放到您的底部或其他位置，表示對開往的支援：
   - 動圖 GIF：`https://www.travellings.cn/assets/logo.gif`
   - 深色 PNG：`https://www.travellings.cn/assets/b.png`
