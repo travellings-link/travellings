@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as l,a2 as t}from"./chunks/framework.BTl5xOSe.js";const u=JSON.parse('{"title":"加入开往","description":"","frontmatter":{},"headers":[],"relativePath":"docs/join.md","filePath":"docs/join.md"}'),a={name:"docs/join.md"},e=t("",19),n=[e];function h(o,p,r,k,c,g){return l(),i("div",null,n)}const E=s(a,[["render",h]]);export{u as __pageData,E as default};
