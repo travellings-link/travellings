@@ -1,5 +1,5 @@
 ---
-title: 2024 年 08 月更新：弹窗问题，主题曲发布
+title: 2024 年 08 月更新：近期开往的一些事情
 contributors:
   - gxres042
   - linlinzzo
