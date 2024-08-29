@@ -37,7 +37,9 @@
 :::
 
 
-## 2. 將「開往」圖示放到您網頁**開啟後就能看到的地方**（讓友鏈接力下去）
+## 2. 將開往放在一個 **顯眼的地方**
+
+為了讓友鏈能更方便、快捷的接力下去，我們強烈建議您將開往放在一個顯眼的地方。
 
 :::warning 重要
 
@@ -45,23 +47,32 @@
 
 :::
 
-- **最佳實踐**：將 `開往` 的外鏈（`https://www.travellings.cn/go.html`）放置在**打開後就能看到的地方**：
-  - 如是英文導航，可使用 `Travelling` （而非 Travelling**s**）；
-  - 如需使用圖標或 Emoji，建議使用與火車地鐵相關的圖標，其次可選火箭飛船圖標；
-    - 若您正在使用 Font Awesome 6，可選用 [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid)，若為 Font Awesome 5 則可選用 [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid)
-    - 若您想使用 Emoji，推薦 `🚇`；
-    - 我们 **不再推薦** 紙飛機圖標，易與 Telegram 混淆
-- **額外可選**：將開往的標誌放到您的底部或其他位置，表示對開往的支援：
-  - 動圖 GIF：`https://www.travellings.cn/assets/logo.gif`
-  - 深色 PNG：`https://www.travellings.cn/assets/b.png`
-  - 淺色 PNG：`https://www.travellings.cn/assets/w.png`
-  - 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
-  - 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
-  - 方淺 PNG：`https://www.travellings.cn/assets/travelling-light.png`
-  - 向量 SVG：`https://www.travellings.cn/assets/logo.svg`
-  - 全部圖片素材：可參考`assets` 資料夾。
-  - 💡 參考代碼：（logo.gif 可替換為上方的其他圖片，以適應您的網頁主題；width 可限制圖片的大小，讓標誌看起來更合適。）
-  - 🚀 CDN 加速：如以上圖片素材載入緩慢，可將連結中的`https://www.travellings.cn/assets/` 替換為`https://cdn.jsdelivr.net/gh/travellings-link/travellings/ assets/` （已經有國內CDN 加速了，載入速度應該不會太慢吧？）
+### 最佳實踐
+
+將開往的外鏈 `https://www.travellings.cn/go.html` 放置在一個 **任何裝置開啟您的網頁就能看到的地方**，例如頂欄。
+
+- 如是英文導航欄，可使用 `Travelling` （而非 Travelling**s**）；
+- 如需使用圖示或 Emoji，推薦使用與火車地鐵相關的圖示，其次可選火箭飛船圖示；
+  - 若您正在使用 Font Awesome 6，可選用 [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid)，若為 Font Awesome 5 則可選用 [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid)
+  - 若您想使用 Emoji，推薦 `🚇`；
+  - 我們 **不再推薦** 紙飛機圖示，易與 Telegram 混淆；
+
+> 部分主題在頂欄預置了開往的接力頁選項，但它們在移動端裝置不可見。因此，建議您在其它位置放置開往的外鏈或徽標。
+
+### 選擇其它位置？
+
+您可以額外將開往徽標放置在您的網站的其它位置（例如底部、側邊欄），表示您對開往的支援。
+
+- 動圖 GIF：`https://www.travellings.cn/assets/logo.gif`
+- 深色 PNG：`https://www.travellings.cn/assets/b.png`
+- 淺色 PNG：`https://www.travellings.cn/assets/w.png`
+- 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
+- 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
+- 方淺 PNG：`https://www.travellings.cn/assets/travelling-light.png`
+- 向量 SVG：`https://www.travellings.cn/assets/logo.svg`
+- 全部圖片素材：可查閱`assets` 資料夾。
+- 💡 參考程式碼：（logo.gif 可替換為上方的其他圖片，以適應您的網頁主題；width 可限制圖片的大小，讓徽標看起來更合適。）
+- 🚀 CDN 加速：如以上圖片素材載入緩慢，可將連結中的 `https://www.travellings.cn/assets/` 替換為 `https://cdn.jsdelivr.net/gh/travellings-link/travellings/assets/` （已經有國內 CDN 加速了，載入速度應該不會太慢吧？）。
 
 ```html
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="開往-友鏈接力">
