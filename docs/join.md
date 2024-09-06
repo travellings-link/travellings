@@ -53,6 +53,7 @@
 - 如是英文导航，可使用 `Travelling` （而非 Travelling**s**）；
 - 如需使用图标或 Emoji，推荐使用与火车地铁相关的图标，其次可选火箭飞船图标；
   - 若您正在使用 Font Awesome 6，可选用 [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid)，若为 Font Awesome 5 则可选用 [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid)
+  - 若您想使用 Material Icons ，推荐 `<mdui-icon-train></mdui-icon-train>`；
   - 若您想使用 Emoji，推荐 `🚇`；
   - 我们 **不再推荐** 纸飞机图标，易与 Telegram 混淆；
 
