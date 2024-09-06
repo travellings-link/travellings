@@ -40,6 +40,7 @@ Place the Travelling link (`https://www.travellings.cn/go.html`) on the place th
 - For English navigation link, please use `Travelling` for reference (instead of Travelling**s**);
 - If you want to use icons or emoji, we recommend using icons related to trains and subways, followed by rocket ship icons;
   - You can use [`fa-train-subway`](https://fontawesome.com/icons/train-subway?f=classic&s=solid) if you are using Font Awesome 6, or [`fa-subway`](https://fontawesome.com/v5/icons/subway?f=classic&s=solid) if you are still using Font Awesome 5;
+  - For Material Icon, we recommend you to use `<mdui-icon-train></mdui-icon-train>`;
   - For Emoji, we recommend you to use `🚇`;
   - Paper plane icons are **no longer** recommended, as they are easily confused with Telegram.
 
