@@ -4,7 +4,7 @@ Language: [简体中文](./../README.md) | **English**
 
 ## Introduction
 
-**Travellings** project was established on March 12th, 2020. Its name came from the open network(kai wang) and Travellings is a "web-roll-like" friend link relay project.
+**Travellings** project was established on March 12th, 2020. Its name came from the open network("kai wang" in Chinese) and Travellings is a "web-roll-like" friend link relay project.
 
 The more the websites which join this friend link relay are, the larger the scale of friend link relay and websites traffic sharing is.
 
