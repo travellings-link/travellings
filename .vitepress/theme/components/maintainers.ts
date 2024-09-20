@@ -56,8 +56,8 @@ export default {
         active: false
     },
     gtxykn0504: {
-        title: "文案编辑",
-        active: true
+        title: "原文案编辑",
+        active: false
     },
     gxres042: {
         title: "维护组成员",
