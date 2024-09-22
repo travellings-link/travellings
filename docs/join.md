@@ -36,7 +36,7 @@
 
 - 使用 `eu.org` 和 `github.io` 域名的新申请站点，审核要求和巡查要求会相对提高；
 - 使用位于 [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) 内的域名的新申请站点，您需要提出 eTLD 免责声明后确定继续加入开往；
-- 
+- 我们暂不接受使用 [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) 内未列出的非付费域名的申请，除非您的网站质量极高。
 
 ::: note 使用 `eu.org` 域名的审核要求
 
