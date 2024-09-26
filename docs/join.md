@@ -24,7 +24,7 @@
 
 同时，半年及以上未更新的网站的申请可能会被驳回，推荐您不定期或定期更新博文。
 
-::: note 对于引导页、个人主页和导航站
+::: info 对于引导页、个人主页和导航站
 
 若您的网站类型是引导页、个人主页或导航站，您也可以申请加入开往。
 
@@ -46,7 +46,7 @@
 - 使用位于 [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) 内的域名的新申请站点，您需要提出 eTLD 免责声明后确定继续加入开往；
 - 我们暂不接受使用 [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat) 内未列出的非付费域名的申请，除非您的网站质量极高。
 
-::: note 使用 `eu.org` 域名的审核要求
+::: info 使用 `eu.org` 域名的审核要求
 
 若您的网站使用了 `eu.org` 域名，请留意下述的、提高后的审核要求。
 
