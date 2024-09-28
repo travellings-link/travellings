@@ -24,14 +24,33 @@ jobs:
               })
             }
             if (label.name === "审核通过") {
-                autoResponse("您的申请已通过，欢迎加入开往大家庭～\n当前 Issue 关闭后，您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)")
+                autoResponse(`您的申请已通过，欢迎加入开往大家庭～
+                当前 Issue 关闭后，您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~
+                开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)`);
+            } else if (label.name === "需要免责声明") {
+                autoResponse(`站长您好，根据开往规则修改 #2433，您需要对您使用在 Public Suffix List 的免费二级域名进行eTLD免责声明。
+                以下为声明模板，您需要修改相关信息后发布在这个 issue 下方：
+                
+                我已确认我使用的免费域名 [你的域名] 存在于 Public Suffix List 内，我已知悉开往规则中对于免费二级域名所要求的内容。已知悉开往维护组在遇到以下情况时可能会执行先撤销后通知：
+                多次巡查发现网站为 404 状态
+                超过一年未更新文章
+                人工巡查发现网站样式错误
+                网站包含黄色类、赌博类、暴力类、政治类、恐怖类等内容
+                我承诺我的网站不会发生以上阐述的内容，在发生已执行先撤销后通知之后，我将对此处理不会有任何异议。
+                
+                [您的GitHub用户名+网站域名]
+                [日期]`);
             } else if (label.name === "信息更改完成") {
-                autoResponse("您申请的站点信息更改已经完成啦～\n请查看[开往成员列表](https://list.travellings.cn/)\n若信息更改前站点状态异常，请等待下一次巡查\n开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)")
-              // 关闭此 issue
-              github.issues.update({
-                issue_number: issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                state: "closed"
-              });
+                autoResponse(`您申请的站点信息更改已经完成啦～
+                请查看[开往成员列表](https://list.travellings.cn/)
+                若信息更改前站点状态异常，请等待下一次巡查。
+                开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)`);
+
+                // 关闭此 issue
+                github.issues.update({
+                    issue_number: issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    state: "closed"
+                });
             }
