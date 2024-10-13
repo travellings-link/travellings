@@ -20,11 +20,11 @@
 
 - 点此[查看成员列表](https://list.travellings.cn)
 
-- 点此[查看加入开往要求](https://www.travellings.cn/docs/join)
+- 点此[查看加入开往要求](/docs/join)
 
-- 点此[查看常见疑难解答](https://www.travellings.cn/docs/qa)
+- 点此[查看常见疑难解答](/docs/qa)
 
-- 点此[查看加入开往维护组要求](https://www.travellings.cn/docs/toyou)
+- 点此[查看加入开往维护组要求](/docs/toyou)
 
 ## 项目推荐
 

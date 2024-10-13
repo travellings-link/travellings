@@ -61,6 +61,8 @@ export const zh_CN = defineConfig({
     sidebarMenuLabel: "目录",
     returnToTopLabel: "返回顶部",
     externalLinkIcon: true,
+    lastUpdatedText: "最后更新",
+    outlineTitle: "页面导航",
   },
 
   cleanUrls: true,
