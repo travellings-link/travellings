@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as l,a2 as r}from"./chunks/framework.DelpVO1z.js";const q=JSON.parse('{"title":"疑难解答","description":"","frontmatter":{},"headers":[],"relativePath":"docs/qa.md","filePath":"docs/qa.md"}'),i={name:"docs/qa.md"},t=r("",52),o=[t];function s(n,h,p,c,d,u){return l(),e("div",null,o)}const f=a(i,[["render",s]]);export{q as __pageData,f as default};

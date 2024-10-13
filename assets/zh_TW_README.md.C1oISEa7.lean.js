@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,a2 as t}from"./chunks/framework.DelpVO1z.js";const g=JSON.parse('{"title":"简介","description":"","frontmatter":{},"headers":[],"relativePath":"zh_TW/README.md","filePath":"zh_TW/README.md"}'),l={name:"zh_TW/README.md"},o=t("",11),s=[o];function i(n,h,c,p,d,_){return r(),a("div",null,s)}const u=e(l,[["render",i]]);export{g as __pageData,u as default};

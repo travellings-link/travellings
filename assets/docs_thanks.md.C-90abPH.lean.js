@@ -1,1 +1,0 @@
-import{_ as t,c as d,o as r,a2 as a}from"./chunks/framework.BTl5xOSe.js";const p=JSON.parse('{"title":"致谢","description":"","frontmatter":{},"headers":[],"relativePath":"docs/thanks.md","filePath":"docs/thanks.md"}'),e={name:"docs/thanks.md"},o=a("",7),n=[o];function s(h,i,l,c,_,b){return r(),d("div",null,n)}const u=t(e,[["render",s]]);export{p as __pageData,u as default};

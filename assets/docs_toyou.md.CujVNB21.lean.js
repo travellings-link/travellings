@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,a2 as t}from"./chunks/framework.DelpVO1z.js";const f=JSON.parse('{"title":"给维护组与社区的话","description":"","frontmatter":{},"headers":[],"relativePath":"docs/toyou.md","filePath":"docs/toyou.md"}'),r={name:"docs/toyou.md"},i=t("",9),d=[i];function c(l,s,n,h,_,u){return o(),a("div",null,d)}const m=e(r,[["render",c]]);export{f as __pageData,m as default};
