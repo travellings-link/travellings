@@ -1,4 +1,4 @@
-# 带有`审核驳回`标签的 Issue 在 15 天未活动之后会被关闭
+# 带有`审核异常`标签的 Issue 在 15 天未活动之后会被关闭
 
 name: Close timeout issues
 on:
@@ -19,8 +19,10 @@ jobs:
           days-before-issue-stale: 15
           days-before-issue-close: 0
           stale-issue-label: '超时'
-          only-issue-labels: '审核驳回'
-          close-issue-message: '距离上次等待您的回复，已经过去15天，团队将关闭您的本次请求，如您后续希望继续申请，可以重新提交 Issue 再次申请。感谢您对 开往-友链接力 的支持！'
+          only-issue-labels: '审核异常'
+          close-issue-label: '审核驳回'
+          labels-to-remove-when-stale: '审核异常'
+          close-issue-message: '距离您的上次回复已过 15 天，故开往维护组驳回了您的申请。如您后续希望继续申请，可以重新提交 Issue 再次申请。感谢您对 开往-友链接力 的支持！'
           remove-issue-stale-when-updated: true
           ascending: true
           operations-per-run: 50
