@@ -2,7 +2,6 @@
 import Maintainers from '../.vitepress/theme/components/Maintainers.vue'
 import Changelog from '../.vitepress/theme/components/Changelog.vue'
 </script>
-
 # 欢迎
 
 欢迎来到开往的博客页面！:tada:
@@ -10,26 +9,14 @@ import Changelog from '../.vitepress/theme/components/Changelog.vue'
 此处主要存放一些开往项目近期更新的内容，您现在可以通过侧边栏查看对应时间的文章。
 
 <!--在翻译时请翻译下方具名插槽 template 内的文字-->
-
 ## 维护组成员
 
-<Maintainers type="maintainers">
+<Maintainers>
 <template #active>
 最近活跃的维护者
 </template>
 <template #inactive>
 其他维护者
-</template>
-</Maintainers>
-
-## 巡查组成员
-
-<Maintainers type="inspectors">
-<template #active>
-最近活跃的巡查组成员
-</template>
-<template #inactive>
-其他巡查组成员
 </template>
 </Maintainers>
 
