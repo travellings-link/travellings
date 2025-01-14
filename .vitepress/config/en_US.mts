@@ -83,6 +83,14 @@ export const en_US = defineConfig({
   head: [
     ["link", { rel: "icon", href: "/assets/favicon.png" }],
     [
+      'script',
+      {
+        async: 'true',
+        src: 'https://analyze.xcnya.cn/script.js',
+        'data-website-id': '86870115-a6f7-4261-a503-d17338073263'
+      }
+    ],
+    [
       "script",
       {
         type: "application/ld+json",
