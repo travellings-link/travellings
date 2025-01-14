@@ -32,4 +32,4 @@ jobs:
           publish_dir: ./.vitepress/dist
 
       - name: Sync
-        run: curl https://updates.travellings.cn/update?token=${{ secrets.SYNC_TOKEN }}
+        run: curl --fail --silent --show-error "https://updates.travellings.cn/update?token=${{ secrets.SYNC_TOKEN }}"
