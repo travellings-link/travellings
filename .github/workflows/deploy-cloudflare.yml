@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Workers
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   CI:
     runs-on: ubuntu-22.04
