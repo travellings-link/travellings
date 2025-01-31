@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "vite-plugin-vitepress-auto-sidebar": "^1.6.5",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "wrangler": "^3.107.0"
   }
 }
