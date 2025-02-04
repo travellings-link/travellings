@@ -57,8 +57,12 @@ export default {
 			active: false,
 		},
 		gtxykn0504: {
-			title: "原文案编辑",
-			active: false,
+			title: "文案编辑",
+			active: true,
+		},
+		HowieHz: {
+			title: "自动化开发",
+			active: true,
 		},
 		gxres042: {
 			title: "维护组成员",
