@@ -66,7 +66,7 @@ export default {
 		},
 		gxres042: {
 			title: "维护组成员",
-			active: true,
+			active: false,
 		},
 		MengZeMC: {
 			title: "原公共关系",
@@ -120,7 +120,7 @@ export default {
 		},
 		gtxykn0504: {
 			title: "原巡查组负责人",
-			active: false,
+			active: true,
 		},
 	},
 };
