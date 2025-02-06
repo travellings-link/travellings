@@ -32,7 +32,7 @@ jobs:
           path: './travellings-bot'
 
       - uses: pnpm/action-setup@v4
-        name: Install pnpm --no-frozen-lockfile
+        name: Install pnpm
         with:
           version: latest
           run_install: false
@@ -44,7 +44,7 @@ jobs:
         run: ls
       
       - name: Install package with pnpm
-        run: pnpm install
+        run: pnpm install --lockfile pnpm-lock.yaml
 
       - name: Read Issue Content
         uses: actions/github-script@v4
