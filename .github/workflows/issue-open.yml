@@ -72,10 +72,14 @@ jobs:
             }
 
             console.log('Website URL:', websiteUrl);
-
-            core.setOutput('websiteUrl', websiteUrl);
+            const fs = require('fs');
+            fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
+      - name: ls
+        run: ls
       - name: Run pnpm cli with websiteUrl
-        run: pnpm run cli ${websiteUrl}
+        run: |
+          websiteUrl=$(head -n 1 url.txt)
+          pnpm run cli ${websiteUrl}
       - name: ls
         run: ls
       - name: Comment on issue
