@@ -94,6 +94,6 @@ jobs:
             }
 
             const fs = require('fs');
-            const result = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+            const result = JSON.parse(fs.readFileSync('./results.json', { encoding: 'utf8', flag: 'r' }));
             console.log(result);
             autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
