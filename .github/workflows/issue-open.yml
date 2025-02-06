@@ -53,11 +53,11 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const issue_number = 1; // specify the issue number here
+            const issue = context.issue;
             const issue = await github.issues.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: issue_number
+              issue_number: issue.number
             });
             console.log(issue.data);
             const issueBody = issue.data.body;
@@ -102,5 +102,7 @@ jobs:
             const currentDirectory = path.resolve('.');
             console.log('Current directory:', currentDirectory);
             const result = JSON.parse(fs.readFileSync('./travellings-bot/results.json', { encoding: 'utf8', flag: 'r' }));
+
             console.log(result);
+
             autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
