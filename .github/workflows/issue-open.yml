@@ -36,10 +36,13 @@ jobs:
         with:
           version: latest
           run_install: false
-
+      
       - name: Install Node.js
         uses: actions/setup-node@v4
-    
+      
+      - name: ls
+        run: ls
+      
       - name: Install package with pnpm
         run: pnpm install
 
