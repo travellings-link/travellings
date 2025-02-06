@@ -16,3 +16,97 @@ jobs:
         with:
           add-labels: "待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+  auto-check-assistant:
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./travellings-bot
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    steps:
+      - name: Checkout travellings-link/travellings-bot repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'HowieHz/travellings-bot'
+          path: './travellings-bot'
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: latest
+          run_install: false
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+      
+      # - name: ls
+      #   run: ls
+      # 如果不先安装这个，下面安装会报错
+      - name: Install simple-git-hooks
+        run: pnpm add simple-git-hooks
+      
+      
+      - name: Install package with pnpm
+        run: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
+
+      - name: Read Issue Content
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const context_issue = context.issue;
+            const issue = await github.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context_issue.number
+            });
+            console.log(issue.data);
+            const issueBody = issue.data.body;
+            const lines = issueBody.split('\n');
+            let websiteUrl = '';
+
+            for (let i = 0; i < lines.length; i++) {
+              if (lines[i].trim() === '### 网站网址') {
+                websiteUrl = lines[i + 2].trim();
+                break;
+              }
+            }
+
+            console.log('Website URL:', websiteUrl);
+            const fs = require('fs');
+            fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
+      # - name: ls
+      #   run: ls
+      - name: Run pnpm cli with websiteUrl
+        run: |
+          websiteUrl=$(head -n 1 url.txt)
+          pnpm run cli ${websiteUrl}
+      # - name: ls
+      #   run: ls
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issue = context.issue;
+            const label = context.payload.label;
+            function autoResponse(body) {
+              github.issues.createComment({
+                issue_number: issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              })
+            }
+
+            const fs = require('fs');
+            const path = require('path');
+            const currentDirectory = path.resolve('.');
+            console.log('Current directory:', currentDirectory);
+            const result = JSON.parse(fs.readFileSync('./travellings-bot/results.json', { encoding: 'utf8', flag: 'r' }));
+
+            console.log(result);
+
+            autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
