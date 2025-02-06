@@ -35,15 +35,10 @@ jobs:
         name: Install pnpm
         with:
           version: latest
-          run_install: false
+          run_install: true
 
       - name: Install Node.js
         uses: actions/setup-node@v4
-        with:
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install
 
       - name: Read Issue Content
         uses: actions/github-script@v4
