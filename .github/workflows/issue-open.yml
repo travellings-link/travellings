@@ -60,6 +60,18 @@ jobs:
               issue_number: issue_number
             });
             console.log(issue.data);
+            const issueBody = issue.data.body;
+            const lines = issueBody.split('\n');
+            let websiteUrl = '';
+
+            for (let i = 0; i < lines.length; i++) {
+              if (lines[i].trim() === '### 网站网址') {
+                websiteUrl = lines[i + 2].trim();
+                break;
+              }
+            }
+
+            console.log('Website URL:', websiteUrl);
 
       - name: Comment on issue
         uses: actions/github-script@v4
