@@ -35,10 +35,13 @@ jobs:
         name: Install pnpm --no-frozen-lockfile
         with:
           version: latest
-          run_install: true
+          run_install: false
 
       - name: Install Node.js
         uses: actions/setup-node@v4
+    
+      - name: Install package with pnpm
+        run: pnpm install
 
       - name: Read Issue Content
         uses: actions/github-script@v4
