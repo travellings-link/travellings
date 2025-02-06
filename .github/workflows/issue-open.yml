@@ -28,7 +28,7 @@ jobs:
       - name: Checkout travellings-link/travellings-bot repository
         uses: actions/checkout@v4
         with:
-          repository: 'travellings-link/travellings-bot'
+          repository: 'HowieHz/travellings-bot'
           path: './travellings-bot'
 
       - uses: pnpm/action-setup@v4
@@ -42,7 +42,7 @@ jobs:
       
       - name: ls
         run: ls
-
+      # 如果不先安装这个，下面安装会报错
       - name: Install simple-git-hooks
         run: pnpm add simple-git-hooks
       
@@ -73,6 +73,9 @@ jobs:
 
             console.log('Website URL:', websiteUrl);
 
+            core.setOutput('websiteUrl', websiteUrl);
+      - name: Run pnpm cli with websiteUrl
+        run: pnpm cli ${websiteUrl}
       - name: Comment on issue
         uses: actions/github-script@v4
         with:
@@ -87,4 +90,8 @@ jobs:
                 body: body
               })
             }
-            autoResponse(``);
+
+            const fs = require('fs');
+            const result = JSON.parse(fs.readFileSync('result.json', 'utf8'));
+            console.log(result);
+            autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
