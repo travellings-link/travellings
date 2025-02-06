@@ -51,11 +51,7 @@ jobs:
       
       
       - name: Install package with pnpm
-        uses: nick-fields/retry@v3
-        with:
-          timeout_seconds: 1
-          max_attempts: 3
-          command: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
+        run: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
 
       - name: Read Issue Content
         uses: actions/github-script@v4
