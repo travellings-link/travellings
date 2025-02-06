@@ -29,7 +29,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'travellings-link/travellings-bot'
-          path: './travellings-bot'
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
