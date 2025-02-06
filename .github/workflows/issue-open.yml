@@ -94,6 +94,9 @@ jobs:
             }
 
             const fs = require('fs');
+            const path = require('path');
+            const currentDirectory = path.resolve('.');
+            console.log('Current directory:', currentDirectory);
             const result = JSON.parse(fs.readFileSync('./results.json', { encoding: 'utf8', flag: 'r' }));
             console.log(result);
             autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
