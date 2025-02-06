@@ -16,3 +16,55 @@ jobs:
         with:
           add-labels: "待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+  auto-check-assistant:
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./travellings-bot
+    runs-on: ubuntu-latest
+    permissions:
+      issues: read
+    steps:
+      - name: Checkout travellings-link/travellings-bot repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'travellings-link/travellings-bot'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+      - name: Install dependencies using pnpm
+        run: |
+          npm install -g pnpm
+          pnpm install
+      - name: Read issue content and save to file
+        run: |
+          ISSUE_CONTENT=$(gh issue view ${{ github.event.issue.number }} --json body --jq '.body')
+          echo "$ISSUE_CONTENT" > issue_content.txt
+      - name: Read Issue Content
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issue_number = 1; // specify the issue number here
+            const issue = await github.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue_number
+            });
+            console.log(issue.data);
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issue = context.issue;
+            const label = context.payload.label;
+            function autoResponse(body) {
+              github.issues.createComment({
+                issue_number: issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: body
+              })
+            }
+            autoResponse(``);
