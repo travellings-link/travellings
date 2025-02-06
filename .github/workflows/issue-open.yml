@@ -44,7 +44,7 @@ jobs:
         run: ls
       
       - name: Install package with pnpm
-        run: pnpm install --lockfile pnpm-lock.yaml
+        run: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
 
       - name: Read Issue Content
         uses: actions/github-script@v4
