@@ -17,6 +17,9 @@ jobs:
           add-labels: "待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
   auto-check-assistant:
+    strategy:
+      fail-fast: false
+      max-parallel: 3
     defaults:
       run:
         shell: bash
@@ -40,24 +43,29 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
       
-      - name: ls
-        run: ls
+      # - name: ls
+      #   run: ls
       # 如果不先安装这个，下面安装会报错
       - name: Install simple-git-hooks
         run: pnpm add simple-git-hooks
       
+      
       - name: Install package with pnpm
-        run: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
+        uses: nick-fields/retry@v3
+        with:
+          timeout_seconds: 1
+          max_attempts: 3
+          command: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
 
       - name: Read Issue Content
         uses: actions/github-script@v4
         with:
           script: |
-            const issue = context.issue;
+            const context_issue = context.issue;
             const issue = await github.issues.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: issue.number
+              issue_number: context_issue.number
             });
             console.log(issue.data);
             const issueBody = issue.data.body;
@@ -74,14 +82,14 @@ jobs:
             console.log('Website URL:', websiteUrl);
             const fs = require('fs');
             fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
-      - name: ls
-        run: ls
+      # - name: ls
+      #   run: ls
       - name: Run pnpm cli with websiteUrl
         run: |
           websiteUrl=$(head -n 1 url.txt)
           pnpm run cli ${websiteUrl}
-      - name: ls
-        run: ls
+      # - name: ls
+      #   run: ls
       - name: Comment on issue
         uses: actions/github-script@v4
         with:
