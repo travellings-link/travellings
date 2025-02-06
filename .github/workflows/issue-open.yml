@@ -76,6 +76,8 @@ jobs:
             core.setOutput('websiteUrl', websiteUrl);
       - name: Run pnpm cli with websiteUrl
         run: pnpm run cli ${websiteUrl}
+      - name: ls
+        run: ls
       - name: Comment on issue
         uses: actions/github-script@v4
         with:
