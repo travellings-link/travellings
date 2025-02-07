@@ -31,7 +31,7 @@ jobs:
       - name: Checkout travellings-link/travellings-bot repository
         uses: actions/checkout@v4
         with:
-          repository: 'HowieHz/travellings-bot'
+          repository: 'travellings-link/travellings-bot'
           path: './travellings-bot'
 
       - uses: pnpm/action-setup@v4
