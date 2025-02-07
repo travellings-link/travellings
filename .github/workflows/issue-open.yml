@@ -25,6 +25,8 @@ jobs:
         shell: bash
         working-directory: ./travellings-bot
     runs-on: ubuntu-latest
+    outputs:
+      result: ${{ steps.gen_output.outputs.result }}
     permissions:
       issues: read
     steps:
@@ -89,24 +91,104 @@ jobs:
       - name: Comment on issue
         uses: actions/github-script@v4
         with:
+          script: | 
+            const fs = require('fs');
+
+            const json_result = JSON.parse(fs.readFileSync('./travellings-bot/results.json', { encoding: 'utf8' }));
+
+            console.log(JSON.stringify(json_result, null, 2));
+
+            core.exportVariable('last_result', json_result);
+
+      - name: Generate output
+        id: gen_output
+        run: |
+          echo ${last_result}
+          echo "result=${last_result}" >> "$GITHUB_OUTPUT"
+  comment-auto-check-assistant-result:
+    runs-on: ubuntu-latest
+    needs: [auto-check-assistant]
+    steps:
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        env:
+          RESULT: ${{ needs.auto-check-assistant.outputs.result }}
+        with:
+          script: |
+            async function getWebsiteURL(context, github) {
+              const issue = context.issue;
+
+              const issueResponse = await github.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number
+              });
+              const issueBody = issueResponse.data.body;
+              const lines = issueBody.split('\n');
+              let websiteUrl = '';
+
+              for (let i = 0; i < lines.length; i++) {
+                if (lines[i].trim() === '### 网站网址') {
+                  websiteUrl = lines[i + 2].trim();
+                  break;
+                }
+              }
+
+              return websiteUrl;
+            }
+
+            const websiteUrl = await getWebsiteURL(context, github);
+
+            let json_result = JSON.parse(process.env.RESULT)["results"][websiteUrl];
+
+            // console.log(json_result);
+
+            function replaceNodeValue(json_result){
+              for (const key in json_result) {
+                if (typeof json_result[key] === 'object') {
+                  replaceNodeValue(json_result[key]);
+                } else if (json_result[key] === "RUN") {
+                json_result[key] = '✅RUN';
+                } else if (key === "status") {
+                  json_result[key] = '❌' + json_result[key];
+                }
+              }
+            }
+
+            replaceNodeValue(json_result);
+
+            let result = `站点信息自动检查完毕🎉  
+            自动检查结果：  
+            - HTTP 请求检查：${json_result["axiosCheck"]["status"]}${json_result["axiosCheck"]["status"] === '✅RUN' ? '' : '、失败原因：' + json_result["axiosCheck"]["failedReason"] }
+            - 浏览器模拟检查：${json_result["browserCheck"]["status"]}
+            <details><summary>原始返回值 点击查看详情</summary>
+            ${JSON.stringify(json_result, null, 2)}
+            </details>`;
+
+            const issue = context.issue;
+            const label = context.payload.label;
+            github.issues.createComment({
+              issue_number: issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: result
+            });
+  comment:
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./travellings-bot
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        with:
           script: |
             const issue = context.issue;
             const label = context.payload.label;
-            function autoResponse(body) {
-              github.issues.createComment({
-                issue_number: issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: body
-              })
-            }
-
-            const fs = require('fs');
-            const path = require('path');
-            const currentDirectory = path.resolve('.');
-            console.log('Current directory:', currentDirectory);
-            const result = JSON.parse(fs.readFileSync('./travellings-bot/results.json', { encoding: 'utf8', flag: 'r' }));
-
-            console.log(result);
-
-            autoResponse(`Result: ${JSON.stringify(result, null, 2)}`);
+            github.issues.createComment({
+              issue_number: issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `💬**已收到您的申请**🎉\n\n...请耐心等待审核👀`
+            });
