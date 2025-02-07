@@ -1,0 +1,1 @@
+import{_ as t,c as d,o as r,a2 as a}from"./chunks/framework.Ja7AKUN6.js";const g=JSON.parse('{"title":"致谢","description":"","frontmatter":{},"headers":[],"relativePath":"docs/thanks.md","filePath":"docs/thanks.md"}'),e={name:"docs/thanks.md"},n=a("",7),o=[n];function s(_,h,i,c,l,b){return r(),d("div",null,o)}const m=t(e,[["render",s]]);export{g as __pageData,m as default};
