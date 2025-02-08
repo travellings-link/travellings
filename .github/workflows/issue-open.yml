@@ -173,22 +173,3 @@ jobs:
               repo: context.repo.repo,
               body: result
             });
-  comment:
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./travellings-bot
-    runs-on: ubuntu-latest
-    steps:
-      - name: Comment on issue
-        uses: actions/github-script@v4
-        with:
-          script: |
-            const issue = context.issue;
-            const label = context.payload.label;
-            github.issues.createComment({
-              issue_number: issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `💬**已收到您的申请**🎉\n\n...请耐心等待审核👀`
-            });
