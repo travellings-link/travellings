@@ -59,32 +59,77 @@ jobs:
         uses: actions/github-script@v4
         with:
           script: |
-            const context_issue = context.issue;
-            const issue = await github.issues.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context_issue.number
-            });
-            console.log(issue.data);
-            const issueBody = issue.data.body;
-            const lines = issueBody.split('\n');
-            let websiteUrl = '';
+            async function getWebsiteURL(context, github) {
+              const issue = context.issue;
 
-            for (let i = 0; i < lines.length; i++) {
-              if (lines[i].trim() === '### 网站网址') {
-                websiteUrl = lines[i + 2].trim();
-                break;
+              const issueResponse = await github.issues.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number
+              });
+              const issueBody = issueResponse.data.body;
+              const lines = issueBody.split('\n');
+              let websiteUrl = '';
+
+              // 新申请拿到网址
+              for (let i = 0; i < lines.length; i++) {
+                if (lines[i].trim() === '### 网站网址') {
+                  websiteUrl = lines[i + 2].trim();
+                  break;
+                }
               }
+
+              // 申请更改的拿到网址
+              if (websiteUrl === '') {
+                for (let i = 0; i < lines.length; i++) {
+                  if (lines[i].trim() === '### 新网址（不更改网址请留空）') {
+                    websiteUrl = lines[i + 2].trim();
+                    break;
+                  }
+                }
+              }
+
+              // 申请更改类，但是不改网址的
+              if (websiteUrl === '_No response_') {
+                for (let i = 0; i < lines.length; i++) {
+                  if (lines[i].trim() === '### 原网址') {
+                    websiteUrl = lines[i + 2].trim();
+                    break;
+                  }
+                }
+              }
+              
+              // 还是没拿到网址啥的就退出
+              if (websiteUrl === '_No response_' | websiteUrl === '' ) {
+                // core.setFailed('未能获取到有效的网址');
+                return;
+              }
+
+              return websiteUrl;
             }
 
-            console.log('Website URL:', websiteUrl);
+            const websiteUrl = await getWebsiteURL(context, github);
+
             const fs = require('fs');
+
+            if (websiteUrl === undefined){
+              console.log('未能获取到有效的网址');
+              fs.writeFileSync('./travellings-bot/url.txt', "");
+              return;
+            }
+            console.log('Website URL:', websiteUrl);
             fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
       # - name: ls
       #   run: ls
       - name: Run pnpm cli with websiteUrl
         run: |
           websiteUrl=$(head -n 1 url.txt)
+
+          if [ -z "$websiteUrl" ]; then
+            echo "Website URL is empty, skipping pnpm run cli."
+            exit 0
+          fi
+
           pnpm run cli ${websiteUrl}
       # - name: ls
       #   run: ls
@@ -93,6 +138,12 @@ jobs:
         with:
           script: | 
             const fs = require('fs');
+
+            if (!fs.existsSync('./travellings-bot/results.json')) {
+              console.log('results.json file does not exist, skipping comment.');
+              core.exportVariable('last_result', "null");
+              return;
+            }
 
             const json_result = JSON.parse(fs.readFileSync('./travellings-bot/results.json', { encoding: 'utf8' }));
 
@@ -127,6 +178,7 @@ jobs:
               const lines = issueBody.split('\n');
               let websiteUrl = '';
 
+              // 新申请拿到网址
               for (let i = 0; i < lines.length; i++) {
                 if (lines[i].trim() === '### 网站网址') {
                   websiteUrl = lines[i + 2].trim();
@@ -134,10 +186,50 @@ jobs:
                 }
               }
 
+              // 申请更改的拿到网址
+              if (websiteUrl === '') {
+                for (let i = 0; i < lines.length; i++) {
+                  if (lines[i].trim() === '### 新网址（不更改网址请留空）') {
+                    websiteUrl = lines[i + 2].trim();
+                    break;
+                  }
+                }
+              }
+
+              // 申请更改类，但是不改网址的
+              if (websiteUrl === '_No response_') {
+                for (let i = 0; i < lines.length; i++) {
+                  if (lines[i].trim() === '### 原网址') {
+                    websiteUrl = lines[i + 2].trim();
+                    break;
+                  }
+                }
+              }
+              
+              // 还是没拿到网址啥的就退出
+              if (websiteUrl === '_No response_' | websiteUrl === '' ) {
+                // core.setFailed('未能获取到有效的网址');
+                return;
+              }
+
               return websiteUrl;
             }
 
             const websiteUrl = await getWebsiteURL(context, github);
+
+            if (websiteUrl === undefined){
+              console.log('未能获取到有效的网址');
+              // 此时 process.env.RESULT 为 null
+              const issue = context.issue;
+              const label = context.payload.label;
+              github.issues.createComment({
+                issue_number: issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: "站点信息自动检查失败❌\n未能获取到有效的网址"
+              });
+              return;
+            }
 
             let json_result = JSON.parse(process.env.RESULT)["results"][websiteUrl];
 
