@@ -1,3 +1,13 @@
+---
+sidebar_position: 1
+title: 关于公告栏
+date: 2025-02-12
+updated: 2025-02-12
+categories: 项目公告
+tags:
+  - 维护
+---
+
 # 关于公告栏
 
 开往近日的公告，目前与 GitHub Discussions 人工同步
