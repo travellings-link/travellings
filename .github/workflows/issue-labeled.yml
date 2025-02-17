@@ -53,4 +53,21 @@ jobs:
                     repo: context.repo.repo,
                     state: "closed"
                 });
+            } else if (label.name === "超时") {
+                autoResponse(`此 Issue 已被标记为超时，我们将锁定这个对话。如您后续希望继续申请，可以重新提交 Issue 再次申请。感谢您对 开往-友链接力 的支持！`);
+
+                // 关闭此 issue
+                github.issues.update({
+                    issue_number: issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    state: "closed"
+                });
+
+                // 锁定此 issue
+                github.issues.lock({
+                  issue_number: issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo
+                });
             }
