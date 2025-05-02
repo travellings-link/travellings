@@ -6,15 +6,13 @@
 
 ## About Travellings
 
-**Travellings** project was established on March 12th, 2020. Its name came from the open network (kai wang) and Travellings is a "web-roll-like" friend link relay project.
+"Travellings" is a "web-roll-like" friend link relay project, aiming to direct traffic to those little-known independent sites through web redirection, thereby promoting the openness and diversity of the network.
 
-The logo of "bound" is a star ring representing "the world" + a train representing "shuttle" - I believe you heard the word "bound" the most when you must be on the train, "The train from xx to xx..." ". ![example](https://www.travellings.cn/assets/logo-index.gif)
+This project was born on March 12, 2020, and its inspiration came from the open network.  Its Logo is composed of a star ring representing "the world" and a train representing "shuttle", just as we often hear on the train, "The train from xx to xx..."  The same, symbolizing shuttling through the online world.
 
-Whenever someone visits a webpage that has joined the ‘Travellings’ service, clicking on ‘Travellings’ will **randomly redirect to** another webpage that has also joined the same service. Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.Subsequently, clicking the ‘Travellings’ button or navigating back in the webpage will randomly redirect to another webpage that has also joined the same service.
+Whenever a user visits the webpage that joins "Travellings", clicking the "To" button on that webpage will randomly redirect to another webpage that joins the project.  Whether you click "Drive to" again or back off the webpage, you will continue to be randomly redirected to the webpages of other participants.
 
-The more web pages that join the Travellings, the bigger the scale of the friend link network, and thus, the larger the volume of shared traffic.
-
-Hitherto, 1k+ people have starred the Travellings project, and 1k+ members have (or had) joined the project.
+As of now, "Travellings" has attracted the attention of over 1,000 people, and over 1,000 members have joined the project.  As more and more web pages choose to join the "Travellings" group, our friendly link network is also constantly expanding, which will further drive the growth of shared traffic and inject more vitality into this project.
 
 [![GitHub stars](https://img.shields.io/github/stars/travellings-link/travellings?style=social)](https://github.com/travellings-link/travellings/stargazers)
 
@@ -23,7 +21,7 @@ Hitherto, 1k+ people have starred the Travellings project, and 1k+ members have 
 - Click here [View member list](https://list.travellings.cn)
 - Click here [to view the requirements for joining the destination](https://www.travellings.cn/en_US/docs/join)
 - Click here [View FAQ](https://www.travellings.cn/en_US/docs/qa)
-- Click here [to view the requirements for joining the Toyou maintenance group](https://www.travellings.cn/en_US/docs/toyou)
+- Click here [to view the requirements for joining the maintenance group](https://www.travellings.cn/en_US/docs/toyou)
 
 ## Project Recommendation
 

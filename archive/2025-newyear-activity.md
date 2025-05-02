@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 5
 title: 关于开往举行 2025 年新年贺信活动的通知
 date: 2025-01-27
 updated: 2025-01-27
