@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 title: 开往已移除长期未解析域名的成员
 date: 2024-02-01
 updated: 2024-02-01
