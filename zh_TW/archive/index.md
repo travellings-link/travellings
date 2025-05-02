@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
-title: 开往维护组关于废除观察期制度的公告
+title: 关于公告归档
 date: 2024-01-21
 updated: 2024-01-21
 categories: 项目公告
 tags:
   - 内部规定
 ---
-# 关于归档
+# 关于公告归档
 ::: warning
 
-该目录下的文章均为过时公告，现已无效！
+Hey，该目录下的文章均为过时公告，现已无效！
 
 :::
 开往近日的公告，目前与 GitHub Discussions 人工同步
