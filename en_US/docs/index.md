@@ -21,7 +21,7 @@ As of now, "Travellings" has attracted the attention of over 1,000 people, and o
 - Click here [View member list](https://list.travellings.cn)
 - Click here [to view the requirements for joining the destination](https://www.travellings.cn/en_US/docs/join)
 - Click here [View FAQ](https://www.travellings.cn/en_US/docs/qa)
-- Click here [to view the requirements for joining the  maintenance group](https://www.travellings.cn/en_US/docs/toyou)
+- Click here [to view the requirements for joining the maintenance group](https://www.travellings.cn/en_US/docs/toyou)
 
 ## Project Recommendation
 
