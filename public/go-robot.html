@@ -160,64 +160,21 @@
         const prefix = "t_preference_";
         const getSetting = key => localStorage.getItem(prefix + key);
         const preferredTag = getSetting("tag");
+        const TEST_MODE = false; // 测试模式开关
 
         function requestRandomWebsite(tag = preferredTag) {
+            if (TEST_MODE) {
+                return Promise.resolve({
+                    name: "开往官网",
+                    url: "https://www.travellings.cn/"
+                });
+            }
             return fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`)
                .then(response => response.json())
                .catch(error => {
                     console.error('获取网站失败:', error);
                     throw new Error('请求失败');
                 });
-        }
-
-        function showLoading() {
-            document.getElementById('loadingSpinner').style.display = 'flex';
-        }
-
-        function hideLoading() {
-            document.getElementById('loadingSpinner').style.display = 'none';
-        }
-
-        function showMessage(text, type) {
-            const history = document.getElementById('chatHistory');
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${type}-message`;
-
-            if (type === 'bot') {
-                const iconDiv = document.createElement('div');
-                iconDiv.className = 'robot-icon';
-                messageDiv.appendChild(iconDiv);
-            }
-
-            const textDiv = document.createElement('div');
-            textDiv.textContent = text;
-            messageDiv.appendChild(textDiv);
-
-            history.appendChild(messageDiv);
-            history.scrollTop = history.scrollHeight;
-        }
-
-        async function startConversation() {
-            showMessage("欢迎回来，正在为您开往下一站。", 'bot');
-            await new Promise(resolve => setTimeout(resolve, 1000));
-
-            try {
-                showLoading();
-                const website = await requestRandomWebsite();
-                hideLoading();
-                showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
-                showOptions([
-                    { text: "开！", value: "open" },
-                    { text: "换！", value: "change" }
-                ]);
-            } catch (error) {
-                hideLoading();
-                showMessage("获取网站失败，请重试！", 'bot');
-                showOptions([
-                    { text: "测试人员入口", value: "test" },
-                    { text: "重试", value: "retry" }
-                ]);
-            }
         }
 
         function showOptions(options) {
@@ -245,9 +202,45 @@
             if (value === 'open' && currentWebsite) {
                 window.location.href = currentWebsite.url;
             } else if (value === 'test') {
+                TEST_MODE = true;
                 startConversation();
             } else if (value === 'retry') {
                 startConversation();
+            } else if (value === 'change') {
+                // 测试模式下保持currentWebsite不变
+                if (TEST_MODE) {
+                    showMessage(`您即将开往 ${currentWebsite.name}（${currentWebsite.url}），请问您是否满意？`, 'bot');
+                    showOptions([
+                        { text: "开！", value: "open" },
+                        { text: "换！", value: "change" }
+                    ]);
+                } else {
+                    startConversation();
+                }
+            }
+        }
+
+        async function startConversation() {
+            showMessage("欢迎回来，正在为您开往下一站。", 'bot');
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            try {
+                showLoading();
+                const website = await requestRandomWebsite();
+                hideLoading();
+                currentWebsite = website;
+                showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
+                showOptions([
+                    { text: "开！", value: "open" },
+                    { text: "换！", value: "change" }
+                ]);
+            } catch (error) {
+                hideLoading();
+                showMessage("获取网站失败，请重试！", 'bot');
+                showOptions([
+                    { text: "测试人员入口", value: "test" },
+                    { text: "重试", value: "retry" }
+                ]);
             }
         }
 
