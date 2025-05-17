@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,21 +28,7 @@
             width: 90%;
             max-width: 450px;
             overflow: hidden;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-        }
-
-        .robot-icon {
-            width: 40px;
-            height: 40px;
-            background: #00b894;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            color: white;
-            margin-right: 10px;
-            margin-top: 5px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
         }
 
         .header {
@@ -59,8 +46,6 @@
 
         .chat-history {
             padding: 20px;
-            height: 50vh;
-            min-height: 300px;
             overflow-y: auto;
             background: #e8f5e9;
             display: flex;
@@ -75,12 +60,23 @@
             line-height: 1.6;
             display: flex;
             align-items: flex-start;
+            position: relative;
         }
 
         .bot-message {
             background: #c8e6c9;
             color: #2e7d32;
             align-self: flex-start;
+        }
+
+        .robot-icon {
+            width: 40px;
+            height: 40px;
+            background: url('https://img.icons8.com/external-flat-icons-flat-icons/40/00b894/external-robot-electronics-flat-icons-flat-icons.png');
+            background-size: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+            margin-top: 5px;
         }
 
         .option-buttons {
@@ -99,7 +95,7 @@
             font-size: 16px;
             cursor: pointer;
             transition: transform 0.3s ease;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
         }
 
         .option-button:hover {
@@ -123,15 +119,19 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         @media (max-width: 480px) {
             .robot-icon {
                 width: 35px;
                 height: 35px;
-                font-size: 20px;
             }
 
             .header h1 {
@@ -149,6 +149,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="chat-container">
         <div class="header">
@@ -163,25 +164,32 @@
 
     <script>
         let currentWebsite = null;
-        const TEST_MODE = false; // 设置为true启用测试模式
+        const prefix = "t_preference_";
+        const getSetting = key => localStorage.getItem(prefix + key);
+        const preferredTag = getSetting("tag");
 
-        async function fetchRandomWebsite() {
-            try {
-                if (TEST_MODE) {
-                    return { name: "开往官网", url: "https://www.travellings.cn/" };
+        // 封装请求随机网站的函数，返回Promise
+        function requestRandomWebsite(tag = preferredTag) {
+            return new Promise((resolve, reject) => {
+                let apiUrl = 'https://api.travellings.cn/random';
+                if (tag) {
+                    apiUrl += `?tag=${tag}`;
                 }
-                showLoading();
-                const response = await fetch('https://api.travellings.cn/random');
-                const data = await response.json();
-                currentWebsite = data;
-                return data;
-            } catch (error) {
-                console.error('获取网站失败:', error);
-                showMessage("获取网站失败，请重试！", 'bot');
-                return null;
-            } finally {
-                hideLoading();
-            }
+                fetch(apiUrl)
+                   .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                   .then(data => {
+                        currentWebsite = data;
+                        resolve(data);
+                    })
+                   .catch(error => {
+                        reject(error);
+                    });
+            });
         }
 
         function showLoading() {
@@ -196,18 +204,17 @@
             const history = document.getElementById('chatHistory');
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${type}-message`;
-            
+
             if (type === 'bot') {
                 const iconDiv = document.createElement('div');
                 iconDiv.className = 'robot-icon';
-                iconDiv.textContent = '🤖';
                 messageDiv.appendChild(iconDiv);
             }
-            
+
             const textDiv = document.createElement('div');
             textDiv.textContent = text;
             messageDiv.appendChild(textDiv);
-            
+
             history.appendChild(messageDiv);
             history.scrollTop = history.scrollHeight;
         }
@@ -215,21 +222,30 @@
         async function startConversation() {
             showMessage("欢迎回来，正在为您开往下一站。", 'bot');
             await new Promise(resolve => setTimeout(resolve, 1000));
-            
-            const website = await fetchRandomWebsite();
-            if (!website) {
+
+            showLoading();
+            try {
+                const website = await requestRandomWebsite();
+                hideLoading();
+                if (website) {
+                    showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
+                    showOptions([
+                        { text: "开！", value: "open" },
+                        { text: "换！", value: "change" }
+                    ]);
+                }
+            } catch (error) {
+                hideLoading();
+                if (error.message.includes('HTTP error')) {
+                    showMessage("获取网站时遇到网络问题，请检查网络后重试！", 'bot');
+                } else {
+                    showMessage("获取网站失败，请重试！", 'bot');
+                }
                 showOptions([
                     { text: "测试人员入口", value: "test" },
                     { text: "重试", value: "retry" }
                 ]);
-                return;
             }
-            
-            showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
-            showOptions([
-                { text: "开！", value: "open" },
-                { text: "换！", value: "change" }
-            ]);
         }
 
         function showOptions(options) {
@@ -255,7 +271,7 @@
                 window.location.href = currentWebsite.url;
             } else if (value === 'test') {
                 window.location.href = 'https://www.travellings.cn/';
-            } else {
+            } else if (value ==='retry') {
                 startConversation();
             }
         }
@@ -263,4 +279,5 @@
         startConversation();
     </script>
 </body>
+
 </html>
