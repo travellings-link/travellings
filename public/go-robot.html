@@ -13,7 +13,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #e2e6f0, #c4cfe9);
+            background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -31,26 +31,23 @@
         }
 
         .robot-icon {
-            position: absolute;
-            top: -50px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 100px;
-            background: #007bff;
+            width: 40px;
+            height: 40px;
+            background: #00b894;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 40px;
+            font-size: 24px;
             color: white;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            margin-right: 10px;
+            margin-top: 5px;
         }
 
         .header {
             padding: 30px 20px 10px;
             text-align: center;
-            background: #007bff;
+            background: #00b894;
             color: white;
             border-radius: 25px 25px 0 0;
         }
@@ -65,7 +62,7 @@
             height: 50vh;
             min-height: 300px;
             overflow-y: auto;
-            background: #f8f9fa;
+            background: #e8f5e9;
             display: flex;
             flex-direction: column;
             gap: 15px;
@@ -76,11 +73,13 @@
             border-radius: 20px;
             max-width: 80%;
             line-height: 1.6;
+            display: flex;
+            align-items: flex-start;
         }
 
         .bot-message {
-            background: #e9ecef;
-            color: #333;
+            background: #c8e6c9;
+            color: #2e7d32;
             align-self: flex-start;
         }
 
@@ -95,7 +94,7 @@
             padding: 15px;
             border: none;
             border-radius: 25px;
-            background: #007bff;
+            background: #00b894;
             color: white;
             font-size: 16px;
             cursor: pointer;
@@ -118,7 +117,7 @@
             width: 30px;
             height: 30px;
             border: 4px solid #f3f3f3;
-            border-top: 4px solid #007bff;
+            border-top: 4px solid #00b894;
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -130,9 +129,9 @@
 
         @media (max-width: 480px) {
             .robot-icon {
-                width: 80px;
-                height: 80px;
-                top: -40px;
+                width: 35px;
+                height: 35px;
+                font-size: 20px;
             }
 
             .header h1 {
@@ -152,7 +151,6 @@
 </head>
 <body>
     <div class="chat-container">
-        <div class="robot-icon">🤖</div>
         <div class="header">
             <h1>开往-友链接力</h1>
         </div>
@@ -165,9 +163,13 @@
 
     <script>
         let currentWebsite = null;
+        const TEST_MODE = false; // 设置为true启用测试模式
 
         async function fetchRandomWebsite() {
             try {
+                if (TEST_MODE) {
+                    return { name: "开往官网", url: "https://www.travellings.cn/" };
+                }
                 showLoading();
                 const response = await fetch('https://api.travellings.cn/random');
                 const data = await response.json();
@@ -175,6 +177,7 @@
                 return data;
             } catch (error) {
                 console.error('获取网站失败:', error);
+                showMessage("获取网站失败，请重试！", 'bot');
                 return null;
             } finally {
                 hideLoading();
@@ -193,7 +196,18 @@
             const history = document.getElementById('chatHistory');
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${type}-message`;
-            messageDiv.textContent = text;
+            
+            if (type === 'bot') {
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'robot-icon';
+                iconDiv.textContent = '🤖';
+                messageDiv.appendChild(iconDiv);
+            }
+            
+            const textDiv = document.createElement('div');
+            textDiv.textContent = text;
+            messageDiv.appendChild(textDiv);
+            
             history.appendChild(messageDiv);
             history.scrollTop = history.scrollHeight;
         }
@@ -204,20 +218,21 @@
             
             const website = await fetchRandomWebsite();
             if (!website) {
-                showMessage("获取网站失败，请重试！", 'bot');
+                showOptions([
+                    { text: "测试人员入口", value: "test" },
+                    { text: "重试", value: "retry" }
+                ]);
                 return;
             }
             
             showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
-            showOptions();
-        }
-
-        function showOptions() {
-            const options = [
+            showOptions([
                 { text: "开！", value: "open" },
                 { text: "换！", value: "change" }
-            ];
+            ]);
+        }
 
+        function showOptions(options) {
             const buttonContainer = document.createElement('div');
             buttonContainer.className = 'option-buttons';
 
@@ -238,6 +253,8 @@
 
             if (value === 'open' && currentWebsite) {
                 window.location.href = currentWebsite.url;
+            } else if (value === 'test') {
+                window.location.href = 'https://www.travellings.cn/';
             } else {
                 startConversation();
             }
