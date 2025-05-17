@@ -2,92 +2,157 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>开往-友链接力</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e2e6f0, #c4cfe9);
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f0f2f5;
+            overflow-x: hidden;
         }
 
         .chat-container {
-            width: 600px;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 25px;
+            width: 90%;
+            max-width: 450px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+        .robot-icon {
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 100px;
+            background: #007bff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
         .header {
-            padding: 20px;
-            background-color: #007bff;
-            color: white;
-            border-radius: 15px 15px 0 0;
+            padding: 30px 20px 10px;
             text-align: center;
+            background: #007bff;
+            color: white;
+            border-radius: 25px 25px 0 0;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
         }
 
         .chat-history {
             padding: 20px;
-            height: 400px;
+            height: 50vh;
+            min-height: 300px;
             overflow-y: auto;
-            background-color: #f8f9fa;
-            border-radius: 0 0 15px 15px;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         .message {
-            margin: 15px 0;
             padding: 12px 18px;
             border-radius: 20px;
             max-width: 80%;
+            line-height: 1.6;
         }
 
         .bot-message {
-            background-color: #e9ecef;
+            background: #e9ecef;
             color: #333;
-            margin-left: 10%;
+            align-self: flex-start;
+        }
+
+        .option-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
         }
 
         .option-button {
-            margin: 5px;
-            padding: 10px 20px;
+            padding: 15px;
             border: none;
             border-radius: 25px;
-            background-color: #007bff;
+            background: #007bff;
             color: white;
+            font-size: 16px;
             cursor: pointer;
             transition: transform 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
         }
 
         .option-button:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
 
         .loading {
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 20px;
         }
 
         .spinner {
+            width: 30px;
+            height: 30px;
             border: 4px solid #f3f3f3;
             border-top: 4px solid #007bff;
             border-radius: 50%;
-            width: 24px;
-            height: 24px;
             animation: spin 1s linear infinite;
-            display: inline-block;
         }
 
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        @media (max-width: 480px) {
+            .robot-icon {
+                width: 80px;
+                height: 80px;
+                top: -40px;
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .message {
+                font-size: 15px;
+            }
+
+            .option-button {
+                padding: 12px;
+                font-size: 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="chat-container">
+        <div class="robot-icon">🤖</div>
         <div class="header">
             <h1>开往-友链接力</h1>
         </div>
@@ -117,7 +182,7 @@
         }
 
         function showLoading() {
-            document.getElementById('loadingSpinner').style.display = 'block';
+            document.getElementById('loadingSpinner').style.display = 'flex';
         }
 
         function hideLoading() {
@@ -153,13 +218,18 @@
                 { text: "换！", value: "change" }
             ];
 
+            const buttonContainer = document.createElement('div');
+            buttonContainer.className = 'option-buttons';
+
             options.forEach(option => {
                 const button = document.createElement('button');
                 button.className = 'option-button';
                 button.textContent = option.text;
                 button.onclick = () => handleOptionSelected(option.value);
-                document.body.appendChild(button);
+                buttonContainer.appendChild(button);
             });
+
+            document.querySelector('.chat-container').appendChild(buttonContainer);
         }
 
         function handleOptionSelected(value) {
@@ -173,7 +243,6 @@
             }
         }
 
-        // 初始化对话
         startConversation();
     </script>
 </body>
