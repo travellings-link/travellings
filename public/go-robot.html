@@ -177,6 +177,33 @@
                 });
         }
 
+        function showLoading() {
+            document.getElementById('loadingSpinner').style.display = 'flex';
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingSpinner').style.display = 'none';
+        }
+
+        function showMessage(text, type) {
+            const history = document.getElementById('chatHistory');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}-message`;
+
+            if (type === 'bot') {
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'robot-icon';
+                messageDiv.appendChild(iconDiv);
+            }
+
+            const textDiv = document.createElement('div');
+            textDiv.textContent = text;
+            messageDiv.appendChild(textDiv);
+
+            history.appendChild(messageDiv);
+            history.scrollTop = history.scrollHeight;
+        }
+
         function showOptions(options) {
             const buttonContainer = document.querySelector('.option-buttons');
             if (buttonContainer) buttonContainer.remove();
