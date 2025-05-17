@@ -71,7 +71,7 @@
         .robot-icon {
             width: 40px;
             height: 40px;
-            background: url('https://img.icons8.com/color/40/00b894/robot.png');
+            background: url('https://img.icons8.com/external-icongeek26-flat-icongeek26/40/00b894/external-robot-robotics-icongeek26-flat-icongeek26.png');
             background-size: cover;
             margin-right: 10px;
             margin-top: 5px;
@@ -160,7 +160,7 @@
         const prefix = "t_preference_";
         const getSetting = key => localStorage.getItem(prefix + key);
         const preferredTag = getSetting("tag");
-        const TEST_MODE = false; // 测试模式开关
+        let TEST_MODE = false; // 测试模式开关
 
         function requestRandomWebsite(tag = preferredTag) {
             if (TEST_MODE) {
