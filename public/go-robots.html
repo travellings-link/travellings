@@ -100,8 +100,14 @@
             gap: 20px;
             flex: 1;
             background: rgba(0, 0, 0, 0.15);
+            scrollbar-width: none;
+            -ms-overflow-style: none;
         }
-
+        
+        .chat-history::-webkit-scrollbar {
+            display: none;
+        }
+       
         .message {
             padding: 16px 20px;
             max-width: 85%;
