@@ -1,117 +1,232 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>开往-友链接力</title>
+    <title>开往-友链接力 | 现代化设计</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary: #8a2be2;
+            --primary-light: #9d4edd;
+            --secondary: #4361ee;
+            --accent: #f72585;
+            --dark-bg: #121826;
+            --card-bg: rgba(30, 33, 57, 0.8);
+            --text-primary: #e0e0ff;
+            --text-secondary: #a0a0d0;
+            --success: #4ade80;
+            --warning: #facc15;
+            --error: #f87171;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', sans-serif;
         }
 
         body {
-            background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+            padding: 20px;
             overflow-x: hidden;
         }
 
-        .chat-container {
-            background: white;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 450px;
+        .container {
+            background: var(--card-bg);
+            border-radius: 24px;
+            width: 100%;
+            max-width: 500px;
             overflow: hidden;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            height: 90vh;
+            max-height: 800px;
+            animation: fadeIn 0.8s ease-out;
         }
 
         .header {
-            padding: 20px;
+            padding: 24px 20px;
             text-align: center;
-            background: #00b894;
-            color: white;
+            background: rgba(67, 97, 238, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
         }
 
         .header h1 {
-            font-size: 24px;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: var(--text-secondary);
             margin-bottom: 10px;
+        }
+
+        .pref-link {
+            color: #9d4edd;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-top: 5px;
+            transition: all 0.3s;
+        }
+
+        .pref-link:hover {
+            color: #f72585;
+            text-decoration: underline;
         }
 
         .chat-history {
             padding: 20px;
             overflow-y: auto;
-            background: #e8f5e9;
             display: flex;
             flex-direction: column;
-            gap: 15px;
-            max-height: 400px;
+            gap: 20px;
+            flex: 1;
+            background: rgba(0, 0, 0, 0.15);
         }
 
         .message {
-            padding: 12px 18px;
-            max-width: 80%;
+            padding: 16px 20px;
+            max-width: 85%;
             line-height: 1.6;
             display: flex;
             align-items: flex-start;
+            border-radius: 18px;
+            animation: fadeIn 0.4s ease-out;
         }
 
         .bot-message {
-            background: #c8e6c9;
-            color: #2e7d32;
+            background: rgba(67, 97, 238, 0.2);
+            color: var(--text-primary);
             align-self: flex-start;
-            border-radius: 10px;
+            backdrop-filter: blur(4px);
         }
 
         .robot-icon {
-            width: 40px;
-            height: 40px;
-            background: url('https://img.icons8.com/external-icongeek26-flat-icongeek26/40/00b894/external-robot-robotics-icongeek26-flat-icongeek26.png');
-            background-size: cover;
-            margin-right: 10px;
+            min-width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            flex-shrink: 0;
+            font-size: 20px;
+        }
+
+        .website-info {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 12px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .website-info h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .website-info p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            word-break: break-all;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            background: rgba(138, 43, 226, 0.2);
+            color: #c792ea;
+            font-size: 12px;
             margin-top: 5px;
         }
 
         .option-buttons {
             display: flex;
-            flex-direction: column;
             gap: 15px;
             padding: 20px;
+            background: rgba(20, 22, 36, 0.5);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .option-button {
-            padding: 15px;
+            padding: 16px;
             border: none;
-            border-radius: 25px;
-            background: #00b894;
+            border-radius: 16px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
-            transition: transform 0.3s ease;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
 
         .option-button:hover {
-            transform: scale(1.02);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
+        }
+
+        .option-button.secondary {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .option-button.secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .loading {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding: 40px;
+            gap: 20px;
+        }
+
+        .loading p {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--text-secondary);
         }
 
         .spinner {
-            width: 30px;
-            height: 30px;
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #00b894;
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.1);
+            border-top: 5px solid var(--accent);
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -121,168 +236,202 @@
             100% { transform: rotate(360deg); }
         }
 
-        @media (max-width: 480px) {
-            .robot-icon {
-                width: 35px;
-                height: 35px;
-            }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
+        @media (max-width: 600px) {
+            .container {
+                height: 95vh;
+                max-height: none;
+            }
+            
             .header h1 {
-                font-size: 20px;
+                font-size: 22px;
             }
-
-            .message {
-                font-size: 15px;
+            
+            .option-buttons {
+                flex-direction: column;
+                gap: 12px;
             }
-
+            
             .option-button {
-                padding: 12px;
-                font-size: 15px;
+                width: 100%;
+            }
+            
+            .message {
+                max-width: 90%;
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="chat-container">
+    <div class="container">
         <div class="header">
             <h1>开往-友链接力</h1>
+            <p>发现互联网的下一站精彩</p>
+            <a href="https://www.travellings.cn/preference.html" class="pref-link">
+                <i class="fas fa-cog"></i> 前往设置偏好
+            </a>
         </div>
-        <div class="chat-history" id="chatHistory"></div>
+        
+        <div class="chat-history" id="chatHistory">
+            <div class="message bot-message">
+                <div class="robot-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div>
+                    <div>欢迎使用开往-友链接力！</div>
+                    <div class="website-info">
+                        <h3><i class="fas fa-info-circle"></i> 使用说明</h3>
+                        <p><i class="fas fa-mouse-pointer"></i> 点击"开往"按钮探索新站点</p>
+                        <p><i class="fas fa-sync-alt"></i> 点击"换一个"按钮切换站点</p>
+                        <p><i class="fas fa-cog"></i> 可在偏好设置页面设置站点类型</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="loading" id="loadingSpinner" style="display: none;">
             <div class="spinner"></div>
-            <p>正在获取神秘网站...</p>
+            <p>正在获取站点...</p>
+        </div>
+        
+        <div class="option-buttons">
+            <button class="option-button" id="openButton">
+                <i class="fas fa-paper-plane"></i> 开往
+            </button>
+            <button class="option-button secondary" id="changeButton">
+                <i class="fas fa-random"></i> 换一个
+            </button>
         </div>
     </div>
 
     <script>
         let currentWebsite = null;
         const prefix = "t_preference_";
-        const getSetting = key => localStorage.getItem(prefix + key);
-        const preferredTag = getSetting("tag");
-        let TEST_MODE = false; // 测试模式开关
-
-        function requestRandomWebsite(tag = preferredTag) {
-            if (TEST_MODE) {
-                return Promise.resolve({
-                    name: "开往官网",
-                    url: "https://www.travellings.cn/"
-                });
-            }
+        
+        // 获取偏好设置
+        function getSetting(key) {
+            return localStorage.getItem(prefix + key);
+        }
+        
+        // 请求随机网站
+        function requestRandomWebsite(tag = getSetting("tag")) {
             return fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`)
-               .then((response) => response.json())
-               .then((data) => {
-                 if (data.success) {
-                   return {
-                   name: data.data[0].name,
-                   url: data.data[0].url,
-                   };
-                }
-                console.error("获取网站失败！");
-                throw new Error("请求失败");
+               .then(response => response.json())
+               .then(data => {
+                   if (data.success) {
+                       return {
+                           name: data.data[0].name.trim(),
+                           url: data.data[0].url.trim(),
+                           tag: data.data[0].tag || ""
+                       };
+                   }
+                   throw new Error("请求失败");
                })
-               .catch((error) => {
-               console.error("获取网站失败:", error);
-               throw new Error("请求失败");
+               .catch(error => {
+                   console.error("获取网站失败:", error);
+                   throw new Error("请求失败");
                });
         }
 
+        // 显示/隐藏加载动画
         function showLoading() {
             document.getElementById('loadingSpinner').style.display = 'flex';
         }
-
+        
         function hideLoading() {
             document.getElementById('loadingSpinner').style.display = 'none';
         }
-
-        function showMessage(text, type) {
+        
+        // 显示消息
+        function showMessage(text, website = null) {
             const history = document.getElementById('chatHistory');
             const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${type}-message`;
-
-            if (type === 'bot') {
-                const iconDiv = document.createElement('div');
-                iconDiv.className = 'robot-icon';
-                messageDiv.appendChild(iconDiv);
+            messageDiv.className = 'message bot-message';
+            
+            let tagHTML = '';
+            if (website && website.tag) {
+                tagHTML = `<div class="tag">${getTagName(website.tag)}</div>`;
             }
-
-            const textDiv = document.createElement('div');
-            textDiv.textContent = text;
-            messageDiv.appendChild(textDiv);
-
+            
+            messageDiv.innerHTML = `
+                <div class="robot-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div>
+                    <div>${text}</div>
+                    ${website ? `
+                    <div class="website-info">
+                        <h3><i class="fas fa-star"></i> ${website.name}</h3>
+                        <p><i class="fas fa-link"></i> ${website.url}</p>
+                        ${tagHTML}
+                    </div>
+                    ` : ''}
+                </div>
+            `;
             history.appendChild(messageDiv);
             history.scrollTop = history.scrollHeight;
         }
-
-        function showOptions(options) {
-            const buttonContainer = document.querySelector('.option-buttons');
-            if (buttonContainer) buttonContainer.remove();
-
-            const newContainer = document.createElement('div');
-            newContainer.className = 'option-buttons';
-
-            options.forEach(option => {
-                const button = document.createElement('button');
-                button.className = 'option-button';
-                button.textContent = option.text;
-                button.onclick = () => handleOptionSelected(option.value);
-                newContainer.appendChild(button);
-            });
-
-            document.querySelector('.chat-container').appendChild(newContainer);
+        
+        // 获取标签名称
+        function getTagName(tag) {
+            const tagMap = {
+                'blog': '博客',
+                'tech': '技术类博客',
+                'life': '生活类博客',
+                'hybrid': '综合类博客',
+                'normal': '杂项网站',
+                'site': '网站分享类博客'
+            };
+            return tagMap[tag] || tag;
         }
-
-        function handleOptionSelected(value) {
-            const buttons = document.querySelectorAll('.option-button');
-            buttons.forEach(button => button.remove());
-
-            if (value === 'open' && currentWebsite) {
-                window.location.href = currentWebsite.url;
-            } else if (value === 'test') {
-                TEST_MODE = true;
-                startConversation();
-            } else if (value === 'retry') {
-                startConversation();
-            } else if (value === 'change') {
-                // 测试模式下保持currentWebsite不变
-                if (TEST_MODE) {
-                    showMessage(`您即将开往 ${currentWebsite.name}（${currentWebsite.url}），请问您是否满意？`, 'bot');
-                    showOptions([
-                        { text: "开！", value: "open" },
-                        { text: "换！", value: "change" }
-                    ]);
-                } else {
-                    startConversation();
-                }
-            }
-        }
-
-        async function startConversation() {
-            showMessage("欢迎回来，正在为您开往下一站。", 'bot');
-            await new Promise(resolve => setTimeout(resolve, 1000));
-
+        
+        // 加载新网站
+        async function loadNewWebsite() {
             try {
                 showLoading();
                 const website = await requestRandomWebsite();
                 hideLoading();
                 currentWebsite = website;
-                showMessage(`您即将开往 ${website.name}（${website.url}），请问您是否满意？`, 'bot');
-                showOptions([
-                    { text: "开！", value: "open" },
-                    { text: "换！", value: "change" }
-                ]);
+                
+                const tagName = website.tag ? getTagName(website.tag) : '';
+                const typeInfo = tagName ? `（${tagName}）` : '';
+                
+                showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
             } catch (error) {
                 hideLoading();
-                showMessage("获取网站失败，请重试！", 'bot');
-                showOptions([
-                    { text: "测试人员入口", value: "test" },
-                    { text: "重试", value: "retry" }
-                ]);
+                showMessage("获取站点失败，请稍后再试");
             }
         }
-
-        startConversation();
+        
+        // 初始化
+        function init() {
+            // 按钮事件
+            document.getElementById('openButton').addEventListener('click', () => {
+                if (currentWebsite) {
+                    // 添加开启动画效果
+                    document.querySelector('.container').style.opacity = '0';
+                    document.querySelector('.container').style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        window.location.href = currentWebsite.url;
+                    }, 300);
+                }
+            });
+            
+            document.getElementById('changeButton').addEventListener('click', () => {
+                loadNewWebsite();
+            });
+            
+            // 初始加载网站
+            loadNewWebsite();
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
-
 </html>
