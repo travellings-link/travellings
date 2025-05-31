@@ -27,3 +27,11 @@
 页面作者：[@Karlukle](https://www.karlukle.site)  
 页面链接：`https://www.travellings.cn/go-by-clouds.html`  
 截图样例：![Go by Clouds 乘云而去](/assets/img/go-by-clouds-page.webp "Go by Clouds 乘云而去")
+
+## Robots 机器人聊天跳转
+
+一个类似聊天界面的跳转页面，让你丝滑地完成目的地的选择和跳转过程。
+
+页面作者：豆包、Deepseek
+页面连接：`https://www.travellings.cn/go-robots.html`
+截图样例：![go-robots](/assets/img/go-by-robots-page.webp)
