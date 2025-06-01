@@ -42,4 +42,4 @@
 
 页面连接：`https://www.travellings.cn/go-robots.html`
 
-截图样例：![go-robots](/assets/img/go-robots-page.webp)
+截图样例：![Robots 机器人聊天跳转](/assets/img/go-robots-page.webp  "Robots 机器人聊天跳转")
