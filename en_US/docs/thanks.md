@@ -8,6 +8,7 @@ Here we regularly list the individuals or teams sponsors.
 
 | **Last sponsored time** | **Sponsor**       | **Total sponsorship amount** |
 | ----------------------- | ----------------- | ---------------------------- |
+| 2025-05-23              | 兔儿轩            | 5 元                         |
 | 2024-11-29              | 爱发电用户\_23aaa | 25 元                        |
 | 2024-11-29              | 廾匸.             | 25 元                        |
 | 2024-11-29              | physnya           | 25 元                        |
