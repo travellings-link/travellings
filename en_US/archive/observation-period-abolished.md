@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 title: 开往维护组关于废除观察期制度的公告
 date: 2024-01-21
 updated: 2024-01-21

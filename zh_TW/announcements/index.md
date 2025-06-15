@@ -14,6 +14,6 @@ Hey，这里是开往的公告栏，您可以在这里查看本项目的相关�
 ::: info 关于过时公告的统一整理
 
 公告栏将及时更新，我们会将过时公告信息统一整理至中供大家回溯。
- [【公告归档】](https://www.travellings.cn/zh_TW/archive/)。
+ [【公告归档】](https://www.travellings.cn/archive/)。
 
 :::
