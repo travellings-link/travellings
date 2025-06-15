@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 title: 隐私政策
 date: 2025-03-02
 updated: 2025-03-02
