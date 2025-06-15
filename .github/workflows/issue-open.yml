@@ -121,6 +121,9 @@ jobs:
             fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
       # - name: ls
       #   run: ls
+      - name: Install Chrome
+        run: npx puppeteer browsers install chrome
+        
       - name: Run pnpm cli with websiteUrl
         run: |
           websiteUrl=$(head -n 1 url.txt)
