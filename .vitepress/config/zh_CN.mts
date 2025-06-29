@@ -11,7 +11,7 @@ export const zh_CN = defineConfig({
       { text: "主页", link: "/" },
       { text: "文档", link: "/docs/", activeMatch: "/docs/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
-      { text: "公告", link: "/announcements/", activeMatch: "/announcements/" },
+      { text: "Wiki", link: "/wiki/", activeMatch: "/wiki/" },
       { text: "赞助", link: "https://afdian.com/a/travellings" },
       { text: "成员列表", link: "https://list.travellings.cn" },
       { text: "开往", link: "/go.html", target: "_blank" },

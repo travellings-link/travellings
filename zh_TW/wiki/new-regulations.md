@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 title: 《开往项目运维规定》
 date: 2025-01-29
 updated: 2025-01-29
