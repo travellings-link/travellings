@@ -22,7 +22,7 @@ body:
       label: 网站网址
       description: |
         必须是 http**s** 网站（请带上“https://”协议头）；
-        `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, sapce, fun` 这些域名往往购买时便宜，但第二年续费会在 100 元以上，你会坚持用这个域名吗？如果你更新了域名，记得打开 issues 更新信息。
+        `bar, best, cloud, digital, guru, life, live, miami, online, rest, shop, site, store, surf, today, website, world, space, fun` 这些域名往往购买时便宜，但第二年续费会在 100 元以上，你会坚持用这个域名吗？如果你更新了域名，记得打开 issues 更新信息。
       placeholder: ex. https://travellings.link
     validations:
       required: true
