@@ -36,3 +36,5 @@ Language: **简体中文** | [English](./en_US/README.md)
 - 点此[查看常见疑难解答](./docs/qa.md)
 - 点此[查看加入开往维护组要求](./docs/toyou.md)
 - 点此[赞助](https://afdian.com/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
+
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助。
