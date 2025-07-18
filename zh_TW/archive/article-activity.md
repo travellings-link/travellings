@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 title: 开往有奖征文活动
 date: 2025-06-15
 updated: 2025-06-15
