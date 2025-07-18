@@ -24,7 +24,7 @@ features:
     link: ./docs/join
     linkText: Join us
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
-  - title: Your Travelling, Is yours
+  - title: Your Travelling, is defined by you
     details: You can customize some settings and styles of the jump page. If you are not satisfied, you can also make one yourself.
     link: /preference
     linkText: Preferences

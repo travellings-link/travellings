@@ -10,7 +10,7 @@ export default {
 		},
 		BLxcwg666: {
 			title: "后端开发 / 运维",
-			active: true,
+			active: false,
 		},
 		"Big-Cake-jpg": {
 			title: "维护组成员",
@@ -62,7 +62,7 @@ export default {
 		},
 		HowieHz: {
 			title: "自动化开发",
-			active: true,
+			active: false,
 		},
 		gxres042: {
 			title: "维护组成员",
