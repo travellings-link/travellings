@@ -24,7 +24,7 @@ features:
     link: ./docs/join
     linkText: 加入我們
     icon: <img src="/assets/svg/1FA84.svg" width="50%">
-  - title: 你的開往，就是你的
+  - title: 你的開往，由你來定
     details: 可自訂跳轉頁面的部分設定與樣式，如果不滿意也可以自己製作一個。
     link: /preference
     linkText: 偏好設定
