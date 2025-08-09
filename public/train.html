@@ -36,8 +36,10 @@
         }
         #window{
             background-color: var(--outside);
-            width: var(--width);
-            height: var(--height);
+            max-width: var(--width);
+            width: 80vw;
+            max-height: var(--height);
+            height: 40vw;
             position: absolute;
             left: calc(50vw - var(--width) / 2);
             top: var(--top);
@@ -103,6 +105,10 @@
             height: var(--svgheight);
             width: var(--svgwidth);
         }
+        #sitename{
+            font-weight: bolder;
+
+        }
         @keyframes curtain {
             0%{
                 height: calc((--height) * 2);
@@ -165,8 +171,23 @@
             }
             100%{
                 text-shadow: 0 0 20px var(--outside);
-                opacity: 0.8;
+                opacity: 0.7;
 
+            }
+        }
+
+        @keyframes sitetext{
+            0%{
+                text-shadow: 0 0 0px var(--outside);
+                opacity: 0;
+            }
+            80%{
+                text-shadow: 0 0 25px var(--outside);
+                opacity: 0.8;
+            }
+            100%{
+                text-shadow: 0 0 30px var(--outside);
+                opacity: 1;
             }
         }
         @keyframes window-glow {
@@ -198,8 +219,9 @@
 
     <div id="curtain"></div>
     <div id="text">
-        <p>尊贵的旅客朋友，欢迎您搭乘「开往」</p>
+        <p>尊贵的旅客朋友，欢迎您搭乘『开往』次列车</p>
         <p>——前 方 到 站——</p>
+        <p id="sitename" class="show"></p>
     </div>
     <div id="footer">
         <div id="left">
@@ -236,24 +258,61 @@
                 偏好设置
             </a>
         </div>
-        <div id="right">
-            <a
-                href="https://beian.miit.gov.cn/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                闽ICP备2023011626号-1
-            </a>
-            <a
-                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                闽公网安备 35059102000048号
-            </a>
-        </div>
 
     </div>
-    <script src="./assets/js/go.js"></script>
+    <script>
+        const prefix = "t_preference_";
+
+        function getSetting(key) {
+            return localStorage.getItem(prefix + key);
+        }
+        async function requestRandomWebsite(tag = getSetting("tag")) {
+            const res = await fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`);
+            const data = await res.json();
+            if (data.success) {
+                return {
+                    name: data.data[0].name.trim(),
+                    url: data.data[0].url.trim()
+                };
+            } else {
+                throw new Error("NO");
+            }
+        }
+        async function RandomTest(tag = getSetting("tag")) {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve({
+                        name: "枕流阁",
+                        url: "https://makuraryu.vercel.app/"
+                    });
+                }, 500); // 模拟网络请求
+            });
+        }
+        function showWebsite(name) {
+            const p = document.getElementById('sitename');
+            p.textContent = name;
+            p.style.animation = 'none';
+            p.offsetHeight;
+            p.style.animation = 'text 3s ease-in-out forwards';
+        }
+        
+        async function init() {
+            try {
+                const website = await requestRandomWebsite();
+                <!-- const website = await RandomTest(); -->
+
+                showWebsite(website.name);
+
+                setTimeout(() => {
+                    window.location.href = website.url;
+                }, 5000);
+
+            } catch (err) {
+                document.getElementById('sitename').textContent = "枕流阁";
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
 </body>
 </html>
