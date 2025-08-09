@@ -22,7 +22,7 @@
 
 页面链接：`https://www.travellings.cn/coder-1024.html` 
 
-截图样例：![仿 CLI 版页面截图](/assets/img/coder1024-page.webp "仿 CLI 版页面截图")  
+截图样例：![仿 CLI 版页面截图](../public/assets/img/coder1024-page.webp "仿 CLI 版页面截图")  
 
 ## Go by Clouds 乘云而去
 
@@ -32,7 +32,7 @@
 
 页面链接：`https://www.travellings.cn/go-by-clouds.html` 
 
-截图样例：![Go by Clouds 乘云而去](/assets/img/go-by-clouds-page.webp "Go by Clouds 乘云而去")
+截图样例：![Go by Clouds 乘云而去](../public/assets/img/go-by-clouds-page.webp "Go by Clouds 乘云而去")
 
 ## Robots 机器人聊天跳转
 
@@ -42,4 +42,14 @@
 
 页面连接：`https://www.travellings.cn/go-robots.html`
 
-截图样例：![Robots 机器人聊天跳转](/assets/img/go-robots-page.webp  "Robots 机器人聊天跳转")
+截图样例：![Robots 机器人聊天跳转](../public/assets/img/go-robots-page.webp  "Robots 机器人聊天跳转")
+
+## Train 列车
+
+一个仿照乘坐列车、向窗外眺望的跳转页面，提供简洁、美观的跳转体验。动画精美。
+
+页面作者：[@Makuraryu](https://github.com/Makuraryu)
+
+页面连接：`https://www.travellings.cn/train.html`
+
+截图样例：![Train 列车](../public/assets/img/train-page.webp)
