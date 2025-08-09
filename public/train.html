@@ -70,34 +70,31 @@
             top: calc(var(--top) + var(--height) + 50px);
             width: 100vw;
             font-size: 1.3em;
+        }
+        #broadcast{
             animation: text 5s ease-in-out forwards;
         }
         #footer{
             position: absolute;
             bottom: 2em;
             width: 100vw;
+            display: flex;
+            justify-content: center;
         }
+
         a{
             text-decoration: none;
             color: var(--outside);
             font-size: 1em;
-            padding: 1em;
             transition: all 0.2s;
             opacity: 0.2;
+            padding: 0.5em;
 
         }
         a:hover{
             opacity: 1;
             text-shadow: 0 0 10px var(--outside);
 
-        }
-        #left{
-            position: absolute;
-            left: 5px;
-        }
-        #right{
-            position: absolute;
-            right: 5px;
         }
         svg{
             height: var(--svgheight);
@@ -181,11 +178,11 @@
             }
             80%{
                 text-shadow: 0 0 25px var(--outside);
-                opacity: 0.8;
+                opacity: 1;
             }
             100%{
                 text-shadow: 0 0 30px var(--outside);
-                opacity: 1;
+                opacity: 0.8;
             }
         }
         @keyframes window-glow {
@@ -217,12 +214,14 @@
 
     <div id="curtain"></div>
     <div id="text">
-        <p>尊贵的旅客朋友，欢迎您搭乘『开往』次列车</p>
-        <p>——前 方 到 站——</p>
+        <div id="broadcast">
+            <p>尊贵的旅客朋友，欢迎您搭乘『开往』次列车</p>
+            <p>——前 方 到 站——</p>
+        </div>
         <p id="sitename" class="show"></p>
     </div>
     <div id="footer">
-        <div id="left">
+        <div id="links">
 
             <a
                 href="https://www.travellings.cn/"
@@ -238,6 +237,9 @@
             >
                 GitHub
             </a>
+            <a href="./preference">
+                偏好设置
+            </a>
             <a
                 href="https://www.travellings.cn/docs/join"
                 target="_blank"
@@ -252,11 +254,9 @@
             >
                 赞助
             </a>
-            <a href="./preference">
-                偏好设置
-            </a>
-        </div>
 
+
+        </div>
     </div>
     <script>
         const prefix = "t_preference_";
@@ -289,15 +289,12 @@
         function showWebsite(name) {
             const p = document.getElementById('sitename');
             p.textContent = '『' + name + '』';
-            p.style.animation = 'none';
-            p.offsetHeight;
-            p.style.animation = 'text 3s ease-in-out forwards';
         }
         
         async function init() {
             try {
-                const website = await requestRandomWebsite();
-                <!-- const website = await RandomTest(); -->
+                <!-- const website = await requestRandomWebsite(); -->
+                const website = await RandomTest();
 
                 showWebsite(website.name);
 
@@ -308,6 +305,10 @@
             } catch (err) {
                 document.getElementById('sitename').textContent = "抱歉，本次列车因故将稍作停留，请稍后再试";
             }
+            const p = document.getElementById('sitename');
+            p.style.animation = 'none';
+            p.offsetHeight;
+            p.style.animation = 'sitetext 3s ease-in-out forwards';
         }
 
         document.addEventListener('DOMContentLoaded', init);
