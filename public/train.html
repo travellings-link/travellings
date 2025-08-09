@@ -13,8 +13,8 @@
     <link rel="shortcut icon" href="./assets/favicon-fluent-emoji.svg" />
     <style>
         :root{
-            --width:480px;
-            --height:320px;
+            --width: min(80vw, 480px);
+            --height: min(40vw, 320px);
             --background:#1C1C1C;
             --outside:#FFFFFB;
             --svgheight:10000px;
@@ -36,10 +36,8 @@
         }
         #window{
             background-color: var(--outside);
-            max-width: var(--width);
-            width: 80vw;
-            max-height: var(--height);
-            height: 40vw;
+            width: var(--width);
+            height: var(--height);
             position: absolute;
             left: calc(50vw - var(--width) / 2);
             top: var(--top);
