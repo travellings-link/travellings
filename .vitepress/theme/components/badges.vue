@@ -32,7 +32,7 @@ const imgurl = computed(() => {
   <div>
     这里选择您想要的开往LOGO样式，或者不要LOGO。
   </div>
-  <select v-model="logo">
+  <select v-model="logo" class="form-control">
     <option value="white">白色方形</option>
     <option value="black">黑色方形</option>
     <option value="nologo">无LOGO</option>
@@ -40,7 +40,7 @@ const imgurl = computed(() => {
   <div>
     这里选择Badge的填充颜色。
   </div>
-  <select v-model="color">
+  <select v-model="color" class="form-control">
     <option value="white">白色</option>
     <option value="black">黑色</option>
     <option value="blue">蓝色</option>
@@ -48,24 +48,35 @@ const imgurl = computed(() => {
   <div>
     这里选择您想要的开往名称。
   </div>
-  <select v-model="name">
+  <select v-model="name" class="form-control">
     <option value="Travellings">英文名称（Travellings）</option>
     <option value="开往">中文名称（开往）</option>
   </select>
   <div>
     这里选择您想要的Badge样式。
   </div>
-  <select v-model="style">
+  <select v-model="style" class="form-control">
     <option>flat</option>
     <option>for-the-badge</option>
   </select>
   <div>
     这里填写您想要的开往跳转页面链接。
   </div>
-  <input v-model="url">
+  <input v-model="url" class="form-control">
   <p>
    您的Badges链接为 {{imgurl}} 。样例如下：
   </p>
   <img :src="imgurl">
     </ClientOnly>
 </template>
+
+<style>
+  .form-control {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem
+  }
+</style>
