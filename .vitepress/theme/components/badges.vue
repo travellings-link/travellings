@@ -28,6 +28,7 @@ const imgurl = computed(() => {
 </script>
 
 <template>
+  <ClientOnly>
   <div>
     这里选择您想要的开往LOGO样式，或者不要LOGO。
   </div>
@@ -66,4 +67,5 @@ const imgurl = computed(() => {
    您的Badges链接为 {{imgurl}} 。样例如下：
   </p>
   <img :src="imgurl">
+    </ClientOnly>
 </template>
