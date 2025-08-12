@@ -44,6 +44,7 @@ const imgurl = computed(() => {
     <option value="white">白色</option>
     <option value="black">黑色</option>
     <option value="blue">蓝色</option>
+    <option value="green">绿色</option>
   </select>
   <div>
     这里选择您想要的开往名称。
@@ -57,6 +58,7 @@ const imgurl = computed(() => {
   </div>
   <select v-model="style" class="form-control">
     <option>flat</option>
+    <option>flat-square</option>
     <option>for-the-badge</option>
   </select>
   <div>
@@ -64,7 +66,7 @@ const imgurl = computed(() => {
   </div>
   <input v-model="url" class="form-control">
   <p>
-   您的Badges链接为 {{imgurl}} 。样例如下：
+   您的 Badges 样例如下：
   </p>
   <img :src="imgurl">
     </ClientOnly>
