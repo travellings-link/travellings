@@ -67,21 +67,6 @@ export const zh_CN = defineConfig({
 
   cleanUrls: true,
   
-  locales: {
-    root: {
-      label: '简体中文',
-      lang: 'zh-CN'
-    },
-    zh_TW: {
-      label: '繁體中文',
-      lang: 'zh-TW',
-    },
-    en_US: {
-      label: 'English',
-      lang: 'en-US',
-    },
-  },
-
   head: [
     ["link", { rel: "icon", href: "/assets/favicon.png" }],
     [
