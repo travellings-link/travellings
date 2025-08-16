@@ -7,14 +7,34 @@ const travellingTimeout = getSetting("timeout") || 1500;
 let apiUrl = "https://api.travellings.cn/random";
 if (preferredTag) apiUrl += "?tag=" + preferredTag;
 
-let go = async () => {
-    let res = await fetch(apiUrl);
-    res = await res.json();
-    if (!res.success) {
-        alert("非常抱歉，后端服务器出现了问题，请稍后再试~")
-        return;
+const fetchWithTimeout = (url, timeoutMs) => {
+    return Promise.race([
+        fetch(url),
+        new Promise((_, reject) =>
+            setTimeout(() => reject(new Error('Request timeout')), timeoutMs)
+        )
+    ]);
+};
+
+const go = async () => {
+    try {
+        const res = await fetchWithTimeout(apiUrl, 5000);
+        res = await res.json();
+        if (!res.ok) {
+            throw new Error("HTTP Error");
+        }
+        if (!res.success) {
+            throw new Error("API Error");
+        }
+        location.href = res.data[0].url;
+    } catch (e) {
+        console.warn("Using backup due to: ", e);
+        const res = await fetch("https://backup.api.travellings.cn/list.json");
+        const data = await res.json();
+        const list = data.data;
+        const randomIndex = Math.floor(Math.random() * list.length);
+        location.href = list[randomIndex].url;
     }
-    location.href = res.data[0].url;
 }
 
 setTimeout(go, travellingTimeout);
