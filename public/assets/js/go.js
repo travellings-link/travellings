@@ -18,7 +18,7 @@ const fetchWithTimeout = (url, timeoutMs) => {
 
 const go = async () => {
     try {
-        const res = await fetchWithTimeout(apiUrl, 5000);
+        let res = await fetchWithTimeout(apiUrl, 5000);
         res = await res.json();
         if (!res.ok) {
             throw new Error("HTTP Error");
