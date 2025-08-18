@@ -67,31 +67,8 @@ export const zh_CN = defineConfig({
 
   cleanUrls: true,
   
-  locales: {
-    root: {
-      label: '简体中文',
-      lang: 'zh-CN'
-    },
-    zh_TW: {
-      label: '繁體中文',
-      lang: 'zh-TW',
-    },
-    en_US: {
-      label: 'English',
-      lang: 'en-US',
-    },
-  },
-
   head: [
     ["link", { rel: "icon", href: "/assets/favicon.png" }],
-    [
-      'script',
-      {
-        async: 'true',
-        src: 'https://analyze.xcnya.cn/script.js',
-        'data-website-id': '86870115-a6f7-4261-a503-d17338073263'
-      }
-    ],
     [
       "script",
       {
