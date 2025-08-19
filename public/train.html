@@ -267,16 +267,38 @@
         function getSetting(key) {
             return localStorage.getItem(prefix + key);
         }
+        async function RandomWebSiteFromJson() {
+            const res = await fetch("https://backup.api.travellings.cn/list.json");
+            const json = await res.json();
+
+            if (!json.success || !Array.isArray(json.data)) {
+                throw new Error("bad json");
+            }
+
+            const randomSite = json.data[Math.floor(Math.random() * json.data.length)];
+
+            return {
+                name: randomSite.name.trim(),
+                url: randomSite.url.trim()
+            };
+        }
         async function requestRandomWebsite(tag = getSetting("tag")) {
-            const res = await fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`);
-            const data = await res.json();
-            if (data.success) {
-                return {
-                    name: data.data[0].name.trim(),
-                    url: data.data[0].url.trim()
-                };
-            } else {
-                throw new Error("NO");
+            try {
+                const res = await fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`);
+                const data = await res.json();
+
+                if (data.success && data.data.length > 0) {
+                    return {
+                        name: data.data[0].name.trim(),
+                        url: data.data[0].url.trim()
+                    };
+                } else {
+                    console.log("主 API 返回失败，现在尝试从备用 JSON 获取");
+                    return RandomWebsiteFromJson();
+                }
+            } catch (err) {
+                console.warn("主 API 请求失败，使用备用 JSON:", err);
+                return RandomWebsiteFromJson();
             }
         }
         async function RandomTest(tag = getSetting("tag")) {
