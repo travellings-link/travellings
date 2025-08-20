@@ -4,6 +4,10 @@ export default {
 			title: "开往负责人",
 			active: true,
 		},
+		Xiaozonglin: {
+			title: "维护组负责人",
+			active: true,
+		},
 		xuanzhi33: {
 			title: "前端开发 / 运维",
 			active: true,
@@ -72,11 +76,11 @@ export default {
 			title: "原公共关系",
 			active: false,
 		},
-		linlinzzo: {
-			title: "维护组成员",
-			active: false,
-		},
 		Allenyou1126: {
+			title: "维护组成员",
+			active: true,
+		},
+		Leetfs: {
 			title: "维护组成员",
 			active: true,
 		},
