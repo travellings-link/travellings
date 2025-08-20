@@ -37,6 +37,7 @@
           <option>go-by-clouds.html</option>
           <option>go-robots.html</option>
           <option>train.html</option>
+          <option>train-star.html</option>
 
 
 
