@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开往-友链接力</title>
+    <link rel="icon" href="./assets/favicon.png" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+        
+        /* 打字机效果容器 */
+        .typing-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        /* 打字机文本样式 */
+        .typing-text {
+            font-size: 2.0rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        
+        /* 光标样式 */
+        .cursor {
+            display: inline-block;
+            width: 3px;
+            height: 1.1em;
+            background-color: #333;
+            margin-left: 5px;
+            vertical-align: text-bottom;
+            animation: blink 1s infinite;
+        }
+        
+        /* 光标闪烁动画 */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        
+        /* 底部footer样式 */
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            font-size: 0.8rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-link {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-link:hover {
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .typing-text {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="typing-container">
+        <!-- 打字机效果显示区域 -->
+        <div class="typing-text" id="typingText"></div>
+    </div>
+    
+    <!-- 底部footer -->
+    <div class="footer">
+        <div class="footer-links">
+            <a href="https://www.travellings.cn/" class="footer-link" target="_blank">关于开往</a>
+            <a href="https://beian.miit.gov.cn/" class="footer-link" target="_blank">闽ICP备2023011626号-1</a>
+        </div>
+    </div>
+
+    <script>
+        // 打字机效果
+        function typeWriter(text, element, callback) {
+            let i = 0;
+            const speed = 50; // 打字速度(毫秒)
+            element.innerHTML = ''; // 清空元素内容
+            
+            function type() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                } else {
+                    // 打字完成后添加光标
+                    const cursor = document.createElement('span');
+                    cursor.className = 'cursor';
+                    element.appendChild(cursor);
+                    
+                    // 如果有回调函数，执行回调
+                    if (callback) callback();
+                }
+            }
+            
+            type();
+        }
+        
+        // 请求随机网站
+        async function requestRandomWebsite() {
+            try {
+                // 获取偏好设置
+                const prefix = "t_preference_";
+                const getSetting = key => localStorage.getItem(prefix + key);
+                const preferredTag = getSetting("tag");
+                
+                // 尝试主API
+                let apiUrl = "https://api.travellings.cn/random";
+                if (preferredTag) apiUrl += "?tag=" + preferredTag;
+                
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                
+                if (data.success) {
+                    return {
+                        name: data.data[0].name.trim(),
+                        url: data.data[0].url.trim()
+                    };
+                } else {
+                    throw new Error("API返回失败");
+                }
+            } catch (error) {
+                console.error("获取网站失败:", error);
+                // 使用备份API
+                try {
+                    const backupResponse = await fetch("https://backup.api.travellings.cn/list.json");
+                    const backupData = await backupResponse.json();
+                    const list = backupData.data;
+                    const randomIndex = Math.floor(Math.random() * list.length);
+                    
+                    return {
+                        name: list[randomIndex].name.trim(),
+                        url: list[randomIndex].url.trim()
+                    };
+                } catch (backupError) {
+                    console.error("备份API也失败:", backupError);
+                    throw new Error("所有API请求失败");
+                }
+            }
+        }
+        
+        // 初始化函数
+        async function init() {
+            try {
+                // 获取网站信息
+                const website = await requestRandomWebsite();
+                
+                // 开始打字机效果
+                const typingMessage = `正在开往「${website.name}」...`;
+                typeWriter(typingMessage, document.getElementById('typingText'), () => {
+                    // 打字完成后延迟1秒跳转
+                    setTimeout(() => {
+                        window.location.href = website.url;
+                    }, 2000);
+                });
+                
+            } catch (error) {
+                console.error("初始化失败:", error);
+                // 显示错误信息
+                typeWriter("获取站点信息失败，请刷新页面重试", document.getElementById('typingText'));
+            }
+        }
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
