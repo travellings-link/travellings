@@ -38,6 +38,7 @@
           <option>go-robots.html</option>
           <option>train.html</option>
           <option>train-star.html</option>
+          <option>typewriter.html</option>
 
 
 

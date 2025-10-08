@@ -56,10 +56,20 @@
 
 ## 星河 列车
 
-两辆车在星河中穿梭，中间是随机站点轮播
+两辆车在星河中穿梭，中间是随机站点轮播。
 
 页面作者：[@xingwangzhe](https://github.com/xingwangzhe)
 
 页面链接：`https://www.travellings.cn/train-star.html`
 
 截图样例：![星河 列车](/assets/img/train-star-page.webp)
+
+## 打字机
+
+一个简单的打字机效果。
+
+页面作者：[@gtxykn0504](https://github.com/gtxykn0504)
+
+页面链接：`https://www.travellings.cn/typewriter.html`
+
+截图样例：![打字机](/assets/img/typewriter.webp)
