@@ -48,7 +48,7 @@
             width: 3px;
             height: 1.1em;
             background-color: #333;
-            margin-left: 5px;
+            margin-left: 2px;
             vertical-align: text-bottom;
             animation: blink 1s infinite;
         }
@@ -115,18 +115,20 @@
             const speed = 50; // 打字速度(毫秒)
             element.innerHTML = ''; // 清空元素内容
             
+            // 创建光标元素
+            const cursor = document.createElement('span');
+            cursor.className = 'cursor';
+            
             function type() {
                 if (i < text.length) {
-                    element.innerHTML += text.charAt(i);
+                    // 先添加文本
+                    element.innerHTML = text.substring(0, i + 1);
+                    // 然后添加光标
+                    element.appendChild(cursor);
                     i++;
                     setTimeout(type, speed);
                 } else {
-                    // 打字完成后添加光标
-                    const cursor = document.createElement('span');
-                    cursor.className = 'cursor';
-                    element.appendChild(cursor);
-                    
-                    // 如果有回调函数，执行回调
+                    // 打字完成后保留光标
                     if (callback) callback();
                 }
             }
