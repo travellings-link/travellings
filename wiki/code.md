@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 title: 代码提交流程及注意事项
 date: 2025-05-02
 updated: 2025-05-02
