@@ -22,7 +22,8 @@ tags:
 如果短时间内发布的文章大部分为使用AI生成的低创内容，维护组可将其视同内容农场驳回。
 
 本次投票截止时间为北京时间 2025年12月31日 23:59。开往成员均享有一票投票权。如您对提案尚未形成明确意向，可选择【保留意见】选项。投票截止后，若有效同意票的占比达到或超过75%，则视为提案正式通过。
-投票地址：[https://travellings.feishu.cn/share/base/form/shrcnjU2fTKjhMd0KEoaUfhpTLg](https://travellings.feishu.cn/share/base/form/shrcnjU2fTKjhMd0KEoaUfhpTLg)
-投票结果查询页面：[https://travellings.feishu.cn/share/base/query/shrcn8ZVwudGAcZFWdepSdRzYic](https://travellings.feishu.cn/share/base/query/shrcn8ZVwudGAcZFWdepSdRzYic)
+> 投票地址：[https://travellings.feishu.cn/share/base/form/shrcnjU2fTKjhMd0KEoaUfhpTLg](https://travellings.feishu.cn/share/base/form/shrcnjU2fTKjhMd0KEoaUfhpTLg)
+
+> 投票结果查询页面：[https://travellings.feishu.cn/share/base/query/shrcn8ZVwudGAcZFWdepSdRzYic](https://travellings.feishu.cn/share/base/query/shrcn8ZVwudGAcZFWdepSdRzYic)
 
 未来，“开往”的更多项目决策将通过公开投票机制，诚邀各位成员站长参与决策，汇聚群智，共建“开放开往”。
