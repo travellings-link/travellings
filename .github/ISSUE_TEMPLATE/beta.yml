@@ -68,7 +68,7 @@ body:
     attributes:
       label: 请确认以下事项
       description: |
-        1. 我已仔细阅读要求以及[疑难解答](https://www.travellings.cn/docs/qa)中的内容且满足收录条件。
+        1. **我已仔细阅读[加入条件](https://www.travellings.cn/docs/join.html)以及[疑难解答](https://www.travellings.cn/docs/qa)中的内容且满足收录条件。**
         2. 我的信息填写正确，若有变动如更新网址等会及时通知更正。
         3. 开往会定期观测您网站的在线状况，国内无法访问正常的网站会被移除项目。
       options:
