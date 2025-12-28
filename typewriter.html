@@ -13,7 +13,7 @@
         }
         
         body {
-            background-color: #ffffff;
+            background-color: #fff;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -90,6 +90,27 @@
         @media (max-width: 768px) {
             .typing-text {
                 font-size: 1.8rem;
+            }
+        }
+        
+        /* 暗色模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+                color: #fff;
+            }
+            
+            .cursor {
+                background-color: #fff;
+            }
+            
+            .footer,
+            .footer-link {
+                color: #ccc;
+            }
+            
+            .footer-link:hover {
+                color: #fff;
             }
         }
     </style>
