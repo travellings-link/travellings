@@ -85,6 +85,15 @@ export const zh_CN = defineConfig({
       }),
       },
     ],
+    [
+      "script",
+      { 
+        defer: true,
+        src: "https://umami.xiaozonglin.cn/script.js",
+        "data-website-id": "fef3d795-a57d-4490-9c8e-a827e178ead8",
+        "data-do-not-track": "true"
+      }
+    ],
   ],
 
   markdown: {
