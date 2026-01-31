@@ -256,6 +256,7 @@ jobs:
             自动检查结果：  
             - HTTP 请求检查：${json_result["axiosCheck"]["status"]}${json_result["axiosCheck"]["status"] === '✅RUN' ? '' : '、失败原因：' + json_result["axiosCheck"]["failedReason"] }
             - 浏览器模拟检查：${json_result["browserCheck"]["status"]}
+            本检测仅为参考，最终结果以人工审核为准。
             <details><summary>原始返回值 点击查看详情</summary>
             ${JSON.stringify(json_result, null, 2)}
             </details>`;
