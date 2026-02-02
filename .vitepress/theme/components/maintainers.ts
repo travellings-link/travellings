@@ -90,6 +90,10 @@ export default {
 			title: "巡查组负责人",
 			active: true,
 		},
+		gtxykn0504: {
+			title: "巡查组负责人",
+			active: true,
+		},
 		"2585570153": {
 			title: "巡查组成员",
 			active: true,
@@ -122,8 +126,8 @@ export default {
 			title: "巡查组成员",
 			active: true,
 		},
-		gtxykn0504: {
-			title: "原巡查组负责人",
+		vikiboss: {
+			title: "巡查组成员",
 			active: true,
 		},
 	},
