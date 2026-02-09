@@ -4,9 +4,13 @@ export default {
 			title: "开往负责人",
 			active: true,
 		},
-		Xiaozonglin: {
+		gtxykn0504: {
 			title: "维护组负责人",
 			active: true,
+		},
+		Xiaozonglin: {
+			title: "前维护组负责人",
+			active: false,
 		},
 		xuanzhi33: {
 			title: "前端开发 / 运维",
@@ -87,10 +91,6 @@ export default {
 	},
 	inspectors: {
 		Allenyou1126: {
-			title: "巡查组负责人",
-			active: true,
-		},
-		gtxykn0504: {
 			title: "巡查组负责人",
 			active: true,
 		},
