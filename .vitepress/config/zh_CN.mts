@@ -12,7 +12,6 @@ export const zh_CN = defineConfig({
       { text: "文档", link: "/docs/", activeMatch: "/docs/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
       { text: "维基", link: "/wiki/", activeMatch: "/wiki/" },
-      { text: "赞助", link: "https://afdian.com/a/travellings" },
       { text: "成员列表", link: "https://list.travellings.cn" },
       { text: "开往", link: "/go.html", target: "_blank" },
     ],
@@ -47,7 +46,7 @@ export const zh_CN = defineConfig({
     footer: {
       copyright: "Copyright © 2020-2025 Travellings Project.",
       message:
-          'Released under the GPL License.<br /><a href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a>',
+          'Released under the GPL License.',
     },
 
     docFooter: {
