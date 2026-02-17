@@ -47,7 +47,7 @@ export const zh_CN = defineConfig({
     footer: {
       copyright: "Copyright © 2020-2025 Travellings Project.",
       message:
-          'Released under the GPL License.<br /><a href="https://beian.miit.gov.cn/">闽 ICP 备 2023011626 号 - 1</a>',
+          'Released under the GPL License.',
     },
 
     docFooter: {
