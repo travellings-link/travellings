@@ -4,9 +4,13 @@ export default {
 			title: "开往负责人",
 			active: true,
 		},
+		gtxykn0504: {
+			title: "维护组负责人 / 文案编辑",
+			active: true,
+		},
 		Xiaozonglin: {
 			title: "维护组负责人",
-			active: true,
+			active: false,
 		},
 		xuanzhi33: {
 			title: "前端开发 / 运维",
@@ -59,10 +63,6 @@ export default {
 		Jiaocz: {
 			title: "维护组成员",
 			active: false,
-		},
-		gtxykn0504: {
-			title: "文案编辑",
-			active: true,
 		},
 		HowieHz: {
 			title: "自动化开发",
