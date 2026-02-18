@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
+const currentYear = new Date().getFullYear();
 
 // https://vitepress.dev/reference/site-config
 export const zh_CN = defineConfig({
@@ -45,7 +46,7 @@ export const zh_CN = defineConfig({
     siteTitle: false,
 
     footer: {
-      copyright: "Copyright © 2020-2025 Travellings Project.",
+      copyright: `Copyright © 2020-${currentYear} Travellings Project.`,
       message:
           'Released under the GPL License.',
     },
