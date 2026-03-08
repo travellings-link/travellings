@@ -26,9 +26,9 @@
 
 ## Go by Clouds 乘云而去
 
-即时渲染高清云彩效果；蓝天和Orbitron字体交融，营造出令人沉醉的后现代氛围。动画流畅，用户在页面切换时能体验到无缝流畅的过渡。
+云朵即时渲染，天空和Orbitron字体交融。
 
-页面作者：[@Karlukle](https://www.karlukle.site) 
+页面作者：[@JUKAI_SARAI](https://www.jukai.site) 
 
 页面链接：`https://www.travellings.cn/go-by-clouds.html` 
 
