@@ -171,9 +171,9 @@
     <div id="content">TRAVELLING INTO ANOTHER SPACE<br/><div id="arrive">WE WILL ARRIVE IN <span id="count">10</span>s</div></div>
     <!-- Main content area -->
 
-<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/three.js/110/three.min.js"></script>
-<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanta/0.5.21/vanta.clouds.min.js"></script>
-<script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://unpkg.com/three@0.110.0/build/three.min.js"></script>
+<script src="https://unpkg.com/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
+<script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
 
 
 
@@ -203,10 +203,9 @@
     <!-- Inline script -->
         <div class="botCenter">
         ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference" class="links">⚙️ 开往偏好设置</a> | <a href="https://www.travellings.cn/docs/join" class="links" target="_blank">🚇 加入</a>
-        <br />
-        <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a> | <a target="_blank"
-            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35059102000048">闽公网安备35059102000048号</a>
-        <script>
+        <!-- <br />
+        <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a>  -->
+            <script>
                         const prefix = "t_preference_";
                 const getSetting = key => localStorage.getItem(prefix + key);
                 const preferredTag = getSetting("tag");

@@ -1,0 +1,4062 @@
+<!doctype html>
+<html lang="zh-cn" data-astro-cid-sckkx6r4>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" href="https://www.travellings.cn/assets/favicon.png" />
+        <meta name="generator" content="Astro v5.16.6" />
+        <title>开往 - 友链接力</title>
+        <style>
+            .botCenter[data-astro-cid-sz7xmlte] {
+                text-align: center;
+                padding: 2rem 1rem;
+                margin-top: 2rem;
+                border-top: 1px solid #333;
+                color: #aaa;
+                font-size: 0.9rem;
+                flex-shrink: 0;
+            }
+            .footer-content[data-astro-cid-sz7xmlte] {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .footer-text[data-astro-cid-sz7xmlte] {
+                margin: 0 0 1rem;
+            }
+            .footer-links[data-astro-cid-sz7xmlte] {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+            }
+            .separator[data-astro-cid-sz7xmlte] {
+                color: #666;
+            }
+            .links[data-astro-cid-sz7xmlte] {
+                color: #3498db;
+                text-decoration: none;
+                transition: color 0.2s;
+            }
+            .links[data-astro-cid-sz7xmlte]:hover {
+                color: #5dade2;
+                text-decoration: underline;
+            }
+            .footer-beian[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte] {
+                color: #aaa;
+                text-decoration: none;
+            }
+            .footer-beian[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]:hover {
+                color: #ddd;
+                text-decoration: underline;
+            }
+            @media (max-width: 768px) {
+                .botCenter[data-astro-cid-sz7xmlte] {
+                    padding: 1.5rem 0.5rem;
+                    font-size: 0.8rem;
+                }
+                .footer-links[data-astro-cid-sz7xmlte] {
+                    flex-direction: column;
+                }
+                .separator[data-astro-cid-sz7xmlte] {
+                    display: none;
+                }
+            }
+            .starry-background[data-astro-cid-43oau6w5] {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+                z-index: -1;
+                overflow: hidden;
+            }
+            .star[data-astro-cid-43oau6w5] {
+                position: absolute;
+                background-color: #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 10px #ffffff80;
+            }
+            .star[data-astro-cid-43oau6w5].big {
+                width: 4px;
+                height: 4px;
+                box-shadow: 0 0 15px 2px #fffc;
+                animation: 4s ease-in-out infinite twinkleBig;
+            }
+            .star[data-astro-cid-43oau6w5]:not(.big) {
+                width: calc(var(--size, 1) * 1px);
+                height: calc(var(--size, 1) * 1px);
+                animation: twinkle var(--duration, 5s) infinite ease-in-out;
+            }
+            @keyframes twinkle {
+                0%,
+                to {
+                    opacity: var(--min-opacity, 0.2);
+                }
+                50% {
+                    opacity: var(--max-opacity, 1);
+                }
+            }
+            @keyframes twinkleBig {
+                0%,
+                to {
+                    opacity: 0.3;
+                    transform: scale(0.8);
+                }
+                50% {
+                    opacity: 1;
+                    transform: scale(1.2);
+                }
+            }
+            .meteor[data-astro-cid-43oau6w5] {
+                position: absolute;
+                right: -100px;
+                width: 100px;
+                height: 2px;
+                background: linear-gradient(to right, #fff0, #fff, #fff0);
+                transform: rotate(-45deg);
+                animation: linear infinite meteor;
+                opacity: 0;
+            }
+            @keyframes meteor {
+                0% {
+                    opacity: 0;
+                    transform: translate(0) translateY(0) rotate(-45deg);
+                }
+                10% {
+                    opacity: 1;
+                }
+                to {
+                    opacity: 0;
+                    transform: translate(-100vw) translateY(100vh) rotate(-45deg);
+                }
+            }
+            body,
+            html {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                font-family:
+                    Inter,
+                    Roboto,
+                    Helvetica Neue,
+                    Arial Nova,
+                    Nimbus Sans,
+                    Arial,
+                    sans-serif;
+            }
+            body {
+                transition: background-color 0.5s;
+                background: #111;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            main[data-astro-cid-sckkx6r4] {
+                flex-grow: 1;
+            }
+            .train-container[data-astro-cid-ezta3uqq] {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                height: 100px;
+            }
+            #trainL[data-astro-cid-ezta3uqq] {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+            }
+            .train-car[data-astro-cid-ezta3uqq],
+            .train-engine[data-astro-cid-ezta3uqq] {
+                filter: brightness(0.8) contrast(1.2);
+            }
+            [data-astro-cid-ezta3uqq][data-direction="left"] {
+                left: 0;
+            }
+            .train-container[data-astro-cid-eg6ehuar] {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                height: 100px;
+            }
+            #trainR[data-astro-cid-eg6ehuar] {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+            }
+            .train-car[data-astro-cid-eg6ehuar],
+            .train-engine[data-astro-cid-eg6ehuar] {
+                filter: brightness(0.8) contrast(1.2);
+            }
+            [data-astro-cid-eg6ehuar][data-direction="left"] {
+                left: 0;
+            }
+            .Site-container[data-astro-cid-prcyausg] {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                height: 200px;
+                margin: 1rem 0;
+                flex-grow: 1;
+            }
+            .Site-list-wrapper[data-astro-cid-prcyausg] {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            .Site-list[data-astro-cid-prcyausg] {
+                gap: 2rem;
+                padding: 0 2rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                left: 0;
+                width: fit-content;
+                flex-wrap: nowrap;
+            }
+            .Site-card[data-astro-cid-prcyausg] {
+                border: 1px solid #333;
+                border-radius: 16px;
+                overflow: hidden;
+                transition: 0.3s;
+                background: #1e1e1e;
+                box-shadow: 0 6px 12px #0000004d;
+                min-width: 300px;
+                flex-shrink: 0;
+                will-change: transform;
+            }
+            .Site-card[data-astro-cid-prcyausg]:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 16px 32px #00000080;
+                border-color: #3498db;
+            }
+            .Site-link[data-astro-cid-prcyausg] {
+                display: flex;
+                align-items: center;
+                padding: 1.5rem;
+                text-decoration: none;
+                color: #e0e0e0;
+                height: 100%;
+            }
+            .Site-icon[data-astro-cid-prcyausg] {
+                flex-shrink: 0;
+                width: 100px;
+                height: 60px;
+                margin-right: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: #4caf50;
+                border-radius: 8px;
+                font-weight: 700;
+                font-size: 24px;
+                color: #fff;
+            }
+            .Site-icon[data-astro-cid-prcyausg] img[data-astro-cid-prcyausg] {
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 8px;
+            }
+            .Site-info[data-astro-cid-prcyausg] {
+                flex-grow: 1;
+                min-width: 0;
+            }
+            .Site-name[data-astro-cid-prcyausg] {
+                margin: 0 0 0.5rem;
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #e0e0e0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .Site-tag[data-astro-cid-prcyausg] {
+                margin: 0;
+                font-size: 1rem;
+                color: #aaa;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .Site-notice[data-astro-cid-prcyausg] {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1.1rem;
+                color: #e0e0e0;
+                padding: 0.8rem;
+                background: #1e1e1e00;
+                backdrop-filter: blur(5px);
+                z-index: 10;
+            }
+            @media (max-width: 768px) {
+                .Site-container[data-astro-cid-prcyausg] {
+                    height: 180px;
+                }
+                .Site-card[data-astro-cid-prcyausg] {
+                    min-width: 250px;
+                }
+                .Site-link[data-astro-cid-prcyausg] {
+                    padding: 1rem;
+                }
+                .Site-icon[data-astro-cid-prcyausg] {
+                    width: 100px;
+                    height: 60px;
+                    margin-right: 1rem;
+                }
+                .Site-name[data-astro-cid-prcyausg] {
+                    font-size: 1.1rem;
+                }
+                .Site-tag[data-astro-cid-prcyausg] {
+                    font-size: 0.9rem;
+                }
+                .Site-notice[data-astro-cid-prcyausg] {
+                    font-size: 0.9rem;
+                    padding: 0.5rem;
+                }
+            }
+            .main-content[data-astro-cid-j7pv25f6] {
+                display: flex;
+                flex-direction: column;
+                height: calc(100vh - 180px);
+                justify-content: space-between;
+                padding: 2rem 0;
+            }
+            @media (max-width: 768px) {
+                .main-content[data-astro-cid-j7pv25f6] {
+                    padding: 1rem 0;
+                    height: calc(100vh - 150px);
+                }
+            }
+        </style>
+    </head>
+    <body data-astro-cid-sckkx6r4>
+        <div class="starry-background" data-starry-background data-astro-cid-43oau6w5>
+            <div
+                class="star"
+                style="
+                    left: 83.53214576457286%;
+                    top: 14.761494280135468%;
+                    animation-delay: 1.4750639991709913s;
+                    opacity: 0.48381626181935594;
+                    width: 3.662730794079712px;
+                    height: 1.2201201922294316px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 63.90555288707625%;
+                    top: 42.3445208563882%;
+                    animation-delay: 2.9413594896991055s;
+                    opacity: 0.2948024647897091;
+                    width: 3.9246075545063226px;
+                    height: 1.0807280109407853px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 68.60411543504641%;
+                    top: 66.66201371193232%;
+                    animation-delay: 4.652594279482537s;
+                    opacity: 0.5361363586060973;
+                    width: 2.9440143559213894px;
+                    height: 3.1211919124853713px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 16.80953781647403%;
+                    top: 93.8772491341775%;
+                    animation-delay: 3.557482020695697s;
+                    opacity: 0.6875466206870819;
+                    width: 3.753132970235125px;
+                    height: 3.9370126300034167px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 84.98953328774736%;
+                    top: 32.436614494328175%;
+                    animation-delay: 0.9143082152453053s;
+                    opacity: 0.3440073325481075;
+                    width: 1.1510162523231087px;
+                    height: 1.0733112609715831px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 59.64756692122117%;
+                    top: 10.469943482707734%;
+                    animation-delay: 2.4491018036102083s;
+                    opacity: 0.5866454228999203;
+                    width: 2.54773885404574px;
+                    height: 1.2212167716997526px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 61.58874087720228%;
+                    top: 94.99823434599412%;
+                    animation-delay: 1.5926785745568806s;
+                    opacity: 0.8081896186445252;
+                    width: 2.8931132070060395px;
+                    height: 1.4370699911883136px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 63.73726315411601%;
+                    top: 6.15735694921169%;
+                    animation-delay: 4.292058626098045s;
+                    opacity: 0.2820274167640623;
+                    width: 1.9580562937669297px;
+                    height: 2.6196017588348073px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 94.0123578239189%;
+                    top: 2.8132497181561744%;
+                    animation-delay: 4.820364120726075s;
+                    opacity: 0.7525155310295346;
+                    width: 3.9858328301294996px;
+                    height: 3.8085627430262052px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 13.613345647686149%;
+                    top: 47.168299075571674%;
+                    animation-delay: 4.619266219889207s;
+                    opacity: 0.7805050065786432;
+                    width: 2.1074684641637416px;
+                    height: 2.9594495648143355px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 0.7613893728089627%;
+                    top: 98.45204776210328%;
+                    animation-delay: 2.830009118465119s;
+                    opacity: 0.6130237492822284;
+                    width: 1.6793113386539829px;
+                    height: 2.7744719386753163px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 44.883070722222016%;
+                    top: 37.51056816179259%;
+                    animation-delay: 0.7185645172482569s;
+                    opacity: 0.9147836329291879;
+                    width: 1.7172094545230894px;
+                    height: 2.0410448927859925px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 55.58541918473152%;
+                    top: 35.81809462782006%;
+                    animation-delay: 0.7128971477296542s;
+                    opacity: 0.24410557194599694;
+                    width: 2.7183574627809266px;
+                    height: 2.1501777152524126px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 80.52609258483632%;
+                    top: 18.194753052350656%;
+                    animation-delay: 4.004007684276781s;
+                    opacity: 0.9125859288763574;
+                    width: 3.6076307178160434px;
+                    height: 2.712956544969609px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 17.52818079984737%;
+                    top: 2.8036442524165484%;
+                    animation-delay: 4.495685579894861s;
+                    opacity: 0.4430532145403449;
+                    width: 2.4774425634697907px;
+                    height: 1.1275480592864704px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 43.238760263491514%;
+                    top: 92.60166331041502%;
+                    animation-delay: 0.5054548996736918s;
+                    opacity: 0.9358309863503134;
+                    width: 1.5073211852400117px;
+                    height: 2.023032638399457px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 15.723101248761484%;
+                    top: 83.36420852676365%;
+                    animation-delay: 1.2833623509224923s;
+                    opacity: 0.9416638827090118;
+                    width: 2.6740965129313743px;
+                    height: 1.0836256956798194px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 95.50608981071245%;
+                    top: 41.668231504401774%;
+                    animation-delay: 3.870584575867256s;
+                    opacity: 0.5709339954737984;
+                    width: 1.7861093108671473px;
+                    height: 1.1514944638510274px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 23.31241911006323%;
+                    top: 37.39042770964707%;
+                    animation-delay: 2.46613210607457s;
+                    opacity: 0.30323448216776117;
+                    width: 2.3724163169689616px;
+                    height: 2.7762177337762584px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 52.4588154988894%;
+                    top: 96.84290765790584%;
+                    animation-delay: 4.884293404637069s;
+                    opacity: 0.9041929173034291;
+                    width: 1.3690848409615202px;
+                    height: 1.229297016359107px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 88.31310192963461%;
+                    top: 35.65148910297016%;
+                    animation-delay: 3.606402013112917s;
+                    opacity: 0.4202008557344439;
+                    width: 3.325371225469724px;
+                    height: 2.1260141880097585px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 99.72016034597297%;
+                    top: 59.80993538468689%;
+                    animation-delay: 1.035745933932939s;
+                    opacity: 0.9377667665703266;
+                    width: 1.5982498816973827px;
+                    height: 3.8713080279299383px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.63421545807127%;
+                    top: 53.4627888837405%;
+                    animation-delay: 4.9087344281391s;
+                    opacity: 0.6010555222060361;
+                    width: 3.866857133319971px;
+                    height: 2.791141959153692px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 21.632699440378932%;
+                    top: 85.97900213831504%;
+                    animation-delay: 1.723595678976747s;
+                    opacity: 0.7671793167881782;
+                    width: 3.682162894344165px;
+                    height: 1.4717506680661594px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 87.93159936241102%;
+                    top: 60.23391873638146%;
+                    animation-delay: 2.1630156542876966s;
+                    opacity: 0.360365274497004;
+                    width: 3.9657627208773807px;
+                    height: 3.3080666214578347px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 42.21339625956604%;
+                    top: 78.15994475717365%;
+                    animation-delay: 0.418318327108097s;
+                    opacity: 0.5851888322254599;
+                    width: 2.3930013528531133px;
+                    height: 3.9794542616750084px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 43.42399722875307%;
+                    top: 43.12086102847079%;
+                    animation-delay: 4.726645916897546s;
+                    opacity: 0.44937923687950665;
+                    width: 1.9607014379656833px;
+                    height: 2.909278537411482px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 73.73191490015614%;
+                    top: 45.97381854496805%;
+                    animation-delay: 3.594751622266018s;
+                    opacity: 0.2766440232205094;
+                    width: 1.4665683014656992px;
+                    height: 3.075874050774276px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 16.6819064064059%;
+                    top: 97.39475710164483%;
+                    animation-delay: 0.715568045302234s;
+                    opacity: 0.23085745131837962;
+                    width: 2.5693807572940486px;
+                    height: 1.2677368897837895px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 53.19297439994968%;
+                    top: 6.889135359747378%;
+                    animation-delay: 2.6340872778712243s;
+                    opacity: 0.516992563776258;
+                    width: 2.3504480950998325px;
+                    height: 3.9758207513544797px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 47.41871318385782%;
+                    top: 79.57125078974838%;
+                    animation-delay: 4.8019035324645865s;
+                    opacity: 0.6530415231615067;
+                    width: 3.9506690337916623px;
+                    height: 3.6320429607291973px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 0.38629991211915904%;
+                    top: 78.6664322066108%;
+                    animation-delay: 4.2909455722640555s;
+                    opacity: 0.4181287136358979;
+                    width: 3.58408925354892px;
+                    height: 3.5723747948222426px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 66.19894124888283%;
+                    top: 66.96344435173474%;
+                    animation-delay: 1.9779601118403534s;
+                    opacity: 0.7621120921466316;
+                    width: 2.100234822292755px;
+                    height: 2.2931156759417766px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 67.0697879062053%;
+                    top: 40.17390772686274%;
+                    animation-delay: 3.258325112341468s;
+                    opacity: 0.34487532911528196;
+                    width: 1.2721879329214076px;
+                    height: 1.544274600818791px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 75.91150976342382%;
+                    top: 53.38793269050313%;
+                    animation-delay: 4.877894342122353s;
+                    opacity: 0.5544837953474661;
+                    width: 1.7757326814612178px;
+                    height: 3.069671695712284px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 25.365265563880634%;
+                    top: 31.07813298646476%;
+                    animation-delay: 3.906517493048589s;
+                    opacity: 0.3571927747713085;
+                    width: 1.9539132125080398px;
+                    height: 2.808582773657128px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 16.49209116799202%;
+                    top: 49.1804814686287%;
+                    animation-delay: 3.649477318439709s;
+                    opacity: 0.3355116771097082;
+                    width: 2.3710132466713887px;
+                    height: 1.4840741626856553px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 19.79978602015333%;
+                    top: 77.8036101161749%;
+                    animation-delay: 2.715594467109078s;
+                    opacity: 0.6647146078085187;
+                    width: 3.257849528118421px;
+                    height: 1.6394881194860802px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 5.592071656797937%;
+                    top: 88.20189056184864%;
+                    animation-delay: 3.498528815150089s;
+                    opacity: 0.6570406677506742;
+                    width: 2.925193972549523px;
+                    height: 2.5958963904781065px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 95.21744100634908%;
+                    top: 30.296912341156723%;
+                    animation-delay: 1.259485478975545s;
+                    opacity: 0.6660301777796478;
+                    width: 2.656710509224061px;
+                    height: 2.4259210999510117px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 21.02065985723098%;
+                    top: 26.370275765567474%;
+                    animation-delay: 3.459964858960488s;
+                    opacity: 0.5669364481457017;
+                    width: 2.109792449038925px;
+                    height: 2.0934799182134007px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 61.88724774743479%;
+                    top: 9.065065723100773%;
+                    animation-delay: 3.027578038980682s;
+                    opacity: 0.7434556133351631;
+                    width: 2.094330067885453px;
+                    height: 1.7856622669978306px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 95.69380183545518%;
+                    top: 49.88959768180645%;
+                    animation-delay: 3.030068912610057s;
+                    opacity: 0.8945131520433942;
+                    width: 3.6243657846020163px;
+                    height: 2.578154753063826px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 44.92352206003494%;
+                    top: 20.129427599427242%;
+                    animation-delay: 3.738967180018534s;
+                    opacity: 0.5149742037720897;
+                    width: 2.7144080241184008px;
+                    height: 2.0611207504564986px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 34.926981557238854%;
+                    top: 24.97773450238574%;
+                    animation-delay: 1.5452630294654413s;
+                    opacity: 0.4380490529405062;
+                    width: 1.9949523245485004px;
+                    height: 1.015285766017994px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 30.066741691982536%;
+                    top: 98.12272444923282%;
+                    animation-delay: 4.816730770587512s;
+                    opacity: 0.5525585642054578;
+                    width: 1.2901730368262563px;
+                    height: 2.7100541507822316px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 9.434587556659825%;
+                    top: 70.22048505173774%;
+                    animation-delay: 1.6555315236432278s;
+                    opacity: 0.6279423177033593;
+                    width: 2.0077558296730738px;
+                    height: 3.968415424585894px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 36.397909634464185%;
+                    top: 59.550383317603895%;
+                    animation-delay: 2.657529295683415s;
+                    opacity: 0.3358540755159455;
+                    width: 2.448156421510025px;
+                    height: 2.2192618449408705px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 63.804825433080794%;
+                    top: 8.079539237118038%;
+                    animation-delay: 4.942725475204444s;
+                    opacity: 0.7180663393719517;
+                    width: 1.0615586157711534px;
+                    height: 1.5592940662679127px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.58263632123752%;
+                    top: 55.684305125999536%;
+                    animation-delay: 58.1063291376116ms;
+                    opacity: 0.6449713714661833;
+                    width: 2.1763002551024275px;
+                    height: 1.6220939891411228px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 97.9799350551698%;
+                    top: 86.54120053583587%;
+                    animation-delay: 0.9610629603713061s;
+                    opacity: 0.8780633167450571;
+                    width: 2.0096241532545047px;
+                    height: 3.7609319909480936px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 1.399788175315675%;
+                    top: 62.69704441318788%;
+                    animation-delay: 3.8317497988070848s;
+                    opacity: 0.7037682315715057;
+                    width: 1.06721700819278px;
+                    height: 2.6446787689058624px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 27.357528355365336%;
+                    top: 41.21981430002797%;
+                    animation-delay: 2.930822496719183s;
+                    opacity: 0.7004740638568827;
+                    width: 3.413343304552131px;
+                    height: 1.1215768114704514px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 52.92911831355156%;
+                    top: 22.83315320163095%;
+                    animation-delay: 4.777428679141449s;
+                    opacity: 0.4283756762709784;
+                    width: 2.8098120054432414px;
+                    height: 2.893916886624571px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 58.00299269867972%;
+                    top: 11.005546609052331%;
+                    animation-delay: 1.913489647344837s;
+                    opacity: 0.7141215180280527;
+                    width: 1.513237094574588px;
+                    height: 2.756409920770834px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 48.152253284906486%;
+                    top: 33.25307050338289%;
+                    animation-delay: 1.68951181903506s;
+                    opacity: 0.4544013331774345;
+                    width: 2.0047516780910057px;
+                    height: 1.6866252099978283px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 84.61790940303484%;
+                    top: 77.54808834527324%;
+                    animation-delay: 3.8005929360038815s;
+                    opacity: 0.32178717960200365;
+                    width: 2.890427805359322px;
+                    height: 2.358161194669851px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 20.88104373552675%;
+                    top: 65.4498562735104%;
+                    animation-delay: 4.72730063120521s;
+                    opacity: 0.48609037922028553;
+                    width: 3.3102447119968903px;
+                    height: 3.4970741137969523px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 1.5367159558822507%;
+                    top: 55.29985853559898%;
+                    animation-delay: 2.4464916885760033s;
+                    opacity: 0.45932861647995865;
+                    width: 2.69402482992176px;
+                    height: 1.221578651020618px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 44.884382956991%;
+                    top: 71.49799871399831%;
+                    animation-delay: 237.4695469136512ms;
+                    opacity: 0.3940023918469855;
+                    width: 3.9106995310123143px;
+                    height: 1.4752688170170725px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 1.903055058224079%;
+                    top: 58.0190983059276%;
+                    animation-delay: 4.574066089491571s;
+                    opacity: 0.3986814741592092;
+                    width: 2.279739399332964px;
+                    height: 3.941005941921089px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 71.6487422892724%;
+                    top: 32.13340192418015%;
+                    animation-delay: 1.8081532272746703s;
+                    opacity: 0.5488719349533366;
+                    width: 3.0974604512515467px;
+                    height: 1.5642716626113595px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 80.9358871511784%;
+                    top: 1.601886518829354%;
+                    animation-delay: 2.4847034833152137s;
+                    opacity: 0.5621054682674924;
+                    width: 1.1108950455016589px;
+                    height: 3.853247596638006px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 71.71670745363407%;
+                    top: 86.9393712838778%;
+                    animation-delay: 2.2548527141969443s;
+                    opacity: 0.3839692679187346;
+                    width: 1.220018872174267px;
+                    height: 2.6840945440481825px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 22.916753955551993%;
+                    top: 15.34108605021034%;
+                    animation-delay: 4.042480483392453s;
+                    opacity: 0.9366788871597147;
+                    width: 2.864383004182762px;
+                    height: 1.9990599628892038px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 25.995821171846313%;
+                    top: 2.2535213284800903%;
+                    animation-delay: 1.2065496913975826s;
+                    opacity: 0.2444258891830071;
+                    width: 1.792558946155001px;
+                    height: 2.409671858688246px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 27.274566806184165%;
+                    top: 9.191872650906486%;
+                    animation-delay: 2.340234009357963s;
+                    opacity: 0.21079467651786052;
+                    width: 3.032922691470576px;
+                    height: 3.070488018874678px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 7.001615140283457%;
+                    top: 21.86884389842849%;
+                    animation-delay: 1.7804494436110752s;
+                    opacity: 0.43392631040230684;
+                    width: 3.789508461920824px;
+                    height: 2.607135717706478px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 82.23672759109878%;
+                    top: 41.62516822936389%;
+                    animation-delay: 3.728445784481135s;
+                    opacity: 0.4793881941777125;
+                    width: 1.2892522800360784px;
+                    height: 1.7715667487866682px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 7.078150445793874%;
+                    top: 8.329716632444196%;
+                    animation-delay: 3.6922661826888534s;
+                    opacity: 0.877889865900733;
+                    width: 3.8020571027668435px;
+                    height: 3.7950137315209282px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 84.70444499075276%;
+                    top: 40.23098129113956%;
+                    animation-delay: 0.5761919255950454s;
+                    opacity: 0.9161179178712324;
+                    width: 1.5501038446314592px;
+                    height: 3.2706666133870934px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 21.49423175511176%;
+                    top: 80.38795269357786%;
+                    animation-delay: 2.7086028093182235s;
+                    opacity: 0.45888777588995233;
+                    width: 3.6537844753030675px;
+                    height: 2.941494494211442px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 15.448562816194556%;
+                    top: 33.81349838755649%;
+                    animation-delay: 2.375180145096034s;
+                    opacity: 0.9883180451708626;
+                    width: 2.927275943118512px;
+                    height: 3.4532104265629346px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 85.10783523137253%;
+                    top: 66.69790307211186%;
+                    animation-delay: 2.4657047106405905s;
+                    opacity: 0.8916233099312938;
+                    width: 1.3943407528872667px;
+                    height: 1.3757253708245285px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 93.78365211875132%;
+                    top: 60.97783204237703%;
+                    animation-delay: 4.727194677144424s;
+                    opacity: 0.4874779902109536;
+                    width: 2.070181708748372px;
+                    height: 3.7119986672229857px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 13.155610746444202%;
+                    top: 55.08097762951183%;
+                    animation-delay: 2.6878137262391832s;
+                    opacity: 0.4089134478102677;
+                    width: 1.3176403572274782px;
+                    height: 3.273713806332373px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 45.84034291428725%;
+                    top: 98.43049406278456%;
+                    animation-delay: 2.5264686717871387s;
+                    opacity: 0.4895126484412442;
+                    width: 2.4701604701673565px;
+                    height: 3.783749865865368px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 66.4209631719536%;
+                    top: 60.53714591469779%;
+                    animation-delay: 3.1152073656223953s;
+                    opacity: 0.8401780878620888;
+                    width: 3.4257278256385333px;
+                    height: 2.436161805865683px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 54.98860146448521%;
+                    top: 89.6757492725837%;
+                    animation-delay: 3.9128378802240427s;
+                    opacity: 0.9956416917460846;
+                    width: 3.8235903171531658px;
+                    height: 2.52552516982458px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 35.54227539045451%;
+                    top: 50.205878556863226%;
+                    animation-delay: 1.7105397906390918s;
+                    opacity: 0.7561842348084211;
+                    width: 3.6795328894465085px;
+                    height: 1.5752939194781113px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 9.361955629571806%;
+                    top: 72.7509690852564%;
+                    animation-delay: 0.3080395656865842s;
+                    opacity: 0.2480179528332993;
+                    width: 2.7897352913357727px;
+                    height: 3.9911159549593673px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 17.350903709226294%;
+                    top: 41.92661903863706%;
+                    animation-delay: 1.5129119397190194s;
+                    opacity: 0.2395894209042364;
+                    width: 1.2476048464668992px;
+                    height: 2.8783641072405706px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 67.12188863842063%;
+                    top: 0.7641677935159796%;
+                    animation-delay: 0.4370210977641964s;
+                    opacity: 0.7830934215393084;
+                    width: 2.664115835394345px;
+                    height: 1.3840612457047714px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 37.00152563358108%;
+                    top: 98.10763026385835%;
+                    animation-delay: 1.3109582068881243s;
+                    opacity: 0.5214568968466633;
+                    width: 3.447726353691224px;
+                    height: 1.0383976846004124px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 64.88830398392453%;
+                    top: 39.438578564631044%;
+                    animation-delay: 1.2234948898017495s;
+                    opacity: 0.2645120178015615;
+                    width: 1.8871171647209468px;
+                    height: 2.6622896755229117px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 88.80407983612899%;
+                    top: 57.3148606443364%;
+                    animation-delay: 2.9045456027343395s;
+                    opacity: 0.3748671717864763;
+                    width: 1.1784408117735696px;
+                    height: 3.969311513493327px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 43.73375911648265%;
+                    top: 94.44308743453797%;
+                    animation-delay: 2.8719365904555882s;
+                    opacity: 0.4382423575761422;
+                    width: 2.0005195881337166px;
+                    height: 3.5403286539046896px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 52.85272649110367%;
+                    top: 20.410590423060615%;
+                    animation-delay: 3.9392915245533446s;
+                    opacity: 0.42530572038400294;
+                    width: 2.743991643392081px;
+                    height: 1.9779579263010894px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 16.232370500743198%;
+                    top: 44.78915968591197%;
+                    animation-delay: 0.7658091096048991s;
+                    opacity: 0.9025919635909603;
+                    width: 1.1144150991027661px;
+                    height: 2.6748136542605043px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 11.452896635493781%;
+                    top: 36.938903348908326%;
+                    animation-delay: 2.991075429356332s;
+                    opacity: 0.24964864564760916;
+                    width: 3.1491954796476094px;
+                    height: 1.5417102297033813px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.40162297891439%;
+                    top: 85.17860472444798%;
+                    animation-delay: 3.0681860147493745s;
+                    opacity: 0.8139336121918392;
+                    width: 2.5513249146928523px;
+                    height: 2.948126995229117px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 34.528022735338126%;
+                    top: 30.03128407144784%;
+                    animation-delay: 1.3338281605666458s;
+                    opacity: 0.8217498594403316;
+                    width: 2.641375323783101px;
+                    height: 1.8600767899842938px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 23.002409915801024%;
+                    top: 67.87565789503954%;
+                    animation-delay: 4.038376421409683s;
+                    opacity: 0.37808850854053183;
+                    width: 2.0875065330598286px;
+                    height: 1.3279710409263514px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 30.003429017867322%;
+                    top: 92.63670118923959%;
+                    animation-delay: 4.262219359670686s;
+                    opacity: 0.9771037875498998;
+                    width: 3.0579726282045883px;
+                    height: 3.345500095409265px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 75.49271169008769%;
+                    top: 49.355035612376305%;
+                    animation-delay: 4.2325546771380465s;
+                    opacity: 0.4633105228416213;
+                    width: 3.2803383968425486px;
+                    height: 1.8554794338970224px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 88.15784678707226%;
+                    top: 46.31615827186677%;
+                    animation-delay: 3.4665537771295707s;
+                    opacity: 0.7190724737812657;
+                    width: 3.938950751454743px;
+                    height: 3.247789461804129px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 42.31771423084956%;
+                    top: 98.20366096615349%;
+                    animation-delay: 3.5389126139023785s;
+                    opacity: 0.6547494768438393;
+                    width: 3.250828227935009px;
+                    height: 3.1201753245955626px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 41.0793437535179%;
+                    top: 66.42071566515844%;
+                    animation-delay: 3.8979780783420415s;
+                    opacity: 0.34450190203388387;
+                    width: 3.703818699939794px;
+                    height: 3.0135090546713768px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.2163990860806%;
+                    top: 76.66342952230912%;
+                    animation-delay: 1.0563200926869576s;
+                    opacity: 0.7216128664989623;
+                    width: 2.5238141086424006px;
+                    height: 2.4770861942044693px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 14.355788787907798%;
+                    top: 51.592133885426826%;
+                    animation-delay: 4.268546389355333s;
+                    opacity: 0.9547280963927245;
+                    width: 3.5655597251159734px;
+                    height: 2.1448169800470325px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 43.06145707995868%;
+                    top: 34.874467123059304%;
+                    animation-delay: 0.6480789704533585s;
+                    opacity: 0.9610887094947183;
+                    width: 2.5619967019785497px;
+                    height: 2.515892613139678px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 59.722860015335975%;
+                    top: 68.5032810503964%;
+                    animation-delay: 3.6823544167142575s;
+                    opacity: 0.5226559120825489;
+                    width: 1.298458609852639px;
+                    height: 1.624847874653785px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.07568708712132%;
+                    top: 31.193444615541075%;
+                    animation-delay: 3.787032512286901s;
+                    opacity: 0.7892399976747051;
+                    width: 1.4454102601118177px;
+                    height: 3.205869132720689px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 65.49485016497107%;
+                    top: 40.033858918079915%;
+                    animation-delay: 2.8313614826900424s;
+                    opacity: 0.2723340875211703;
+                    width: 3.5819825020515497px;
+                    height: 3.790843181323155px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 0.9214423672088357%;
+                    top: 92.68730884559635%;
+                    animation-delay: 4.0441299231600265s;
+                    opacity: 0.5630589807019417;
+                    width: 2.5069470047606557px;
+                    height: 1.3800875537562198px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 7.484837799338195%;
+                    top: 43.427519333421436%;
+                    animation-delay: 1.5692002613107403s;
+                    opacity: 0.7098767862924344;
+                    width: 2.2041116149981574px;
+                    height: 3.4323136558370044px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 92.29947650014618%;
+                    top: 17.90162390457408%;
+                    animation-delay: 38.7893626013569ms;
+                    opacity: 0.9128048688879409;
+                    width: 2.667948634858562px;
+                    height: 2.081107334305063px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 63.05835784738125%;
+                    top: 1.2246011782236943%;
+                    animation-delay: 2.822613834392781s;
+                    opacity: 0.7838533555900553;
+                    width: 3.641037032558855px;
+                    height: 2.380454366484181px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 14.500232858106422%;
+                    top: 71.75290470430622%;
+                    animation-delay: 4.4435432208685635s;
+                    opacity: 0.8831818158563243;
+                    width: 3.789191546552834px;
+                    height: 3.694510990915476px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 53.197890695341776%;
+                    top: 17.024925645997445%;
+                    animation-delay: 1.364540994179022s;
+                    opacity: 0.7728384826432475;
+                    width: 3.448465991512421px;
+                    height: 2.6231759523116507px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 11.431685424517468%;
+                    top: 74.07721478420717%;
+                    animation-delay: 3.8226225304907846s;
+                    opacity: 0.9343672353479435;
+                    width: 1.1916060052814217px;
+                    height: 2.6859094353630484px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 94.11088747006006%;
+                    top: 14.873341896345327%;
+                    animation-delay: 0.17263464201550338s;
+                    opacity: 0.29699575371972764;
+                    width: 3.767857665108318px;
+                    height: 1.560162852927509px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 36.37489820302058%;
+                    top: 19.50587347331625%;
+                    animation-delay: 2.3919165658899955s;
+                    opacity: 0.81588063782091;
+                    width: 1.3763184391385053px;
+                    height: 2.273387862787012px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 71.84941747005212%;
+                    top: 68.45684593884265%;
+                    animation-delay: 0.16573731013115878s;
+                    opacity: 0.6249461295905301;
+                    width: 1.785347151356975px;
+                    height: 3.5076365708589967px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 88.15292675638922%;
+                    top: 8.581580300201065%;
+                    animation-delay: 3.6319752355358084s;
+                    opacity: 0.9201631823533851;
+                    width: 2.4088775474786184px;
+                    height: 3.9368916966607763px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 46.961354958477905%;
+                    top: 33.88579879444069%;
+                    animation-delay: 2.3445727456162624s;
+                    opacity: 0.6173742932194219;
+                    width: 3.651381179372261px;
+                    height: 1.303718862330604px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.30434945196298%;
+                    top: 38.46974114052048%;
+                    animation-delay: 2.64711009350042s;
+                    opacity: 0.4240188677042026;
+                    width: 1.1159124808828158px;
+                    height: 1.6437149541172376px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 53.414067240261076%;
+                    top: 64.96528499349283%;
+                    animation-delay: 0.9178507329188801s;
+                    opacity: 0.8204600625635121;
+                    width: 1.5023050643744198px;
+                    height: 3.189499499082961px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.83807165388782%;
+                    top: 37.11887973042114%;
+                    animation-delay: 3.5635366201837613s;
+                    opacity: 0.8244228536802145;
+                    width: 2.5186030644097146px;
+                    height: 2.4456088204599684px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.18063516930633%;
+                    top: 78.14818631425302%;
+                    animation-delay: 4.724412879358128s;
+                    opacity: 0.5202539800081092;
+                    width: 3.035650811408204px;
+                    height: 2.7954225507330284px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 87.68731155327679%;
+                    top: 50.590622089741814%;
+                    animation-delay: 0.5702915713031753s;
+                    opacity: 0.21318059881224585;
+                    width: 3.2806568829287164px;
+                    height: 1.9775770610508114px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 14.764102745777375%;
+                    top: 61.38697767275458%;
+                    animation-delay: 4.6562000143671245s;
+                    opacity: 0.7477783069173334;
+                    width: 3.9972940966136465px;
+                    height: 2.246910415935946px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 83.86885240175789%;
+                    top: 48.457035463062795%;
+                    animation-delay: 4.884100148121422s;
+                    opacity: 0.5324150965594514;
+                    width: 1.5221158518801776px;
+                    height: 2.5903106053352527px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 18.29318431807414%;
+                    top: 7.653149728053599%;
+                    animation-delay: 3.3174369218738753s;
+                    opacity: 0.7724154522202598;
+                    width: 3.138903137924228px;
+                    height: 2.015699031324468px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 48.002309854927304%;
+                    top: 90.77697713747466%;
+                    animation-delay: 2.237180397007137s;
+                    opacity: 0.7577262075851732;
+                    width: 3.8557773352520774px;
+                    height: 1.4991993019095748px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 11.011132835194548%;
+                    top: 1.3883496235680859%;
+                    animation-delay: 3.99489571155263s;
+                    opacity: 0.9527512788383206;
+                    width: 1.0566272336158908px;
+                    height: 1.6724597699978616px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 80.4113023181961%;
+                    top: 41.90393239224559%;
+                    animation-delay: 2.310925612235911s;
+                    opacity: 0.7107780212144204;
+                    width: 1.6844671731261027px;
+                    height: 1.8373262413008773px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.66925024329167%;
+                    top: 4.141261595286672%;
+                    animation-delay: 2.420510383995067s;
+                    opacity: 0.8437218414758754;
+                    width: 3.881829118320379px;
+                    height: 1.5012240672781851px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 24.691890184761412%;
+                    top: 33.22090213056836%;
+                    animation-delay: 4.248781622628753s;
+                    opacity: 0.37164799959741046;
+                    width: 1.382561973886372px;
+                    height: 2.2674869816452454px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 28.917801684685585%;
+                    top: 39.366868273706835%;
+                    animation-delay: 1.5315493211772657s;
+                    opacity: 0.6578407020067086;
+                    width: 1.8671469387014408px;
+                    height: 2.472488278790949px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 32.544117003616144%;
+                    top: 2.260830032057526%;
+                    animation-delay: 2.875816686177769s;
+                    opacity: 0.7082700924270791;
+                    width: 3.4159246678765163px;
+                    height: 1.3378805299488548px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 7.759806566298177%;
+                    top: 19.979372442641786%;
+                    animation-delay: 4.60645305721734s;
+                    opacity: 0.3414713821274077;
+                    width: 1.5506324438041525px;
+                    height: 3.290573866308643px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.6068376289797%;
+                    top: 76.12190236241354%;
+                    animation-delay: 0.8667540988370548s;
+                    opacity: 0.8489183549195605;
+                    width: 2.9576997525794413px;
+                    height: 3.0700230040399035px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 3.513850240427252%;
+                    top: 79.47446644225184%;
+                    animation-delay: 1.5428534463413324s;
+                    opacity: 0.3893623087829061;
+                    width: 2.5963689010240776px;
+                    height: 2.14028209530197px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 73.9312807198163%;
+                    top: 9.675798043283113%;
+                    animation-delay: 3.1895429054118516s;
+                    opacity: 0.6771691453544244;
+                    width: 1.8651563332239243px;
+                    height: 2.121672472217364px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 19.319881827981476%;
+                    top: 78.38712513508557%;
+                    animation-delay: 2.6046815433333537s;
+                    opacity: 0.5502557031388793;
+                    width: 2.589418214158801px;
+                    height: 3.7699019106697444px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 15.28371930404797%;
+                    top: 38.178606832279826%;
+                    animation-delay: 0.5015405248651961s;
+                    opacity: 0.751650217394322;
+                    width: 2.3822102055586534px;
+                    height: 1.5744433241570173px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 30.497146160006274%;
+                    top: 59.05188211372212%;
+                    animation-delay: 3.0211742305431235s;
+                    opacity: 0.8661563726733108;
+                    width: 3.644227692529009px;
+                    height: 3.329917028775363px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 75.74040771304533%;
+                    top: 30.214980730187758%;
+                    animation-delay: 1.4513467414131254s;
+                    opacity: 0.30064565209068395;
+                    width: 3.154693197900442px;
+                    height: 1.2047857733894984px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.73943706709525%;
+                    top: 55.18382979412691%;
+                    animation-delay: 4.161194519538669s;
+                    opacity: 0.5517233046788408;
+                    width: 1.202355398936793px;
+                    height: 1.6043629604706837px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 65.12388607398067%;
+                    top: 93.70872353932631%;
+                    animation-delay: 0.3673484074321409s;
+                    opacity: 0.5174442860289552;
+                    width: 3.1754051954139655px;
+                    height: 2.898825344975685px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 74.57186753407386%;
+                    top: 36.14660801360359%;
+                    animation-delay: 0.8691744854002592s;
+                    opacity: 0.7950774961703959;
+                    width: 1.4019900643676568px;
+                    height: 3.1439591052344444px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 72.0394513026968%;
+                    top: 80.23433405871778%;
+                    animation-delay: 3.6025987879688492s;
+                    opacity: 0.7195744348080046;
+                    width: 1.871067165015524px;
+                    height: 3.6010947924385612px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 45.78549724914816%;
+                    top: 27.22760352544782%;
+                    animation-delay: 3.980394590888129s;
+                    opacity: 0.7373573443097792;
+                    width: 3.595013525304401px;
+                    height: 3.973218158628469px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 92.02302449016004%;
+                    top: 53.426249274277325%;
+                    animation-delay: 2.616659939890159s;
+                    opacity: 0.752396463591408;
+                    width: 1.8790562724357962px;
+                    height: 2.763438854935032px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 91.4682890902276%;
+                    top: 35.43610753933344%;
+                    animation-delay: 1.6767948243573616s;
+                    opacity: 0.5914906927087074;
+                    width: 2.477189900215531px;
+                    height: 1.9619951192668164px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 1.9321699119219105%;
+                    top: 27.07884403481673%;
+                    animation-delay: 1.6657865534380034s;
+                    opacity: 0.60856633881104;
+                    width: 3.161229408713326px;
+                    height: 1.1059687862068908px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 14.634675721851753%;
+                    top: 77.59475609500346%;
+                    animation-delay: 4.418259863504699s;
+                    opacity: 0.6834739439731883;
+                    width: 3.3640581461079178px;
+                    height: 3.0682352382332656px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 65.47010980369508%;
+                    top: 77.18753602796369%;
+                    animation-delay: 1.884565150777443s;
+                    opacity: 0.32832851043658806;
+                    width: 2.070673848769263px;
+                    height: 2.6313316730883765px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 3.715131893675361%;
+                    top: 25.659665606204808%;
+                    animation-delay: 3.1788104282489336s;
+                    opacity: 0.2805225352597187;
+                    width: 2.3280581678336074px;
+                    height: 1.7904821055335356px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 94.05837966724508%;
+                    top: 52.02219740374143%;
+                    animation-delay: 1.9198114231061347s;
+                    opacity: 0.34548786055557046;
+                    width: 2.4986528872816156px;
+                    height: 3.2439979064221482px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 99.54688839081855%;
+                    top: 92.27165792197671%;
+                    animation-delay: 0.5483365406966256s;
+                    opacity: 0.6636096375042234;
+                    width: 3.6554400028914387px;
+                    height: 1.114122092020872px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 10.414635462223277%;
+                    top: 84.40575352878099%;
+                    animation-delay: 0.7892000182357883s;
+                    opacity: 0.9050279684008746;
+                    width: 2.9379501668841908px;
+                    height: 2.055875582895692px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 51.55379160949825%;
+                    top: 32.88791840072849%;
+                    animation-delay: 0.3622202697532939s;
+                    opacity: 0.9441006335055511;
+                    width: 3.284958926623094px;
+                    height: 2.3094420181851785px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 40.165386143074365%;
+                    top: 67.18631547715216%;
+                    animation-delay: 1.2173419899627735s;
+                    opacity: 0.446249566739799;
+                    width: 3.7977469984475047px;
+                    height: 3.6037849759540657px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 74.37827060451288%;
+                    top: 8.324616639522041%;
+                    animation-delay: 2.6086361302501695s;
+                    opacity: 0.2631377715443021;
+                    width: 3.3626815119972067px;
+                    height: 3.9608458741645425px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 33.19858767938979%;
+                    top: 58.53039312705928%;
+                    animation-delay: 1.4000287803847655s;
+                    opacity: 0.3686381248971177;
+                    width: 3.8499967475712156px;
+                    height: 3.580338754169836px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 24.90645725080798%;
+                    top: 91.20808888924184%;
+                    animation-delay: 4.439110285499809s;
+                    opacity: 0.6206298398546451;
+                    width: 2.641915647969819px;
+                    height: 3.0740591508435564px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 30.45306732330182%;
+                    top: 68.84450079899949%;
+                    animation-delay: 2.625372101642194s;
+                    opacity: 0.9795139130779089;
+                    width: 2.3799132260287363px;
+                    height: 1.2114376855085198px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 34.83551615914011%;
+                    top: 45.87929098375469%;
+                    animation-delay: 3.1418118172127887s;
+                    opacity: 0.7596147919959921;
+                    width: 2.0959464213227896px;
+                    height: 3.4798049587406887px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 89.05640160178123%;
+                    top: 46.52526711488329%;
+                    animation-delay: 3.279901265712665s;
+                    opacity: 0.9829067388364758;
+                    width: 3.3903401809221427px;
+                    height: 2.5674141786227676px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.27881238002591%;
+                    top: 38.73614481129006%;
+                    animation-delay: 1.509896291522469s;
+                    opacity: 0.8490315324919917;
+                    width: 3.924459510648175px;
+                    height: 1.6994868706278374px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 28.593999662269386%;
+                    top: 16.17937515997234%;
+                    animation-delay: 1.7318118944516647s;
+                    opacity: 0.7224799003245699;
+                    width: 1.299909913054249px;
+                    height: 2.7830231727610792px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 29.58563314975955%;
+                    top: 0.2336600334797545%;
+                    animation-delay: 0.6347169991513169s;
+                    opacity: 0.5509052577141441;
+                    width: 2.956946479335647px;
+                    height: 2.178595791782115px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.59252880273911%;
+                    top: 54.79221767713103%;
+                    animation-delay: 0.3849495524722746s;
+                    opacity: 0.392675650990795;
+                    width: 2.4276866946942595px;
+                    height: 3.7559714383016405px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 87.68294391029082%;
+                    top: 91.47716618399919%;
+                    animation-delay: 2.028876798517448s;
+                    opacity: 0.4540531026241089;
+                    width: 1.1464644300180633px;
+                    height: 1.663925193592567px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 51.76406727918683%;
+                    top: 62.44489122037737%;
+                    animation-delay: 3.445288937599641s;
+                    opacity: 0.46497454474349564;
+                    width: 3.868073962731751px;
+                    height: 2.733772111392114px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 80.08101779506273%;
+                    top: 6.202773054623978%;
+                    animation-delay: 4.045949014322069s;
+                    opacity: 0.789800213454976;
+                    width: 2.190036804543677px;
+                    height: 3.484402555770493px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 41.55692886247198%;
+                    top: 35.745869850520705%;
+                    animation-delay: 3.3768496593054076s;
+                    opacity: 0.7284113282111198;
+                    width: 2.2710922046375863px;
+                    height: 3.9399232562857955px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 62.1979479479164%;
+                    top: 40.52330266440458%;
+                    animation-delay: 2.3389909027055933s;
+                    opacity: 0.7977384266362968;
+                    width: 3.0582653279713847px;
+                    height: 1.2531111844617349px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 52.44000237534634%;
+                    top: 8.77360728696801%;
+                    animation-delay: 3.290260565086993s;
+                    opacity: 0.8330426650372871;
+                    width: 3.5939646061685684px;
+                    height: 3.2630437037377202px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.6519202958327%;
+                    top: 23.875463034969325%;
+                    animation-delay: 0.785451479359367s;
+                    opacity: 0.20973749988142673;
+                    width: 3.0834783095102978px;
+                    height: 1.573345604676007px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 85.83896582013473%;
+                    top: 36.70934097210736%;
+                    animation-delay: 2.623223066420014s;
+                    opacity: 0.5720354723678712;
+                    width: 2.4031134345199288px;
+                    height: 2.155627030184309px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 0.30577284889787837%;
+                    top: 74.6928079701252%;
+                    animation-delay: 4.925479450772938s;
+                    opacity: 0.5188526291660012;
+                    width: 1.163551304248221px;
+                    height: 2.3672886332228265px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 53.38189536420419%;
+                    top: 43.46892327358691%;
+                    animation-delay: 3.239463721872072s;
+                    opacity: 0.269921671139454;
+                    width: 1.5188338604382867px;
+                    height: 1.0974783407758197px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 92.5708387476794%;
+                    top: 30.655606594573314%;
+                    animation-delay: 4.2131218063073375s;
+                    opacity: 0.8898554105500345;
+                    width: 2.454120445142273px;
+                    height: 1.352359919018143px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 49.461223026819326%;
+                    top: 8.028536476587034%;
+                    animation-delay: 4.083721477122092s;
+                    opacity: 0.48401209096421294;
+                    width: 3.9188150580504395px;
+                    height: 1.826798401993695px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 35.463105390696526%;
+                    top: 48.25556761579504%;
+                    animation-delay: 1.062665635630522s;
+                    opacity: 0.4847292985730189;
+                    width: 2.4738617176515705px;
+                    height: 1.6629444783875567px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 9.222773592614498%;
+                    top: 72.67589070884965%;
+                    animation-delay: 4.156407996473902s;
+                    opacity: 0.6018699580266531;
+                    width: 3.7035074348943535px;
+                    height: 3.3612529104516993px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 85.59287734450152%;
+                    top: 80.04065596160646%;
+                    animation-delay: 3.184680167972933s;
+                    opacity: 0.4561352961229286;
+                    width: 1.1941636387417642px;
+                    height: 2.0288560707228767px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 31.23238127126502%;
+                    top: 95.28677369543166%;
+                    animation-delay: 0.33311147186395496s;
+                    opacity: 0.6387441897334991;
+                    width: 1.1361216031405161px;
+                    height: 1.5409034478654255px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 71.26086446664853%;
+                    top: 85.71648910489597%;
+                    animation-delay: 0.5255946328865224s;
+                    opacity: 0.7797705143698657;
+                    width: 3.1038089034804477px;
+                    height: 1.457357827149358px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.3090214043478%;
+                    top: 36.280137314325536%;
+                    animation-delay: 1.537960120379428s;
+                    opacity: 0.7225972851359443;
+                    width: 2.956838599632465px;
+                    height: 3.029022696742495px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 94.65479820784562%;
+                    top: 94.98821107536943%;
+                    animation-delay: 0.43363159355280345s;
+                    opacity: 0.9991821388331674;
+                    width: 1.2674419870997389px;
+                    height: 3.2022950609840954px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 52.903356138527414%;
+                    top: 59.47161487932806%;
+                    animation-delay: 423.3110206910062ms;
+                    opacity: 0.3043755221952482;
+                    width: 3.239827470743425px;
+                    height: 2.318684792267332px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 0.44209726747836964%;
+                    top: 94.96102941906312%;
+                    animation-delay: 0.8053593966580064s;
+                    opacity: 0.7124506450697559;
+                    width: 3.1977617237283997px;
+                    height: 1.910297871375892px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 15.579507582379225%;
+                    top: 39.385176385371935%;
+                    animation-delay: 0.3571482409484117s;
+                    opacity: 0.5773688369786891;
+                    width: 2.464354188870483px;
+                    height: 2.400121492290214px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 88.29620971930066%;
+                    top: 0.63634611771064%;
+                    animation-delay: 0.5095362517580371s;
+                    opacity: 0.36777278709979183;
+                    width: 1.443678870417722px;
+                    height: 3.2382121140426916px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 47.30019430658614%;
+                    top: 39.17218016856068%;
+                    animation-delay: 3.8231777374897833s;
+                    opacity: 0.4949773764646963;
+                    width: 1.8919953654151924px;
+                    height: 2.1067288984142296px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 98.9751569485419%;
+                    top: 31.635963354374795%;
+                    animation-delay: 4.285553970761385s;
+                    opacity: 0.49277809491510055;
+                    width: 1.8592148342272798px;
+                    height: 1.3781103631024838px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 82.53607425590701%;
+                    top: 49.24071491827369%;
+                    animation-delay: 0.7566741387656517s;
+                    opacity: 0.9452056611954913;
+                    width: 3.266560687178672px;
+                    height: 2.7048287667224367px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 87.1980672823612%;
+                    top: 16.250548058185%;
+                    animation-delay: 3.20693333300612s;
+                    opacity: 0.9169233712397102;
+                    width: 1.9111278237202847px;
+                    height: 2.376417350440456px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 83.65074316660213%;
+                    top: 20.00100092893209%;
+                    animation-delay: 1.5937541158868052s;
+                    opacity: 0.5233484289884984;
+                    width: 1.090978095030431px;
+                    height: 1.990204050347309px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 83.29742581149786%;
+                    top: 95.34606287909718%;
+                    animation-delay: 1.6422018158167484s;
+                    opacity: 0.9543300931861989;
+                    width: 1.677058438804052px;
+                    height: 2.199753409396946px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 87.08940154562346%;
+                    top: 4.625281098662448%;
+                    animation-delay: 1.5194878562170455s;
+                    opacity: 0.32470067813462455;
+                    width: 2.0773915747662075px;
+                    height: 2.056665950648642px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 70.94361429796669%;
+                    top: 78.84071052027977%;
+                    animation-delay: 4.958612028651011s;
+                    opacity: 0.8571387195906859;
+                    width: 3.6004867361687216px;
+                    height: 3.386320507160738px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 75.23690270368407%;
+                    top: 52.594715991070416%;
+                    animation-delay: 0.7470317930019121s;
+                    opacity: 0.6424186874321536;
+                    width: 3.019074689457896px;
+                    height: 3.16618690407278px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 69.49935729960264%;
+                    top: 57.248194317097024%;
+                    animation-delay: 2.652694370374342s;
+                    opacity: 0.6914726764344998;
+                    width: 3.0728700158136997px;
+                    height: 1.8435530956286728px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 44.569760793908884%;
+                    top: 68.05514822954848%;
+                    animation-delay: 2.466442963140212s;
+                    opacity: 0.49463658862586773;
+                    width: 3.9610338909644285px;
+                    height: 1.9511738845239968px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star"
+                style="
+                    left: 47.03836245119612%;
+                    top: 42.58591254560178%;
+                    animation-delay: 1.054516510520137s;
+                    opacity: 0.9495641436962605;
+                    width: 3.8113238370697164px;
+                    height: 3.3932946193981346px;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star big"
+                style="
+                    left: 59.27191620585237%;
+                    top: 99.06528769595322%;
+                    animation-delay: 3.550289198478278s;
+                    opacity: 0.892052801386898;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star big"
+                style="
+                    left: 62.97405704466954%;
+                    top: 62.70607545837452%;
+                    animation-delay: 3.9429597750180276s;
+                    opacity: 0.6453674226569057;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star big"
+                style="
+                    left: 52.255532268346116%;
+                    top: 85.5618931490443%;
+                    animation-delay: 1.4006327727404178s;
+                    opacity: 0.36701122784603496;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star big"
+                style="
+                    left: 99.01035501107212%;
+                    top: 21.951472023758022%;
+                    animation-delay: 3.7716561657615113s;
+                    opacity: 0.6918213264256081;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="star big"
+                style="
+                    left: 63.96743057853564%;
+                    top: 55.54536211158958%;
+                    animation-delay: 4.348553389634504s;
+                    opacity: 0.7156495055493399;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="meteor"
+                style="
+                    top: 8.03972674900255%;
+                    animation-delay: 7.105702684025919s;
+                    animation-duration: 1.8809485739851812s;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="meteor"
+                style="
+                    top: 10.447032679304524%;
+                    animation-delay: 3.9075065152365562s;
+                    animation-duration: 2.943811788237818s;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+            <div
+                class="meteor"
+                style="
+                    top: 28.491110625461236%;
+                    animation-delay: 9.815799248740738s;
+                    animation-duration: 2.035691666226507s;
+                "
+                data-astro-cid-43oau6w5
+            ></div>
+        </div>
+        <main data-astro-cid-sckkx6r4>
+            <div class="main-content" data-astro-cid-j7pv25f6>
+                <div class="train-container" data-astro-cid-eg6ehuar>
+                    <div id="trainR" class="train" data-direction="toRight" data-car-count="20" data-astro-cid-eg6ehuar>
+                        <svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-eg6ehuar>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-eg6ehuar>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-eg6ehuar
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="120"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-engine"
+                            data-astro-cid-eg6ehuar
+                        >
+                            <title>车头</title>
+                            <g fill="none" fill-rule="evenodd" data-astro-cid-eg6ehuar>
+                                <path
+                                    d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"
+                                    data-astro-cid-eg6ehuar
+                                ></path>
+                                <path
+                                    fill="#ffffff"
+                                    d="M21 18a1 1 0 1 1 0 2H2a1 1 0 1 1 0-2zM12 5c3.224 0 5.942 1.075 7.868 2.589C21.759 9.075 23 11.085 23 13c0 .842-.258 1.56-.713 2.14c-.443.566-1.034.95-1.636 1.214c-1.186.518-2.597.646-3.651.646H2.994A1.995 1.995 0 0 1 1 15V7c0-1.101.89-2 1.998-2zM7 7H3v3h4zm5 0H9v3h4V7.04a12 12 0 0 0-.662-.035zm3 .383V10h4.551a8 8 0 0 0-.919-.839c-.962-.756-2.19-1.395-3.632-1.778"
+                                    data-astro-cid-eg6ehuar
+                                ></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <script type="module">
+                        import { animate } from "https://esm.sh/animejs";
+                        document.addEventListener("DOMContentLoaded", () => {
+                            const trainElement = document.querySelector("#trainR");
+                            if (!trainElement) return;
+                            const direction = trainElement.dataset.direction || "toRight",
+                                totalWidth =
+                                    120 *
+                                    ((trainElement.dataset.carCount
+                                        ? parseInt(trainElement.dataset.carCount, 10)
+                                        : 20) +
+                                        1);
+                            "toRight" === direction
+                                ? ((trainElement.style.left = `-${totalWidth}px`),
+                                  animate("#trainR", { left: "100%", duration: 5e3, easing: "easeOutCubic" }))
+                                : ((trainElement.style.left = "100%"),
+                                  animate("#trainR", {
+                                      left: `-${totalWidth}px`,
+                                      duration: 5e3,
+                                      easing: "easeOutCubic",
+                                  }));
+                        });
+                    </script>
+                </div>
+                <div class="Site-container" data-astro-cid-prcyausg>
+                    <div class="Site-list-wrapper" data-astro-cid-prcyausg>
+                        <div class="Site-list" data-site-list data-astro-cid-prcyausg></div>
+                    </div>
+                    <div class="Site-notice" id="site-notice" data-astro-cid-prcyausg>正在加载站点...</div>
+                </div>
+                <script type="module">
+                    import { animate } from "https://esm.sh/animejs";
+                    async function fetchAllSites() {
+                        try {
+                            const res = await fetch("https://backup.api.travellings.cn/list.json"),
+                                data = await res.json();
+                            return data.success && data.data && Array.isArray(data.data) && 0 !== data.data.length
+                                ? data.data
+                                : [];
+                        } catch (error) {
+                            return (console.error("获取站点列表错误", error), []);
+                        }
+                    }
+                    function getRandomSites(sites, count) {
+                        const sitesCopy = [...sites];
+                        for (let i = sitesCopy.length - 1; i > 0; i--) {
+                            const j = Math.floor(Math.random() * (i + 1));
+                            [sitesCopy[i], sitesCopy[j]] = [sitesCopy[j], sitesCopy[i]];
+                        }
+                        return sitesCopy.slice(0, count);
+                    }
+                    async function fetchSites(sitesCount) {
+                        try {
+                            const allSites = await fetchAllSites();
+                            if (0 === allSites.length) return [];
+                            const randomSites = getRandomSites(allSites, sitesCount);
+                            return randomSites.map((site) => ({
+                                id: site.id,
+                                name: site.name || "未知网站",
+                                status: site.status || "active",
+                                url: site.url,
+                                tag: site.tag,
+                                failedReason: site.failedReason || null,
+                                lastManualCheck: site.lastManualCheck || null,
+                                icon: "",
+                            }));
+                        } catch (error) {
+                            return (console.error("获取站点数据失败", error), []);
+                        }
+                    }
+                    function renderSites(sites) {
+                        const siteListElement = document.querySelector("[data-site-list]");
+                        if (!siteListElement) return;
+                        siteListElement.innerHTML = "";
+                        (Array.from({ length: 3 }, () => sites)
+                            .flat()
+                            .forEach((site, idx) => {
+                                const card = document.createElement("div");
+                                ((card.className = "Site-card"),
+                                    (card.style.border = "1px solid #333"),
+                                    (card.style.borderRadius = "16px"),
+                                    (card.style.overflow = "hidden"),
+                                    (card.style.transition = "all 0.3s ease"),
+                                    (card.style.background = "#1e1e1e"),
+                                    (card.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.3)"),
+                                    (card.style.minWidth = "300px"),
+                                    (card.style.flexShrink = "0"),
+                                    (card.style.willChange = "transform"),
+                                    card.addEventListener("mouseenter", () => {
+                                        ((card.style.transform = "translateY(-8px)"),
+                                            (card.style.boxShadow = "0 16px 32px rgba(0, 0, 0, 0.5)"),
+                                            (card.style.borderColor = "#3498db"));
+                                    }),
+                                    card.addEventListener("mouseleave", () => {
+                                        ((card.style.transform = "translateY(0)"),
+                                            (card.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.3)"),
+                                            (card.style.borderColor = "#333"));
+                                    }));
+                                const link = document.createElement("a");
+                                ((link.href = site.url),
+                                    (link.target = "_blank"),
+                                    (link.rel = "noopener noreferrer"),
+                                    (link.className = "Site-link"));
+                                try {
+                                    link.dataset.siteIndex = String(idx % sites.length);
+                                } catch (e) {}
+                                ((link.style.display = "flex"),
+                                    (link.style.alignItems = "center"),
+                                    (link.style.padding = "1.5rem"),
+                                    (link.style.textDecoration = "none"),
+                                    (link.style.color = "#e0e0e0"),
+                                    (link.style.height = "100%"));
+                                const iconDiv = document.createElement("div");
+                                ((iconDiv.className = "Site-icon"),
+                                    (iconDiv.style.flexShrink = "0"),
+                                    (iconDiv.style.width = "100px"),
+                                    (iconDiv.style.height = "auto"),
+                                    (iconDiv.style.marginRight = "1.5rem"),
+                                    (iconDiv.style.display = "flex"),
+                                    (iconDiv.style.flexDirection = "column"),
+                                    (iconDiv.style.alignItems = "center"),
+                                    (iconDiv.style.justifyContent = "center"));
+                                const iconImg = document.createElement("img");
+                                ((iconImg.src = "https://www.travellings.cn/assets/favicon.png"),
+                                    (iconImg.alt = site.name + " icon"),
+                                    (iconImg.style.width = "48px"),
+                                    (iconImg.style.height = "48px"),
+                                    (iconImg.style.borderRadius = "8px"));
+                                const idText = document.createElement("span");
+                                ((idText.textContent = `ID: ${site.id}`),
+                                    (idText.style.fontSize = "12px"),
+                                    (idText.style.color = "#aaa"),
+                                    (idText.style.marginTop = "8px"));
+                                const infoDiv = document.createElement("div");
+                                ((infoDiv.className = "Site-info"),
+                                    (infoDiv.style.flexGrow = "1"),
+                                    (infoDiv.style.minWidth = "0"));
+                                const nameEl = document.createElement("h3");
+                                ((nameEl.className = "Site-name"),
+                                    (nameEl.textContent = site.name),
+                                    (nameEl.style.margin = "0 0 0.5rem 0"),
+                                    (nameEl.style.fontSize = "1.3rem"),
+                                    (nameEl.style.fontWeight = "600"),
+                                    (nameEl.style.color = "#e0e0e0"),
+                                    (nameEl.style.whiteSpace = "nowrap"),
+                                    (nameEl.style.overflow = "hidden"),
+                                    (nameEl.style.textOverflow = "ellipsis"));
+                                const tagEl = document.createElement("p");
+                                ((tagEl.className = "Site-tag"),
+                                    (tagEl.textContent = site.tag),
+                                    (tagEl.style.margin = "0"),
+                                    (tagEl.style.fontSize = "1rem"),
+                                    (tagEl.style.color = "#aaa"),
+                                    (tagEl.style.whiteSpace = "nowrap"),
+                                    (tagEl.style.overflow = "hidden"),
+                                    (tagEl.style.textOverflow = "ellipsis"),
+                                    infoDiv.appendChild(nameEl),
+                                    infoDiv.appendChild(tagEl),
+                                    iconDiv.appendChild(iconImg),
+                                    iconDiv.appendChild(idText),
+                                    link.appendChild(iconDiv),
+                                    link.appendChild(infoDiv),
+                                    card.appendChild(link),
+                                    siteListElement.appendChild(card));
+                            }),
+                            initAnimation(sites.length));
+                    }
+                    function initAnimation(sitesCount) {
+                        const siteListElement = document.querySelector("[data-site-list]"),
+                            siteNoticeElement = document.getElementById("site-notice");
+                        if (!siteListElement || !siteNoticeElement) return;
+                        const setWidth = 382 * sitesCount;
+                        ((siteListElement.style.display = "flex"),
+                            (siteListElement.style.alignItems = "center"),
+                            (siteListElement.style.position = "absolute"),
+                            (siteListElement.style.left = "0px"),
+                            (siteListElement.style.width = "fit-content"));
+                        const loopDuration = Math.max(500, 4e3),
+                            animation = animate("[data-site-list]", {
+                                left: -setWidth + "px",
+                                duration: loopDuration,
+                                easing: "linear",
+                                loop: !0,
+                            });
+                        setTimeout(() => {
+                            try {
+                                animation.pause();
+                            } catch (e) {}
+                            const container = document.querySelector(".Site-container"),
+                                containerRect = container?.getBoundingClientRect(),
+                                containerCenter = containerRect
+                                    ? containerRect.left + containerRect.width / 2
+                                    : window.innerWidth / 2,
+                                siteLinks = document.querySelectorAll(".Site-link");
+                            if (0 === siteLinks.length) return;
+                            let closestLink = null,
+                                closestDistance = 1 / 0,
+                                closestRect = null;
+                            if (
+                                (siteLinks.forEach((link) => {
+                                    const linkRect = link.getBoundingClientRect(),
+                                        linkCenter = linkRect.left + linkRect.width / 2,
+                                        distance = Math.abs(linkCenter - containerCenter);
+                                    distance < closestDistance &&
+                                        ((closestDistance = distance), (closestLink = link), (closestRect = linkRect));
+                                }),
+                                !closestLink || !closestRect)
+                            )
+                                return;
+                            const linkCenter = closestRect.left + closestRect.width / 2,
+                                delta = containerCenter - linkCenter,
+                                computedLeft = parseFloat(getComputedStyle(siteListElement).left) || 0;
+                            animate(siteListElement, {
+                                left: computedLeft + delta + "px",
+                                duration: 700,
+                                easing: "easeOutCubic",
+                                complete: function () {
+                                    const siteName = closestLink.querySelector(".Site-name")?.textContent;
+                                    (siteNoticeElement &&
+                                        (siteNoticeElement.textContent = `您将要前往的站点是: ${siteName}`),
+                                        setTimeout(() => {
+                                            closestLink &&
+                                                closestLink.href &&
+                                                (window.location.href = closestLink.href);
+                                        }, 1e3));
+                                },
+                            });
+                        }, loopDuration);
+                    }
+                    document.addEventListener("DOMContentLoaded", async () => {
+                        const siteListElement = document.querySelector("[data-site-list]"),
+                            siteNoticeElement = document.getElementById("site-notice");
+                        if (
+                            (siteNoticeElement &&
+                                ((siteNoticeElement.textContent = "正在加载站点..."),
+                                (siteNoticeElement.style.position = "absolute"),
+                                (siteNoticeElement.style.bottom = "0"),
+                                (siteNoticeElement.style.left = "0"),
+                                (siteNoticeElement.style.width = "100%"),
+                                (siteNoticeElement.style.textAlign = "center"),
+                                (siteNoticeElement.style.fontSize = "1.1rem"),
+                                (siteNoticeElement.style.color = "#e0e0e0"),
+                                (siteNoticeElement.style.padding = "0.8rem"),
+                                (siteNoticeElement.style.background = "rgba(30, 30, 30, 0)"),
+                                (siteNoticeElement.style.backdropFilter = "blur(5px)"),
+                                (siteNoticeElement.style.zIndex = "10")),
+                            siteListElement)
+                        ) {
+                            const card = document.createElement("div");
+                            ((card.className = "Site-card"),
+                                (card.style.border = "1px solid #333"),
+                                (card.style.borderRadius = "16px"),
+                                (card.style.overflow = "hidden"),
+                                (card.style.transition = "all 0.3s ease"),
+                                (card.style.background = "#1e1e1e"),
+                                (card.style.boxShadow = "0 6px 12px rgba(0, 0, 0, 0.3)"),
+                                (card.style.minWidth = "300px"),
+                                (card.style.flexShrink = "0"),
+                                (card.style.willChange = "transform"));
+                            const link = document.createElement("div");
+                            ((link.className = "Site-link"),
+                                (link.style.display = "flex"),
+                                (link.style.alignItems = "center"),
+                                (link.style.padding = "1.5rem"),
+                                (link.style.textDecoration = "none"),
+                                (link.style.color = "#e0e0e0"),
+                                (link.style.height = "100%"));
+                            const iconDiv = document.createElement("div");
+                            ((iconDiv.className = "Site-icon"),
+                                (iconDiv.style.flexShrink = "0"),
+                                (iconDiv.style.width = "100px"),
+                                (iconDiv.style.height = "60px"),
+                                (iconDiv.style.marginRight = "1.5rem"),
+                                (iconDiv.style.display = "flex"),
+                                (iconDiv.style.flexDirection = "column"),
+                                (iconDiv.style.alignItems = "center"),
+                                (iconDiv.style.justifyContent = "center"),
+                                (iconDiv.style.background = "#4CAF50"),
+                                (iconDiv.style.borderRadius = "8px"),
+                                (iconDiv.style.fontWeight = "bold"),
+                                (iconDiv.style.fontSize = "24px"),
+                                (iconDiv.style.color = "#fff"));
+                            const idLabel = document.createElement("span");
+                            ((idLabel.textContent = "ID"),
+                                (idLabel.style.fontSize = "10px"),
+                                (idLabel.style.fontWeight = "normal"),
+                                (idLabel.style.color = "#fff"),
+                                (idLabel.style.lineHeight = "1"));
+                            const iconText = document.createElement("span");
+                            ((iconText.textContent = "0"),
+                                (iconText.style.display = "block"),
+                                (iconText.style.width = "100%"),
+                                (iconText.style.textAlign = "center"),
+                                (iconText.style.lineHeight = "1"));
+                            const infoDiv = document.createElement("div");
+                            ((infoDiv.className = "Site-info"),
+                                (infoDiv.style.flexGrow = "1"),
+                                (infoDiv.style.minWidth = "0"));
+                            const nameEl = document.createElement("h3");
+                            ((nameEl.className = "Site-name"),
+                                (nameEl.textContent = "加载中..."),
+                                (nameEl.style.margin = "0 0 0.5rem 0"),
+                                (nameEl.style.fontSize = "1.3rem"),
+                                (nameEl.style.fontWeight = "600"),
+                                (nameEl.style.color = "#e0e0e0"),
+                                (nameEl.style.whiteSpace = "nowrap"),
+                                (nameEl.style.overflow = "hidden"),
+                                (nameEl.style.textOverflow = "ellipsis"));
+                            const tagEl = document.createElement("p");
+                            ((tagEl.className = "Site-tag"),
+                                (tagEl.textContent = "正在获取站点"),
+                                (tagEl.style.margin = "0"),
+                                (tagEl.style.fontSize = "1rem"),
+                                (tagEl.style.color = "#aaa"),
+                                (tagEl.style.whiteSpace = "nowrap"),
+                                (tagEl.style.overflow = "hidden"),
+                                (tagEl.style.textOverflow = "ellipsis"),
+                                infoDiv.appendChild(nameEl),
+                                infoDiv.appendChild(tagEl),
+                                iconDiv.appendChild(idLabel),
+                                iconDiv.appendChild(iconText),
+                                link.appendChild(iconDiv),
+                                link.appendChild(infoDiv),
+                                card.appendChild(link),
+                                siteListElement.appendChild(card));
+                        }
+                        const sites = await fetchSites(5);
+                        if (sites.length > 0) renderSites(sites);
+                        else if (
+                            (siteNoticeElement && (siteNoticeElement.textContent = "加载站点失败，请刷新页面重试"),
+                            siteListElement && siteListElement.firstChild)
+                        ) {
+                            const card = siteListElement.firstChild,
+                                nameEl = card.querySelector(".Site-name"),
+                                tagEl = card.querySelector(".Site-tag");
+                            (nameEl && (nameEl.textContent = "加载失败"),
+                                tagEl && (tagEl.textContent = "请刷新页面重试"));
+                        }
+                    });
+                </script>
+                <div class="train-container" data-astro-cid-ezta3uqq>
+                    <div id="trainL" class="train" data-direction="toLeft" data-car-count="20" data-astro-cid-ezta3uqq>
+                        <svg
+                            width="120"
+                            height="120"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-engine"
+                            style="transform: scaleX(-1)"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车头</title>
+                            <g fill="none" fill-rule="evenodd" data-astro-cid-ezta3uqq>
+                                <path
+                                    d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"
+                                    data-astro-cid-ezta3uqq
+                                ></path>
+                                <path
+                                    fill="#ffffff"
+                                    d="M21 18a1 1 0 1 1 0 2H2a1 1 0 1 1 0-2zM12 5c3.224 0 5.942 1.075 7.868 2.589C21.759 9.075 23 11.085 23 13c0 .842-.258 1.56-.713 2.14c-.443.566-1.034.95-1.636 1.214c-1.186.518-2.597.646-3.651.646H2.994A1.995 1.995 0 0 1 1 15V7c0-1.101.89-2 1.998-2zM7 7H3v3h4zm5 0H9v3h4V7.04a12 12 0 0 0-.662-.035zm3 .383V10h4.551a8 8 0 0 0-.919-.839c-.962-.756-2.19-1.395-3.632-1.778"
+                                    data-astro-cid-ezta3uqq
+                                ></path>
+                            </g>
+                        </svg>
+                        <svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g></svg
+                        ><svg
+                            width="120"
+                            height="70"
+                            viewBox="0 0 22 15"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="train-car"
+                            data-astro-cid-ezta3uqq
+                        >
+                            <title>车厢</title>
+                            <g data-astro-cid-ezta3uqq>
+                                <title>Layer 1</title>
+                                <g stroke="null" data-astro-cid-ezta3uqq>
+                                    <path
+                                        stroke="null"
+                                        d="m20.30817,0.00001l-18.27735,0c-1.11695,0 -2.03082,1.09068 -2.03082,2.42373l0,9.69491l1.01541,0a2.03082,2.42373 0 1 0 4.06163,0l12.1849,0a2.03082,2.42373 0 1 0 4.06163,0l1.01541,0l0,-9.69491a2.03082,2.42373 0 0 0 -2.03082,-2.42373m-14.21572,6.05932l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559zm8.12327,0l-6.09245,0l0,-3.63559l6.09245,0l0,3.63559zm6.09245,0l-4.06163,0l0,-3.63559l4.06163,0l0,3.63559z"
+                                        fill="#ffffff"
+                                        data-astro-cid-ezta3uqq
+                                    ></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <script type="module">
+                        import { animate } from "https://esm.sh/animejs";
+                        document.addEventListener("DOMContentLoaded", () => {
+                            const trainElement = document.querySelector("#trainL");
+                            if (!trainElement) return;
+                            const direction = trainElement.dataset.direction || "toRight",
+                                totalWidth =
+                                    120 *
+                                    ((trainElement.dataset.carCount
+                                        ? parseInt(trainElement.dataset.carCount, 10)
+                                        : 20) +
+                                        1);
+                            "toRight" === direction
+                                ? ((trainElement.style.left = `-${totalWidth}px`),
+                                  animate("#trainL", { left: "100%", duration: 5e3, easing: "easeOutCubic" }))
+                                : ((trainElement.style.left = "100%"),
+                                  animate("#trainL", {
+                                      left: `-${totalWidth}px`,
+                                      duration: 5e3,
+                                      easing: "easeOutCubic",
+                                  }));
+                        });
+                    </script>
+                </div>
+            </div>
+        </main>
+        <div class="botCenter" data-astro-cid-sz7xmlte>
+            <div class="footer-content" data-astro-cid-sz7xmlte>
+                <p class="footer-text" data-astro-cid-sz7xmlte>
+                    ↩️ Tips: <b data-astro-cid-sz7xmlte>后退</b>网页可再次开往
+                </p>
+                <div class="footer-links" data-astro-cid-sz7xmlte>
+                    <a href="./preference" class="links" data-astro-cid-sz7xmlte>⚙️ 开往偏好设置</a>
+                    <span class="separator" data-astro-cid-sz7xmlte>|</span>
+                    <a href="https://www.travellings.cn/docs/join" class="links" target="_blank" data-astro-cid-sz7xmlte
+                        >🚇 加入</a
+                    >
+                </div>
+                <!--
+                <div class="footer-beian" data-astro-cid-sz7xmlte>
+                    <a href="https://beian.miit.gov.cn/" target="_blank" data-astro-cid-sz7xmlte
+                        >🇨🇳 闽ICP备2023011626号-1</a
+                    >
+                </div>
+                -->
+            </div>
+        </div>
+    </body>
+</html>

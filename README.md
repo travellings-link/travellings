@@ -1,7 +1,5 @@
 # 开往 - 友链接力
 
-Language: **简体中文** | [English](./en_US/README.md)
-
 ## 简介
 
 「开往 Travellings」是一个友链接力项目，旨在通过网络跳转的方式将流量引入那些鲜为人知的独立站点，从而推动网络的开放性和多元性。
@@ -23,7 +21,8 @@ Language: **简体中文** | [English](./en_US/README.md)
 开往主站现基于 VitePress 构建。
 
 - `public` 文件夹存放静态文件，会被放置到根目录下。开往最重要的跳转页也在其中。如果你想制作新的跳转页，请查看 [参与项目](./docs/join.md#%E5%8F%82%E4%B8%8E%E9%A1%B9%E7%9B%AE) 
-- `announcements` 文件夹中放置的是公告 (Markdown 格式)
+- `wiki` 文件夹中放置的是项目公开知识库与公告 (Markdown 格式)
+- `archive` 文件夹中放置的是过期归档公告 (Markdown 格式)
 - `blog` 文件夹中放置的是博客 (Markdown 格式)
 - `docs` 文件夹放置的是文档 (Markdown 格式)
 
@@ -36,3 +35,5 @@ Language: **简体中文** | [English](./en_US/README.md)
 - 点此[查看常见疑难解答](./docs/qa.md)
 - 点此[查看加入开往维护组要求](./docs/toyou.md)
 - 点此[赞助](https://afdian.com/a/travellings)，所获赞助费用将用于服务器、DNS加速、域名续费。如有结余会在特定时间节点采用制作周边的方式回馈社区。
+
+本项目 CDN 加速及安全防护由[蓝易云安全](https://www.tsycdn.com/?from=travellings-github)赞助。

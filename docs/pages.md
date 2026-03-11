@@ -26,9 +26,9 @@
 
 ## Go by Clouds 乘云而去
 
-即时渲染高清云彩效果；蓝天和Orbitron字体交融，营造出令人沉醉的后现代氛围。动画流畅，用户在页面切换时能体验到无缝流畅的过渡。
+云朵即时渲染，天空和Orbitron字体交融。
 
-页面作者：[@Karlukle](https://www.karlukle.site) 
+页面作者：[@JUKAI_SARAI](https://www.jukai.site) 
 
 页面链接：`https://www.travellings.cn/go-by-clouds.html` 
 
@@ -43,3 +43,33 @@
 页面连接：`https://www.travellings.cn/go-robots.html`
 
 截图样例：![Robots 机器人聊天跳转](/assets/img/go-robots-page.webp  "Robots 机器人聊天跳转")
+
+## Train 列车
+
+一个仿照乘坐列车、向窗外眺望的跳转页面，提供简洁、美观的跳转体验。动画精美。
+
+页面作者：[@Makuraryu](https://github.com/Makuraryu)
+
+页面连接：`https://www.travellings.cn/train.html`
+
+截图样例：![Train 列车](/assets/img/train-page.webp)
+
+## 星河 列车
+
+两辆车在星河中穿梭，中间是随机站点轮播。
+
+页面作者：[@xingwangzhe](https://github.com/xingwangzhe)
+
+页面链接：`https://www.travellings.cn/train-star.html`
+
+截图样例：![星河 列车](/assets/img/train-star-page.webp)
+
+## 打字机
+
+一个简单的打字机效果。
+
+页面作者：[@gtxykn0504](https://github.com/gtxykn0504)
+
+页面链接：`https://www.travellings.cn/typewriter.html`
+
+截图样例：![打字机](/assets/img/typewriter.webp)

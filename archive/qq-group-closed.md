@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: 开往维护组关于停止维护QQ群的公告
 date: 2023-09-03
 updated: 2023-09-03

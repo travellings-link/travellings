@@ -36,6 +36,11 @@
           <option>coder-1024.html</option>
           <option>go-by-clouds.html</option>
           <option>go-robots.html</option>
+          <option>train.html</option>
+          <option>train-star.html</option>
+          <option>typewriter.html</option>
+
+
 
           <!-- 以上为自定义跳转页 -->
         </select>

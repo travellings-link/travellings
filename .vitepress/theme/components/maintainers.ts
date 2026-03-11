@@ -4,13 +4,21 @@ export default {
 			title: "开往负责人",
 			active: true,
 		},
+		gtxykn0504: {
+			title: "维护组负责人 / 文案编辑",
+			active: true,
+		},
+		Xiaozonglin: {
+			title: "维护组负责人",
+			active: false,
+		},
 		xuanzhi33: {
 			title: "前端开发 / 运维",
 			active: true,
 		},
 		BLxcwg666: {
 			title: "后端开发 / 运维",
-			active: true,
+			active: false,
 		},
 		"Big-Cake-jpg": {
 			title: "维护组成员",
@@ -56,13 +64,9 @@ export default {
 			title: "维护组成员",
 			active: false,
 		},
-		gtxykn0504: {
-			title: "文案编辑",
-			active: true,
-		},
 		HowieHz: {
 			title: "自动化开发",
-			active: true,
+			active: false,
 		},
 		gxres042: {
 			title: "维护组成员",
@@ -72,17 +76,21 @@ export default {
 			title: "原公共关系",
 			active: false,
 		},
-		linlinzzo: {
-			title: "维护组成员",
-			active: false,
-		},
 		Allenyou1126: {
+			title: "维护组成员",
+			active: true,
+		},
+		Leetfs: {
 			title: "维护组成员",
 			active: true,
 		},
 	},
 	inspectors: {
 		Allenyou1126: {
+			title: "巡查组负责人",
+			active: true,
+		},
+		gtxykn0504: {
 			title: "巡查组负责人",
 			active: true,
 		},
@@ -118,8 +126,8 @@ export default {
 			title: "巡查组成员",
 			active: true,
 		},
-		gtxykn0504: {
-			title: "原巡查组负责人",
+		vikiboss: {
+			title: "巡查组成员",
 			active: true,
 		},
 	},

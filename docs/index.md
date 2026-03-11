@@ -2,7 +2,10 @@
 
 ## 宣传片
 
-<iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=924428846&bvid=BV17T4y1t7bD&cid=1423471734&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"></iframe>
+
+## 宣传曲
+<iframe src="//player.bilibili.com/player.html?aid=1555381005&bvid=BV1t1421y7VF&cid=1567534567&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="300px"></iframe>
 
 ## 关于开往
 
