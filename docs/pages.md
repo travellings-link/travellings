@@ -73,3 +73,13 @@
 页面链接：`https://www.travellings.cn/typewriter.html`
 
 截图样例：![打字机](/assets/img/typewriter.webp)
+
+## Travellings Shuttle System
+
+一个仿旧式 DOS 计算机的跳转页面，提供简单的跳转体验
+
+页面作者：[@admincmd-a](https://github.com/admincmd-a)
+
+页面链接：`https://www.travellings.cn/go-start.html`
+
+截图样例：![Travellings Shuttle Redirect System](/assets/img/go-start.webp)
