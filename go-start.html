@@ -1,0 +1,482 @@
+<!--
+ ______                  _____             
+/_  __/______ __  _____ / / (_)__  ___ ____
+ / / / __/ _ `/ |/ / -_) / / / _ \/ _ `(_-<
+/_/ /_/  \_,_/|___/\__/_/_/_/_//_/\_, /___/
+                                 /___/     
+
+Travellings v.3.0.0
+Travellings Shuttle System (c) Travellings-link Project. All rights reserved.
+https://www.travellings.cn/
+https://github.com/travellings-link/travellings
+
+-->
+<!-- Made by 2026 AdminCmd(https://admincmd.xyz/)(https://github.com/admincmd-a) with Love. -->
+<!-- 鄙人不才，实现了在学校的胡思乱想，此代码是在几天晚自习回家后的晚上内赶出来的，运行效率和效果不尽人意(￣▽￣)" -->
+<!-- 完工日期：2026-03-25 -->
+
+<!-- 一个仿旧式 DOS 计算机的跳转页面，提供内嵌字体和一个阉割版的 CONHOST 控制台模拟器 -->
+<!-- 按键定义：
+ F1 -> 开往官网 
+ F2 -> 打开偏好设置 
+ F3 -> 加入开往 
+ [Ctrl + C] -> 终止跳转 
+ PauseBreak 暂停回显 
+ Enter 重新开始新的开往 
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>开往-友链接力</title>
+    <link rel="icon" href="./assets/favicon.png" />
+    <style>
+        :root {
+            --color-0: #0c0c0c;
+            --color-1: #0037da;
+            --color-2: #13a10e;
+            --color-3: #3a96dd;
+            --color-4: #c50f1f;
+            --color-5: #881798;
+            --color-6: #c19c00;
+            --color-7: #cccccc;
+            --color-8: #767676;
+            --color-9: #3b78ff;
+            --color-a: #16c60c;
+            --color-b: #61d6d6;
+            --color-c: #e74856;
+            --color-d: #b4009e;
+            --color-e: #f9f1a5;
+            --color-f: #f2f2f2;
+            --VGA-font: 'VGA','宋体' ,'Segoe UI', 'Lucida Grande', 'Helvetica Neue', 'Arial', sans-serif;
+        }
+
+        ::selection {
+            color: var(--color-f); /* 修改文字颜色 */
+            background: var(--color-2); /* 修改背景颜色 */
+        }
+
+        ::-moz-selection {
+            color: var(--color-f);
+            background: var(--color-2); /* Firefox 兼容性处理 */
+        }
+
+        body {
+            font-size: 120% !important;
+            font-family: var(--VGA-font);
+            background-color: var(--color-0);
+            color: var(--color-7);
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+
+        @font-face {
+            font-family: 'VGA';
+            src: url("data:font/ttf;base64,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");
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="display: none;">开往-友链接力</h1>
+    <main id="main" class="main"></main>
+    <script>
+
+        /**
+         * 实模式 VGA 颜色定义，使用 16 进制表示
+         *  0 = 黑色       8 = 灰色
+         *  1 = 蓝色       9 = 淡蓝色
+         *  2 = 绿色       A = 淡绿色
+         *  3 = 浅绿色     B = 淡浅绿色
+         *  4 = 红色       C = 淡红色
+         *  5 = 紫色       D = 淡紫色
+         *  6 = 黄色       E = 淡黄色
+         *  7 = 白色       F = 亮白色
+         */
+        const colors = {
+            0x0: "#0c0c0c", 0x1: "#0037da", 0x2: "#13a10e", 0x3: "#3a96dd",
+            0x4: "#c50f1f", 0x5: "#881798", 0x6: "#c19c00", 0x7: "#cccccc",
+            0x8: "#767676", 0x9: "#3b78ff", 0xA: "#16c60c", 0xB: "#61d6d6",
+            0xC: "#e74856", 0xD: "#b4009e", 0xE: "#f9f1a5", 0xF: "#f2f2f2"
+        };
+        const MAIN = document.body.main || document.getElementById("main") || null;
+        const prefix = "t_preference_";
+        const getSetting = key => localStorage.getItem(prefix + key);
+        var redirectTimer = null;
+
+        class CONHOST {
+            constructor(rows = 25, cols = 80) {
+                this.rows = rows;
+                this.cols = cols;
+                this.screen = [];
+                this.cursor = { row: 0, col: 0 };
+                this.visibleCursor = true;
+                this.blinkInterval = null;
+                this.pause = false;
+
+                this.clearScreen();
+                this.startBlink();
+            }
+
+            clearScreen() {
+                // 简单的清空屏幕，以及2 维数组初始化
+                for (let r = 0; r < this.rows; r++) {
+                    this.screen[r] = [];
+                    for (let c = 0; c < this.cols; c++) {
+                        this.screen[r][c] = {
+                            char: " ",
+                            foregroundColor: 0x7,
+                            backgroundColor: 0x0
+                        }
+
+                    }
+
+                }
+                this.cursor = { row: 0, col: 0 };
+
+            }
+
+            /**  */
+            render() {
+                let html = "";
+                for (let r = 0; r < this.rows; r++) {
+                    // const element = this.rows[r];
+                    for (let c = 0; c < this.cols; c++) {
+                        const cell = this.screen[r][c];
+                        const foregroundColor = colors[cell.foregroundColor] || colors[0x7];
+                        const backgroundColor = colors[cell.backgroundColor] || colors[0x0];
+                        const isCursor = (r === this.cursor.row && c === this.cursor.col); // 是否为光标所在位置
+                        const char = isCursor ? (this.visibleCursor ? "_" : " ") : cell.char; // 光标是否可见
+                        html += `<span style="color:${foregroundColor};background-color:${backgroundColor}">${char}</span>`;
+                    }
+                    html += "<br />";
+                }
+                MAIN.innerHTML = html;
+            }
+
+            async print(text, foregroundColor, backgroundColor) {
+                for (let i = 0; i < text.length; i++) {
+                    const ch = text[i];
+                    while (this.pause) {
+                        await sleep(100);
+                    }
+                    if (ch === "\n") {
+                        this.cursor.row++;
+                        this.cursor.col = 0;
+                        if (this.cursor.row >= this.rows) {
+                            this.scrollUp();
+                            this.cursor.row = this.rows - 1;
+                        }
+                        continue;
+                    } else {
+                        // 普通字符
+                        if (this.cursor.row < this.rows && this.cursor.col < this.cols) {
+                            this.screen[this.cursor.row][this.cursor.col] = {
+                                char: ch,
+                                foregroundColor: foregroundColor,
+                                backgroundColor: backgroundColor
+                            };
+                            this.cursor.col++;
+
+                            // 超长字符换行
+                            if (this.cursor.col >= this.cols) {
+                                this.cursor.row++;
+                                this.cursor.col = 0;
+                                if (this.cursor.row >= this.rows) {
+                                    this.scrollUp();
+                                    this.cursor.row = this.rows - 1;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                this.render(); // 重新绘制更新位置
+            }
+
+            scrollUp() {
+                // 移动屏幕内容
+                for (let r = 1; r < this.rows; r++) {
+                    this.screen[r - 1] = [...this.screen[r]];
+                }
+
+                // 清空尾行
+                for (let r = 0; r < this.cols; r++) {
+                    this.screen[this.rows - 1][r] = {
+                        char: " ",
+                        foregroundColor: 0x7,
+                        backgroundColor: 0x0
+                    }
+                }
+
+            }
+
+            startBlink() {
+                if (this.blinkInterval) clearInterval(this.blinkInterval);
+                this.blinkInterval = setInterval(() => {
+                    if (getSelectedText() !== "") return;
+                    this.visibleCursor = !this.visibleCursor;
+                    this.render();
+                }, 200);
+            }
+
+            stopBlink() {
+                if (this.blinkInterval) clearInterval(this.blinkInterval);
+                this.blinkInterval = null;
+                this.visibleCursor = true;
+            }
+        }
+
+        const CONSOLE = new CONHOST(25, 125);
+        const backStart = async function (event) {
+             {
+                try {
+                    // 页面从缓存恢复，重新开始
+                    if (redirectTimer) {
+                        clearTimeout(redirectTimer);
+                        redirectTimer = null;
+                    }
+                    CONSOLE.print("\n\n", 0x7, 0x0);
+                    CONSOLE.print(`\n\n ================== Welcome back! ================== \n`, 0x0, 0x7);
+                    CONSOLE.print("\nReady to Travellings...", 0x7, 0x0);
+                    const website = await requestRandomWebsite();
+                    CONSOLE.print(`\nDear Fellow Visitors, the next site is "${website.name}" and the address is "${website.url}". \n`, 0x7, 0x0);
+                
+                    const travellingTimeout = getSetting("timeout") || 1500;
+                    CONSOLE.print(`You have ${travellingTimeout / 1000} seconds to prepare. Good luck!\n`, 0x7, 0x0);
+
+                    redirectTimer = setTimeout(() => {
+                        CONSOLE.print("The shuttle is now departing. Redirecting now...\n", 0x7, 0x0);
+                        window.location.href = website.url;
+                    }, travellingTimeout);
+                } catch (error) {
+                    CONSOLE.print(`\nError: ${error.message}\n`, 0x4, 0x0);
+                    CONSOLE.print("Please press ", 0x7, 0x0);
+                    CONSOLE.print(" ENTER ", 0x0, 0x7)
+                    CONSOLE.print(" to try again, or press ", 0x7, 0x0)
+                    CONSOLE.print(" F5 ", 0x0, 0x7)
+                    CONSOLE.print(" to reload the page.\n", 0x7, 0x0)
+                }
+            }
+        }
+
+        const start = async () => {
+            try {
+                if (redirectTimer) {
+                    clearTimeout(redirectTimer);
+                    redirectTimer = null;
+                }
+                
+                CONSOLE.print(`Travellings Shuttle System (c) Travellings-link Project. All rights      reserved. v.0.1.2.9
+                Made by AdminCmd(https://admincmd.xyz) with love.
+            
+                Loading files...`
+                    , 0x7, 0x0);
+                await sleep(500);
+                // playMUS(2000, 1, "square", 0.5);
+                // CONSOLE.print(``, 0x7, 0x0)
+                CONSOLE.print(`\n\n ================== Welcome to Travellings Shuttle System!       ================== \n`, 0x0, 0x7);
+                CONSOLE.print("\nPress ", 0x2, 0x0);
+                CONSOLE.print(" F1 ", 0x0, 0x7)
+                CONSOLE.print(" to open the Travellings about page.\n", 0x2, 0x0)
+                CONSOLE.print("Press ", 0x2, 0x0)
+                CONSOLE.print(" F2 ", 0x0, 0x7)
+                CONSOLE.print(" to enter the Preferences Settings.\n", 0x2, 0x0)
+                CONSOLE.print("\nIf you would like to add your site to Travellings, \nPress ", 0x2, 0x0)
+                CONSOLE.print(" F3 ", 0x0, 0x7)
+                CONSOLE.print(" or visit https://www.travellings.cn/docs/join.html !\n", 0x2, 0x0);
+    
+                CONSOLE.print("\nReady to Travellings...", 0x7, 0x0);
+                const website = await requestRandomWebsite();
+                CONSOLE.print(`\nDear Fellow Visitors, the next site is "${website.name}" and the address is "${website.url}". \n`, 0x7, 0x0);
+                
+                while (CONSOLE.pause) {
+                    await sleep(100);
+                }
+                const travellingTimeout = getSetting("timeout") || 3500;
+                CONSOLE.print(`You have ${travellingTimeout / 1000} seconds to prepare. Good luck!\n`, 0x7, 0x0);
+                
+                redirectTimer = setTimeout(async () => {
+                    while (CONSOLE.pause) {
+                        await sleep(100);
+                    }
+                    CONSOLE.print("The shuttle is now departing. Redirecting now...\n", 0x7, 0x0);
+
+                    window.location.href = website.url;
+                }, travellingTimeout);
+            } catch (error) {
+                console.error("启动失败:", error);
+                CONSOLE.print(`\nError: ${error.message}\n`, 0x4, 0x0);
+                CONSOLE.print("Please press ", 0x7, 0x0);
+                CONSOLE.print(" ENTER ", 0x0, 0x7)
+                CONSOLE.print(" to try again, or press ", 0x7, 0x0)
+                CONSOLE.print(" F5 ", 0x0, 0x7)
+                CONSOLE.print(" to reload the page.\n", 0x7, 0x0)
+                CONSOLE.print(`Both the main and backup APIs failed. Please visit https://github.com/travellings-link/travellings for more information.\n`, 0x7, 0x0);
+            }
+            
+        }
+        document.addEventListener('keydown', function (event) {
+                // 处理 Ctrl + C（中断）
+                if (event.ctrlKey && event.key === 'c') {
+                    // 如果有选中的文本，让浏览器执行复制（不中断）
+                    if (getSelectedText() !== '') {
+                        return; // 让默认行为发生
+                    } else {
+                        event.preventDefault(); // 阻止复制（因为没选中文本，防止某些浏览器弹出）
+                        if (redirectTimer) {
+                            clearTimeout(redirectTimer);
+                            redirectTimer = null;
+                            // 打印中断信息（模仿终端风格）
+                            CONSOLE.print("^C\n", 0x7, 0x0);
+                            CONSOLE.print("Travelling cancelled.\n", 0xC, 0x0); // 红色/淡红色
+                            CONSOLE.print("Press ", 0x7, 0x0);
+                            CONSOLE.print(" ENTER ", 0x0, 0x7)
+                            CONSOLE.print(" to start a new Travellings trip.\n", 0x7, 0x0);
+                        }
+                        return;
+                    }
+                }
+
+            switch (event.key) {
+                case 'F1':
+                    event.preventDefault();
+                    CONSOLE.print("Please later...", 0x7, 0x0);
+                    window.location.href = "https://www.travellings.cn";
+                    break;
+                case 'F2':
+                    event.preventDefault();
+                    CONSOLE.print("Open the preference settings...", 0x7, 0x0);
+                    goSetting();
+                    break;
+                case 'F3':
+                    event.preventDefault();
+                    CONSOLE.print("Please later...")
+                    window.location.href = "https://www.travellings.cn/docs/join.html";
+                    break;
+                case 'Pause':
+                    CONSOLE.pause = !CONSOLE.pause;
+                    break;
+                case 'Enter':
+                    event.preventDefault();
+                    backStart(event);
+                    break;
+                default:
+                    break;
+            }
+        });
+
+        window.addEventListener('pageshow', 
+            async function (event) {
+                if (event.persisted) backStart(event);
+            }
+        );
+
+        start();
+
+        /**
+         * 休眠线程
+         * @param {number} ms 休眠时间，单位 ms
+         * @returns {null} 等他返回了程序不就继续了吗
+         */
+        function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
+
+        /**
+         * 取到当前页面的被选中文本
+         * @returns { string | null } 当前选中的文本，如果没有选中返回 “”，如果失败则返回 null
+         */
+        function getSelectedText() {
+            if (window.getSelection) {
+                var selection = window.getSelection().toString();
+                if (selection === '') {
+                    return '';
+                }
+                return selection;
+            } else if (document.selection) { // IE < 9
+                var range = document.selection.createRange();
+                if (range.text.trim() === '') {
+                    return '';
+                }
+                return document.selection.createRange().text.trim();
+            }
+            return null;
+        }
+
+        function goSetting() {window.location.href = "https://www.travellings.cn/preference"; }
+
+        // 辅助函数：转义 HTML 特殊字符
+        function escapeHtml(str) {
+            return str.replace(/[&<>]/g, function (m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                return m;
+            }).replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, function (c) {
+                return c;
+            });
+        }
+        // 请求随机网站,从另一个页面Ctrl + V 来的
+        async function requestRandomWebsite() {
+            try {
+                // 获取偏好设置
+                const prefix = "t_preference_";
+                const getSetting = key => localStorage.getItem(prefix + key);
+                const preferredTag = getSetting("tag");
+
+                // 尝试主API
+                let apiUrl = "https://api.travellings.cn/random";
+                if (preferredTag) apiUrl += "?tag=" + preferredTag;
+
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (data.success) {
+                    return {
+                        name: data.data[0].name.trim(),
+                        url: data.data[0].url.trim()
+                    };
+                } else {
+                    CONSOLE.print("Error: An error occurred in the Travellings API.\n", 0x7, 0x4);
+                    throw new Error("API返回失败");
+                }
+            } catch (error) {
+                console.error("获取网站失败:", error);
+                CONSOLE.print(`\nError: ${error.message}\n`, 0x4, 0x0);
+                CONSOLE.print(`There was a problem with the Travellings service and an alternate solution was used.\n`, 0x4, 0x0);
+
+                // 使用备份API
+                try {
+                    return await getJson();
+                    async function getJson() {
+                        const backupResponse = await fetch("https://backup.api.travellings.cn/list.json");
+                        const backupData = await backupResponse.json();
+                        const list = backupData.data;
+                        const randomIndex = Math.floor(Math.random() * list.length);
+
+                        if (list[randomIndex].status !== "RUN") getJson();// 检查状态
+
+                        return {
+                            name: list[randomIndex].name.trim(),
+                            url: list[randomIndex].url.trim()
+                        };
+                    }
+                } catch (backupError) {
+                    console.error("备份API也失败:", backupError);
+                    // CONSOLE.print(`\nError: ${backupError.message}\n`, 0xF, 0x4);
+                    // CONSOLE.print(`\nBoth the main and backup APIs failed. Please visit https://github.com/travellings-link/travellings for more information.`, 0x7, 0x0);
+                    // CONSOLE.print(`\nPress `, 0x7, 0x0)
+                    // CONSOLE.print(" F5 ", 0x0, 0x7)
+                    // CONSOLE.print(" to reload the page and try again.\n", 0x7, 0x0)
+                    throw new Error("所有API请求失败");
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
