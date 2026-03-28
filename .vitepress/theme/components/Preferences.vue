@@ -39,6 +39,7 @@
           <option>train.html</option>
           <option>train-star.html</option>
           <option>typewriter.html</option>
+          <option>go-start.html</option>
 
 
 
