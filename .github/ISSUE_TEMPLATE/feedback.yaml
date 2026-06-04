@@ -1,0 +1,35 @@
+name: 网站反馈
+description: 提交网站问题
+title: "网站反馈-[提交人]"
+labels: ["反馈"]
+body:
+  - type: textarea
+    id: website
+    attributes:
+      label: 网站地址
+      description: 每行填写一个网站地址
+      placeholder: |
+        https://example.com
+        https://another-example.org
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 其他需要说明的内容（可选）
+      placeholder: 例如：网站无法访问、内容错误等
+    validations:
+      required: false
+  - type: checkboxes
+    id: checkagain
+    attributes:
+      label: 请确认以下事项
+      description: |
+        1. 您已按要求填写本issue中的信息与标题。
+        2. 您提交的信息填写正确，并且已确认该网站无法访问或存在加入条款中提到的其他问题。
+        3. 开往维护组成员会在空闲时间内审核您的提交。若您的加入申请超过 1 个月还未回复，可以在下方 @ 最近活跃的维护组成员，或通过其它我们已经公示的联系渠道联系。
+        4. 感谢您对项目组的支持与帮助！
+      options:
+        - label: 我已确认以上事项
+          required: true
