@@ -7,7 +7,7 @@ body:
     id: website
     attributes:
       label: 网站地址
-      description: 每行填写一个网站地址
+      description: 每行填写一个网站地址（以“https://”开头）
       placeholder: |
         https://example.com
         https://another-example.org
