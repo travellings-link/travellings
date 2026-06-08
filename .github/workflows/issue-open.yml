@@ -148,7 +148,7 @@ jobs:
 
           pnpm run cli ${websiteUrl}
 
-      - name: Comment on issue (intermediate)
+      - name: Comment on issue
         if: steps.check_feedback_tag.outputs.has_feedback != 'true'
         uses: actions/github-script@v4
         with:
@@ -169,7 +169,7 @@ jobs:
         id: gen_output
         run: |
           if [[ "${{ steps.check_feedback_tag.outputs.has_feedback }}" == "true" ]]; then
-            echo "result={\"skipped\":true,\"message\":\"Issue带有【反馈】标签，已跳过网站自动检测\"}" >> "$GITHUB_OUTPUT"
+            echo "result={\"skipped\":true,\"message\":\"Issue含有feedback标签\"}" >> "$GITHUB_OUTPUT"
           else
             echo ${last_result}
             echo "result=${last_result}" >> "$GITHUB_OUTPUT"
