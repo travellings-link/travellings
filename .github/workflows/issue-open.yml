@@ -25,7 +25,7 @@ jobs:
         shell: bash
         working-directory: ./travellings-bot
     runs-on: ubuntu-latest
-    if: github.event.issue.title !startsWith '网站反馈'
+    if: !startsWith(github.event.issue.title, '网站反馈')
     outputs:
       result: ${{ steps.gen_output.outputs.result }}
     permissions:
