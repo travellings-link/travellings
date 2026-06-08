@@ -16,6 +16,7 @@ jobs:
         with:
           add-labels: "待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+
   auto-check-assistant:
     strategy:
       fail-fast: false
