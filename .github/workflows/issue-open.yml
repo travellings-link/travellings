@@ -16,7 +16,19 @@ jobs:
         with:
           add-labels: "待处理"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Log if feedback label exists
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const labels = context.payload.issue.labels.map(label => label.name);
+            if (labels.includes('反馈')) {
+              console.log('issue是反馈，跳过后续网站检测和评论。');
+            }
+
   auto-check-assistant:
+    # 如果包含“反馈”标签，则跳过整个 job
+    if: ${{ !contains(github.event.issue.labels.*.name, '反馈') }}
     strategy:
       fail-fast: false
       max-parallel: 3
@@ -25,7 +37,6 @@ jobs:
         shell: bash
         working-directory: ./travellings-bot
     runs-on: ubuntu-latest
-    if: github.event.issue.title !startsWith '网站反馈'
     outputs:
       result: ${{ steps.gen_output.outputs.result }}
     permissions:
@@ -160,7 +171,10 @@ jobs:
         run: |
           echo ${last_result}
           echo "result=${last_result}" >> "$GITHUB_OUTPUT"
+
   comment-auto-check-assistant-result:
+    # 如果包含“反馈”标签，则跳过整个 job
+    if: ${{ !contains(github.event.issue.labels.*.name, '反馈') }}
     runs-on: ubuntu-latest
     needs: [auto-check-assistant]
     steps:
@@ -172,7 +186,6 @@ jobs:
           script: |
             async function getWebsiteURL(context, github) {
               const issue = context.issue;
-
               const issueResponse = await github.issues.get({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
