@@ -1,0 +1,1385 @@
+<!--
+  ========================================================================
+  ARSVINE REALM 彼方领域 — 开往（travellings）自定义跳转页
+  作者：Arsvine <https://arsvine.com>
+  仓库：https://github.com/travellings-link/travellings
+
+  设计语言：
+    - 深空底色 + 青蓝渐变光晕 + 颗粒噪点叠加
+    - 四角 HUD 文字（STATUS MONITOR / BIO-SIGNAL / SYSTEM LOG / ID-）
+    - 中央渐变着色器幽灵图标，眼睛随光标移动
+    - 标题以打字机方式逐字显现，副标以等宽字体呈现
+    - 简中 / 繁中 / 英文三语自动切换
+
+  渲染策略：
+    - 背景与幽灵优先使用 @paper-design/shaders 的 WebGL 着色器
+      （从公共 jsDelivr CDN 加载，不依赖作者个人 CDN）
+    - WebGL 失败时自动回退到纯 CSS / SVG 静态版本（fallback）
+    - 字体完全使用系统字体栈，不引入任何外部字体 CDN
+
+  跳转逻辑：
+    - 通过加载 go.js（开往主站脚本）按 t_preference_timeout 跳转
+    - URL 带 ?preview=1 进入预览模式，跳过跳转脚本
+  ======================================================================== -->
+
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsvine - 开往</title>
+    <meta
+      name="description"
+      content="正在开往下一片领域。信号已接入，命运将于彼方续写。"
+    />
+    <link rel="shortcut icon" href="./assets/favicon-fluent-emoji.svg" />
+    <!--
+      字体策略：完全依赖系统字体栈 —— 不引入任何外部字体 CDN。
+      作为公共页面（travellings 项目），既要避免依赖个人 CDN，也要避开
+      Google Fonts 在中国大陆不可达的问题。设计字体（Cormorant / Inter /
+      Noto Serif SC 等）若用户系统已装则使用，否则回退到 Iowan Old Style /
+      Palatino Linotype / Songti SC / PingFang SC 等系统衬线/无衬线字体，
+      整体观感仍接近设计意图。
+    -->
+    <style>
+      /* ----------------------------------------------------------------
+         全局重置
+         ---------------------------------------------------------------- */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* ----------------------------------------------------------------
+         设计令牌（design tokens）
+         统一管理颜色、字体栈与渐变光晕的 Y 轴位置（运行时由 JS 微调）
+         ---------------------------------------------------------------- */
+      :root {
+        /* 强制深色 UI（影响默认控件着色） */
+        color-scheme: dark;
+
+        /* 调色板 —— 透明度递减用于不同强调级别的文字 */
+        --ink: #050505;
+        --paper: #f8fbff;
+        --paper-soft: rgba(248, 251, 255, 0.72);
+        --paper-dim: rgba(248, 251, 255, 0.52);
+        --paper-faint: rgba(248, 251, 255, 0.36);
+        --cyan-soft: #c0efff;
+
+        /* 背景光晕 Y 坐标占位 —— JS 启动时随机赋值，为每次访问产生差异感 */
+        --bg-left-y: 72%;
+        --bg-right-y: 8%;
+
+        /* 字体栈：拉丁衬线 + CJK 衬线 → 显示用；Inter + CJK 黑体 → 无衬线；IBM Plex Mono 等 → 等宽 */
+        --font-display-latin: "Cormorant Garamond", "Iowan Old Style",
+          "Palatino Linotype", serif;
+        --font-display-cjk: "Noto Serif SC", "Noto Serif CJK SC", "Songti SC",
+          "Source Han Serif SC", serif;
+        --font-display: var(--font-display-latin), var(--font-display-cjk);
+        --font-sans-cjk: "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+          sans-serif;
+        --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          var(--font-sans-cjk);
+        --font-mono: "IBM Plex Mono", "JetBrains Mono", "SFMono-Regular", Consolas,
+          "Liberation Mono", ui-monospace, monospace;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;        /* 禁止页面滚动；移动端会在媒体查询中改为 auto */
+        font-family: var(--font-sans);
+        color: var(--paper);
+        background: #030405;     /* 着色器加载失败时的最低保底色 */
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      /* ----------------------------------------------------------------
+         背景层级（z-index 由低到高）：
+           -5  .background-shader     WebGL 颗粒渐变（可选，加载成功才显示）
+           -4  body::before           CSS 渐变光晕（着色器加载前的基底）
+           -3  body::after            CSS 噪点纹理（着色器加载前的颗粒感）
+           -2  .background-veil       低饱和度面纱，统一不同层的色调
+           -1  .scanline              CRT 扫描线
+           背景层与着色器层互斥：着色器加载成功后 body::before/after 透明度 → 0
+         ---------------------------------------------------------------- */
+
+      /* 渐变光晕基底（左下、右上、中部三层叠加） */
+      body::before {
+        position: fixed;
+        inset: 0;
+        z-index: -4;
+        content: "";
+        background:
+          radial-gradient(circle at 12% var(--bg-left-y), rgba(67, 194, 238, 0.55), transparent 24rem),
+          radial-gradient(circle at 82% var(--bg-right-y), rgba(175, 239, 255, 0.68), transparent 26rem),
+          radial-gradient(circle at 68% 22%, rgba(44, 176, 220, 0.32), transparent 22rem),
+          #030405;
+        transition: opacity 0.35s ease;
+      }
+
+      /* 双层颗粒：白点 + 青点错位叠加，仅在光晕区域显示（mask-image 限定） */
+      body::after {
+        position: fixed;
+        inset: 0;
+        z-index: -3;
+        content: "";
+        opacity: 0.32;
+        mix-blend-mode: screen;
+        background-image:
+          radial-gradient(circle, rgba(255, 255, 255, 0.62) 0 0.045rem, transparent 0.052rem),
+          radial-gradient(circle, rgba(105, 214, 255, 0.48) 0 0.035rem, transparent 0.045rem);
+        background-position: 0 0, 0.28rem 0.34rem;
+        background-size: 0.42rem 0.42rem, 0.64rem 0.64rem;
+        /* 颗粒只出现在光晕处，避免全屏均匀噪点 */
+        mask-image:
+          radial-gradient(circle at 12% var(--bg-left-y), #000 0 21rem, transparent 31rem),
+          radial-gradient(circle at 82% var(--bg-right-y), #000 0 24rem, transparent 35rem);
+        animation: grainDrift 13s steps(10) infinite;
+        transition: opacity 0.35s ease;
+      }
+
+      /* 一旦着色器挂载成功，淡出 CSS 备用层，避免重叠造成色彩污染 */
+      body.has-background-shader::before,
+      body.has-background-shader::after {
+        opacity: 0;
+      }
+
+      .background-shader {
+        position: fixed;
+        inset: 0;
+        z-index: -5;
+        opacity: 0;              /* 默认隐藏，加载成功后才淡入 */
+        transition: opacity 0.35s ease;
+      }
+
+      body.has-background-shader .background-shader {
+        opacity: 1;
+      }
+
+      /* 面纱层：在所有背景之上、内容之下，柔化对比度 */
+      .background-veil {
+        position: fixed;
+        inset: 0;
+        z-index: -2;
+        pointer-events: none;
+        background:
+          radial-gradient(circle at 14% var(--bg-left-y), rgba(86, 208, 255, 0.14), transparent 22rem),
+          radial-gradient(circle at 84% var(--bg-right-y), rgba(201, 241, 255, 0.12), transparent 24rem),
+          radial-gradient(circle at 50% 45%, rgba(0, 0, 0, 0.08), transparent 26rem),
+          linear-gradient(to bottom, rgba(3, 4, 5, 0.06), rgba(3, 4, 5, 0.18));
+      }
+
+      /* ----------------------------------------------------------------
+         主舞台布局
+         main → grid place-items:center 提供整体居中
+         .stage → 上下两区（幽灵 + 文案）的容器
+         ---------------------------------------------------------------- */
+      main {
+        position: relative;
+        /* 减去 footer 高度，避免内容被遮挡 */
+        min-height: calc(100vh - 5.75rem);
+        display: grid;
+        place-items: center;
+        padding: 4rem 1.5rem 2rem;
+      }
+
+      .stage {
+        width: min(72rem, 100%);
+        display: grid;
+        /*
+         * grid-template-columns: minmax(0, 1fr)
+         * ----------------------------------------------------------------
+         * 关键：默认 grid 轨道按 max-content 估算，若 h1 内容（white-space:nowrap）
+         * 比父级宽，轨道会被撑大并溢出到右侧 → 整组内容看起来"向右偏移"。
+         * minmax(0, 1fr) 强制轨道不超过容器宽度，越界由 h1 自身的居中策略处理。
+         */
+        grid-template-columns: minmax(0, 1fr);
+        align-content: center;
+        justify-items: center;
+        gap: clamp(1.7rem, 4.6vh, 3rem);
+        text-align: center;
+      }
+
+      /* ----------------------------------------------------------------
+         幽灵图标包装层
+         - 入场（ghostArrival）+ 漂浮（floatMark）双层动画
+         - drop-shadow 提供柔和发光，避免 box-shadow 切到 SVG 透明区域
+         ---------------------------------------------------------------- */
+      .mark-wrap {
+        position: relative;
+        width: clamp(10rem, 31vw, 18rem);
+        align-self: end;        /* 贴近文案上沿，整体重心更稳 */
+        filter: drop-shadow(0 1.2rem 2.4rem rgba(80, 197, 255, 0.22))
+          drop-shadow(0 0 3.2rem rgba(80, 197, 255, 0.12));
+        animation:
+          ghostArrival 1.05s cubic-bezier(0.18, 0.9, 0.18, 1) both,
+          floatMark 3.8s cubic-bezier(0.42, 0, 0.22, 1) 1.05s infinite;
+        will-change: transform, opacity, filter;
+      }
+
+      /* 幽灵下方的青色光晕 */
+      .mark-wrap::before {
+        position: absolute;
+        inset: 15% -25% -10%;
+        z-index: -1;
+        content: "";
+        background: radial-gradient(circle, rgba(105, 214, 255, 0.18), transparent 64%);
+        filter: blur(1.8rem);
+        transition: opacity 0.45s ease, transform 0.45s ease;
+      }
+
+      /* 离场动画（ghostDeparture）：跳转前向上飞走 */
+      body.is-departing .mark-wrap {
+        animation: ghostDeparture 0.72s cubic-bezier(0.24, 0.9, 0.28, 1) forwards;
+      }
+
+      body.is-departing .mark-wrap::before {
+        opacity: 0.62;
+        transform: scale(1.08) translateY(-0.6rem);
+      }
+
+      /* SVG 标记自适应父级宽度 */
+      .mark {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* 着色器挂载点 —— 通过 SVG <foreignObject> 嵌入 HTML <div>，
+         配合 clipPath 切成幽灵轮廓 */
+      .ghost-shader-shell {
+        width: 231px;
+        height: 289px;
+      }
+
+      .ghost-shader {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      /* WebGL 加载成功 → 显示着色器，隐藏 SVG fallback；失败则相反 */
+      body.has-ghost-shader .ghost-shader {
+        opacity: 1;
+      }
+
+      .ghost-fallback {
+        transition: opacity 0.3s ease;
+      }
+
+      body.has-ghost-shader .ghost-fallback {
+        opacity: 0;
+      }
+
+      /* 眼睛：随光标移动（JS 接管），周期性眨眼（CSS 动画） */
+      .ghost-eye {
+        fill: #050505;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: blink 3.2s infinite ease-in-out;
+      }
+
+      /* ----------------------------------------------------------------
+         文案块（标题 + 副标）
+         同样使用 minmax(0, 1fr) 防止子元素溢出导致整体偏移
+         ---------------------------------------------------------------- */
+      .copy {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-self: start;
+        gap: 0.72rem;
+        justify-items: center;
+        width: min(64rem, 100%);
+        text-align: center;
+      }
+
+      /* ----------------------------------------------------------------
+         四角 HUD 标签（STATUS MONITOR 等）
+         固定屏幕四角，不参与文档流，pointer-events: none 防止挡住交互
+         ---------------------------------------------------------------- */
+      .hud-corner {
+        position: fixed;
+        z-index: 1;
+        color: rgba(198, 234, 248, 0.68);
+        font-family: var(--font-sans);
+        font-size: 0.68rem;
+        font-weight: 500;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        white-space: nowrap;
+        pointer-events: none;
+        text-shadow: 0 0 1rem rgba(110, 209, 255, 0.12);
+        opacity: 0.92;
+      }
+
+      /* 文字前的横线装饰（仪表盘风格） */
+      .hud-corner::before {
+        content: "";
+        display: inline-block;
+        width: 1.2rem;
+        height: 1px;
+        margin-right: 0.55rem;
+        vertical-align: middle;
+        background: rgba(198, 234, 248, 0.46);
+      }
+
+      .hud-corner--top-left { top: 1.45rem; left: 1.65rem; }
+      .hud-corner--top-right { top: 1.45rem; right: 1.65rem; }
+      .hud-corner--bottom-left { bottom: 1.45rem; left: 1.65rem; }
+      .hud-corner--bottom-right { bottom: 1.45rem; right: 1.65rem; }
+
+      /* ----------------------------------------------------------------
+         主标题
+         ---------------------------------------------------------------- */
+      h1 {
+        font-family: var(--font-display);
+        /*
+         * display: inline-grid + justify-content: center
+         * ----------------------------------------------------------------
+         * inline-grid 让 h1 收缩到内容尺寸，同时允许 .title-measure 与
+         * .title-live 通过 grid-area: 1/1 重叠（打字机动画期间用 measure
+         * 占位以保留布局空间）。
+         *
+         * justify-content: center 是修复"宽屏向右偏移"的关键：当标题文本
+         * 因 white-space: nowrap 比父容器宽（如英文版"TRAVELLING TO THE
+         * NEXT REALM" 在 1024px 下 ≈ 1255px），grid 轨道默认靠 start 对齐，
+         * 多出的 ~230px 全部溢出到右侧；改为 center 后左右各溢出一半，
+         * 视觉中心与父级中心一致。
+         */
+        display: inline-grid;
+        justify-content: center;
+        font-size: clamp(2.75rem, 6vw, 5.75rem);
+        font-weight: 500;
+        line-height: 0.9;
+        letter-spacing: 0;
+        white-space: nowrap;
+        max-width: 100%;
+        margin-inline: auto;
+        text-shadow: 0 0.12rem 1.8rem rgba(226, 241, 255, 0.08);
+      }
+
+      /* measure（不可见）与 live（实际内容）共用一个 grid 单元格，
+         打字机播放过程中 live 长度变化，measure 始终保持完整宽度，
+         避免布局抖动。 */
+      .title-measure,
+      .title-live {
+        grid-area: 1 / 1;
+      }
+
+      .title-measure {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      /* 多行标题（移动端折行）的每一行不允许在中间断开 */
+      .title-line {
+        display: block;
+        white-space: nowrap;
+      }
+
+      /* 打字机进行中追加一个伪元素光标 */
+      h1.is-typing {
+        padding-right: 0.16em;
+      }
+
+      h1.is-typing::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0.08em;
+        width: 0.08em;
+        height: 0.88em;
+        background: rgba(248, 251, 255, 0.9);
+        animation: caretBlink 0.9s steps(1) infinite;
+      }
+
+      /* ----------------------------------------------------------------
+         副标题（等宽字体，HUD 指令回执风格）
+         ---------------------------------------------------------------- */
+      .subtitle {
+        color: var(--paper-soft);
+        font-family: var(--font-mono);
+        font-size: clamp(0.74rem, 1vw, 0.9rem);
+        letter-spacing: 0.09em;
+        line-height: 1.45;
+        opacity: 0.6;
+        white-space: nowrap;
+        max-width: none;
+        margin-inline: auto;
+      }
+
+      /* 副标上方的横线装饰 */
+      .subtitle::before {
+        content: "";
+        display: block;
+        width: 1.9rem;
+        height: 1px;
+        margin: 0 auto 0.62rem;
+        background: rgba(198, 234, 248, 0.22);
+      }
+
+      /* ----------------------------------------------------------------
+         页脚（导航 + 备案号）
+         ---------------------------------------------------------------- */
+      footer {
+        position: relative;
+        width: 100%;
+        min-height: 5.75rem;
+        display: grid;
+        gap: 0.45rem;
+        align-items: center;
+        justify-items: center;
+        padding: 1.25rem 1.5rem 1.6rem;
+        color: var(--paper-dim);
+        font-family: var(--font-sans);
+        font-size: 0.78rem;
+        letter-spacing: 0.06em;
+        text-align: center;
+      }
+
+      .footer-links,
+      .footer-records {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1.1rem;
+        align-items: center;
+        justify-content: center;
+      }
+
+      footer span {
+        color: var(--paper-faint);
+      }
+
+      /* 链接：默认半透明，悬停转青色并下划线 */
+      a {
+        color: var(--paper-soft);
+        text-decoration: none;
+        text-underline-offset: 0.22rem;
+        transition:
+          color 0.2s ease,
+          text-decoration-color 0.2s ease;
+      }
+
+      a:hover {
+        color: var(--cyan-soft);
+        text-decoration: underline;
+        text-decoration-color: rgba(192, 239, 255, 0.55);
+      }
+
+      /* CRT 风格扫描线 —— 极细的水平条纹叠加 */
+      .scanline {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        background: linear-gradient(
+          to bottom,
+          transparent,
+          rgba(255, 255, 255, 0.025),
+          transparent
+        );
+        background-size: 100% 0.34rem;
+        opacity: 0.45;
+      }
+
+      /* ================================================================
+         关键帧动画
+         ================================================================ */
+
+      /* 幽灵漂浮：上下浮动 + 轻微纵向缩放，模拟轻盈感 */
+      @keyframes floatMark {
+        0%, 100% { transform: translateY(0) scaleY(1); }
+        50%      { transform: translateY(-0.55rem) scaleY(1.035); }
+      }
+
+      /* 入场：从下方 22vh 浮入，伴随轻微放大与亮度变化 */
+      @keyframes ghostArrival {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 22vh, 0) scale(0.84);
+          filter: brightness(0.86);
+        }
+        58% {
+          opacity: 1;
+          transform: translate3d(0, -0.45rem, 0) scale(1.02);
+          filter: brightness(1.04);
+        }
+        100% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0) scale(1);
+          filter: brightness(1);
+        }
+      }
+
+      /* 离场：先轻微下沉再向上飞走，淡出 */
+      @keyframes ghostDeparture {
+        0% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0) scale(1);
+          filter: brightness(1);
+        }
+        28% {
+          opacity: 1;
+          transform: translate3d(0, 0.45rem, 0) scale(0.985);
+          filter: brightness(1.02);
+        }
+        100% {
+          opacity: 0;
+          transform: translate3d(0, -24vh, 0) scale(0.88);
+          filter: brightness(1.12);
+        }
+      }
+
+      /* 噪点漂移：用 steps(10) 形成离散跳变，模拟胶片颗粒抖动 */
+      @keyframes grainDrift {
+        0%, 100% { transform: translate3d(0, 0, 0); }
+        20%      { transform: translate3d(-0.4rem, 0.25rem, 0); }
+        40%      { transform: translate3d(0.3rem, -0.35rem, 0); }
+        60%      { transform: translate3d(-0.15rem, -0.2rem, 0); }
+        80%      { transform: translate3d(0.35rem, 0.15rem, 0); }
+      }
+
+      /* 眼睛眨动：3.2s 周期内只在 95% 时刻短暂眯成一条线 */
+      @keyframes blink {
+        0%, 90%, 100% { transform: scaleY(1); }
+        95%           { transform: scaleY(0.08); }
+      }
+
+      /* 打字机光标闪烁 —— steps(1) 实现非渐变切换 */
+      @keyframes caretBlink {
+        0%, 45%   { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      /* ================================================================
+         响应式断点（移动端 ≤ 720px）
+         ================================================================ */
+      @media (max-width: 720px) {
+        body {
+          overflow-y: auto;     /* 移动端允许滚动，避免内容被遮挡 */
+        }
+
+        main {
+          min-height: calc(100vh - 6.5rem);
+          padding: 2.25rem 1rem 1rem;
+        }
+
+        .stage { gap: 1.15rem; }
+
+        .mark-wrap {
+          width: min(10.5rem, 46vw);
+          align-self: center;
+        }
+
+        footer {
+          min-height: 6.5rem;
+          padding-inline: 1rem;
+          padding-bottom: 1rem;
+          gap: 0.35rem 0.75rem;
+          font-size: 0.68rem;
+        }
+
+        .hud-corner {
+          font-size: 0.58rem;
+          letter-spacing: 0.16em;
+        }
+
+        .hud-corner::before {
+          width: 0.72rem;
+          margin-right: 0.4rem;
+        }
+
+        .hud-corner--top-left,
+        .hud-corner--top-right { top: 1rem; }
+
+        .hud-corner--top-left,
+        .hud-corner--bottom-left { left: 0.95rem; }
+
+        .hud-corner--top-right,
+        .hud-corner--bottom-right { right: 0.95rem; }
+
+        .hud-corner--bottom-left,
+        .hud-corner--bottom-right { bottom: 0.95rem; }
+
+        /* 移动端允许标题折行；max-width: 12ch 控制每行字符数 */
+        h1 {
+          font-size: clamp(2.25rem, 13vw, 3.75rem);
+          line-height: 0.92;
+          white-space: normal;
+          max-width: 12ch;
+        }
+
+        .subtitle {
+          font-size: 0.82rem;
+          max-width: 24rem;
+          letter-spacing: 0.08em;
+          white-space: normal;
+        }
+      }
+
+      /* ================================================================
+         locale 微调（由 JS 设置 body[data-locale="..."]）
+         ================================================================ */
+
+      /* 英文标题更长，缩小字号上限 */
+      body[data-locale="en"] h1 {
+        font-size: clamp(2.32rem, 4.9vw, 4.55rem);
+      }
+
+      /* 繁体中文使用台湾字重的 CJK 字体栈 */
+      body[data-locale="zh-TW"] {
+        --font-display-cjk: "Noto Serif TC", "Noto Serif CJK TC", "Songti TC",
+          "Source Han Serif TC", "PMingLiU", serif;
+        --font-sans-cjk: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei",
+          sans-serif;
+      }
+
+      body[data-locale="en"] .subtitle {
+        letter-spacing: 0.08em;
+      }
+
+      /* ================================================================
+         无障碍：用户设置"减弱动效"时，所有动画几乎瞬时完成
+         ================================================================ */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.001ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 背景图层（aria-hidden：纯装饰，屏幕阅读器跳过） -->
+    <div id="bg-shader" class="background-shader" aria-hidden="true"></div>
+    <div class="background-veil" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <!-- 四角 HUD 文字 —— 营造"信号监测"氛围 -->
+    <div class="hud-corner hud-corner--top-left" aria-hidden="true">STATUS MONITOR</div>
+    <div class="hud-corner hud-corner--top-right" aria-hidden="true">BIO-SIGNAL DETECTED</div>
+    <div class="hud-corner hud-corner--bottom-left" aria-hidden="true">SYSTEM LOG</div>
+    <div class="hud-corner hud-corner--bottom-right" aria-hidden="true">ID-B08563</div>
+
+    <main>
+      <section class="stage" aria-label="开往跳转页面">
+        <!-- 幽灵图标：SVG 中嵌入 foreignObject + clip-path 实现"渐变填充" -->
+        <div class="mark-wrap" aria-hidden="true">
+          <svg
+            class="mark"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 231 289"
+            role="img"
+            aria-label="Arsvine gradient mark"
+          >
+            <defs>
+              <!-- 幽灵轮廓：用作 clip-path，所有填充都被裁切到此形状内 -->
+              <clipPath id="arsvine-shape">
+                <path
+                  d="M230.809 115.385V249.411C230.809 269.923 214.985 287.282 194.495 288.411C184.544 288.949 175.364 285.718 168.26 280C159.746 273.154 147.769 273.461 139.178 280.23C132.638 285.384 124.381 288.462 115.379 288.462C106.377 288.462 98.1451 285.384 91.6055 280.23C82.912 273.385 70.9353 273.385 62.2415 280.23C55.7532 285.334 47.598 288.411 38.7246 288.462C17.4132 288.615 0 270.667 0 249.359V115.385C0 51.6667 51.6756 0 115.404 0C179.134 0 230.809 51.6667 230.809 115.385Z"
+                />
+              </clipPath>
+
+              <!-- ===== 静态备用渐变（WebGL 加载失败时使用） ===== -->
+              <!-- 主色对角线：浅蓝 → 蓝紫 → 深空 -->
+              <linearGradient id="fallback-base" x1="19" y1="61" x2="202" y2="286" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#8ecaff" />
+                <stop offset="0.42" stop-color="#76d8f5" />
+                <stop offset="0.72" stop-color="#4d89df" />
+                <stop offset="1" stop-color="#202948" />
+              </linearGradient>
+              <!-- 右上方粉色光斑 -->
+              <radialGradient id="fallback-pink" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(169 41) rotate(128) scale(154 117)">
+                <stop stop-color="#ffaad6" />
+                <stop offset="0.43" stop-color="#e7a3cd" stop-opacity="0.72" />
+                <stop offset="1" stop-color="#1b2440" stop-opacity="0" />
+              </radialGradient>
+              <!-- 左中部青色光斑 -->
+              <radialGradient id="fallback-cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(82 108) rotate(27) scale(118 74)">
+                <stop stop-color="#b8efff" />
+                <stop offset="0.64" stop-color="#69ccef" stop-opacity="0.78" />
+                <stop offset="1" stop-color="#245283" stop-opacity="0" />
+              </radialGradient>
+              <!-- 高斯模糊滤镜：把粉/青光斑柔化成渐变 -->
+              <filter id="fallback-blur" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="12" />
+              </filter>
+            </defs>
+
+            <!-- WebGL 着色器挂载点（由 JS 注入 canvas） -->
+            <foreignObject width="231" height="289" clip-path="url(#arsvine-shape)">
+              <div xmlns="http://www.w3.org/1999/xhtml" class="ghost-shader-shell">
+                <div id="ghost-shader" class="ghost-shader"></div>
+              </div>
+            </foreignObject>
+
+            <!-- 静态 fallback：底色 + 粉色光斑 + 青色光斑 + 底部阴影 -->
+            <g class="ghost-fallback" clip-path="url(#arsvine-shape)">
+              <rect width="231" height="289" fill="url(#fallback-base)" />
+              <path
+                d="M39 55C98 8 176 18 219 78C249 122 232 169 183 186C137 202 142 250 184 285H231V0H39V55Z"
+                fill="url(#fallback-pink)"
+                filter="url(#fallback-blur)"
+              />
+              <path
+                d="M-8 87C57 31 155 48 208 91C244 120 225 162 179 173C125 185 123 229 88 248C45 271 8 238 -8 211V87Z"
+                fill="url(#fallback-cyan)"
+                filter="url(#fallback-blur)"
+              />
+              <!-- 底部裙边阴影，加重幽灵的"漂浮感" -->
+              <path
+                d="M72 276C96 247 122 270 143 280C159 288 173 268 193 268C207 268 219 279 231 284V289H0V250C22 283 52 300 72 276Z"
+                fill="#163154"
+                opacity="0.38"
+              />
+            </g>
+
+            <!-- 眼睛：椭圆，cx/cy 由 JS 根据光标偏移微调 -->
+            <ellipse id="eye-left" class="ghost-eye" cx="80" cy="120" rx="20" ry="30" />
+            <ellipse id="eye-right" class="ghost-eye" cx="150" cy="120" rx="20" ry="30" />
+          </svg>
+        </div>
+
+        <!-- 文案：标题 + 副标，文本由 JS 根据 locale 注入 -->
+        <div class="copy">
+          <h1 id="hero-title">正在开往下一片领域</h1>
+          <p id="hero-subtitle" class="subtitle">信号已接入，命运将于彼方续写</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚：导航 + 备案号 -->
+    <footer>
+      <div class="footer-links">
+        <a id="footer-home" href="https://www.travellings.cn/" target="_blank" rel="noopener noreferrer">主页</a>
+        <a id="footer-github" href="https://github.com/travellings-link/travellings" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a id="footer-join" href="https://www.travellings.cn/docs/join" target="_blank" rel="noopener noreferrer">加入</a>
+        <a id="footer-preference" href="./preference">偏好设置</a>
+      </div>
+    </footer>
+
+    <!-- ================================================================
+         Script #1：基础交互（无外部依赖）
+           - 多语言切换（locale 检测 + 文案应用）
+           - 标题打字机效果
+           - 眼睛跟随光标
+           - 背景光晕位置随机化
+           - 禁用复制 / 选中
+         ================================================================ -->
+    <script>
+      // ----- DOM 引用 -----
+      const mark = document.querySelector(".mark");
+      const leftEye = document.querySelector("#eye-left");
+      const rightEye = document.querySelector("#eye-right");
+      const heading = document.querySelector("#hero-title");
+      const subtitle = document.querySelector("#hero-subtitle");
+      const metaDescription = document.querySelector('meta[name="description"]');
+      const root = document.documentElement;
+      const pageBody = document.body;
+      const footerHome = document.querySelector("#footer-home");
+      const footerGitHub = document.querySelector("#footer-github");
+      const footerJoin = document.querySelector("#footer-join");
+      const footerPreference = document.querySelector("#footer-preference");
+
+      /**
+       * 三语文案表
+       * - htmlLang：写入 <html lang> 属性，便于搜索引擎与辅助技术识别
+       * - titleLines：移动端折行时使用（详见 getTitleLines）
+       * - 标点符号都符合各语言习惯（中文全角逗号 / 英文半角句点）
+       */
+      const copyByLocale = {
+        "zh-CN": {
+          htmlLang: "zh-Hans-CN",
+          pageTitle: "ARSVINE REALM // 开往",
+          description: "正在开往下一片领域。信号已接入，命运将于彼方续写。",
+          title: "正在开往下一片领域",
+          titleLines: ["正在开往", "下一片领域"],
+          subtitle: "信号已接入，命运将于彼方续写",
+          footer: { home: "主页", github: "GitHub", join: "加入", preference: "偏好设置" },
+        },
+        "zh-TW": {
+          htmlLang: "zh-Hant-TW",
+          pageTitle: "ARSVINE REALM // 開往",
+          description: "正在開往下一片領域。訊號已接入，命運將於彼方續寫。",
+          title: "正在開往下一片領域",
+          titleLines: ["正在開往", "下一片領域"],
+          subtitle: "訊號已接入，命運將於彼方續寫",
+          footer: { home: "首頁", github: "GitHub", join: "加入", preference: "偏好設定" },
+        },
+        en: {
+          htmlLang: "en",
+          pageTitle: "ARSVINE REALM // Travellings",
+          description: "Travelling to the next realm. Signal acquired. Your course continues beyond this horizon.",
+          title: "TRAVELLING TO THE NEXT REALM",
+          titleLines: ["TRAVELLING TO", "THE NEXT REALM"],
+          subtitle: "Signal acquired. Your course continues beyond this horizon.",
+          footer: { home: "Home", github: "GitHub", join: "Join", preference: "Preferences" },
+        },
+      };
+
+      /**
+       * 把任意 BCP 47 语言串归一到三个支持的 locale key 之一。
+       * 返回 null 表示无法识别（通常会回退到 zh-CN）。
+       */
+      function normalizeLocaleKey(rawLocale) {
+        if (!rawLocale) return null;
+        const normalized = rawLocale.trim().toLowerCase();
+
+        // 简体中文系
+        if (normalized === "zh-cn" || normalized === "zh_hans" || normalized === "zh-hans") {
+          return "zh-CN";
+        }
+        // 繁体中文系（含港、澳）
+        if (
+          normalized === "zh-tw" ||
+          normalized === "zh-hk" ||
+          normalized === "zh-mo" ||
+          normalized === "zh_hant" ||
+          normalized === "zh-hant"
+        ) {
+          return "zh-TW";
+        }
+        // 英文（包括 en-US / en-GB 等子方言）
+        if (normalized === "en" || normalized.startsWith("en-")) {
+          return "en";
+        }
+        return null;
+      }
+
+      /**
+       * 从浏览器语言推断 locale：
+       * 严格匹配优先；若仅前缀为 "zh"（如 zh-SG）→ 简中；否则一律视为英文。
+       */
+      function mapBrowserLocale(rawLocale) {
+        return normalizeLocaleKey(rawLocale) ||
+          (rawLocale && rawLocale.trim().toLowerCase().startsWith("zh") ? "zh-CN" : "en");
+      }
+
+      /**
+       * 决定本次访问使用哪个 locale，优先级从高到低：
+       *   1. URL 查询参数 ?lang= / ?langcode= / ?code=
+       *   2. 来自 arsvine.com 的 referrer 路径前缀（如 /zh-CN/...）
+       *   3. navigator.languages 列表中第一个能识别的
+       *   4. 默认 zh-CN
+       */
+      function detectLocale() {
+        const searchParams = new URLSearchParams(window.location.search);
+        const searchLocale =
+          normalizeLocaleKey(searchParams.get("lang")) ||
+          normalizeLocaleKey(searchParams.get("langcode")) ||
+          normalizeLocaleKey(searchParams.get("code"));
+        if (searchLocale && copyByLocale[searchLocale]) {
+          return searchLocale;
+        }
+
+        if (document.referrer) {
+          try {
+            const referrerUrl = new URL(document.referrer);
+            const isArsvineReferrer =
+              referrerUrl.hostname === "arsvine.com" ||
+              referrerUrl.hostname === "www.arsvine.com";
+
+            if (isArsvineReferrer) {
+              const referrerLocale = referrerUrl.pathname.match(/^\/(zh-CN|zh-TW|en)(?:\/|$)/);
+              if (referrerLocale && copyByLocale[referrerLocale[1]]) {
+                return referrerLocale[1];
+              }
+            }
+          } catch (error) {
+            console.warn("Arsvine referrer locale parse failed:", error);
+          }
+        }
+
+        const browserLocales = Array.isArray(navigator.languages) && navigator.languages.length
+          ? navigator.languages
+          : [navigator.language];
+
+        for (const locale of browserLocales) {
+          const mappedLocale = mapBrowserLocale(locale);
+          if (mappedLocale) {
+            return mappedLocale;
+          }
+        }
+
+        return "zh-CN";
+      }
+
+      /**
+       * 把指定 locale 的文案写入页面：
+       *   - <html lang>、<title>、<meta description>
+       *   - data-locale 属性（驱动 CSS 中的 locale-specific 微调）
+       *   - 标题、副标、页脚四个链接
+       */
+      function applyLocale(locale) {
+        const nextCopy = copyByLocale[locale] || copyByLocale["zh-CN"];
+
+        root.lang = nextCopy.htmlLang;
+        pageBody.dataset.locale = locale;
+        document.title = nextCopy.pageTitle;
+        if (metaDescription) {
+          metaDescription.setAttribute("content", nextCopy.description);
+        }
+
+        heading.textContent = nextCopy.title;
+        subtitle.textContent = nextCopy.subtitle;
+        footerHome.textContent = nextCopy.footer.home;
+        footerGitHub.textContent = nextCopy.footer.github;
+        footerJoin.textContent = nextCopy.footer.join;
+        footerPreference.textContent = nextCopy.footer.preference;
+
+        return nextCopy;
+      }
+
+      /**
+       * 眼睛跟随光标
+       * --------------------------------------
+       * - 取幽灵 SVG 中心点为参考原点
+       * - 偏移量按 0.035 倍速衰减，限制在 [-8, 8] 像素内
+       * - 直接修改 SVG ellipse 的 cx/cy 属性（避免与眨眼动画的 transform 冲突）
+       */
+      window.addEventListener("pointermove", (event) => {
+        const rect = mark.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+        const x = Math.max(-8, Math.min(8, (event.clientX - centerX) * 0.035));
+        const y = Math.max(-8, Math.min(8, (event.clientY - centerY) * 0.035));
+
+        leftEye.setAttribute("cx", 80 + x);
+        leftEye.setAttribute("cy", 120 + y);
+        rightEye.setAttribute("cx", 150 + x);
+        rightEye.setAttribute("cy", 120 + y);
+      });
+
+      /**
+       * 标题打字机效果
+       * --------------------------------------
+       * 实现要点：
+       *   - 在 target 内同时插入两个 <span>：title-measure（不可见占位）+
+       *     title-live（实际显示），二者通过 CSS 的 grid-area: 1/1 重叠，
+       *     确保布局尺寸由完整文本决定，而非动画当前进度。
+       *   - 单行模式（桌面）：按字符递增；多行模式（移动端）：行间停顿 120ms。
+       *   - 用户偏好"减弱动效"时跳过动画，直接显示完整内容。
+       *
+       * @param {HTMLElement}   target  容器 h1
+       * @param {string[]}      lines   1 行或多行文本数组
+       * @param {string}        label   赋给 aria-label 的可读文本
+       */
+      function startTypewriter(target, lines, label) {
+        if (!target || !Array.isArray(lines) || !lines.length) return;
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
+        const isSingleLine = lines.length === 1;
+
+        // 屏幕阅读器始终读到完整文本，不被打字过程影响
+        target.setAttribute("aria-label", label || lines.join(" "));
+        target.replaceChildren();
+
+        // measure 占位 + live 实际显示，二者重叠保证宽度稳定
+        const measure = document.createElement("span");
+        measure.className = "title-measure";
+        const live = document.createElement("span");
+        live.className = "title-live";
+
+        let lineNodes = [];
+        if (isSingleLine) {
+          measure.textContent = lines[0];
+          live.textContent = prefersReducedMotion ? lines[0] : "";
+        } else {
+          // 多行：每行一个 <span class="title-line">，分别更新
+          lines.forEach((line) => {
+            const measureLine = document.createElement("span");
+            measureLine.className = "title-line";
+            measureLine.textContent = line;
+            measure.append(measureLine);
+          });
+
+          lineNodes = lines.map((line) => {
+            const span = document.createElement("span");
+            span.className = "title-line";
+            span.textContent = prefersReducedMotion ? line : "";
+            live.append(span);
+            return span;
+          });
+        }
+
+        target.append(measure, live);
+
+        // 用户偏好减弱动效：直接显示完整内容，移除光标
+        if (prefersReducedMotion) {
+          target.classList.remove("is-typing");
+          return;
+        }
+
+        target.classList.add("is-typing");
+
+        // -------- 单行播放 --------
+        if (isSingleLine) {
+          let charIndex = 0;
+          const content = lines[0];
+          const tickSingle = () => {
+            charIndex += 1;
+            live.textContent = content.slice(0, charIndex);
+
+            if (charIndex < content.length) {
+              window.setTimeout(tickSingle, 42);   // 每字符 42ms
+              return;
+            }
+
+            // 播放结束：稍作停留后移除光标
+            window.setTimeout(() => {
+              target.classList.remove("is-typing");
+            }, 220);
+          };
+
+          tickSingle();
+          return;
+        }
+
+        // -------- 多行播放 --------
+        let lineIndex = 0;
+        let charIndex = 0;
+        const tick = () => {
+          const currentLine = lines[lineIndex];
+          charIndex += 1;
+          lineNodes[lineIndex].textContent = currentLine.slice(0, charIndex);
+
+          if (charIndex < currentLine.length) {
+            window.setTimeout(tick, 42);
+            return;
+          }
+
+          // 当前行播完 → 跳到下一行，附加 120ms 行间停顿
+          if (lineIndex < lines.length - 1) {
+            lineIndex += 1;
+            charIndex = 0;
+            window.setTimeout(tick, 120);
+            return;
+          }
+
+          window.setTimeout(() => {
+            target.classList.remove("is-typing");
+          }, 220);
+        };
+
+        tick();
+      }
+
+      /**
+       * 按视口宽度选择标题应该播放为单行还是多行
+       * - 移动端（≤720px）若提供了分行数组就分行播放
+       * - 桌面端始终单行
+       */
+      function getTitleLines(copy) {
+        if (window.matchMedia("(max-width: 720px)").matches) {
+          return copy.titleLines || [copy.title];
+        }
+        return [copy.title];
+      }
+
+      // ========== 启动流程 ==========
+      const activeLocale = detectLocale();
+      const activeCopy = applyLocale(activeLocale);
+      startTypewriter(heading, getTitleLines(activeCopy), activeCopy.title);
+
+      // 背景光晕位置在合理范围内随机化，让每次访问的画面略有不同
+      root.style.setProperty(
+        "--bg-left-y",
+        `${(68 + Math.random() * 10).toFixed(2)}%`
+      );
+      root.style.setProperty(
+        "--bg-right-y",
+        `${(6 + Math.random() * 10).toFixed(2)}%`
+      );
+
+      // 禁用复制、剪切、文本选中、拖拽 —— 跳转页内容并非用户文档
+      ["copy", "cut", "selectstart", "dragstart"].forEach((eventName) => {
+        document.addEventListener(eventName, (event) => {
+          event.preventDefault();
+        });
+      });
+    </script>
+
+    <!-- ================================================================
+         Script #2：着色器 + 跳转加载
+           - 加载 @paper-design/shaders（CDN ESM）
+           - 挂载幽灵 mesh-gradient 与背景 grain-gradient 着色器
+           - 加载开往主站 go.js 触发跳转
+           - 监听 pagehide 在浏览器实际离开本页时播放幽灵离场动画
+         ================================================================ -->
+    <script type="module">
+      import {
+        ShaderFitOptions,
+        ShaderMount,
+        getShaderColorFromString,
+        getShaderNoiseTexture,
+        grainGradientFragmentShader,
+        GrainGradientShapes,
+        meshGradientFragmentShader,
+      } from "https://cdn.jsdelivr.net/npm/@paper-design/shaders@0.0.72/+esm";
+
+      // ----- 引用与常量 -----
+      const backgroundHost = document.querySelector("#bg-shader");
+      const ghostHost = document.querySelector("#ghost-shader");
+      const body = document.body;
+
+      const defaultTravellingTimeout = 2000;                                  // 用户未设置时默认停留 2s
+      const goScriptSrc = "https://www.travellings.cn/assets/js/go.js";       // 开往跳转脚本
+      const goPreferenceKey = "t_preference_timeout";                          // 与开往主站偏好设置共享 key
+
+      // 预览模式：?preview=1 或 localStorage 标记 → 跳过跳转脚本，便于截图与调试
+      const previewMode =
+        new URLSearchParams(window.location.search).get("preview") === "1" ||
+        window.localStorage.getItem("arsvine_preview") === "1";
+
+      // 每次访问独立的随机种子，让两个着色器都呈现唯一姿态
+      const backgroundSeed = Math.random();
+      const ghostSeed = Math.random();
+
+      // 着色器统一的尺寸/适配参数 —— u_worldWidth/Height 由具体着色器再覆盖
+      const sizing = {
+        u_fit: ShaderFitOptions.cover,
+        u_scale: 1,
+        u_rotation: 0,
+        u_originX: 0.5,
+        u_originY: 0.5,
+        u_offsetX: 0,
+        u_offsetY: 0,
+        u_worldWidth: 0,
+        u_worldHeight: 0,
+      };
+
+      /**
+       * 等待图片加载完成的小工具：
+       *   - 若图片已加载，立即 resolve
+       *   - 否则监听 load / error，error 时 resolve(undefined) 而非 reject，
+       *     便于上层用空值判断而无需 try/catch
+       */
+      function waitForImage(image) {
+        if (!image) return Promise.resolve(undefined);
+        if (image.complete && image.naturalWidth > 0) return Promise.resolve(image);
+        return new Promise((resolve) => {
+          image.addEventListener("load", () => resolve(image), { once: true });
+          image.addEventListener("error", () => resolve(undefined), { once: true });
+        });
+      }
+
+      // 等待下一帧渲染完成（用于让浏览器把 canvas 实际刷一遍后再继续）
+      const nextFrame = () =>
+        new Promise((resolve) => window.requestAnimationFrame(() => resolve()));
+
+      // 在 [min, max] 之间按 seed 取一个值；rotate 把数组循环位移 offset 位
+      const pickBetween = (min, max, seed = Math.random()) => min + (max - min) * seed;
+      const rotate = (items, offset) =>
+        items.map((_, index) => items[(index + offset) % items.length]);
+
+      // ----- 调色板 -----
+      // 幽灵：粉 → 浅蓝 → 蓝 → 深蓝 → 黑紫；rotate 让首色随机化
+      const ghostColors = rotate(
+        [
+          getShaderColorFromString("#FFB3D9"),
+          getShaderColorFromString("#87CEEB"),
+          getShaderColorFromString("#4A90E2"),
+          getShaderColorFromString("#2C3E50"),
+          getShaderColorFromString("#1A1A2E"),
+        ],
+        Math.floor(ghostSeed * 5)
+      );
+
+      // 背景：三种青蓝 HSL，rotate 让主导色每次不同
+      const backgroundColors = rotate(
+        [
+          getShaderColorFromString("hsl(193, 85%, 66%)"),
+          getShaderColorFromString("hsl(196, 100%, 83%)"),
+          getShaderColorFromString("hsl(195, 100%, 50%)"),
+        ],
+        Math.floor(backgroundSeed * 3)
+      );
+
+      /**
+       * 挂载幽灵 mesh-gradient 着色器
+       * - 失败时记录警告，不抛异常 —— 由 SVG fallback 接管显示
+       */
+      function mountGhostShader() {
+        try {
+          new ShaderMount(
+            ghostHost,
+            meshGradientFragmentShader,
+            {
+              ...sizing,
+              u_fit: ShaderFitOptions.contain,           // 等比缩放至完整可见
+              u_scale: pickBetween(1.02, 1.12, ghostSeed),
+              u_rotation: pickBetween(-0.12, 0.12, ghostSeed),
+              u_worldWidth: 231,
+              u_worldHeight: 289,
+              u_colors: ghostColors,
+              u_colorsCount: 5,
+              u_distortion: pickBetween(0.26, 0.42, ghostSeed),       // 扭曲强度
+              u_swirl: pickBetween(0.52, 0.74, 1 - ghostSeed),         // 漩涡强度
+              u_grainMixer: pickBetween(0.15, 0.26, ghostSeed),
+              u_grainOverlay: pickBetween(0.06, 0.12, 1 - ghostSeed),
+            },
+            undefined,
+            1
+          );
+          body.classList.add("has-ghost-shader");        // 触发 CSS 切换：显示着色器、隐藏 fallback
+        } catch (error) {
+          console.warn("Arsvine ghost fallback enabled:", error);
+        }
+      }
+
+      /**
+       * 挂载背景 grain-gradient 着色器（颗粒渐变）
+       * - 需要噪点纹理；纹理加载失败时退回 CSS 备用层
+       */
+      async function mountBackgroundShader() {
+        try {
+          const noiseTexture = await waitForImage(getShaderNoiseTexture());
+          new ShaderMount(
+            backgroundHost,
+            grainGradientFragmentShader,
+            {
+              ...sizing,
+              u_scale: pickBetween(1, 1.08, backgroundSeed),
+              u_rotation: pickBetween(-0.08, 0.08, 1 - backgroundSeed),
+              u_originX: pickBetween(0.42, 0.58, backgroundSeed),
+              u_originY: pickBetween(0.42, 0.58, 1 - backgroundSeed),
+              u_colorBack: getShaderColorFromString("hsl(0, 0%, 0%)"),
+              u_colors: backgroundColors,
+              u_colorsCount: 3,
+              u_softness: pickBetween(0.68, 0.82, backgroundSeed),     // 颗粒柔和度
+              u_intensity: pickBetween(0.38, 0.52, 1 - backgroundSeed),
+              u_noise: pickBetween(0.11, 0.19, backgroundSeed),
+              u_shape: GrainGradientShapes.corners,                    // 渐变形态：四角放射
+              u_noiseTexture: noiseTexture,
+            },
+            undefined,
+            1
+          );
+          body.classList.add("has-background-shader");
+        } catch (error) {
+          console.warn("Arsvine background fallback enabled:", error);
+        }
+      }
+
+      /**
+       * 加载开往主站 go.js（实际执行跳转的脚本）
+       * --------------------------------------
+       * 关键技巧：临时 patch Storage.prototype.getItem
+       *   - go.js 通过 localStorage 读取 t_preference_timeout
+       *   - 用户未设置时返回 null，我们截获并返回本页默认值（2000ms）
+       *   - 加载完成或失败后立即恢复原方法，避免污染全局 API
+       */
+      function loadGoScript() {
+        // 已注入过则直接 resolve（防重复注入）
+        if (document.querySelector('script[data-travellings-go="arsvine"]')) {
+          return Promise.resolve();
+        }
+
+        return new Promise((resolve, reject) => {
+          const originalGetItem = Storage.prototype.getItem;
+          const restore = () => {
+            Storage.prototype.getItem = originalGetItem;
+          };
+
+          // 仅在 go.js 加载期间生效：拦截"超时偏好"的读取
+          Storage.prototype.getItem = function getItemWithDefault(key) {
+            const value = originalGetItem.call(this, key);
+            if (key === goPreferenceKey && (value === null || value === "")) {
+              return String(defaultTravellingTimeout);
+            }
+            return value;
+          };
+
+          const script = document.createElement("script");
+          script.src = goScriptSrc;
+          script.dataset.travellingsGo = "arsvine";
+          script.addEventListener(
+            "load",
+            () => { restore(); resolve(); },
+            { once: true }
+          );
+          script.addEventListener(
+            "error",
+            (error) => { restore(); reject(error); },
+            { once: true }
+          );
+          document.body.append(script);
+        });
+      }
+
+      /**
+       * 等待"视觉就绪"——着色器都已尝试挂载、且渲染了 2 帧。
+       * 设有最大等待时间（2.2s）以避免某些浏览器/环境下永远等不到。
+       */
+      async function waitForVisualReadiness(maxWaitMs = 2200) {
+        const shaderWork = Promise.allSettled([
+          Promise.resolve().then(() => mountGhostShader()),  // 同步抛错也包进 Promise
+          mountBackgroundShader(),
+        ]).then(async () => {
+          await nextFrame();
+          await nextFrame();
+        });
+
+        await Promise.race([
+          shaderWork,
+          new Promise((resolve) => window.setTimeout(resolve, maxWaitMs)),
+        ]);
+      }
+
+      /**
+       * 让幽灵离场动画与浏览器实际离开本页对齐
+       * --------------------------------------
+       * 早期实现是按 timeout 提前若干毫秒触发离场，但这与"用户实际还能看到
+       * 本页"的时刻并不匹配 —— go.js 触发 location 跳转后，浏览器还要请求
+       * 目标页、等首屏可见，期间用户仍盯着本页。如果按 timeout 提前播放，
+       * 用户会先看到幽灵飞走，再呆呆看几秒空背景。
+       *
+       * 改用 pagehide / beforeunload：浏览器一旦决定离开本页，立即启动离场
+       * CSS 动画。在浏览器等待目标页期间会继续渲染当前页，离场动画刚好覆盖
+       * 这段加载空窗。用户取消跳转（留在本页）则不会触发 pagehide，本页
+       * 保持原状。
+       */
+      function bindGhostDepartureToNavigation() {
+        if (previewMode) return;
+
+        const trigger = () => {
+          body.classList.add("is-departing");
+        };
+
+        // pagehide 在所有现代浏览器（含移动端 Safari）跳转前都会触发，
+        // 优先使用；老环境（罕见）回退到 beforeunload。
+        window.addEventListener("pagehide", trigger, { once: true });
+        window.addEventListener("beforeunload", trigger, { once: true });
+      }
+
+      // ========== 主流程 ==========
+      try {
+        await waitForVisualReadiness();
+        if (!previewMode) {
+          bindGhostDepartureToNavigation();   // 先注册离场监听，确保 go.js 触发跳转时能捕获
+          await loadGoScript();
+        } else {
+          console.info("Arsvine preview mode enabled: go.js skipped.");
+        }
+      } catch (error) {
+        // go.js 加载失败时只警告，幽灵依旧停留在页面上
+        console.warn("Arsvine go.js load failed:", error);
+      }
+    </script>
+  </body>
+</html>

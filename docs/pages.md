@@ -83,3 +83,13 @@
 页面链接：`https://www.travellings.cn/go-start.html`
 
 截图样例：![Travellings Shuttle Redirect System](/assets/img/go-start.webp)
+
+## ARSVINE REALM 彼方领域
+
+一个以"信号接入、彼方领域"为叙事母题的跳转页面。深空底色映出冷调的青蓝光晕与细密噪点，四角 HUD 文字标记当前的"信号状态"。中央漂浮一只渐变着色器幽灵图标，眼睛会随光标移动；标题以打字机方式逐字显现，副标以等宽字体呈现成像式的指令回执。支持简中、繁中、英文三种文案，并会根据浏览器语言或来源自动切换。
+
+页面作者：[@Arsvine](https://arsvine.com)
+
+页面链接：`https://www.travellings.cn/arsvine.html`
+
+截图样例：![ARSVINE REALM 彼方领域](/assets/img/arsvine-page.webp "ARSVINE REALM 彼方领域")
