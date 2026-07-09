@@ -22,7 +22,7 @@ export default {
 		},
 		"Big-Cake-jpg": {
 			title: "维护组成员",
-			active: true,
+			active: false,
 		},
 		NanamiNakano: {
 			title: "英文翻译",
