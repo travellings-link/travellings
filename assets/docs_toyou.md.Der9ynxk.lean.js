@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a2 as o}from"./chunks/framework.Ja7AKUN6.js";const f=JSON.parse('{"title":"给维护组与社区的话","description":"","frontmatter":{},"headers":[],"relativePath":"docs/toyou.md","filePath":"docs/toyou.md"}'),r={name:"docs/toyou.md"},l=o("",9),i=[l];function c(n,s,d,h,_,p){return t(),a("div",null,i)}const b=e(r,[["render",c]]);export{f as __pageData,b as default};
