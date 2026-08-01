@@ -4,7 +4,7 @@ export default {
 			title: "开往负责人",
 			active: true,
 		},
-		gtxykn0504: {
+		kegongteng: {
 			title: "维护组负责人 / 文案编辑",
 			active: true,
 		},
@@ -90,7 +90,7 @@ export default {
 			title: "巡查组负责人",
 			active: true,
 		},
-		gtxykn0504: {
+		kegongteng: {
 			title: "巡查组负责人",
 			active: true,
 		},
