@@ -68,7 +68,7 @@
 
 一个简单的打字机效果。
 
-页面作者：[@gtxykn0504](https://github.com/gtxykn0504)
+页面作者：[@kegongteng](https://github.com/kegongteng)
 
 页面链接：`https://www.travellings.cn/typewriter.html`
 
