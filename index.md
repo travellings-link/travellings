@@ -15,8 +15,8 @@ hero:
       text: 加入开往
       link: /docs/join
     - theme: alt
-      text: 疑难解答
-      link: /docs/qa
+      text: 开往一下
+      link: /go.html
 
 features:
   - title: 隐私保护，安全无忧

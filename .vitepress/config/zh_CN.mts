@@ -13,9 +13,15 @@ export const zh_CN = defineConfig({
       { text: "文档", link: "/docs/", activeMatch: "/docs/" },
       { text: "博客", link: "/blog/", activeMatch: "/blog/" },
       { text: "维基", link: "/wiki/", activeMatch: "/wiki/" },
-      { text: "赞助", link: "https://afdian.com/a/travellings" },
+      {
+        text: '赞助',
+        items: [
+          { text: '爱发电', link: 'https://afdian.com/a/travellings' },
+          { text: 'Ko-fi', link: 'https://ko-fi.com/travellingsproject' }
+        ]
+      },
       { text: "成员列表", link: "https://list.travellings.cn" },
-      { text: "开往", link: "/go.html", target: "_blank" },
+      { text: "状态", link: "https://status.travellings.cn/", target: "_blank" },
     ],
 
     socialLinks: [
