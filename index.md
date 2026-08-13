@@ -16,7 +16,9 @@ hero:
       link: /docs/join
     - theme: alt
       text: 开往一下
-      link: /go.html
+      link: /go
+      target: _blank
+      rel: noopener
 
 features:
   - title: 隐私保护，安全无忧
