@@ -315,53 +315,15 @@
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        import { requestRandomWebsite, fetchWithRetry } from "./assets/js/go-robots-core.js";
+
         let currentWebsite = null;
         const prefix = "t_preference_";
-        const REQUEST_TIMEOUT = 10000;
-        const BACKUP_URL = "https://backup.api.travellings.cn/list.json";
 
         // 获取偏好设置
         function getSetting(key) {
             return localStorage.getItem(prefix + key);
-        }
-
-        // fetch 包装：带超时控制，避免弱网/接口挂起时永久卡死
-        function fetchWithTimeout(url, timeoutMs = REQUEST_TIMEOUT) {
-            return Promise.race([
-                fetch(url),
-                new Promise((_, reject) =>
-                    setTimeout(() => reject(new Error('Request timeout')), timeoutMs)
-                )
-            ]);
-        }
-
-        // 请求随机网站：主接口失败自动降级到备份接口，二者均带超时
-        function requestRandomWebsite(tag = getSetting("tag")) {
-            const tryBackup = () => fetchWithTimeout(BACKUP_URL, REQUEST_TIMEOUT)
-                .then(r => r.json())
-                .then(d => {
-                    // 备份列表含失效站点，只选 status=RUN 的在线站点
-                    const list = ((d && d.data) || []).filter(s => s && s.status === "RUN" && s.url);
-                    if (!list.length) throw new Error("备份列表为空");
-                    const item = list[Math.floor(Math.random() * list.length)];
-                    return { name: item.name, url: item.url, tag: item.tag || "" };
-                });
-
-            const mainUrl = `https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`;
-            return fetchWithTimeout(mainUrl, REQUEST_TIMEOUT)
-                .then(r => r.json())
-                .then(d => {
-                    if (d.success && d.data && d.data[0]) {
-                        return {
-                            name: d.data[0].name.trim(),
-                            url: d.data[0].url.trim(),
-                            tag: d.data[0].tag || ""
-                        };
-                    }
-                    throw new Error("主接口返回异常");
-                })
-                .catch(() => tryBackup()); // 主接口任何失败都降级到备份
         }
 
         // 显示/隐藏加载动画
@@ -419,25 +381,19 @@
         // 加载新网站：主/备接口都失败时自动重试，最多 3 次，仍失败则给出友好提示而非卡死
         async function loadNewWebsite() {
             showLoading();
-            let lastError;
-            for (let attempt = 1; attempt <= 3; attempt++) {
-                try {
-                    const website = await requestRandomWebsite();
-                    hideLoading();
-                    currentWebsite = website;
+            try {
+                const website = await fetchWithRetry(() => requestRandomWebsite(getSetting("tag")), 3);
+                hideLoading();
+                currentWebsite = website;
 
-                    const tagName = website.tag ? getTagName(website.tag) : '';
-                    const typeInfo = tagName ? `（${tagName}）` : '';
+                const tagName = website.tag ? getTagName(website.tag) : '';
+                const typeInfo = tagName ? `（${tagName}）` : '';
 
-                    showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
-                    return;
-                } catch (error) {
-                    lastError = error;
-                    console.warn(`第 ${attempt} 次获取站点失败，稍后重试:`, error);
-                }
+                showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
+            } catch (error) {
+                hideLoading();
+                showMessage("开往暂时无法获取站点，请点击「换一个」重试，或稍后再试");
             }
-            hideLoading();
-            showMessage("开往暂时无法获取站点，请点击「换一个」重试，或稍后再试");
         }
         
         // 初始化
