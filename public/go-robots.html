@@ -306,10 +306,10 @@
         </div>
         
         <div class="option-buttons">
-            <button class="option-button" id="openButton">
+            <button class="option-button" id="openButton" aria-label="前往当前推荐的友链站点">
                 <i class="fas fa-paper-plane"></i> 开往
             </button>
-            <button class="option-button secondary" id="changeButton">
+            <button class="option-button secondary" id="changeButton" aria-label="换一个随机友链站点">
                 <i class="fas fa-random"></i> 换一个
             </button>
         </div>
@@ -318,30 +318,49 @@
     <script>
         let currentWebsite = null;
         const prefix = "t_preference_";
-        
+        const REQUEST_TIMEOUT = 5000;
+        const BACKUP_URL = "https://backup.api.travellings.cn/list.json";
+
         // 获取偏好设置
         function getSetting(key) {
             return localStorage.getItem(prefix + key);
         }
-        
-        // 请求随机网站
+
+        // fetch 包装：带超时控制，避免弱网/接口挂起时永久卡死
+        function fetchWithTimeout(url, timeoutMs = REQUEST_TIMEOUT) {
+            return Promise.race([
+                fetch(url),
+                new Promise((_, reject) =>
+                    setTimeout(() => reject(new Error('Request timeout')), timeoutMs)
+                )
+            ]);
+        }
+
+        // 请求随机网站：主接口失败自动降级到备份接口，二者均带超时
         function requestRandomWebsite(tag = getSetting("tag")) {
-            return fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`)
-               .then(response => response.json())
-               .then(data => {
-                   if (data.success) {
-                       return {
-                           name: data.data[0].name.trim(),
-                           url: data.data[0].url.trim(),
-                           tag: data.data[0].tag || ""
-                       };
-                   }
-                   throw new Error("请求失败");
-               })
-               .catch(error => {
-                   console.error("获取网站失败:", error);
-                   throw new Error("请求失败");
-               });
+            const tryBackup = () => fetchWithTimeout(BACKUP_URL, REQUEST_TIMEOUT)
+                .then(r => r.json())
+                .then(d => {
+                    const list = (d && d.data) || [];
+                    if (!list.length) throw new Error("备份列表为空");
+                    const item = list[Math.floor(Math.random() * list.length)];
+                    return { name: item.name, url: item.url, tag: item.tag || "" };
+                });
+
+            const mainUrl = `https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`;
+            return fetchWithTimeout(mainUrl, REQUEST_TIMEOUT)
+                .then(r => r.json())
+                .then(d => {
+                    if (d.success && d.data && d.data[0]) {
+                        return {
+                            name: d.data[0].name.trim(),
+                            url: d.data[0].url.trim(),
+                            tag: d.data[0].tag || ""
+                        };
+                    }
+                    throw new Error("主接口返回异常");
+                })
+                .catch(() => tryBackup()); // 主接口任何失败都降级到备份
         }
 
         // 显示/隐藏加载动画
