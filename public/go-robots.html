@@ -341,7 +341,8 @@
             const tryBackup = () => fetchWithTimeout(BACKUP_URL, REQUEST_TIMEOUT)
                 .then(r => r.json())
                 .then(d => {
-                    const list = (d && d.data) || [];
+                    // 备份列表含失效站点，只选 status=RUN 的在线站点
+                    const list = ((d && d.data) || []).filter(s => s && s.status === "RUN" && s.url);
                     if (!list.length) throw new Error("备份列表为空");
                     const item = list[Math.floor(Math.random() * list.length)];
                     return { name: item.name, url: item.url, tag: item.tag || "" };

@@ -35,9 +35,10 @@ function showFatal() {
         'style="color:#5372b4;text-decoration:underline;">点击重试</a>';
 }
 
-// 从友链列表里取一个随机站点并跳转
+// 从友链列表里取一个随机站点并跳转；只选 status=RUN 的在线站点，避开死链
 async function jumpFromList(data) {
-    const list = (data && data.data) || [];
+    const all = (data && data.data) || [];
+    const list = all.filter(s => s && s.status === "RUN" && s.url);
     if (!list.length) throw new Error("Empty list");
     const item = list[Math.floor(Math.random() * list.length)];
     location.href = item.url;
