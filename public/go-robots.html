@@ -318,7 +318,7 @@
     <script>
         let currentWebsite = null;
         const prefix = "t_preference_";
-        const REQUEST_TIMEOUT = 5000;
+        const REQUEST_TIMEOUT = 10000;
         const BACKUP_URL = "https://backup.api.travellings.cn/list.json";
 
         // 获取偏好设置
@@ -416,22 +416,28 @@
             return tagMap[tag] || tag;
         }
         
-        // 加载新网站
+        // 加载新网站：主/备接口都失败时自动重试，最多 3 次，仍失败则给出友好提示而非卡死
         async function loadNewWebsite() {
-            try {
-                showLoading();
-                const website = await requestRandomWebsite();
-                hideLoading();
-                currentWebsite = website;
-                
-                const tagName = website.tag ? getTagName(website.tag) : '';
-                const typeInfo = tagName ? `（${tagName}）` : '';
-                
-                showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
-            } catch (error) {
-                hideLoading();
-                showMessage("获取站点失败，请稍后再试");
+            showLoading();
+            let lastError;
+            for (let attempt = 1; attempt <= 3; attempt++) {
+                try {
+                    const website = await requestRandomWebsite();
+                    hideLoading();
+                    currentWebsite = website;
+
+                    const tagName = website.tag ? getTagName(website.tag) : '';
+                    const typeInfo = tagName ? `（${tagName}）` : '';
+
+                    showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
+                    return;
+                } catch (error) {
+                    lastError = error;
+                    console.warn(`第 ${attempt} 次获取站点失败，稍后重试:`, error);
+                }
             }
+            hideLoading();
+            showMessage("开往暂时无法获取站点，请点击「换一个」重试，或稍后再试");
         }
         
         // 初始化

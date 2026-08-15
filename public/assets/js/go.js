@@ -3,7 +3,7 @@ const getSetting = key => localStorage.getItem(prefix + key);
 
 const preferredTag = getSetting("tag");
 const travellingTimeout = getSetting("timeout") || 1500;
-const REQUEST_TIMEOUT = 5000;
+const REQUEST_TIMEOUT = 10000;
 const BACKUP_URL = "https://backup.api.travellings.cn/list.json";
 
 let apiUrl = "https://api.travellings.cn/random";
