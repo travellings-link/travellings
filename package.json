@@ -6,8 +6,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "test": "vitest run"
+    "docs:preview": "vitepress preview"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +15,6 @@
     "@types/node": "^20.14.2",
     "vite-plugin-vitepress-auto-sidebar": "^1.6.5",
     "vitepress": "^1.2.3",
-    "vitest": "^2.1.8",
     "vue": "^3.4.27",
     "wrangler": "^4.66.0"
   },
