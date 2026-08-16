@@ -52,9 +52,7 @@ function buildFatalOverlay() {
             '</div>' +
             '<div style="position:relative;background:linear-gradient(180deg,#fffdf8 0%,#f7f3ea 100%);border-radius:18px;padding:22px 28px 26px;box-sizing:border-box;border:1px solid rgba(255,255,255,.7);box-shadow:0 1px 0 rgba(255,255,255,.95) inset,0 24px 60px rgba(40,46,30,.26);">' +
                 '<div style="position:absolute;top:0;left:0;right:0;height:9px;border-radius:18px 18px 0 0;background:linear-gradient(90deg,#7fae6a,#5f9653);"></div>' +
-                '<div style="position:absolute;top:12px;right:16px;font-size:11px;letter-spacing:.2em;color:#9aa492;font-weight:600;">运行状况 · STATUS</div>' +
-                '<div style="font-size:23px;font-weight:700;color:#2c3326;letter-spacing:.1em;line-height:1.25;text-shadow:0 1px 0 rgba(255,255,255,.8);margin-top:14px;">行き先不明</div>' +
-                '<div style="font-size:12px;letter-spacing:.22em;color:#8a9082;margin-top:2px;">Travellings · 行き先不明</div>' +
+                '<div style="font-size:23px;font-weight:700;color:#2c3326;letter-spacing:.1em;line-height:1.25;text-shadow:0 1px 0 rgba(255,255,255,.8);margin-top:14px;">开往暂不可用</div>' +
                 '<div style="height:1px;background:linear-gradient(90deg,transparent,rgba(110,130,90,.38),transparent);margin:16px 0 14px;"></div>' +
                 '<div id="tf-msg" style="font-size:13.5px;color:#586252;line-height:1.7;min-height:60px;"></div>' +
                 '<a id="tf-status" href="' + STATUS_URL + '" target="_blank" rel="noopener" ' +
