@@ -1,281 +1,328 @@
-<!-- BY KARLUKLE @ WWW.KARLUKLE.SITE -->
+<!-- BY juk-knk @ https://jukai.site -->
 <!DOCTYPE html>
-<html lang="en">
-<!-- Document type declaration and language -->
+<html lang="zh-CN">
+
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=VT323&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <!-- Font links -->
-
     <meta charset="utf-8" />
-    <meta http-equiv="content-language" content="en" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Meta tags definition and settings -->
 
-    <title>开往-友链接力</title>
-    <!-- Page title -->
+    <title>开往 - 友链接力</title>
+    <meta name="title" content="开往 - 友链接力" />
 
-    <meta name="title" content="开往-友链接力" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Mono&display=swap"
+        rel="stylesheet"
+    />
 
+    <link rel="icon" href="./assets/favicon.png" />
 
-    <!-- Website icons -->
-   <link rel="icon" href="./assets/favicon.png" />
-    
     <style>
-        body,
-        html {
+        html,
+        body {
+            width: 100%;
             height: 100%;
             margin: 0;
             overflow: hidden;
-            font-family: Orbitron;
-            background-color: #333; /* Set default background color to dark grey */
-            transition: background-color 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+
+            background: #87bde8;
+            font-family: Orbitron, sans-serif;
         }
 
-        #particles-js {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-color: #000;
+        body {
+            opacity: 0;
+            transition: opacity 1s ease;
         }
 
         #content {
             position: fixed;
             top: 56%;
             left: 50%;
+            z-index: 10;
+
             transform: translate(-50%, -50%);
+
+            width: min(90vw, 1200px);
+
             text-align: center;
             color: #050826cf;
             font-size: clamp(15px, 2vw, 50px);
+
             opacity: 0;
-            transition: opacity 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+            transition: opacity 1s ease;
+
+            user-select: none;
         }
 
-        #clouds {
-            opacity: 0;
-            transition: opacity 1s ease; /* Set transition effect, lasting 1 second, easing is ease */
+        #arrive {
+            margin-top: 0.15em;
         }
 
-        /* Basic link styles */
-        a {
-            color: #000000cf; /* Set link color */
-            text-decoration: none; /* Remove underline */
-            transition: color 0.3s ease; /* Color change transition effect */
-        }
-
-        /* Color change on hover */
-        a:hover {
-            color: #0056b3; /* Hover color */
-        }
-
-        /* Provide distinct style for active links for better readability and accessibility */
-        a:active {
-            color: #ff0000; /* Active link color */
-        }
-
-        /* Highlight links with background color */
-        a.highlight {
-            background-color: #ffc107; /* Highlight background color */
-            padding: 2px 4px; /* Add some padding */
-            border-radius: 3px; /* Rounded border */
-        }
         .botCenter {
             position: fixed;
-            width: 100%;
-            height: 50px;
+            left: 0;
             bottom: 10px;
+            z-index: 10;
+
+            width: 100%;
+
             line-height: 20px;
             font-size: 12px;
             text-align: center;
+
             color: #000000cf;
-            font-family: Roboto Mono;
-
+            font-family: "Roboto Mono", monospace;
         }
 
-        @keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            100% {
-                opacity: 1;
-            }
+        a {
+            color: #000000cf;
+            text-decoration: none;
+            transition: color 0.3s ease;
         }
 
-        @-webkit-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            100% {
-                opacity: 1;
-            }
+        a:hover {
+            color: #0056b3;
         }
 
-        @-moz-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-ms-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-o-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            100% {
-                opacity: 1;
-            }
+        a:active {
+            color: #ff0000;
         }
     </style>
-    <!-- Inline style sheet -->
 </head>
 
-<body id="clouds" onload="fadeIn()">
-    <!-- Page body -->
+<body>
 
-    <div id="content">TRAVELLING INTO ANOTHER SPACE<br/><div id="arrive">WE WILL ARRIVE IN <span id="count">10</span>s</div></div>
-    <!-- Main content area -->
+    <main id="content" lang="en">
+        <div>TRAVELLING INTO ANOTHER SPACE</div>
 
-<script src="https://unpkg.com/three@0.110.0/build/three.min.js"></script>
-<script src="https://unpkg.com/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
-<script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+        <div id="arrive" aria-live="polite">
+            WE WILL ARRIVE IN
+            <span id="count"></span>s
+        </div>
+    </main>
 
+    <footer class="botCenter">
+        ↩️ Tips:
+        <b>后退</b>网页可再次开往
+        |
+        <a href="./preference">
+            ⚙️ 开往偏好设置
+        </a>
+        |
+        <a
+            href="https://www.travellings.cn/docs/join"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            🚇 加入
+        </a>
+    </footer>
 
-
-    <!-- Script references -->
+    <script src="https://unpkg.com/three@0.110.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
 
     <script>
-        
-        var cloudsEffect = VANTA.CLOUDS({
-            el: "#clouds",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00
-        });
+        const STORAGE_PREFIX = "t_preference_";
+        const DEFAULT_TIMEOUT = 5000;
 
+        const getSetting = (key) =>
+            localStorage.getItem(STORAGE_PREFIX + key);
 
+        const contentElement =
+            document.getElementById("content");
 
-        var
+        const arriveElement =
+            document.getElementById("arrive");
 
- speedUpLink = document.getElementById("speedUpLink");
-        speedUpLink.addEventListener("click", function() {
-            // Modify cloud speed using TweenMax library
-            gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" }); // Change speed from default (0.5) to 0.8, lasting 2 seconds
-        });
-    </script>
-    <!-- Inline script -->
-        <div class="botCenter">
-        ↩️ Tips: <b>后退</b>网页可再次开往 | <a href="./preference" class="links">⚙️ 开往偏好设置</a> | <a href="https://www.travellings.cn/docs/join" class="links" target="_blank">🚇 加入</a>
-        <!-- <br />
-        <a href="https://beian.miit.gov.cn/" target="_blank">🇨🇳 闽ICP备2023011626号-1</a>  -->
-            <script>
-                        const prefix = "t_preference_";
-                const getSetting = key => localStorage.getItem(prefix + key);
-                const preferredTag = getSetting("tag");
-        var countElement = document.getElementById("count");
-        const travellingTimeout = getSetting("timeout") || 5000;
-        var count = Math.round(travellingTimeout/1000)+1;
-        var currentPageUrl = window.location.pathname;
+        const countElement =
+            document.getElementById("count");
 
-        function updateCount() {
-            count--; // 每次调用减少倒计时
-            countElement.textContent = count; // 更新倒计时显示
+        const preferredTag =
+            getSetting("tag");
 
-            if (count > 0) {
-                setTimeout(updateCount, 1000); // 每秒更新一次倒计时
-            };
+        const timeoutSetting =
+            Number(getSetting("timeout"));
 
-            if (count == 3) {
-                gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" }); // 将速度从默认值（0.5）更改为0.8，持续2秒
+        const travellingTimeout =
+            Number.isFinite(timeoutSetting) && timeoutSetting > 0
+                ? timeoutSetting
+                : DEFAULT_TIMEOUT;
+
+        let cloudsEffect = null;
+
+        /*
+         * Initialize Vanta Clouds.
+         *
+         * The page can still redirect even if Vanta fails to load.
+         */
+        function initClouds() {
+            if (
+                typeof VANTA === "undefined" ||
+                typeof VANTA.CLOUDS !== "function"
+            ) {
+                console.warn(
+                    "Vanta Clouds is unavailable. Using fallback background."
+                );
+                return;
             }
 
-            if (count == 1) {
-                gsap.to(cloudsEffect.uniforms.speed, { value: 1.4, duration: 20, ease: "linear" });
+            try {
+                cloudsEffect = VANTA.CLOUDS({
+                    el: document.body,
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.0,
+                    minWidth: 200.0
+                });
+            } catch (error) {
+                console.error(
+                    "Failed to initialize Vanta Clouds:",
+                    error
+                );
+            }
+        }
 
-                let apiUrl = "https://api.travellings.cn/random";
-                if (preferredTag) apiUrl += "?tag=" + preferredTag;
+        /*
+         * Animate cloud speed when possible.
+         */
+        function setCloudSpeed(value) {
+            if (
+                !cloudsEffect ||
+                !cloudsEffect.uniforms ||
+                !cloudsEffect.uniforms.speed
+            ) {
+                return;
+            }
 
-                let go = async () => {
-                    let res = await fetch(apiUrl);
-                    res = await res.json();
-                    if (!res.success) {
-                        alert("非常抱歉，后端服务器出现了问题，请稍后再试~")
-                        return;
+            if (typeof gsap !== "undefined") {
+                gsap.to(
+                    cloudsEffect.uniforms.speed,
+                    {
+                        value,
+                        duration: 20,
+                        ease: "linear"
                     }
-                    location.href = res.data[0].url;
+                );
+            } else {
+                cloudsEffect.uniforms.speed.value = value;
+            }
+        }
+
+        /*
+         * Request a random Travellings destination.
+         */
+        async function goTravelling() {
+            let apiUrl =
+                "https://api.travellings.cn/random";
+
+            if (preferredTag) {
+                apiUrl +=
+                    "?tag=" +
+                    encodeURIComponent(preferredTag);
+            }
+
+            try {
+                const response = await fetch(apiUrl);
+
+                if (!response.ok) {
+                    throw new Error(
+                        `HTTP ${response.status}`
+                    );
                 }
 
-                setTimeout(go, 0);
-            }
+                const result = await response.json();
 
-            if (count == 0) {
-                document.getElementById("arrive").style.display = "none";
-                gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" });
-                document.getElementById("content").style.display = "none";
+                const destination =
+                    result?.data?.[0]?.url;
+
+                if (!result?.success || !destination) {
+                    throw new Error(
+                        "Unexpected API response"
+                    );
+                }
+
+                window.location.href = destination;
+            } catch (error) {
+                console.error(
+                    "Travelling request failed:",
+                    error
+                );
+
+                setCloudSpeed(0.6);
+
+                arriveElement.innerHTML =
+                    "CONNECTION FAILED<br>" +
+                    "<span style=\"font-family:'Roboto Mono', monospace;" +
+                    "font-size:0.5em;\">" +
+                    "Please try again later." +
+                    "</span>";
             }
         }
 
-        function fadeIn() {
-            var clouds = document.getElementById("clouds");
-            clouds.style.opacity = 1;
-            setTimeout(function() {
-                var content = document.getElementById("content");
-                content.style.opacity = 1;
-            }, 600);
-            updateCount();
+        /*
+         * Countdown.
+         */
+        function startCountdown() {
+            let count =
+                Math.max(
+                    1,
+                    Math.ceil(travellingTimeout / 1000)
+                );
+
+            countElement.textContent = count;
+
+            const timer = setInterval(() => {
+                count--;
+
+                if (count > 0) {
+                    countElement.textContent = count;
+                }
+
+                if (count === 3) {
+                    setCloudSpeed(1.1);
+                }
+
+                if (count === 1) {
+                    setCloudSpeed(1.4);
+                }
+
+                if (count <= 0) {
+                    clearInterval(timer);
+
+                    arriveElement.textContent =
+                        "CONNECTING...";
+
+                    setCloudSpeed(1.6);
+
+                    goTravelling();
+                }
+            }, 1000);
         }
 
-        var cloudsEffect = VANTA.CLOUDS({
-            el: "#clouds",
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00
-        });
+        /*
+         * Page entrance.
+         */
+        function startPage() {
+            initClouds();
 
-        var speedUpLink = document.getElementById("speedUpLink");
-        speedUpLink.addEventListener("click", function() {
-            gsap.to(cloudsEffect.uniforms.speed, { value: 1.1, duration: 20, ease: "linear" });
-        });
+            requestAnimationFrame(() => {
+                document.body.style.opacity = "1";
+
+                setTimeout(() => {
+                    contentElement.style.opacity = "1";
+                }, 600);
+            });
+
+            startCountdown();
+        }
+
+        window.addEventListener(
+            "DOMContentLoaded",
+            startPage
+        );
     </script>
+
 </body>
 
 </html>
