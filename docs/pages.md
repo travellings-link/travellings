@@ -24,15 +24,15 @@
 
 截图样例：![仿 CLI 版页面截图](/assets/img/coder1024-page.webp "仿 CLI 版页面截图")  
 
-## Go by Clouds 乘云而去
+## Go by Clouds
 
-云朵即时渲染，天空和Orbitron字体交融。
+云朵画面实时渲染，并在跳转前随倒计时加速。
 
-页面作者：[@JUKAI_SARAI](https://www.jukai.site) 
+页面作者：[@juk-knk](https://jukai.site) 
 
 页面链接：`https://www.travellings.cn/go-by-clouds.html` 
 
-截图样例：![Go by Clouds 乘云而去](/assets/img/go-by-clouds-page.webp "Go by Clouds 乘云而去")
+截图样例：![Go by Clouds](/assets/img/go-by-clouds-page.webp "Go by Clouds")
 
 ## Robots 机器人聊天跳转
 
