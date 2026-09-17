@@ -57,6 +57,11 @@
             margin-top: 0.15em;
         }
 
+        .status-detail {
+            font-family: "Roboto Mono", monospace;
+            font-size: 0.5em;
+        }
+
         .botCenter {
             position: fixed;
             left: 0;
@@ -124,6 +129,13 @@
     <script>
         const STORAGE_PREFIX = "t_preference_";
         const DEFAULT_TIMEOUT = 5000;
+        const REQUEST_TIMEOUT = 5000;
+
+        const PRIMARY_API =
+            "https://api.travellings.cn/random";
+
+        const BACKUP_API =
+            "https://backup.api.travellings.cn/list.json";
 
         const getSetting = (key) =>
             localStorage.getItem(STORAGE_PREFIX + key);
@@ -144,7 +156,8 @@
             Number(getSetting("timeout"));
 
         const travellingTimeout =
-            Number.isFinite(timeoutSetting) && timeoutSetting > 0
+            Number.isFinite(timeoutSetting) &&
+            timeoutSetting > 0
                 ? timeoutSetting
                 : DEFAULT_TIMEOUT;
 
@@ -153,7 +166,8 @@
         /*
          * Initialize Vanta Clouds.
          *
-         * The page can still redirect even if Vanta fails to load.
+         * Redirect functionality remains available even if
+         * the visual effect fails to load.
          */
         function initClouds() {
             if (
@@ -184,7 +198,7 @@
         }
 
         /*
-         * Animate cloud speed when possible.
+         * Change the cloud animation speed when possible.
          */
         function setCloudSpeed(value) {
             if (
@@ -205,58 +219,192 @@
                     }
                 );
             } else {
-                cloudsEffect.uniforms.speed.value = value;
+                cloudsEffect.uniforms.speed.value =
+                    value;
             }
         }
 
         /*
-         * Request a random Travellings destination.
+         * Fetch with a timeout.
          */
-        async function goTravelling() {
-            let apiUrl =
-                "https://api.travellings.cn/random";
+        async function fetchWithTimeout(
+            url,
+            timeoutMs
+        ) {
+            const controller =
+                new AbortController();
+
+            const timeoutId =
+                setTimeout(
+                    () => controller.abort(),
+                    timeoutMs
+                );
+
+            try {
+                return await fetch(
+                    url,
+                    {
+                        signal: controller.signal
+                    }
+                );
+            } finally {
+                clearTimeout(timeoutId);
+            }
+        }
+
+        /*
+         * Show the final failure state.
+         */
+        function showConnectionFailure() {
+            setCloudSpeed(0.6);
+
+            arriveElement.replaceChildren(
+                document.createTextNode(
+                    "CONNECTION FAILED"
+                ),
+                document.createElement("br"),
+                Object.assign(
+                    document.createElement("span"),
+                    {
+                        className: "status-detail",
+                        textContent:
+                            "Please try again later."
+                    }
+                )
+            );
+        }
+
+        /*
+         * Request a destination from the primary API.
+         */
+        async function getPrimaryDestination() {
+            let apiUrl = PRIMARY_API;
 
             if (preferredTag) {
                 apiUrl +=
                     "?tag=" +
-                    encodeURIComponent(preferredTag);
+                    encodeURIComponent(
+                        preferredTag
+                    );
+            }
+
+            const response =
+                await fetchWithTimeout(
+                    apiUrl,
+                    REQUEST_TIMEOUT
+                );
+
+            if (!response.ok) {
+                throw new Error(
+                    `Primary API HTTP ${response.status}`
+                );
+            }
+
+            const result =
+                await response.json();
+
+            const destination =
+                result?.data?.[0]?.url;
+
+            if (
+                !result?.success ||
+                !destination
+            ) {
+                throw new Error(
+                    "Unexpected primary API response"
+                );
+            }
+
+            return destination;
+        }
+
+        /*
+         * Request a destination from the official backup list.
+         */
+        async function getBackupDestination() {
+            const response =
+                await fetchWithTimeout(
+                    BACKUP_API,
+                    REQUEST_TIMEOUT
+                );
+
+            if (!response.ok) {
+                throw new Error(
+                    `Backup API HTTP ${response.status}`
+                );
+            }
+
+            const result =
+                await response.json();
+
+            const list =
+                result?.data;
+
+            if (
+                !Array.isArray(list) ||
+                list.length === 0
+            ) {
+                throw new Error(
+                    "Unexpected backup API response"
+                );
+            }
+
+            const randomIndex =
+                Math.floor(
+                    Math.random() *
+                    list.length
+                );
+
+            const destination =
+                list[randomIndex]?.url;
+
+            if (!destination) {
+                throw new Error(
+                    "Invalid backup destination"
+                );
+            }
+
+            return destination;
+        }
+
+        /*
+         * Begin travelling.
+         *
+         * Primary API
+         *      ↓ failure
+         * Official backup list
+         *      ↓ failure
+         * CONNECTION FAILED
+         */
+        async function goTravelling() {
+            try {
+                const destination =
+                    await getPrimaryDestination();
+
+                window.location.href =
+                    destination;
+
+                return;
+            } catch (primaryError) {
+                console.warn(
+                    "Primary Travellings API failed. Using backup:",
+                    primaryError
+                );
             }
 
             try {
-                const response = await fetch(apiUrl);
-
-                if (!response.ok) {
-                    throw new Error(
-                        `HTTP ${response.status}`
-                    );
-                }
-
-                const result = await response.json();
-
                 const destination =
-                    result?.data?.[0]?.url;
+                    await getBackupDestination();
 
-                if (!result?.success || !destination) {
-                    throw new Error(
-                        "Unexpected API response"
-                    );
-                }
-
-                window.location.href = destination;
-            } catch (error) {
+                window.location.href =
+                    destination;
+            } catch (backupError) {
                 console.error(
-                    "Travelling request failed:",
-                    error
+                    "Travellings backup also failed:",
+                    backupError
                 );
 
-                setCloudSpeed(0.6);
-
-                arriveElement.innerHTML =
-                    "CONNECTION FAILED<br>" +
-                    "<span style=\"font-family:'Roboto Mono', monospace;" +
-                    "font-size:0.5em;\">" +
-                    "Please try again later." +
-                    "</span>";
+                showConnectionFailure();
             }
         }
 
@@ -267,37 +415,42 @@
             let count =
                 Math.max(
                     1,
-                    Math.ceil(travellingTimeout / 1000)
+                    Math.ceil(
+                        travellingTimeout / 1000
+                    )
                 );
 
-            countElement.textContent = count;
+            countElement.textContent =
+                count;
 
-            const timer = setInterval(() => {
-                count--;
+            const timer =
+                setInterval(() => {
+                    count--;
 
-                if (count > 0) {
-                    countElement.textContent = count;
-                }
+                    if (count > 0) {
+                        countElement.textContent =
+                            count;
+                    }
 
-                if (count === 3) {
-                    setCloudSpeed(1.1);
-                }
+                    if (count === 3) {
+                        setCloudSpeed(1.1);
+                    }
 
-                if (count === 1) {
-                    setCloudSpeed(1.4);
-                }
+                    if (count === 1) {
+                        setCloudSpeed(1.4);
+                    }
 
-                if (count <= 0) {
-                    clearInterval(timer);
+                    if (count <= 0) {
+                        clearInterval(timer);
 
-                    arriveElement.textContent =
-                        "CONNECTING...";
+                        arriveElement.textContent =
+                            "CONNECTING...";
 
-                    setCloudSpeed(1.6);
+                        setCloudSpeed(1.6);
 
-                    goTravelling();
-                }
-            }, 1000);
+                        goTravelling();
+                    }
+                }, 1000);
         }
 
         /*
@@ -307,10 +460,12 @@
             initClouds();
 
             requestAnimationFrame(() => {
-                document.body.style.opacity = "1";
+                document.body.style.opacity =
+                    "1";
 
                 setTimeout(() => {
-                    contentElement.style.opacity = "1";
+                    contentElement.style.opacity =
+                        "1";
                 }, 600);
             });
 
