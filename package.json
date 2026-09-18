@@ -13,11 +13,10 @@
   "license": "GPL-3.0-only",
   "devDependencies": {
     "@types/node": "^20.14.2",
-    "vitepress": "^1.2.3"
-  },
-  "dependencies": {
     "vite-plugin-vitepress-auto-sidebar": "^1.6.5",
+    "vitepress": "^1.2.3",
     "vue": "^3.4.27",
     "wrangler": "^4.66.0"
-  }
+  },
+  "dependencies": {}
 }
