@@ -43,7 +43,7 @@ tags:
 
 请打开飞书云文档中的“[巡查组工作-巡查记录表](https://travellings.feishu.cn/base/KVzcbSHU3aGONTsPqBgcdmIMnhd?from=from_copylink)”，并切换到数据表的“数据总表”页面，筛选其中状态为“巡查完成”的站点信息，并逐一在 GitHub 上更新对应 Issue 的标签，必要时重新打开 Issue。更新完成后，请将巡查状态更新为“Github 信息修改完成”。
 
-# 巡查组工作标准
+## 巡查组工作标准
 
 根据开往巡查频率，每次 Bot 巡查产生的需人工巡查的站点应当在下一次 Bot 巡查前全部完成人工巡查。
 
