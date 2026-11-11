@@ -25,7 +25,7 @@ jobs:
             }
             if (label.name === "审核通过") {
                 autoResponse(`您的申请已通过，欢迎加入开往大家庭～
-                当前 Issue 关闭后，您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~
+                待机器人自动关闭当前 Issue 后，您便可以在[开往成员列表](https://list.travellings.cn)搜索到您的网站~
                 开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)`);
             } else if (label.name === "需要免责声明") {
                 autoResponse(`站长您好，根据开往规则修改 #2433，您需要对您使用在 Public Suffix List 的免费二级域名进行eTLD免责声明。
