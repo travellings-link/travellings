@@ -71,3 +71,68 @@ jobs:
                   repo: context.repo.repo
                 });
             }
+
+  add-to-list:
+    if: github.event.label.name == '审核通过'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add site to list
+        uses: actions/github-script@v7
+        env:
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          API_BASE: https://api.travellings.cn
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            const lines = body.split('\n');
+            const field = (title) => {
+              const i = lines.findIndex((l) => l.trim() === title);
+              return i === -1 ? '' : (lines[i + 2] || '').trim();
+            };
+
+            const name = field('### 网站名称');
+            const link = field('### 网站网址');
+
+            if (!name || !link || name === '_No response_' || link === '_No response_') {
+              core.setFailed(`未能从 Issue 解析出名称/网址：name="${name}" link="${link}"`);
+              return;
+            }
+
+            const ALPHABET = '0123456789abcdefghjkmnpqrtuvwxyz';
+            const base32Encode = (input) => {
+              let bits = 0, value = 0, out = '';
+              for (let i = 0; i < input.length; i++) {
+                value = (value << 8) | input.charCodeAt(i);
+                bits += 8;
+                while (bits >= 5) {
+                  out += ALPHABET[(value >>> (bits - 5)) & 31];
+                  bits -= 5;
+                }
+              }
+              if (bits > 0) out += ALPHABET[(value << (5 - bits)) & 31];
+              return out;
+            };
+
+            const res = await fetch(`${process.env.API_BASE}/action/add`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Cookie: `_tlogin=${base32Encode(process.env.ADMIN_TOKEN)}`,
+              },
+              body: JSON.stringify([{ name, link, issuesId: context.issue.number }]),
+            });
+
+            const data = await res.json();
+            core.info(JSON.stringify(data));
+
+            if (data.success) {
+              core.info(`已入库：${name} <${link}>`);
+              return;
+            }
+
+            if (typeof data.msg === 'string' && data.msg.includes('已经在数据库中了')) {
+              core.warning(`${link} 已在列表中，跳过`);
+              return;
+            }
+
+            core.setFailed(`入库失败：${data.msg || res.status}`);
