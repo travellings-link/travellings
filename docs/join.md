@@ -38,13 +38,10 @@
 
 开往尊重每一位站长的创作自由，但也应兼顾公共展示环境及全年龄用户的观感。因此，即使内容未明显触及“限制性内容”规定，若涉及边缘性非全年龄内容，建议站长采取以下措施：
 
-1\. **显著的 NSFW 提示**：在文章页面及首页列表等入口位置，设置清晰、醒目的 Not Safe For Work（NSFW）提示，确保用户在点击前即可获知内容属性。
-
-2\. **RSS 输出隐藏**：通过技术手段（如分类、标签或插件设置）将该类文章从公共 RSS 抓取范围中移除，仅保留站内直接访问路径。
-
-3\. **降低公共曝光**：尽量避免此类内容出现在首页推荐、聚合展示或对搜索引擎可见的摘要中。
-
-4\. **其他**：其他等提示或减少传播的措施
+1. **显著的 NSFW 提示**：在文章页面及首页列表等入口位置，设置清晰、醒目的 Not Safe For Work（NSFW）提示，确保用户在点击前即可获知内容属性。
+2. **RSS 输出隐藏**：通过技术手段（如分类、标签或插件设置）将该类文章从公共 RSS 抓取范围中移除，仅保留站内直接访问路径。
+3. **降低公共曝光**：尽量避免此类内容出现在首页推荐、聚合展示或对搜索引擎可见的摘要中。
+4. **其他**：其他等提示或减少传播的措施
 
 #### 对于非博客类站点的审核
 
@@ -66,61 +63,51 @@
 
 我们强烈建议站长使用自费购买的域名。当然，您也可以使用非付费域名，但您会遇到如下限制。
 
-- 使用 eu\.org 和 github\.io 域名的新申请站点，审核要求和巡查要求会相对提高；
-
+- 使用 `eu.org` 和 `github.io` 域名的新申请站点，审核要求和巡查要求会相对提高；
 - 使用位于 Public Suffix List 内的域名的新申请站点，您需要提出 eTLD 免责声明后确定继续加入开往；
-
 - 我们暂不接受使用 Public Suffix List 内未列出的非付费域名的申请，除非您的网站质量极高。
 
-::: info 使用 eu\.org 和 github\.io 域名的审核要求
+::: info 使用 `eu.org` 和 `github.io` 域名的审核要求
 
-若您的网站使用了 eu\.org 域名，请留意下述的、提高后的审核要求。
+若您的网站使用了 `eu.org` 域名，请留意下述的、提高后的审核要求。
 
 - 您的网站须已创办六个月以上，我们会根据网站内第一篇文章的发布日期计算；
-
 - 您的网站 UI 不得杂乱，例：可视度低、可能瞎眼睛的 UI 配色和透明度；
-
 - 您的网站须已有 20 篇文章，且其中十篇必须为原创文章。
 
 :::
 
 ### 网站已放置开往外链
 
-您的网站须将开往的外链 https://www\.travellings\.cn/go\.html 放置在一个打开您的网站就能看到的地方，例如顶栏、侧栏。对于移动端设备，您也应当让访客找到开往外链。
+您的网站须将开往的外链 `https://www.travellings.cn/go.html` 放置在一个打开您的网站就能看到的地方，例如顶栏、侧栏。对于移动端设备，您也应当让访客找到开往外链。
 
 - 如是英文导航，可使用 Travelling （而非 Travellings）；
-
 - 如需使用图标或 Emoji，推荐使用与火车地铁相关的图标，其次可选火箭飞船图标；
-
-    - 若您正在使用 Font Awesome 6，可选用 fa\-train\-subway，若为 Font Awesome 5 则可选用 fa\-subway
-
+    - 若您正在使用 Font Awesome 6，可选用 fa-train-subway，若为 Font Awesome 5 则可选用 fa-subway
     - 若您想使用 Material Icons ，推荐 `<mdui-icon-train></mdui-icon-train>`
-
     - 若您想使用 Emoji，推荐 🚇
-
-\- 我们 **不再推荐** 纸飞机图标，易与 Telegram 混淆；
-
+- 我们 **不再推荐** 纸飞机图标，易与 Telegram 混淆；
 - 如果您想多多支持开往，您可以额外在您的网站的其它位置放置开往外链。
 
 **图片素材**：  
 
-- 动图 GIF：https://www\.travellings\.cn/assets/logo\.gif
+- 动图 GIF：`https://www.travellings.cn/assets/logo.gif`
 
-- 深色 PNG：https://www\.travellings\.cn/assets/b\.png
+- 深色 PNG：`https://www.travellings.cn/assets/b.png`
 
-- 浅色 PNG：https://www\.travellings\.cn/assets/w\.png
+- 浅色 PNG：`https://www.travellings.cn/assets/w.png`
 
-- 方形 PNG：https://www\.travellings\.cn/assets/travelling\.png
+- 方形 PNG：`https://www.travellings.cn/assets/travelling.png`
 
-- 方深 PNG：https://www\.travellings\.cn/assets/travelling\-dark\.png
+- 方深 PNG：`https://www.travellings.cn/assets/travelling-dark.png`
 
-- 方浅 PNG：https://www\.travellings\.cn/assets/travelling\-light\.png
+- 方浅 PNG：`https://www.travellings.cn/assets/travelling-light.png`
 
-- 矢量 SVG：https://www\.travellings\.cn/assets/logo\.svg
+- 矢量 SVG：`https://www.travellings.cn/assets/logo.svg`
 
 - 全部图片素材：可查阅 [assets 文件夹](https://github.com/travellings-link/travellings/tree/master/public/assets)。
 
-💡 **参考代码**：（logo\.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
+💡 **参考代码**：（logo.gif 可替换为上方的其他图片，以适应您的网页主题；width 可限制图片的大小，让徽标看起来更合适。）
 
 ```HTML
 <a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
