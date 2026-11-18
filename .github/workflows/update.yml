@@ -12,16 +12,23 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Use Node 18
-        uses: actions/setup-node@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 18
+          # 锁定版本：pnpm 大版本升级会改动构建脚本白名单的配置键名，解决 ERR_PNPM_IGNORED_BUILDS 故障。
+          version: 12.8.1
+
+      - name: Use Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm install -g pnpm && pnpm install
-          
+        run: pnpm install
+
       - name: Build
         run: pnpm run docs:build
 
