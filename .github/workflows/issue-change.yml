@@ -1,0 +1,389 @@
+# 变更申请（「申请变更信息」）自动匹配 + 自动改库
+#
+# 流程：
+#   1. Issue 创建时，按「原网址 / 网站 ID / 原 Issue 编号」三个条件分别查询成员列表，
+#      结果一致时视为匹配，评论匹配结果并引导提交者回复确认。
+#   2. 维护组复核后打「处理中」标签，按匹配结果自动调用 API 修改，
+#      成功后由本 workflow 打「信息更改完成」并关闭 Issue（GITHUB_TOKEN 打的标签不会
+#      再触发 issue-labeled.yml，故闭环必须在 apply job 内自己完成）。
+#   3. 未匹配的申请打「处理中」不会触发任何修改（匹配结果已固化在评论里，不再重新匹配）。
+#   4. 人工直接打「信息更改完成」不触发自动修改，走 issue-labeled.yml 原有的回复 + 关闭流程。
+
+name: Match and apply site change requests
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  match:
+    if: github.event.action == 'opened' && contains(github.event.issue.labels.*.name, '申请变更信息')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Match site in list
+        uses: actions/github-script@v7
+        env:
+          API_BASE: https://api.travellings.cn
+        with:
+          script: |
+            const API_BASE = process.env.API_BASE;
+            const issue = context.payload.issue;
+            const lines = (issue.body || '').split('\n');
+
+            const field = (title) => {
+              const i = lines.findIndex((l) => l.trim() === title);
+              return i === -1 ? '' : (lines[i + 2] || '').trim();
+            };
+            const blank = (v) => (!v || v === '_No response_' ? '' : v);
+            const norm = (u) =>
+              (u || '').trim().toLowerCase()
+                .replace(/^https?:\/\//, '')
+                .replace(/^www\./, '')
+                .replace(/\/+$/, '');
+            const comment = (body) =>
+              github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body,
+              });
+
+            const oldUrl = blank(field('### 原网址'));
+            const siteId = blank(field('### 网站 ID')).replace(/\D/g, '');
+            const oldIssueNo = blank(field('### 原 Issue 编号')).replace(/\D/g, '');
+            const newName = blank(field('### 新网站名称 (不更改名称请留空)'));
+            const newUrl = blank(field('### 新网址（不更改网址请留空）'));
+
+            // 原 Issue 编号这个条件，需要先读回原 Issue 里登记的网址
+            let oldIssueUrl = '';
+            if (oldIssueNo) {
+              try {
+                const r = await github.rest.issues.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: Number(oldIssueNo),
+                });
+                const ls = (r.data.body || '').split('\n');
+                const i = ls.findIndex((l) => l.trim() === '### 网站网址');
+                if (i !== -1) oldIssueUrl = blank((ls[i + 2] || '').trim());
+              } catch (e) {
+                core.warning(`读取原 Issue #${oldIssueNo} 失败：${e.message}`);
+              }
+            }
+
+            const res = await fetch(`${API_BASE}/all`);
+            if (!res.ok) {
+              core.setFailed(`成员列表接口异常：HTTP ${res.status}`);
+              return;
+            }
+            const sites = (await res.json()).data || [];
+
+            const conds = [
+              { label: '原网址', input: oldUrl, hits: oldUrl ? sites.filter((w) => norm(w.url) === norm(oldUrl)) : null },
+              { label: '网站 ID', input: siteId, hits: siteId ? sites.filter((w) => String(w.id) === siteId) : null },
+              {
+                label: '原 Issue 编号',
+                input: oldIssueNo ? `#${oldIssueNo}` : '',
+                hits: oldIssueUrl ? sites.filter((w) => norm(w.url) === norm(oldIssueUrl)) : null,
+                note: oldIssueNo && !oldIssueUrl ? '原 Issue 无法读取' : '',
+              },
+            ];
+
+            const active = conds.filter((c) => c.hits && c.hits.length > 0);
+            const sameSet = (a, b) => a.length === b.length && a.every((x) => b.includes(x));
+
+            let matched = null;
+            if (active.length > 0) {
+              const sets = active.map((c) => c.hits.map((w) => w.id));
+              if (sets.every((s) => sameSet(s, sets[0])) && sets[0].length === 1) {
+                matched = active[0].hits[0];
+              }
+            }
+
+            const cands = [];
+            for (const c of active) {
+              for (const w of c.hits) {
+                let e = cands.find((x) => x.site.id === w.id);
+                if (!e) {
+                  e = { site: w, via: [] };
+                  cands.push(e);
+                }
+                if (!e.via.includes(c.label)) e.via.push(c.label);
+              }
+            }
+            cands.sort((a, b) => b.via.length - a.via.length);
+
+            if (matched) {
+              const changes = [];
+              if (newName) changes.push(`- 新网站名称：**${newName}**`);
+              if (newUrl) changes.push(`- 新网址：**${newUrl}**`);
+
+              if (changes.length === 0) {
+                await comment(
+                  [
+                    '### 🤖 自动匹配结果',
+                    '',
+                    '已在[开往成员列表](https://list.travellings.cn/)匹配到您申请变更的站点：',
+                    '',
+                    '| 网站 ID | 网站名称 | 当前网址 |',
+                    '| --- | --- | --- |',
+                    `| ${matched.id} | ${matched.name} | ${matched.url} |`,
+                    '',
+                    '但您的申请中**没有填写新的网站名称和新网址**，没有可供修改的内容。',
+                    '请编辑本 Issue 补充后再由维护组处理。',
+                  ].join('\n'),
+                );
+                core.info('匹配成功但未填写任何变更内容，跳过');
+                return;
+              }
+
+              const marker = `<!-- travellings-match ${JSON.stringify({
+                matched: true,
+                id: matched.id,
+                newName,
+                newUrl,
+              })} -->`;
+
+              await comment(
+                [
+                  '### 🤖 自动匹配结果',
+                  '',
+                  '已在[开往成员列表](https://list.travellings.cn/)匹配到您申请变更的站点：',
+                  '',
+                  '| 网站 ID | 网站名称 | 当前网址 |',
+                  '| --- | --- | --- |',
+                  `| ${matched.id} | ${matched.name} | ${matched.url} |`,
+                  '',
+                  `匹配依据：${active.map((c) => c.label).join('、')} 的查询结果一致。`,
+                  '',
+                  '您申请变更为：',
+                  '',
+                  ...changes,
+                  '',
+                  '**请回复本 Issue 确认**：上述站点确实是您的站点，且变更内容无误。',
+                  '维护组复核后会为本 Issue 打上「处理中」标签，系统随即自动提交修改，无需其它操作。',
+                  '',
+                  marker,
+                ].join('\n'),
+              );
+              core.info(`匹配成功：ID ${matched.id} <${matched.url}>`);
+              return;
+            }
+
+            const summary = conds.map((c) => {
+              const state =
+                c.hits === null
+                  ? c.note || '未填写'
+                  : c.hits.length === 0
+                    ? '无结果'
+                    : `${c.hits.length} 条`;
+              return `- ${c.label} \`${c.input || '未填写'}\`：${state}`;
+            });
+
+            const body = ['### 🤖 自动匹配结果', '', '未能唯一确定您申请变更的站点。', '', '各条件的查询结果：', '', ...summary];
+
+            if (cands.length > 0) {
+              body.push('', '可能相关的站点（最多显示 3 个）：', '');
+              cands.slice(0, 3).forEach((c, i) => {
+                body.push(`${i + 1}. ID ${c.site.id} · ${c.site.name} · ${c.site.url}（命中：${c.via.join('、')}）`);
+              });
+            } else {
+              body.push('', '所有已填写的条件均未在成员列表中查询到结果。');
+            }
+
+            body.push(
+              '',
+              '请检查上述信息是否有误，直接编辑本 Issue 修正即可。编辑后**不会重新匹配**，维护组会人工处理。',
+              '',
+              `<!-- travellings-match ${JSON.stringify({ matched: false })} -->`,
+            );
+
+            await comment(body.join('\n'));
+            core.info(`匹配失败，候选 ${cands.length} 个`);
+
+  apply:
+    if: github.event.action == 'labeled' && github.event.label.name == '处理中'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Apply matched change
+        uses: actions/github-script@v7
+        env:
+          API_BASE: https://api.travellings.cn
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+        with:
+          script: |
+            const API_BASE = process.env.API_BASE;
+            const issue = context.payload.issue;
+
+            const comment = (body) =>
+              github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body,
+              });
+
+            if (issue.labels.map((l) => l.name).includes('信息更改完成')) {
+              core.info('已标记为「信息更改完成」，跳过自动修改');
+              return;
+            }
+
+            // 匹配结果固化在匹配评论里，这里只读回，不重新匹配
+            const MARK = '<!-- travellings-match ';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              per_page: 100,
+            });
+
+            let matched = null;
+            for (const c of comments) {
+              const i = (c.body || '').indexOf(MARK);
+              if (i === -1) continue;
+              const j = c.body.indexOf('-->', i);
+              if (j === -1) continue;
+              try {
+                matched = JSON.parse(c.body.slice(i + MARK.length, j));
+              } catch {
+                // 标记损坏就当没有
+              }
+            }
+
+            if (!matched || !matched.matched) {
+              core.info('没有自动匹配结果，跳过自动修改');
+              return;
+            }
+
+            const lines = (issue.body || '').split('\n');
+            const field = (title) => {
+              const i = lines.findIndex((l) => l.trim() === title);
+              return i === -1 ? '' : (lines[i + 2] || '').trim();
+            };
+            const blank = (v) => (!v || v === '_No response_' ? '' : v);
+            const norm = (u) =>
+              (u || '').trim().toLowerCase()
+                .replace(/^https?:\/\//, '')
+                .replace(/^www\./, '')
+                .replace(/\/+$/, '');
+
+            const newName = blank(field('### 新网站名称 (不更改名称请留空)'));
+            const newUrl = blank(field('### 新网址（不更改网址请留空）'));
+
+            if (newName !== (matched.newName || '') || newUrl !== (matched.newUrl || '')) {
+              await comment(
+                [
+                  '### ⚠️ 自动修改已跳过',
+                  '',
+                  '本 Issue 的申请内容在自动匹配之后被修改过。为避免按过期的匹配结果误改数据，系统没有自动提交修改。',
+                  '',
+                  '请维护组核对后手工修改，或由提交者重新提交申请。',
+                ].join('\n'),
+              );
+              core.info('Issue 内容与匹配时不一致，跳过自动修改');
+              return;
+            }
+
+            if (newUrl) {
+              const res = await fetch(`${API_BASE}/all`);
+              if (!res.ok) {
+                core.setFailed(`成员列表接口异常：HTTP ${res.status}`);
+                return;
+              }
+              const sites = (await res.json()).data || [];
+              const dup = sites.find((w) => w.id !== matched.id && norm(w.url) === norm(newUrl));
+              if (dup) {
+                await comment(
+                  [
+                    '### ⚠️ 自动修改已跳过',
+                    '',
+                    `新网址 \`${newUrl}\` 与列表中已有的站点冲突：`,
+                    '',
+                    '| 网站 ID | 网站名称 | 当前网址 |',
+                    '| --- | --- | --- |',
+                    `| ${dup.id} | ${dup.name} | ${dup.url} |`,
+                    '',
+                    '为避免名单中出现重复网址，系统没有自动提交修改，请维护组人工核对。',
+                  ].join('\n'),
+                );
+                core.info(`新网址与 ID ${dup.id} 冲突，跳过自动修改`);
+                return;
+              }
+            }
+
+            const ALPHABET = '0123456789abcdefghjkmnpqrtuvwxyz';
+            const base32Encode = (input) => {
+              let bits = 0, value = 0, out = '';
+              for (let i = 0; i < input.length; i++) {
+                value = (value << 8) | input.charCodeAt(i);
+                bits += 8;
+                while (bits >= 5) {
+                  out += ALPHABET[(value >>> (bits - 5)) & 31];
+                  bits -= 5;
+                }
+              }
+              if (bits > 0) out += ALPHABET[(value << (5 - bits)) & 31];
+              return out;
+            };
+
+            const payload = { id: matched.id };
+            if (newName) payload.name = newName;
+            if (newUrl) payload.link = newUrl;
+
+            const res = await fetch(`${API_BASE}/action/edit`, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                Cookie: `_tlogin=${base32Encode(process.env.ADMIN_TOKEN)}`,
+              },
+              body: JSON.stringify(payload),
+            });
+
+            const data = await res.json();
+            core.info(JSON.stringify(data));
+
+            if (!data.success) {
+              core.setFailed(`自动修改失败：${data.msg || res.status}`);
+              return;
+            }
+
+            const applied = [];
+            if (newName) applied.push(`- 网站名称：**${newName}**`);
+            if (newUrl) applied.push(`- 网址：**${newUrl}**`);
+
+            // 打标 + 关闭必须在本 job 内完成：用 GITHUB_TOKEN 打的 label 不会再触发 issue-labeled.yml
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              labels: ['信息更改完成'],
+            });
+
+            await comment(
+              [
+                '### ✅ 站点信息已自动修改',
+                '',
+                `系统已按自动匹配结果修改站点（ID ${matched.id}）：`,
+                '',
+                ...applied,
+                '',
+                '请查看[开往成员列表](https://list.travellings.cn/)确认修改结果。',
+                '若信息更改前站点状态异常，请等待下一次巡查。',
+                '开往的 QQ 群：186690715，开往的 Telegram 群：[TravellingsCN](https://t.me/TravellingsCN)',
+                '',
+                `<!-- travellings-applied ${JSON.stringify({ id: matched.id, newName, newUrl })} -->`,
+              ].join('\n'),
+            );
+
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed',
+            });
+
+            core.info(`已修改 ID ${matched.id} 并关闭 Issue`);
