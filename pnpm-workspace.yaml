@@ -1,0 +1,7 @@
+# pnpm 10 起默认不执行依赖的构建脚本；未列入白名单时 `pnpm install` 会直接失败
+# （ERR_PNPM_IGNORED_BUILDS）。以下依赖需要通过 postinstall 生成产物，故显式放行。
+allowBuilds:
+  esbuild: true
+  sharp: true
+  vue-demi: true
+  workerd: true
