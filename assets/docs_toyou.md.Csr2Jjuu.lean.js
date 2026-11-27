@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,a2 as o}from"./chunks/framework.BuTUBiTF.js";const f=JSON.parse('{"title":"给维护组与社区的话","description":"","frontmatter":{},"headers":[],"relativePath":"docs/toyou.md","filePath":"docs/toyou.md"}'),r={name:"docs/toyou.md"},i=o("",9),l=[i];function c(n,d,s,h,_,p){return a(),t("div",null,l)}const b=e(r,[["render",c]]);export{f as __pageData,b as default};
