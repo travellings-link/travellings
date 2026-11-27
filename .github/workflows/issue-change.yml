@@ -362,6 +362,17 @@ jobs:
               issue_number: issue.number,
               labels: ['信息更改完成'],
             });
+            // 去掉「处理中」标签（本 job 就是被它触发的，理论上一定存在，但兜底防 404）
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                name: '处理中',
+              });
+            } catch (e) {
+              core.warning(`移除「处理中」标签失败：${e.message}`);
+            }
 
             await comment(
               [
