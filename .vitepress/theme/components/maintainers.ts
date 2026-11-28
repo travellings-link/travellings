@@ -12,6 +12,14 @@ export default {
 			title: "维护组负责人",
 			active: false,
 		},
+		daizihan233: {
+			title: "维护组负责人",
+			active: true,
+		},
+		ltzXiaoYanMo: {
+			title: "维护组负责人",
+			active: true
+		},
 		xuanzhi33: {
 			title: "前端开发 / 运维",
 			active: true,
