@@ -14,23 +14,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          # 锁定版本：pnpm 大版本升级会改动构建脚本白名单的配置键名，解决 ERR_PNPM_IGNORED_BUILDS 故障。
-          version: 12.8.1
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
 
-      - name: Use Node 20
+      - name: Use Node 24
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: pnpm
+          node-version: 24
 
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Build
-        run: pnpm run docs:build
+        run: bun run docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
