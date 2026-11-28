@@ -306,42 +306,24 @@
         </div>
         
         <div class="option-buttons">
-            <button class="option-button" id="openButton">
+            <button class="option-button" id="openButton" aria-label="前往当前推荐的友链站点">
                 <i class="fas fa-paper-plane"></i> 开往
             </button>
-            <button class="option-button secondary" id="changeButton">
+            <button class="option-button secondary" id="changeButton" aria-label="换一个随机友链站点">
                 <i class="fas fa-random"></i> 换一个
             </button>
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        import { requestRandomWebsite, fetchWithRetry } from "./assets/js/go-robots-core.js";
+
         let currentWebsite = null;
         const prefix = "t_preference_";
-        
+
         // 获取偏好设置
         function getSetting(key) {
             return localStorage.getItem(prefix + key);
-        }
-        
-        // 请求随机网站
-        function requestRandomWebsite(tag = getSetting("tag")) {
-            return fetch(`https://api.travellings.cn/random${tag ? `?tag=${tag}` : ''}`)
-               .then(response => response.json())
-               .then(data => {
-                   if (data.success) {
-                       return {
-                           name: data.data[0].name.trim(),
-                           url: data.data[0].url.trim(),
-                           tag: data.data[0].tag || ""
-                       };
-                   }
-                   throw new Error("请求失败");
-               })
-               .catch(error => {
-                   console.error("获取网站失败:", error);
-                   throw new Error("请求失败");
-               });
         }
 
         // 显示/隐藏加载动画
@@ -396,21 +378,21 @@
             return tagMap[tag] || tag;
         }
         
-        // 加载新网站
+        // 加载新网站：主/备接口都失败时自动重试，最多 3 次，仍失败则给出友好提示而非卡死
         async function loadNewWebsite() {
+            showLoading();
             try {
-                showLoading();
-                const website = await requestRandomWebsite();
+                const website = await fetchWithRetry(() => requestRandomWebsite(getSetting("tag")), 3);
                 hideLoading();
                 currentWebsite = website;
-                
+
                 const tagName = website.tag ? getTagName(website.tag) : '';
                 const typeInfo = tagName ? `（${tagName}）` : '';
-                
+
                 showMessage(`发现了一个有趣的站点：${website.name}${typeInfo}，您想前往探索吗？`, website);
             } catch (error) {
                 hideLoading();
-                showMessage("获取站点失败，请稍后再试");
+                showMessage("开往暂时无法获取站点，请点击「换一个」重试，或稍后再试。也可查看 <a href=\"https://status.travellings.cn/\" target=\"_blank\" rel=\"noopener\" style=\"color:#9d4edd;\">开往状态</a> 了解是否已知故障。");
             }
         }
         
