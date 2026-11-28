@@ -1,1 +1,0 @@
-import{_ as t,o as d,c as r,a2 as a}from"./chunks/framework.BuTUBiTF.js";const p=JSON.parse('{"title":"致谢","description":"","frontmatter":{},"headers":[],"relativePath":"docs/thanks.md","filePath":"docs/thanks.md"}'),e={name:"docs/thanks.md"},n=a("",7),o=[n];function s(h,_,i,l,c,b){return d(),r("div",null,o)}const m=t(e,[["render",s]]);export{p as __pageData,m as default};

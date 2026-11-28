@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,a2 as l}from"./chunks/framework.Ja7AKUN6.js";const f=JSON.parse('{"title":"开往 - 友链接力","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"},i=l("",14),s=[i];function o(n,c,h,d,p,g){return r(),a("div",null,s)}const u=e(t,[["render",o]]);export{f as __pageData,u as default};

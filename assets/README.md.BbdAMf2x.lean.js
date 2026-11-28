@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as r,a2 as l}from"./chunks/framework.BuTUBiTF.js";const f=JSON.parse('{"title":"开往 - 友链接力","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"},i=l("",14),s=[i];function o(n,c,h,d,p,g){return a(),r("div",null,s)}const u=e(t,[["render",o]]);export{f as __pageData,u as default};
