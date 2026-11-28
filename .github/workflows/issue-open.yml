@@ -32,40 +32,25 @@ jobs:
     strategy:
       fail-fast: false
       max-parallel: 3
-    defaults:
-      run:
-        shell: bash
-        working-directory: ./travellings-bot
+    # 不设 defaults.run.working-directory：本 job 的 run 步骤有的在仓库根
+    # （下载二进制）、有的要读写 travellings-bot/ 下的文件，统一用显式路径，
+    # 免得相对目录叠成双层（曾经踩过 ./travellings-bot/travellings-bot/）。
     runs-on: ubuntu-latest
     outputs:
       result: ${{ steps.gen_output.outputs.result }}
     permissions:
       issues: read
     steps:
-      - name: Checkout travellings-link/travellings-bot repository
-        uses: actions/checkout@v4
-        with:
-          repository: 'travellings-link/travellings-bot'
-          path: './travellings-bot'
-
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        with:
-          version: latest
-          run_install: false
-      
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-      
-      # - name: ls
-      #   run: ls
-      # 如果不先安装这个，下面安装会报错
-      - name: Install simple-git-hooks
-        run: pnpm add simple-git-hooks
-      
-      
-      - name: Install package with pnpm
-        run: pnpm install --lockfile pnpm-lock.yaml --config.node-linker=isolated
+      # 用 travellings-autocheck 的 Go 版巡检（bot ci），不再检出 Node 版
+      # travellings-bot 跑 pnpm。下载地址固定写 latest——本仓的滚动发版语义就是
+      # 让 CI 永远用最新巡检逻辑，避免 workflow 里再维护一份版本号。
+      - name: Download autocheck bot (latest)
+        run: |
+          mkdir -p ./travellings-bot
+          curl -fsSL -o ./travellings-bot/bot \
+            https://github.com/travellings-link/travellings-autocheck/releases/latest/download/bot-linux-amd64
+          chmod +x ./travellings-bot/bot
+          ./travellings-bot/bot --version
 
       - name: Read Issue Content
         uses: actions/github-script@v4
@@ -131,21 +116,20 @@ jobs:
             }
             console.log('Website URL:', websiteUrl);
             fs.writeFileSync('./travellings-bot/url.txt', websiteUrl);
-      # - name: ls
-      #   run: ls
-      - name: Install Chrome
-        run: npx puppeteer browsers install chrome
-        
-      - name: Run pnpm cli with websiteUrl
+      # 浏览器用 runner 自带的 Chrome（ubuntu-latest 镜像自带 google-chrome），
+      # 不再 npx puppeteer 下载一份。bot 连不上 --cdp-url 时会自动回退到自启
+      # 本地无头 Chrome，正好走这个。
+      - name: Run bot ci
         run: |
-          websiteUrl=$(head -n 1 url.txt)
+          websiteUrl=$(head -n 1 ./travellings-bot/url.txt)
 
           if [ -z "$websiteUrl" ]; then
-            echo "Website URL is empty, skipping pnpm run cli."
+            echo "Website URL is empty, skipping bot ci."
             exit 0
           fi
 
-          pnpm run cli ${websiteUrl}
+          # 直接落成 results.json：后面 Comment 步骤读的就是这个路径与结构。
+          ./travellings-bot/bot ci "$websiteUrl" > ./travellings-bot/results.json
       # - name: ls
       #   run: ls
       - name: Comment on issue
@@ -258,6 +242,9 @@ jobs:
                   replaceNodeValue(json_result[key]);
                 } else if (json_result[key] === "RUN") {
                 json_result[key] = '✅RUN';
+                } else if (json_result[key] === "SKIP") {
+                  // 没跑这一腿，不是失败。用中性符号，别打 ❌ 让人以为验过且没过。
+                  json_result[key] = '⬜SKIP（未执行）';
                 } else if (key === "status") {
                   json_result[key] = '❌' + json_result[key];
                 }
